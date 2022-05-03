@@ -39,7 +39,6 @@ module.exports = {
       'https://design-buddy.netlify.app/',
       'https://spreadbagelry.com/',
       'https://vanntile.com/',
-      'https://replicant.band/',
       'https://gimbla.com/',
       'https://www.articoliesocial.it/',
       'https://softhardsystem.com/',
@@ -50,14 +49,17 @@ module.exports = {
       'https://www.cloudnative.quest/',
       'https://daily-dev-tips.com/',
       'https://sklep.alablaboratoria.pl/covid/',
-      'https://dendauw.tech/',
-      'https://stephen.solka.dev/',
       'https://myworkshops.live/',
       'https://pukima.site/',
       'https://meizuflux.com/',
       'https://www.stardew.cc/',
       'https://jhdoumbek-portfolio.netlify.app/',
       'https://pandasuite.com/',
+      
+      /** Commented out because the tests error on these URLs. */
+      // 'https://dendauw.tech/',
+      // 'https://replicant.band/',
+      // 'https://stephen.solka.dev/',
     ],
   },
 };
