@@ -16,7 +16,7 @@ const results = await loadResults();
 	<thead>
 		<tr>
 			<th>Rank</th>
-			<th>Trophy</th>
+			<th class="leaderboard-hide-md">Trophy</th>
 			<th>URL</th>
 			<th>Lighthouse</th>
 		</tr>
@@ -35,7 +35,7 @@ const results = await loadResults();
 				<td>
 					<a href={`#${id}`}>{index + 1}</a>
 				</td>
-				<td>{latest.lighthouse.total === 400 && '🏆'}{['🥇','🥈','🥉'][index]}</td>
+				<td class="leaderboard-hide-md leaderboard-trophies">{latest.lighthouse.total === 400 && '🏆'}{['🥇','🥈','🥉'][index]}</td>
 				<td class="leaderboard-url">
 					<a href={latest.url}>
 						<img src={`https://v1.indieweb-avatar.11ty.dev/${encodeURIComponent(latest.url)}`} alt={`IndieWeb Avatar for ${displayURL(latest.url)}`} class="leaderboard-list-entry-thumbnail" loading="lazy" decoding="async" width="150" height="150">
@@ -62,7 +62,7 @@ const results = await loadResults();
 .leaderboard {
 	margin: 5em auto;
 	width: 100%;
-	max-width: 100rem;
+	max-width: 70rem;
 	border-spacing: 0;
 	border-collapse: collapse;
 	text-align: left;
@@ -154,5 +154,17 @@ a[href^="#"] {
 .leaderboard-score-sum {
 	display: inline-block;
 	vertical-align: middle;
+}
+
+@media (max-width: 64em) {
+	.leaderboard-hide-md {
+		display: none;
+	}
+}
+
+@media (max-width: 34em){
+	.leaderboard-score-circles {
+			display: none;
+	}
 }
 </style>
