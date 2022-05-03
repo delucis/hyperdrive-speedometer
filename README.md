@@ -1,4 +1,4 @@
-# Hyperdrive Odometer
+# Hyperdrive Speedometer
 
 This is an [Astro](https://astro.build) site that displays performance metrics for other Astro sites!
 
