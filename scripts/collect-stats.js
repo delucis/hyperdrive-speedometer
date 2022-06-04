@@ -31,7 +31,7 @@ async function tryToPreventNetlifyBuildTimeout(
   numberOfUrls,
   estimatedTimePerBuild = ESTIMATED_MAX_TIME_PER_TEST
 ) {
-  let minutesRemaining =
+  const minutesRemaining =
     NETLIFY_MAX_LIMIT - (Date.now() - dateTestsStarted) / (1000 * 60);
   if (
     process.env.CONTEXT &&
@@ -56,11 +56,9 @@ async function tryToPreventNetlifyBuildTimeout(
     return;
   }
 
-  let dateTestsStarted = Date.now();
-  let dataDir = `./src/data/`;
-  // Careful here, this filename needs to be .gitignore’d and
-  // listed in the keep-data-cache plugin.
-  let lastRunsFilename = `${dataDir}results-last-runs.json`;
+  const dateTestsStarted = Date.now();
+  const dataDir = `./src/data/`;
+  const lastRunsFilename = `${dataDir}results-last-runs.json`;
   let lastRuns;
   try {
     lastRuns = require('.' + lastRunsFilename);
@@ -92,10 +90,7 @@ async function tryToPreventNetlifyBuildTimeout(
       return;
     }
 
-    let runFrequency =
-      group.options && group.options.frequency
-        ? group.options.frequency
-        : FREQUENCY;
+    const runFrequency = group.options?.frequency || FREQUENCY;
 
     if (!lastRuns[key]) {
       console.log(`First tests for ${key}.`);
@@ -116,24 +111,21 @@ async function tryToPreventNetlifyBuildTimeout(
       }
     }
 
-    let runCount =
-      group.options && group.options.runs ? group.options.runs : NUMBER_OF_RUNS;
-    let options = Object.assign(
-      {
-        chromeFlags: ['--headless', '--disable-dev-shm-usage'],
-      },
+    const runCount = group.options?.runs || NUMBER_OF_RUNS;
+    const options = Object.assign(
+      { chromeFlags: ['--headless', '--disable-dev-shm-usage'] },
       group.options
     );
 
-    let results = await PerfLeaderboard(group.urls, runCount, options);
+    const results = await PerfLeaderboard(group.urls, runCount, options);
 
-    let promises = [];
-    for (let result of results) {
-      let id = shortHash(result.url);
-      let isIsolated = group.options && group.options.isolated;
-      let dir = `${dataDir}results/${isIsolated ? `${key}/` : ''}${id}/`;
+    const promises = [];
+    for (const result of results) {
+      const id = shortHash(result.url);
+      const isIsolated = group.options && group.options.isolated;
+      const dir = `${dataDir}results/${isIsolated ? `${key}/` : ''}${id}/`;
 
-      let filename = `${dir}date-${dateTestsStarted}.json`;
+      const filename = `${dir}date-${dateTestsStarted}.json`;
       await fs.mkdir(dir, { recursive: true });
       promises.push(fs.writeFile(filename, JSON.stringify(result, null, 2)));
       console.log(`Writing ${filename}.`);
