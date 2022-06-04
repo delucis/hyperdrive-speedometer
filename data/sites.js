@@ -55,6 +55,13 @@ module.exports = {
       'https://www.stardew.cc/',
       'https://jhdoumbek-portfolio.netlify.app/',
       'https://pandasuite.com/',
+      'https://killedby.tech/',
+      'https://baldbeardedbuilder.com/',
+      'https://adrianub.dev/',
+      'https://component-party.dev/',
+      'https://goldayan.netlify.app/',
+      'https://www.mostlywhat.cf/',
+      'https://shroud.email/',
       
       /** Commented out because the tests error on these URLs. */
       // 'https://dendauw.tech/',
