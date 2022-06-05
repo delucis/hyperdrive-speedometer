@@ -1,0 +1,280 @@
+---
+import type { TestData } from "../util/data";
+import LighthouseResults from "./LighthouseResults.astro";
+import WeightResults from "./WeightResults.astro";
+import WebVitalsResults from "./WebVitalsResults.astro";
+
+export interface Props {
+  site: { [date: string]: TestData };
+  urlHash: string;
+}
+
+const { site, urlHash } = Astro.props as Props;
+const entries = Object.values(site)
+  .sort((a, b) => b.timestamp - a.timestamp)
+  .slice(0, 10);
+---
+
+<tr class="leaderboard-list-entry-details">
+  <td colspan={6}>
+    <details class="leaderboard-details" id={`details-${urlHash}`}>
+      <summary>Show Data</summary>
+      <LighthouseResults {...{entries}} />
+      <WebVitalsResults {...{entries}} />
+      <WeightResults {...{entries}} />
+    </details>
+  </td>
+</tr>
+
+<script>
+  import './SiteDetails.ts';
+</script>
+
+<style is:global>
+  @import 'https://esm.sh/chartist@0.11.4/dist/chartist.min.css';
+
+  /* Charts */
+  .ct-chart.ct-chart {
+    margin-bottom: 2em;
+  }
+
+  .ct-line.ct-line {
+    stroke-width: 3px;
+  }
+
+  .ct-label.ct-label {
+    fill: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.4);
+    white-space: nowrap;
+  }
+
+  .ct-grid.ct-grid {
+    stroke: rgba(255, 255, 255, 0.2);
+  }
+
+  a[href^="#details-"] {
+    white-space: nowrap;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fff2;
+    border-radius: 50px;
+    border: 1px solid #aaa;
+    padding: .5em 1em;
+    text-align: center;
+    line-height: normal;
+  }
+
+  .leaderboard-list-entry.expanded [data-expand-alias] {
+    border-color: transparent;
+  }
+
+  .js .leaderboard-list-entry-details:not(.expanded) {
+    display: none;
+  }
+
+  .js .leaderboard-details > summary {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  .expanded {
+    background-color: #000;
+  }
+
+  .leaderboard-list-entry.expanded {
+    border-color: #fff;
+  }
+
+  .leaderboard-list-entry.expanded .leaderboard-expand-icon {
+    transform: rotate(90deg);
+  }
+
+  .leaderboard-expand-icon {
+    display: inline-block;
+    transition: .3s all;
+    transform-origin: center;
+    margin-right: 4px;
+  }
+
+  .leaderboard-expand-icon::before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #aaa;
+  }
+
+  .results-series-a {
+    background-color: var(--speedlify-color-1);
+  }
+
+  .ct-series-a.ct-series-a .ct-line {
+    stroke: var(--speedlify-color-1);
+  }
+
+  .results-series-b {
+    background-color: var(--speedlify-color-2);
+  }
+
+  .ct-series-b.ct-series-b .ct-line {
+    stroke: var(--speedlify-color-2);
+  }
+
+  .results-series-c {
+    background-color: var(--speedlify-color-3);
+  }
+
+  .ct-series-c.ct-series-c .ct-line {
+    stroke: var(--speedlify-color-3);
+  }
+
+  .results-series-d {
+    background-color: var(--speedlify-color-4);
+  }
+
+  .ct-series-d.ct-series-d .ct-line {
+    stroke: var(--speedlify-color-4);
+  }
+
+  .results-series-e {
+    background-color: var(--speedlify-color-5);
+  }
+
+  .ct-series-e.ct-series-e .ct-line {
+    stroke: var(--speedlify-color-5);
+  }
+
+  .results-series-f {
+    background-color: var(--speedlify-color-6);
+  }
+
+  .ct-series-f.ct-series-f .ct-line {
+    stroke: var(--speedlify-color-6);
+  }
+
+  .tablewrap {
+    width: 100%;
+    margin: 0 0 2em;
+  }
+
+  @media (min-width: 87.5em) {
+    .layout {
+      display: grid;
+      grid-gap: 1em;
+      margin-bottom: 2em;
+    }
+
+    .js .layout {
+      grid-template-columns: repeat(auto-fill, 49%);
+    }
+  }
+
+  [data-numeric-value="0"] .count {
+    display: none;
+  }
+
+  /* Results table */
+  .results {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+
+  .results th,
+  .results td {
+    padding: .25em;
+    font-weight: normal;
+  }
+
+  @media (min-width: 25em) {
+
+    .results th,
+    .results td {
+      padding-left: .5em;
+      padding-right: .5em;
+    }
+  }
+
+  .results th {
+    color: #fff;
+    border: 1px dotted rgba(255, 255, 255, 0.3);
+    text-align: center;
+  }
+
+  .results th:first-child {
+    border-left: none;
+  }
+
+  @media (max-width: 87.4375em) {
+
+    .results th:last-child {
+      border-right: none;
+    }
+  }
+
+  .results tr:first-child th {
+    font-weight: bold;
+  }
+
+  .results td {
+    white-space: nowrap;
+  }
+
+  .results-calc {
+    text-align: center;
+  }
+
+  .results-bool {
+    width: 1ch;
+  }
+
+  .results-bool+td {
+    padding-left: 0;
+  }
+
+  .results-date {
+    width: 6.25rem;
+  }
+
+  .leaderboard .results th,
+  .leaderboard .results td {
+    font-size: 0.6875rem;
+  }
+
+  @media (min-width: 31.25em) {
+
+    .leaderboard .results th,
+    .leaderboard .results td {
+      font-size: 0.875rem;
+    }
+  }
+
+  @media (min-width: 50em) {
+
+    .leaderboard .results th,
+    .leaderboard .results td {
+      font-size: .9375rem;
+    }
+  }
+
+  @media (max-width: 37.4375em) {
+    .leaderboard-hide-sm {
+      display: none;
+    }
+  }
+
+  @media (max-width: 64em) {
+    .leaderboard-hide-md {
+      display: none;
+    }
+  }
+</style>
