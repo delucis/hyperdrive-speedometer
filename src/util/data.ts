@@ -16,6 +16,7 @@ export interface TestData {
     bestPractices: number;
     seo: number;
     total: number;
+    type?: string;
   };
   firstContentfulPaint: number;
   firstMeaningfulPaint: number;
@@ -48,6 +49,7 @@ export interface TestData {
   axe: {
     passes: number;
     violations: number;
+    error?: boolean;
   };
 };
 
