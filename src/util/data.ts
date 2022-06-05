@@ -1,4 +1,4 @@
-interface TestData {
+export interface TestData {
   timestamp: number;
   error?;
   url: string;
@@ -16,6 +16,7 @@ interface TestData {
     bestPractices: number;
     seo: number;
     total: number;
+    type?: string;
   };
   firstContentfulPaint: number;
   firstMeaningfulPaint: number;
@@ -48,6 +49,7 @@ interface TestData {
   axe: {
     passes: number;
     violations: number;
+    error?: boolean;
   };
 };
 

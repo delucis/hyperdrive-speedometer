@@ -11,7 +11,9 @@
     "collect-stats": "node scripts/collect-stats"
   },
   "devDependencies": {
+    "@types/byte-size": "^8.1.0",
     "astro": "^1.0.0-beta.20",
+    "byte-size": "^8.1.0",
     "fast-glob": "^3.2.11",
     "performance-leaderboard": "^9.2.0",
     "short-hash": "^1.0.0",

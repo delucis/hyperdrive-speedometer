@@ -1,6 +1,7 @@
 ---
 import shorthash from 'short-hash';
 import 'speedlify-score/speedlify-score.css';
+import SiteDetails from '../components/SiteDetails.astro';
 import Layout from '../layouts/Layout.astro';
 import { loadResults } from '../util/data';
 
@@ -12,13 +13,15 @@ const getNewestKey = (obj: Record<string, { timestamp: number }>) => {
 const results = await loadResults();
 ---
 <Layout>
+<div class="leaderboard-wrapper">
 <table class="leaderboard">
 	<thead>
 		<tr>
 			<th>Rank</th>
 			<th class="leaderboard-hide-md">Trophy</th>
 			<th>URL</th>
-			<th>Lighthouse</th>
+			<th class="leaderboard-score">Lighthouse</th>
+			<th class="leaderboard-data-right"><span class="sr-only">Data and Graphs</span></th>
 		</tr>
 	</thead>
 	<tbody>
@@ -26,16 +29,18 @@ const results = await loadResults();
 		const newestKey = getNewestKey(site);
 		const latest = site[newestKey];
 		if (latest.error) return null;
-		const id = 'site-' + shorthash(latest.url);
+		const urlHash = shorthash(latest.url);
+		const id = 'site-' + urlHash;
 		const displayURL = url => url.replace(/^https?:\/\//, '');
 		const hasRedirect = latest.requestedUrl && latest.requestedUrl !== latest.url
+		const isNew = Object.keys(site).length === 1;
 		
 		return (
 			<tr {id} class="leaderboard-list-entry">
 				<td>
 					<a href={`#${id}`}>{index + 1}</a>
 				</td>
-				<td class="leaderboard-hide-md leaderboard-trophies">{latest.lighthouse.total === 400 && '🏆'}{['🥇','🥈','🥉'][index]}</td>
+				<td class="leaderboard-hide-md leaderboard-trophies">{latest.lighthouse.total === 400 && '🏆'}{['🥇','🥈','🥉'][index]}{isNew && <span title="New entry">✨</span>}</td>
 				<td class="leaderboard-url">
 					<a href={latest.url}>
 						<img src={`https://v1.indieweb-avatar.11ty.dev/${encodeURIComponent(latest.url)}`} alt={`IndieWeb Avatar for ${displayURL(latest.url)}`} class="leaderboard-list-entry-thumbnail" loading="lazy" decoding="async" width="150" height="150">
@@ -49,20 +54,29 @@ const results = await loadResults();
 						raw-data={JSON.stringify(latest)}
 					></speedlify-score>
 					<span class="leaderboard-score-sum leaderboard-number">{latest.lighthouse.total === 400 ? '😍' : latest.lighthouse.total }</span>
+					<td class="leaderboard-data-right"><a href={`#details-${urlHash}`} data-expand-alias data-js-only>
+						<span class="leaderboard-expand-icon"></span> Data<span class="leaderboard-hide-md"> and Graphs</span></a>
+					</td>
 				</td>
 			</tr>
+			<SiteDetails {...{site, urlHash}} />
 		);
 	})}
 	</tbody>
 </table>
+</div>
 <script>import 'speedlify-score';</script>
 </Layout>
 
 <style>
+.leaderboard-wrapper {
+	margin-left: -.5rem;
+	margin-right: -.4375rem;
+}
 .leaderboard {
 	margin: 5em auto;
 	width: 100%;
-	max-width: 70rem;
+	max-width: 90rem;
 	border-spacing: 0;
 	border-collapse: collapse;
 	text-align: left;
@@ -74,12 +88,18 @@ const results = await loadResults();
 	font-weight: normal;
 }
 
-.leaderboard td {
-	font-size: 1.3125em;
+@media (min-width: 50em) {
+	.leaderboard td {
+		font-size: 1.3125em;
+	}
 }
 
 .leaderboard :is(th,td) {
 	padding: .75rem .5rem;
+}
+
+.leaderboard-data-right {
+	text-align: right;
 }
 
 .leaderboard-list-entry {
@@ -104,8 +124,13 @@ const results = await loadResults();
 }
 
 .url {
-	font-size: 1.25em;
 	word-break: break-word;
+}
+
+@media (min-width: 37.5em) {
+	.url {
+		font-size: 1.25em;
+	}
 }
 
 .leaderboard-redirect-error,
@@ -154,6 +179,12 @@ a[href^="#"] {
 .leaderboard-score-sum {
 	display: inline-block;
 	vertical-align: middle;
+}
+
+@media (max-width: 29em) {
+	.leaderboard-score {
+		display: none;
+	}
 }
 
 @media (max-width: 64em) {

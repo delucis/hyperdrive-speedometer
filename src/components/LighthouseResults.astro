@@ -1,0 +1,117 @@
+---
+import type { TestData } from "../util/data";
+import { displayDate } from "../util/formatters";
+
+export interface Props {
+  entries: TestData[];
+}
+
+const { entries } = Astro.props as Props;
+---
+
+<div class="layout color--lighthouse">
+  <div class="tablewrap">
+    <table data-make-chart class="results">
+      <thead>
+        <tr>
+          <th rowspan={2} class="results-date">Date</th>
+          <th rowspan={2} colspan={2}>Rank</th>
+          <th colspan={9}>Lighthouse</th>
+          <th colspan={2} rowspan={2}>Axe</th>
+        </tr>
+        <tr>
+          <th class="results-series-a" colspan={3}><abbr title="Performance">Perf</abbr></th>
+          <th class="results-series-b" colspan={2}><abbr title="Accessibility">A11Y</abbr></th>
+          <th class="results-series-c" colspan={2}>Best Practices</th>
+          <th class="results-series-d" colspan={2}>SEO</th>
+        </tr>
+      </thead>
+      <tbody>
+        {entries.map((entry) => (
+        <tr>
+          <td><code class="date">{displayDate(entry.timestamp)}</code></td>
+          <td class="results-bool">
+            {entry.ranks.cumulative ? (
+            [,'🥇','🥈','🥉'][entry.ranks.cumulative]
+            ) : entry.ranks.hundos && (
+            [,'🥇','🥈','🥉'][entry.ranks.hundos]
+            )}
+          </td>
+          <td>{entry.ranks.cumulative ? `#${entry.ranks.cumulative}` : entry.ranks.hundos && `#${
+            entry.ranks.hundos }`}</td>
+          <td class="results-bool">
+            {
+            entry.lighthouse.performance === 1
+            ? <span class="leaderboard-hide-sm">✅</span>
+            : entry.lighthouse.performance >= 0.9
+            ? ''
+            : entry.lighthouse.performance >= 0.5
+            ? <span class="leaderboard-hide-sm">⚠️</span>
+            : '🚫'
+            }
+          </td>
+          <td data-numeric-value={Math.round(entry.lighthouse.performance * 100)}>
+            {Math.round(entry.lighthouse.performance * 100)}</td>
+          <td class="results-calc">
+            <a href={`https://googlechrome.github.io/lighthouse/scorecalc/#FCP=${ entry.firstContentfulPaint }&SI=${
+              entry.speedIndex }&LCP=${ entry.largestContentfulPaint }&TTI=${ entry.timeToInteractive }&TBT=${
+              entry.totalBlockingTime }&CLS=${ entry.cumulativeLayoutShift }&FCI=&FMP=&device=${ entry.lighthouse.type
+              || "mobile" }&version=${ entry.lighthouse.version || "6.0.0" }`} target="_blank" rel="noopener noreferrer"
+              class="leaderboard-hide-md">
+              Calculator
+            </a>
+          </td>
+          <td class="results-bool">{
+            entry.lighthouse.accessibility === 1
+            ? <span class="leaderboard-hide-sm">✅</span>
+            : entry.lighthouse.accessibility >= 0.9
+            ? ''
+            : entry.lighthouse.accessibility >= 0.5
+            ? <span class="leaderboard-hide-sm">⚠️</span>
+            : '🚫'
+            }</td>
+          <td data-numeric-value={Math.round(entry.lighthouse.accessibility * 100)}>
+            {Math.round(entry.lighthouse.accessibility * 100)}</td>
+          <td class="results-bool">{
+            entry.lighthouse.bestPractices === 1
+            ? <span class="leaderboard-hide-sm">✅</span>
+            : entry.lighthouse.bestPractices >= 0.9
+            ? ''
+            : entry.lighthouse.bestPractices >= 0.5
+            ? <span class="leaderboard-hide-sm">⚠️</span>
+            : '🚫'
+            }</td>
+          <td data-numeric-value={Math.round(entry.lighthouse.bestPractices * 100)}>
+            {Math.round(entry.lighthouse.bestPractices * 100)}</td>
+          <td class="results-bool">{
+            entry.lighthouse.seo === 1
+            ? <span class="leaderboard-hide-sm">✅</span>
+            : entry.lighthouse.seo >= 0.9
+            ? ''
+            : entry.lighthouse.seo >= 0.5
+            ? <span class="leaderboard-hide-sm">⚠️</span>
+            : '🚫'
+            }</td>
+          <td data-numeric-value={Math.round(entry.lighthouse.seo * 100)}>{Math.round(entry.lighthouse.seo * 100)}
+          </td>
+          <td class="results-bool">{entry.axe.violations == 0 ? <span class="leaderboard-hide-sm">✅</span> : '🚫'}
+          </td>
+          <td>{entry.axe.error ? 'Error' : entry.axe.violations }</td>
+        </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <div data-js-only class="ct-chart ct-double-octave"></div>
+</div>
+
+<style>
+  .color--lighthouse {
+    --speedlify-color-1: #004e5f;
+    --speedlify-color-2: #006a6c;
+    --speedlify-color-3: #00845f;
+    --speedlify-color-4: #4f9a3e;
+    --speedlify-color-5: #a3a704;
+    --speedlify-color-6: #ffa600;
+  }
+</style>
