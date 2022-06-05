@@ -1,0 +1,18 @@
+---
+import FileSize from "./FileSize.astro";
+
+export interface Props {
+  size: number;
+  count?: number;
+}
+
+const { size, count } = Astro.props as Props;
+---
+
+<td data-numeric-value={size / 1024}>
+  {size || size === 0
+  ? <>
+    <FileSize size={size} /> {count !== undefined && <span class="count leaderboard-hide-sm">×{count}</span>}
+  </>
+  : '❓'}
+</td>
