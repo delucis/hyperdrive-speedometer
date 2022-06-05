@@ -1,4 +1,4 @@
-interface TestData {
+export interface TestData {
   timestamp: number;
   error?;
   url: string;
