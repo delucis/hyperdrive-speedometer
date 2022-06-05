@@ -12,6 +12,7 @@ const getNewestKey = (obj: Record<string, { timestamp: number }>) => {
 const results = await loadResults();
 ---
 <Layout>
+<div class="leaderboard-wrapper">
 <table class="leaderboard">
 	<thead>
 		<tr>
@@ -55,10 +56,15 @@ const results = await loadResults();
 	})}
 	</tbody>
 </table>
+</div>
 <script>import 'speedlify-score';</script>
 </Layout>
 
 <style>
+.leaderboard-wrapper {
+	margin-left: -.5rem;
+	margin-right: -.4375rem;
+}
 .leaderboard {
 	margin: 5em auto;
 	width: 100%;
