@@ -8,10 +8,10 @@ It is based on [Zach Leatherman](https://zachleat.com/)’s awesome [Speedlify](
 
 All commands are run from the root of the project, from a terminal:
 
-| Command                 | Action                                      |
-| :---------------------- | :------------------------------------------ |
-| `npm install`           | Installs dependencies                       |
-| `npm run collect-stats` | Run Lighthouse tests for all sites          |
-| `npm run dev`           | Starts local dev server at `localhost:3000` |
-| `npm run build`         | Build the production site to `./dist/`      |
-| `npm run preview`       | Preview the build locally, before deploying |
+| Command                  | Action                                      |
+| :----------------------- | :------------------------------------------ |
+| `pnpm install`           | Installs dependencies                       |
+| `pnpm run collect-stats` | Run Lighthouse tests for all sites          |
+| `pnpm run dev`           | Starts local dev server at `localhost:3000` |
+| `pnpm run build`         | Build the production site to `./dist/`      |
+| `pnpm run preview`       | Preview the build locally, before deploying |
