@@ -1,7 +1,7 @@
 name: Statistics
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 6 1 * *'
 jobs:
   build:
     runs-on: ubuntu-latest
