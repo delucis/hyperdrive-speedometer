@@ -22,8 +22,6 @@ jobs:
           cache: 'pnpm'
       - name: Install dependencies
         run: pnpm install
-      - name: Build
-        run: pnpm build
       - name: Collect statistics
         run: touch test-file
       - uses: stefanzweifel/git-auto-commit-action@v4
