@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.head_ref }}
+        token: ${{ secrets.PAT }}
     - uses: pnpm/action-setup@v2.0.1
       with:
         version: 7.1.9
