@@ -62,7 +62,11 @@ module.exports = {
       'https://goldayan.netlify.app/',
       'https://www.mostlywhat.cf/',
       'https://shroud.email/',
-      
+      'https://independentdocsid.com/',
+      'https://t-red.love/',
+      'https://stefenphelps.com',
+      'https://www.juliancataldo.com/',
+
       /** Commented out because the tests error on these URLs. */
       // 'https://dendauw.tech/',
       // 'https://replicant.band/',
