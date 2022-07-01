@@ -25,7 +25,7 @@ jobs:
       - name: Build
         run: pnpm build
       - name: Collect statistics
-        run: pnpm collect-stats
+        run: touch test-file
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Generate monthly statistics
