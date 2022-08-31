@@ -26,36 +26,7 @@ const prettyTime = (seconds) => {
   );
 };
 
-async function tryToPreventNetlifyBuildTimeout(
-  dateTestsStarted,
-  numberOfUrls,
-  estimatedTimePerBuild = ESTIMATED_MAX_TIME_PER_TEST
-) {
-  const minutesRemaining =
-    NETLIFY_MAX_LIMIT - (Date.now() - dateTestsStarted) / (1000 * 60);
-  if (
-    process.env.CONTEXT &&
-    process.env.CONTEXT === 'production' &&
-    NETLIFY_MAX_LIMIT &&
-    minutesRemaining < numberOfUrls * estimatedTimePerBuild
-  ) {
-    console.log(
-      `collect-stats has about ${minutesRemaining} minutes left, but the next run has ${numberOfUrls} urls. Saving it for the next build.`
-    );
-    return true;
-  }
-  return false;
-}
-
 (async function () {
-  // Netlify specific check (works fine without this env variable too)
-  if (process.env.CONTEXT && process.env.CONTEXT !== 'production') {
-    console.log(
-      'Skipping all test runs because we’re in a Netlify build or deploy preview!'
-    );
-    return;
-  }
-
   const dateTestsStarted = Date.now();
   const dataDir = `./src/data/`;
   const lastRunsFilename = `${dataDir}results-last-runs.json`;
@@ -76,18 +47,6 @@ async function tryToPreventNetlifyBuildTimeout(
     if (group.skip) {
       console.log(`Skipping ${key} (you told me to in your site config)`);
       continue;
-    }
-
-    // TODO maybe skip this step if it’s the first build?
-    if (
-      await tryToPreventNetlifyBuildTimeout(
-        dateTestsStarted,
-        group.urls.length,
-        group.estimatedTimePerBuild
-      )
-    ) {
-      // stop everything, we’re too close to the timeout
-      return;
     }
 
     const runFrequency = group.options?.frequency || FREQUENCY;
