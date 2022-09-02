@@ -5,6 +5,8 @@ import SiteDetails from '../components/SiteDetails.astro';
 import Layout from '../layouts/Layout.astro';
 import { loadResults } from '../util/data';
 
+const randomBuildID = Math.round(Math.random() * 10e6);
+
 const getNewestKey = (obj: Record<string, { timestamp: number }>) => {
 	const sorted = Object.entries(obj).sort(([, a], [, b]) => a.timestamp - b.timestamp);
 	return sorted[sorted.length - 1]?.[0];
@@ -43,7 +45,7 @@ const results = await loadResults();
 				<td class="leaderboard-hide-md leaderboard-trophies">{latest.lighthouse.total === 400 && '🏆'}{['🥇','🥈','🥉'][index]}{isNew && <span title="New entry">✨</span>}</td>
 				<td class="leaderboard-url">
 					<a href={latest.url}>
-						<img src={`https://v1.indieweb-avatar.11ty.dev/${encodeURIComponent(latest.url)}`} alt={`IndieWeb Avatar for ${displayURL(latest.url)}`} class="leaderboard-list-entry-thumbnail" loading="lazy" decoding="async" width="150" height="150">
+						<img src={`https://v1.indieweb-avatar.11ty.dev/${encodeURIComponent(latest.url + '?bust=' + randomBuildID)}`} alt={`IndieWeb Avatar for ${displayURL(latest.url)}`} class="leaderboard-list-entry-thumbnail" loading="lazy" decoding="async" width="150" height="150">
 						<code class="url">{displayURL(latest.url)}</code>
 					</a>
 					{hasRedirect && <span class="leaderboard-redirect-warn">Redirect from <code class="url">{displayURL(latest.requestedUrl)}</code></span>}
