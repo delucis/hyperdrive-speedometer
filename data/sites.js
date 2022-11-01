@@ -4,6 +4,7 @@ module.exports = {
       'https://dendauw.tech/',
       'https://replicant.band/',
       'https://stephen.solka.dev/',
+      'https://www.mostlywhat.cf/',
     ]);
 
     const fetch = (await import('node-fetch')).default;
