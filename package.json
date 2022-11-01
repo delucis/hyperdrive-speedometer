@@ -4,18 +4,18 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "dev": "astro dev --experimental-integrations",
-    "start": "astro dev --experimental-integrations",
-    "build": "astro build --experimental-integrations",
-    "preview": "astro preview --experimental-integrations",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
     "collect-stats": "node scripts/collect-stats"
   },
   "devDependencies": {
     "@types/byte-size": "^8.1.0",
-    "astro": "^1.0.0-beta.20",
+    "astro": "^1.6.2",
     "byte-size": "^8.1.0",
-    "fast-glob": "^3.2.11",
-    "performance-leaderboard": "^9.2.0",
+    "fast-glob": "^3.2.12",
+    "performance-leaderboard": "^9.6.3",
     "short-hash": "^1.0.0",
     "speedlify-score": "^2.0.2"
   }

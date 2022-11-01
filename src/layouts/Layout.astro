@@ -3,7 +3,7 @@ import { screenshotUrl } from "../util/screenshotAPI";
 
 const title = 'Hyperdrive Speedometer 🚀'
 const description = 'Benchmarking the performance of web sites built with Astro.';
-const canonical = Astro.canonicalURL.href;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const ogImageSrc = screenshotUrl(canonical);
 const ogImageAlt = `Screenshot of “${title}”`;
 ---
