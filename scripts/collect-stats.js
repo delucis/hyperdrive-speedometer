@@ -70,12 +70,12 @@ const prettyTime = (seconds) => {
     }
 
     const runCount = group.options?.runs || NUMBER_OF_RUNS;
-    const options = Object.assign(
-      { chromeFlags: ['--headless', '--disable-dev-shm-usage'] },
-      group.options
-    );
 
-    const results = await PerfLeaderboard(group.urls, runCount, options);
+    const results = await PerfLeaderboard(group.urls, runCount, {
+      chromeFlags: ['--headless', '--disable-dev-shm-usage'],
+      freshChrome: 'run',
+      ...group.options,
+    });
 
     const promises = [];
     for (const result of results) {
