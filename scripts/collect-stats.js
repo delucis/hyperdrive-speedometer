@@ -7,8 +7,6 @@ const sites = require('../data/sites');
 
 const NUMBER_OF_RUNS = 3;
 const FREQUENCY = 60; // in minutes
-const NETLIFY_MAX_LIMIT = 15; // in minutes, netlify limit
-const ESTIMATED_MAX_TIME_PER_TEST = 0.75; // in minutes, estimate based on looking at past builds
 
 const prettyTime = (seconds) => {
   // Based on https://johnresig.com/blog/javascript-pretty-date/
@@ -39,10 +37,11 @@ const prettyTime = (seconds) => {
     lastRuns = {};
   }
 
-  for (let [key, group] of Object.entries(sites)) {
-    if (typeof group === 'function') {
-      group = await group();
-    }
+  for (let [key, groupOrGroupGetter] of Object.entries(sites)) {
+    const group =
+      typeof groupOrGroupGetter === 'function'
+        ? await groupOrGroupGetter()
+        : groupOrGroupGetter;
 
     if (group.skip) {
       console.log(`Skipping ${key} (you told me to in your site config)`);
