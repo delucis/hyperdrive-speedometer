@@ -5,6 +5,7 @@ module.exports = {
       'https://replicant.band/',
       'https://stephen.solka.dev/',
       'https://www.mostlywhat.cf/',
+      'https://flamrdevs.vercel.app/',
     ]);
 
     const fetch = (await import('node-fetch')).default;
