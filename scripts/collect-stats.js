@@ -73,7 +73,6 @@ const prettyTime = (seconds) => {
 
     const results = await PerfLeaderboard(group.urls, runCount, {
       chromeFlags: ['--headless', '--disable-dev-shm-usage'],
-      freshChrome: 'run',
       ...group.options,
     });
 
