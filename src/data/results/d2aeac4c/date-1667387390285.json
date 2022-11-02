@@ -1,0 +1,67 @@
+{
+  "url": "https://upnext.com.au/",
+  "requestedUrl": "https://upnext.com.au/",
+  "timestamp": 1667394633072,
+  "ranks": {
+    "hundos": 150,
+    "performance": 152,
+    "accessibility": 88,
+    "cumulative": 150
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.57,
+    "accessibility": 0.96,
+    "bestPractices": 0.75,
+    "seo": 0.93,
+    "total": 321
+  },
+  "firstContentfulPaint": 2648.0480000000002,
+  "firstMeaningfulPaint": 2648.0480000000002,
+  "speedIndex": 4949.74939980818,
+  "largestContentfulPaint": 2826.496,
+  "totalBlockingTime": 795.5,
+  "cumulativeLayoutShift": 0.15015970759921604,
+  "timeToInteractive": 13944.483,
+  "maxPotentialFirstInputDelay": 468,
+  "timeToFirstByte": 177.63200000000006,
+  "weight": {
+    "summary": "90 requests • 2,152 KiB",
+    "total": 2203839,
+    "image": 1014540,
+    "imageCount": 54,
+    "script": 1041154,
+    "scriptCount": 15,
+    "document": 28784,
+    "font": 40015,
+    "fontCount": 1,
+    "stylesheet": 10376,
+    "stylesheetCount": 4,
+    "thirdParty": 2187939,
+    "thirdPartyCount": 89
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 139,
+    "+weight.total": 20,
+    "-weight.document": 142,
+    "+weight.document": 17,
+    "-weight.script": 136,
+    "+weight.script": 2,
+    "-weight.image": 115,
+    "+weight.image": 24,
+    "-weight.font": 39,
+    "+weight.font": 73,
+    "+weight.fontCount": 9,
+    "-timeToFirstByte": 122,
+    "-totalBlockingTime": 73,
+    "-largestContentfulPaint": 113
+  },
+  "axe": {
+    "passes": 2148,
+    "violations": 50
+  }
+}

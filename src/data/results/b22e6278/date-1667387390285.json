@@ -1,0 +1,66 @@
+{
+  "url": "https://beradiostereo.com/",
+  "requestedUrl": "https://beradiostereo.com/",
+  "timestamp": 1667392136654,
+  "ranks": {
+    "hundos": 97,
+    "performance": 33,
+    "accessibility": 137,
+    "cumulative": 99
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 0.82,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 375
+  },
+  "firstContentfulPaint": 1088.7069999999999,
+  "firstMeaningfulPaint": 1109.2069999999999,
+  "speedIndex": 1822.410206045497,
+  "largestContentfulPaint": 1559.2069999999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1109.2069999999999,
+  "maxPotentialFirstInputDelay": 41,
+  "timeToFirstByte": 29.55600000000001,
+  "weight": {
+    "summary": "16 requests • 350 KiB",
+    "total": 357967,
+    "image": 129506,
+    "imageCount": 8,
+    "script": 76068,
+    "scriptCount": 3,
+    "document": 12149,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 6447,
+    "stylesheetCount": 1,
+    "thirdParty": 198420,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 86,
+    "+weight.total": 73,
+    "-weight.document": 110,
+    "+weight.document": 49,
+    "-weight.script": 79,
+    "+weight.script": 59,
+    "-weight.image": 61,
+    "+weight.image": 78,
+    "-weight.font": 1,
+    "+weight.font": 112,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 8,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 33
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

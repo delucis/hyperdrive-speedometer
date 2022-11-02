@@ -1,0 +1,67 @@
+{
+  "url": "https://goldayan.netlify.app/",
+  "requestedUrl": "https://goldayan.netlify.app/",
+  "timestamp": 1667393029003,
+  "ranks": {
+    "hundos": 127,
+    "performance": 128,
+    "accessibility": 92,
+    "cumulative": 126
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.8,
+    "accessibility": 0.95,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 359
+  },
+  "firstContentfulPaint": 1857.1139999999996,
+  "firstMeaningfulPaint": 1857.1139999999996,
+  "speedIndex": 1972.788819994009,
+  "largestContentfulPaint": 5077.617999999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0007630979749891492,
+  "timeToInteractive": 1857.1139999999996,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 240.422,
+  "weight": {
+    "summary": "6 requests • 680 KiB",
+    "total": 696361,
+    "image": 415237,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1261,
+    "font": 260686,
+    "fontCount": 2,
+    "stylesheet": 19177,
+    "stylesheetCount": 2,
+    "thirdParty": 278495,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 108,
+    "+weight.total": 51,
+    "-weight.document": 2,
+    "+weight.document": 157,
+    "-weight.script": 1,
+    "+weight.script": 138,
+    "-weight.image": 95,
+    "+weight.image": 44,
+    "-weight.font": 101,
+    "+weight.font": 11,
+    "+weight.fontCount": 8,
+    "-timeToFirstByte": 134,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 147
+  },
+  "axe": {
+    "passes": 110,
+    "violations": 5
+  }
+}

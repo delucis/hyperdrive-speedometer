@@ -1,0 +1,67 @@
+{
+  "url": "https://tech.trivago.com/",
+  "requestedUrl": "https://tech.trivago.com/",
+  "timestamp": 1667393400531,
+  "ranks": {
+    "hundos": 112,
+    "performance": 96,
+    "accessibility": 84,
+    "cumulative": 113
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.94,
+    "accessibility": 0.96,
+    "bestPractices": 0.92,
+    "seo": 0.83,
+    "total": 365
+  },
+  "firstContentfulPaint": 1804.549,
+  "firstMeaningfulPaint": 1804.549,
+  "speedIndex": 2556.3408498311314,
+  "largestContentfulPaint": 1954.5490000000002,
+  "totalBlockingTime": 98,
+  "cumulativeLayoutShift": 0.00201171875,
+  "timeToInteractive": 5338.867499999999,
+  "maxPotentialFirstInputDelay": 91,
+  "timeToFirstByte": 32.605999999999995,
+  "weight": {
+    "summary": "46 requests • 3,683 KiB",
+    "total": 3771581,
+    "image": 3303023,
+    "imageCount": 21,
+    "script": 273804,
+    "scriptCount": 9,
+    "document": 117037,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 7579,
+    "stylesheetCount": 5,
+    "thirdParty": 395886,
+    "thirdPartyCount": 21
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 151,
+    "+weight.total": 8,
+    "-weight.document": 157,
+    "+weight.document": 2,
+    "-weight.script": 116,
+    "+weight.script": 22,
+    "-weight.image": 131,
+    "+weight.image": 8,
+    "-weight.font": 1,
+    "+weight.font": 112,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 20,
+    "-totalBlockingTime": 43,
+    "-largestContentfulPaint": 84
+  },
+  "axe": {
+    "passes": 887,
+    "violations": 6
+  }
+}

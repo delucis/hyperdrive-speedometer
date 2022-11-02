@@ -1,0 +1,67 @@
+{
+  "url": "https://theguardian.engineering/open-source/",
+  "requestedUrl": "https://theguardian.engineering/open-source/",
+  "timestamp": 1667390410066,
+  "ranks": {
+    "hundos": 85,
+    "performance": 67,
+    "accessibility": 81,
+    "cumulative": 84
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.98,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 0.87,
+    "total": 381
+  },
+  "firstContentfulPaint": 1634.9699999999998,
+  "firstMeaningfulPaint": 1634.9699999999998,
+  "speedIndex": 1916.4104199820742,
+  "largestContentfulPaint": 1634.9699999999998,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.07936605074670579,
+  "timeToInteractive": 1634.9699999999998,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 127.27600000000001,
+  "weight": {
+    "summary": "9 requests • 73 KiB",
+    "total": 74560,
+    "image": 0,
+    "imageCount": 0,
+    "script": 4335,
+    "scriptCount": 2,
+    "document": 4974,
+    "font": 61831,
+    "fontCount": 3,
+    "stylesheet": 3420,
+    "stylesheetCount": 3,
+    "thirdParty": 63354,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 25,
+    "+weight.total": 134,
+    "-weight.document": 48,
+    "+weight.document": 111,
+    "-weight.script": 25,
+    "+weight.script": 113,
+    "-weight.image": 1,
+    "+weight.image": 139,
+    "-weight.font": 57,
+    "+weight.font": 55,
+    "+weight.fontCount": 7,
+    "-timeToFirstByte": 96,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 40
+  },
+  "axe": {
+    "passes": 292,
+    "violations": 1
+  }
+}

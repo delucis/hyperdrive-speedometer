@@ -1,0 +1,66 @@
+{
+  "url": "https://cantoo.app/",
+  "requestedUrl": "https://cantoo.app/",
+  "timestamp": 1667392552450,
+  "ranks": {
+    "hundos": 149,
+    "performance": 155,
+    "accessibility": 79,
+    "cumulative": 149
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.5,
+    "accessibility": 0.97,
+    "bestPractices": 0.83,
+    "seo": 0.93,
+    "total": 323
+  },
+  "firstContentfulPaint": 1169.642,
+  "firstMeaningfulPaint": 1192.642,
+  "speedIndex": 45170.18022014524,
+  "largestContentfulPaint": 1209.142,
+  "totalBlockingTime": 118198,
+  "cumulativeLayoutShift": 0.0000308685302734375,
+  "timeToInteractive": 123256.64199999999,
+  "maxPotentialFirstInputDelay": 10000,
+  "timeToFirstByte": 158.642,
+  "weight": {
+    "summary": "35 requests • 2,772 KiB",
+    "total": 2838710,
+    "image": 2525259,
+    "imageCount": 19,
+    "script": 240541,
+    "scriptCount": 9,
+    "document": 15571,
+    "font": 38547,
+    "fontCount": 1,
+    "stylesheet": 9797,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 146,
+    "+weight.total": 13,
+    "-weight.document": 124,
+    "+weight.document": 35,
+    "-weight.script": 114,
+    "+weight.script": 24,
+    "-weight.image": 129,
+    "+weight.image": 10,
+    "-weight.font": 34,
+    "+weight.font": 78,
+    "+weight.fontCount": 9,
+    "-timeToFirstByte": 117,
+    "-totalBlockingTime": 76,
+    "-largestContentfulPaint": 69
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

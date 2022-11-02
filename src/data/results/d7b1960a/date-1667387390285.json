@@ -1,0 +1,67 @@
+{
+  "url": "https://www.anasweb.site/",
+  "requestedUrl": "https://anasweb.site/",
+  "timestamp": 1667389082510,
+  "ranks": {
+    "hundos": 120,
+    "performance": 111,
+    "accessibility": 126,
+    "cumulative": 120
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.89,
+    "accessibility": 0.88,
+    "bestPractices": 1,
+    "seo": 0.85,
+    "total": 362
+  },
+  "firstContentfulPaint": 2528.499,
+  "firstMeaningfulPaint": 2528.499,
+  "speedIndex": 2528.499,
+  "largestContentfulPaint": 3046.956,
+  "totalBlockingTime": 24.5,
+  "cumulativeLayoutShift": 0.0019930555555555556,
+  "timeToInteractive": 3904.656,
+  "maxPotentialFirstInputDelay": 95,
+  "timeToFirstByte": 37.79399999999998,
+  "weight": {
+    "summary": "31 requests • 203 KiB",
+    "total": 208360,
+    "image": 27200,
+    "imageCount": 16,
+    "script": 86780,
+    "scriptCount": 4,
+    "document": 20394,
+    "font": 48304,
+    "fontCount": 1,
+    "stylesheet": 5673,
+    "stylesheetCount": 4,
+    "thirdParty": 152582,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 59,
+    "+weight.total": 100,
+    "-weight.document": 131,
+    "+weight.document": 28,
+    "-weight.script": 89,
+    "+weight.script": 49,
+    "-weight.image": 32,
+    "+weight.image": 107,
+    "-weight.font": 48,
+    "+weight.font": 64,
+    "+weight.fontCount": 9,
+    "-timeToFirstByte": 49,
+    "-totalBlockingTime": 17,
+    "-largestContentfulPaint": 116
+  },
+  "axe": {
+    "passes": 418,
+    "violations": 106
+  }
+}
