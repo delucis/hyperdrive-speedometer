@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 patchedDependencies:
   lighthouse@9.6.8:
-    hash: o2e3xss76de736atwzssajtkk4
+    hash: ktpghvcdq4vpldt56c5hmtzfcu
     path: patches/lighthouse@9.6.8.patch
 
 specifiers:
@@ -20,7 +20,7 @@ devDependencies:
   astro: 1.6.2
   byte-size: 8.1.0
   fast-glob: 3.2.12
-  lighthouse: 9.6.8_o2e3xss76de736atwzssajtkk4
+  lighthouse: 9.6.8_ktpghvcdq4vpldt56c5hmtzfcu
   performance-leaderboard: 9.6.3
   short-hash: 1.0.0
   speedlify-score: 2.0.2
@@ -2403,7 +2403,7 @@ packages:
     resolution: {integrity: sha512-vlCUxxQAB8Nu6LQHqPpDRiMi06Du593/my/6JbMttQeEfJ7pf4OS8obSTh5xSOS80U/O7fq59Q8rQGAUxQatUQ==}
     dev: true
 
-  /lighthouse/9.6.8_o2e3xss76de736atwzssajtkk4:
+  /lighthouse/9.6.8_ktpghvcdq4vpldt56c5hmtzfcu:
     resolution: {integrity: sha512-5aRSvnqazci8D2oE7GJM6C7IStvUuMVV+74cGyBuS4n4NCixsDd6+uJdX834XiInSfo+OuVbAJCX4Xu6d2+N9Q==}
     engines: {node: '>=14.15'}
     hasBin: true
@@ -3247,7 +3247,7 @@ packages:
     dependencies:
       '@axe-core/puppeteer': 4.5.0_puppeteer@15.5.0
       chrome-launcher: 0.15.1
-      lighthouse: 9.6.8_o2e3xss76de736atwzssajtkk4
+      lighthouse: 9.6.8_ktpghvcdq4vpldt56c5hmtzfcu
       lodash.get: 4.4.2
       puppeteer: 15.5.0
       slugify: 1.6.5

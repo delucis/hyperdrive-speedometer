@@ -1,17 +1,18 @@
 diff --git a/lighthouse-core/gather/driver.js b/lighthouse-core/gather/driver.js
-index 6f448175b63c786e56f14881d7d995b74b24aabd..3a0c85883eb5490caea1e7ce2fc03f2a271f3f4a 100644
+index 6f448175b63c786e56f14881d7d995b74b24aabd..3d99d02872c295766ffb1a75d74ea2604103f6fe 100644
 --- a/lighthouse-core/gather/driver.js
 +++ b/lighthouse-core/gather/driver.js
-@@ -21,7 +21,7 @@ const Connection = require('./connections/connection.js');
+@@ -21,7 +21,8 @@ const Connection = require('./connections/connection.js');
  const {getBrowserVersion} = require('./driver/environment.js');
  
  // Controls how long to wait for a response after sending a DevTools protocol command.
 -const DEFAULT_PROTOCOL_TIMEOUT = 30000;
 +const DEFAULT_PROTOCOL_TIMEOUT = 300000;
++console.log('~~~ PATCHED VERSION OF LIGHTHOUSE!!! ~~~');
  
  /**
   * @typedef {LH.Protocol.StrictEventEmitter<LH.CrdpEvents>} CrdpEventEmitter
-@@ -345,7 +345,7 @@ class Driver {
+@@ -345,7 +346,7 @@ class Driver {
      let asyncTimeout;
      const timeoutPromise = new Promise((resolve, reject) => {
        if (timeout === Infinity) return;
