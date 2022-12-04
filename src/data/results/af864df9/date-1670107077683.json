@@ -1,0 +1,67 @@
+{
+  "url": "https://psykip.vercel.app/",
+  "requestedUrl": "https://psykip.vercel.app/",
+  "timestamp": 1670111308051,
+  "ranks": {
+    "hundos": 50,
+    "performance": 1,
+    "accessibility": 56,
+    "cumulative": 51
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 392
+  },
+  "firstContentfulPaint": 793.409,
+  "firstMeaningfulPaint": 793.409,
+  "speedIndex": 793.409,
+  "largestContentfulPaint": 1059.409,
+  "totalBlockingTime": 24,
+  "cumulativeLayoutShift": 0.04789128239949545,
+  "timeToInteractive": 867.409,
+  "maxPotentialFirstInputDelay": 91,
+  "timeToFirstByte": 10.546999999999997,
+  "weight": {
+    "summary": "7 requests • 48 KiB",
+    "total": 49219,
+    "image": 35709,
+    "imageCount": 2,
+    "script": 1097,
+    "scriptCount": 1,
+    "document": 4960,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 7453,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 14,
+    "+weight.total": 160,
+    "-weight.document": 56,
+    "+weight.document": 118,
+    "-weight.script": 6,
+    "+weight.script": 148,
+    "-weight.image": 37,
+    "+weight.image": 115,
+    "-weight.font": 1,
+    "+weight.font": 124,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 65,
+    "-totalBlockingTime": 22,
+    "-largestContentfulPaint": 21
+  },
+  "axe": {
+    "passes": 113,
+    "violations": 22
+  }
+}

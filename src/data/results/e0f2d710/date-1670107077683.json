@@ -1,0 +1,67 @@
+{
+  "url": "https://techwards.co/",
+  "requestedUrl": "https://techwards.co/",
+  "timestamp": 1670115102786,
+  "ranks": {
+    "hundos": 165,
+    "performance": 146,
+    "accessibility": 157,
+    "cumulative": 165
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.76,
+    "accessibility": 0.79,
+    "bestPractices": 0.92,
+    "seo": 0.77,
+    "total": 324
+  },
+  "firstContentfulPaint": 1591.672,
+  "firstMeaningfulPaint": 1949.397,
+  "speedIndex": 3736.13266911178,
+  "largestContentfulPaint": 4219.137000000001,
+  "totalBlockingTime": 164.5,
+  "cumulativeLayoutShift": 0.009936218261718751,
+  "timeToInteractive": 8406.443369293218,
+  "maxPotentialFirstInputDelay": 272,
+  "timeToFirstByte": 148.628,
+  "weight": {
+    "summary": "139 requests • 1,903 KiB",
+    "total": 1948612,
+    "image": 1550772,
+    "imageCount": 118,
+    "script": 220833,
+    "scriptCount": 7,
+    "document": 34035,
+    "font": 104525,
+    "fontCount": 5,
+    "stylesheet": 38314,
+    "stylesheetCount": 4,
+    "thirdParty": 1578314,
+    "thirdPartyCount": 113
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 151,
+    "+weight.total": 23,
+    "-weight.document": 156,
+    "+weight.document": 18,
+    "-weight.script": 124,
+    "+weight.script": 30,
+    "-weight.image": 130,
+    "+weight.image": 22,
+    "-weight.font": 75,
+    "+weight.font": 49,
+    "+weight.fontCount": 7,
+    "-timeToFirstByte": 138,
+    "-totalBlockingTime": 55,
+    "-largestContentfulPaint": 151
+  },
+  "axe": {
+    "passes": 1298,
+    "violations": 218
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.proautoma.com/",
+  "requestedUrl": "https://www.proautoma.com/",
+  "timestamp": 1670114042135,
+  "ranks": {
+    "hundos": 124,
+    "performance": 57,
+    "accessibility": 160,
+    "cumulative": 125
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.98,
+    "accessibility": 0.76,
+    "bestPractices": 1,
+    "seo": 0.89,
+    "total": 363
+  },
+  "firstContentfulPaint": 983.924,
+  "firstMeaningfulPaint": 983.924,
+  "speedIndex": 983.924,
+  "largestContentfulPaint": 1059.405,
+  "totalBlockingTime": 51.5,
+  "cumulativeLayoutShift": 0.1118427734375,
+  "timeToInteractive": 2861.63,
+  "maxPotentialFirstInputDelay": 153,
+  "timeToFirstByte": 1.4269999999999996,
+  "weight": {
+    "summary": "23 requests • 380 KiB",
+    "total": 388934,
+    "image": 226709,
+    "imageCount": 9,
+    "script": 123584,
+    "scriptCount": 6,
+    "document": 5596,
+    "font": 17006,
+    "fontCount": 1,
+    "stylesheet": 15691,
+    "stylesheetCount": 5,
+    "thirdParty": 169014,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 93,
+    "+weight.total": 81,
+    "-weight.document": 64,
+    "+weight.document": 110,
+    "-weight.script": 106,
+    "+weight.script": 48,
+    "-weight.image": 84,
+    "+weight.image": 68,
+    "-weight.font": 12,
+    "+weight.font": 112,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 4,
+    "-totalBlockingTime": 33,
+    "-largestContentfulPaint": 20
+  },
+  "axe": {
+    "passes": 280,
+    "violations": 43
+  }
+}

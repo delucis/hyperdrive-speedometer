@@ -1,0 +1,67 @@
+{
+  "url": "https://webroll.io/",
+  "requestedUrl": "https://webroll.io/",
+  "timestamp": 1670117461202,
+  "ranks": {
+    "hundos": 76,
+    "performance": 81,
+    "accessibility": 136,
+    "cumulative": 76
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.96,
+    "accessibility": 0.88,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 384
+  },
+  "firstContentfulPaint": 1053.9679999999998,
+  "firstMeaningfulPaint": 1053.9679999999998,
+  "speedIndex": 5123.07162799992,
+  "largestContentfulPaint": 1053.9679999999998,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0002500211927625868,
+  "timeToInteractive": 1053.9679999999998,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 3188.401,
+  "weight": {
+    "summary": "12 requests • 55 KiB",
+    "total": 56521,
+    "image": 23218,
+    "imageCount": 2,
+    "script": 2346,
+    "scriptCount": 2,
+    "document": 4717,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 17626,
+    "stylesheetCount": 3,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 17,
+    "+weight.total": 157,
+    "-weight.document": 52,
+    "+weight.document": 122,
+    "-weight.script": 17,
+    "+weight.script": 137,
+    "-weight.image": 29,
+    "+weight.image": 123,
+    "-weight.font": 1,
+    "+weight.font": 124,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 171,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 18
+  },
+  "axe": {
+    "passes": 266,
+    "violations": 6
+  }
+}
