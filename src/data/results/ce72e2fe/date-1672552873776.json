@@ -1,0 +1,67 @@
+{
+  "url": "https://blog.lanceross.xyz/",
+  "requestedUrl": "https://blog.lanceross.xyz/",
+  "timestamp": 1672554292487,
+  "ranks": {
+    "hundos": 50,
+    "performance": 11,
+    "accessibility": 29,
+    "cumulative": 49
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 392
+  },
+  "firstContentfulPaint": 905.1470000000002,
+  "firstMeaningfulPaint": 905.1470000000002,
+  "speedIndex": 905.1470000000002,
+  "largestContentfulPaint": 1560.8590000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.01069292534722222,
+  "timeToInteractive": 905.1470000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 6.443000000000005,
+  "weight": {
+    "summary": "9 requests • 57 KiB",
+    "total": 58701,
+    "image": 885,
+    "imageCount": 1,
+    "script": 945,
+    "scriptCount": 3,
+    "document": 3512,
+    "font": 38119,
+    "fontCount": 1,
+    "stylesheet": 15240,
+    "stylesheetCount": 3,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 18,
+    "+weight.total": 175,
+    "-weight.document": 32,
+    "+weight.document": 159,
+    "-weight.script": 3,
+    "+weight.script": 167,
+    "-weight.image": 4,
+    "+weight.image": 167,
+    "-weight.font": 37,
+    "+weight.font": 100,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 21,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 46
+  },
+  "axe": {
+    "passes": 126,
+    "violations": 1
+  }
+}

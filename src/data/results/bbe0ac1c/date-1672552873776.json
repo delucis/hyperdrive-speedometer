@@ -1,0 +1,67 @@
+{
+  "url": "https://create.t3.gg/en/introduction",
+  "requestedUrl": "https://create.t3.gg/en/introduction",
+  "timestamp": 1672554500571,
+  "ranks": {
+    "hundos": 160,
+    "performance": 169,
+    "accessibility": 136,
+    "cumulative": 160
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.67,
+    "accessibility": 0.9,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 349
+  },
+  "firstContentfulPaint": 1064.073,
+  "firstMeaningfulPaint": 1669.1730000000002,
+  "speedIndex": 3498.5367427969827,
+  "largestContentfulPaint": 1820.4480000000003,
+  "totalBlockingTime": 1270.4499999999998,
+  "cumulativeLayoutShift": 0.013685332075044427,
+  "timeToInteractive": 10049.731999999998,
+  "maxPotentialFirstInputDelay": 467,
+  "timeToFirstByte": 8.622,
+  "weight": {
+    "summary": "47 requests • 1,208 KiB",
+    "total": 1236676,
+    "image": 196744,
+    "imageCount": 8,
+    "script": 840819,
+    "scriptCount": 23,
+    "document": 41953,
+    "font": 60400,
+    "fontCount": 3,
+    "stylesheet": 64704,
+    "stylesheetCount": 3,
+    "thirdParty": 1071652,
+    "thirdPartyCount": 23
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 152,
+    "+weight.total": 41,
+    "-weight.document": 175,
+    "+weight.document": 16,
+    "-weight.script": 167,
+    "+weight.script": 3,
+    "-weight.image": 85,
+    "+weight.image": 86,
+    "-weight.font": 63,
+    "+weight.font": 74,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 34,
+    "-totalBlockingTime": 108,
+    "-largestContentfulPaint": 155
+  },
+  "axe": {
+    "passes": 627,
+    "violations": 3
+  }
+}

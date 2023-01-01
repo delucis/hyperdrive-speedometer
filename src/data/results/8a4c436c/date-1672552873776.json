@@ -1,0 +1,67 @@
+{
+  "url": "https://www.rainsberger.ca/",
+  "requestedUrl": "https://www.rainsberger.ca/",
+  "timestamp": 1672558684598,
+  "ranks": {
+    "hundos": 14,
+    "performance": 26,
+    "accessibility": 15,
+    "cumulative": 8
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 834.361,
+  "firstMeaningfulPaint": 851.361,
+  "speedIndex": 1185.325985934564,
+  "largestContentfulPaint": 1620.431,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.00955718994140625,
+  "timeToInteractive": 851.361,
+  "maxPotentialFirstInputDelay": 43,
+  "timeToFirstByte": 198.188,
+  "weight": {
+    "summary": "8 requests • 41 KiB",
+    "total": 41840,
+    "image": 30393,
+    "imageCount": 3,
+    "script": 4056,
+    "scriptCount": 2,
+    "document": 5209,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2182,
+    "stylesheetCount": 2,
+    "thirdParty": 4054,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 12,
+    "+weight.total": 181,
+    "-weight.document": 71,
+    "+weight.document": 120,
+    "-weight.script": 26,
+    "+weight.script": 144,
+    "-weight.image": 35,
+    "+weight.image": 136,
+    "-weight.font": 1,
+    "+weight.font": 137,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 145,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 49
+  },
+  "axe": {
+    "passes": 100,
+    "violations": 0
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.dbaasreview.com/",
+  "requestedUrl": "https://www.dbaasreview.com/",
+  "timestamp": 1672560491363,
+  "ranks": {
+    "hundos": 65,
+    "performance": 45,
+    "accessibility": 120,
+    "cumulative": 65
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 0.97,
+    "total": 389
+  },
+  "firstContentfulPaint": 1208.366,
+  "firstMeaningfulPaint": 1208.366,
+  "speedIndex": 1208.366,
+  "largestContentfulPaint": 1847.8069999999998,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1208.366,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 172.54000000000002,
+  "weight": {
+    "summary": "8 requests • 30 KiB",
+    "total": 30386,
+    "image": 13011,
+    "imageCount": 4,
+    "script": 1710,
+    "scriptCount": 1,
+    "document": 3394,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 12271,
+    "stylesheetCount": 2,
+    "thirdParty": 1710,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 7,
+    "+weight.total": 186,
+    "-weight.document": 27,
+    "+weight.document": 164,
+    "-weight.script": 15,
+    "+weight.script": 155,
+    "-weight.image": 22,
+    "+weight.image": 149,
+    "-weight.font": 1,
+    "+weight.font": 137,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 136,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 67
+  },
+  "axe": {
+    "passes": 198,
+    "violations": 4
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.antstack.com/",
+  "requestedUrl": "https://www.antstack.com/",
+  "timestamp": 1672554961008,
+  "ranks": {
+    "hundos": 154,
+    "performance": 142,
+    "accessibility": 151,
+    "cumulative": 155
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.83,
+    "accessibility": 0.86,
+    "bestPractices": 1,
+    "seo": 0.85,
+    "total": 354
+  },
+  "firstContentfulPaint": 2796.3779999999997,
+  "firstMeaningfulPaint": 2796.3779999999997,
+  "speedIndex": 4941.133932767096,
+  "largestContentfulPaint": 3373.6459999999997,
+  "totalBlockingTime": 13,
+  "cumulativeLayoutShift": 0.009443601820203994,
+  "timeToInteractive": 3384.3004999999994,
+  "maxPotentialFirstInputDelay": 76,
+  "timeToFirstByte": 360.729,
+  "weight": {
+    "summary": "76 requests • 524 KiB",
+    "total": 536297,
+    "image": 251642,
+    "imageCount": 29,
+    "script": 128257,
+    "scriptCount": 20,
+    "document": 10745,
+    "font": 114485,
+    "fontCount": 7,
+    "stylesheet": 31168,
+    "stylesheetCount": 19,
+    "thirdParty": 117463,
+    "thirdPartyCount": 11
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 119,
+    "+weight.total": 74,
+    "-weight.document": 131,
+    "+weight.document": 60,
+    "-weight.script": 121,
+    "+weight.script": 49,
+    "-weight.image": 100,
+    "+weight.image": 71,
+    "-weight.font": 92,
+    "+weight.font": 45,
+    "+weight.fontCount": 6,
+    "-timeToFirstByte": 171,
+    "-totalBlockingTime": 12,
+    "-largestContentfulPaint": 126
+  },
+  "axe": {
+    "passes": 733,
+    "violations": 38
+  }
+}

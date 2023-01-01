@@ -1,0 +1,67 @@
+{
+  "url": "https://baldbeardedbuilder.com/",
+  "requestedUrl": "https://baldbeardedbuilder.com/",
+  "timestamp": 1672560225823,
+  "ranks": {
+    "hundos": 66,
+    "performance": 51,
+    "accessibility": 90,
+    "cumulative": 67
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 0.97,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 388
+  },
+  "firstContentfulPaint": 1584.7130000000002,
+  "firstMeaningfulPaint": 1584.7130000000002,
+  "speedIndex": 1584.7130000000002,
+  "largestContentfulPaint": 1723.5020000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.004002343071831597,
+  "timeToInteractive": 1584.7130000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 25.66900000000001,
+  "weight": {
+    "summary": "63 requests • 748 KiB",
+    "total": 765857,
+    "image": 683335,
+    "imageCount": 31,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 7923,
+    "font": 61391,
+    "fontCount": 2,
+    "stylesheet": 9088,
+    "stylesheetCount": 2,
+    "thirdParty": 757934,
+    "thirdPartyCount": 62
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 132,
+    "+weight.total": 61,
+    "-weight.document": 109,
+    "+weight.document": 82,
+    "-weight.script": 1,
+    "+weight.script": 170,
+    "-weight.image": 138,
+    "+weight.image": 33,
+    "-weight.font": 65,
+    "+weight.font": 72,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 63,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 56
+  },
+  "axe": {
+    "passes": 345,
+    "violations": 8
+  }
+}

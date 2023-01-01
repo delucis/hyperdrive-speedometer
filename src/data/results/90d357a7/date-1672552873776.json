@@ -1,0 +1,66 @@
+{
+  "url": "https://kul.gg/",
+  "requestedUrl": "https://kul.gg/",
+  "timestamp": 1672555845305,
+  "ranks": {
+    "hundos": 159,
+    "performance": 185,
+    "accessibility": 68,
+    "cumulative": 159
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.5,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 350
+  },
+  "firstContentfulPaint": 802.2860000000001,
+  "firstMeaningfulPaint": 802.2860000000001,
+  "speedIndex": 17536.540498524464,
+  "largestContentfulPaint": 802.2860000000001,
+  "totalBlockingTime": 169894.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 180516.812,
+  "maxPotentialFirstInputDelay": 2569,
+  "timeToFirstByte": 7.497,
+  "weight": {
+    "summary": "11 requests • 211 KiB",
+    "total": 215871,
+    "image": 0,
+    "imageCount": 0,
+    "script": 202732,
+    "scriptCount": 8,
+    "document": 5764,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 7375,
+    "stylesheetCount": 2,
+    "thirdParty": 128870,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 66,
+    "+weight.total": 127,
+    "-weight.document": 80,
+    "+weight.document": 111,
+    "-weight.script": 135,
+    "+weight.script": 35,
+    "-weight.image": 1,
+    "+weight.image": 171,
+    "-weight.font": 1,
+    "+weight.font": 137,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 28,
+    "-totalBlockingTime": 115,
+    "-largestContentfulPaint": 145
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}
