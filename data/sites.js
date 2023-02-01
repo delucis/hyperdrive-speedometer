@@ -6,6 +6,7 @@ module.exports = {
       'https://stephen.solka.dev/',
       'https://www.mostlywhat.cf/',
       'https://flamrdevs.vercel.app/',
+      'https://legrostonneau-festival.fr/',
     ]);
 
     const fetch = (await import('node-fetch')).default;
