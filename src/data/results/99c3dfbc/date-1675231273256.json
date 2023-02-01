@@ -1,0 +1,67 @@
+{
+  "url": "https://blog.coderspirit.xyz/",
+  "requestedUrl": "https://blog.coderspirit.xyz/",
+  "timestamp": 1675234404874,
+  "ranks": {
+    "hundos": 35,
+    "performance": 21,
+    "accessibility": 106,
+    "cumulative": 34
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 397
+  },
+  "firstContentfulPaint": 1053.7730000000001,
+  "firstMeaningfulPaint": 1053.7730000000001,
+  "speedIndex": 1053.7730000000001,
+  "largestContentfulPaint": 1053.7730000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.001369791030883789,
+  "timeToInteractive": 1053.7730000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 6.751000000000005,
+  "weight": {
+    "summary": "6 requests • 44 KiB",
+    "total": 45058,
+    "image": 663,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1936,
+    "font": 38408,
+    "fontCount": 2,
+    "stylesheet": 4051,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 15,
+    "+weight.total": 200,
+    "-weight.document": 10,
+    "+weight.document": 204,
+    "-weight.script": 1,
+    "+weight.script": 188,
+    "-weight.image": 3,
+    "+weight.image": 191,
+    "-weight.font": 48,
+    "+weight.font": 108,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 29,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 14
+  },
+  "axe": {
+    "passes": 208,
+    "violations": 18
+  }
+}

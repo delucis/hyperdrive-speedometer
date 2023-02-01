@@ -1,0 +1,67 @@
+{
+  "url": "https://hackurity.io/",
+  "requestedUrl": "https://hackurity.io/",
+  "timestamp": 1675231384467,
+  "ranks": {
+    "hundos": 138,
+    "performance": 94,
+    "accessibility": 181,
+    "cumulative": 138
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.97,
+    "accessibility": 0.83,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 372
+  },
+  "firstContentfulPaint": 881.3819999999998,
+  "firstMeaningfulPaint": 881.3819999999998,
+  "speedIndex": 4179.979833539315,
+  "largestContentfulPaint": 1809.4899999999998,
+  "totalBlockingTime": 0.5,
+  "cumulativeLayoutShift": 0.0007506476508246529,
+  "timeToInteractive": 2311.4749999999995,
+  "maxPotentialFirstInputDelay": 51,
+  "timeToFirstByte": 1304.898,
+  "weight": {
+    "summary": "28 requests • 827 KiB",
+    "total": 846979,
+    "image": 658026,
+    "imageCount": 14,
+    "script": 111928,
+    "scriptCount": 4,
+    "document": 4045,
+    "font": 61851,
+    "fontCount": 4,
+    "stylesheet": 10107,
+    "stylesheetCount": 4,
+    "thirdParty": 114271,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 151,
+    "+weight.total": 64,
+    "-weight.document": 52,
+    "+weight.document": 162,
+    "-weight.script": 122,
+    "+weight.script": 66,
+    "-weight.image": 149,
+    "+weight.image": 45,
+    "-weight.font": 82,
+    "+weight.font": 74,
+    "+weight.fontCount": 9,
+    "-timeToFirstByte": 209,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 115
+  },
+  "axe": {
+    "passes": 158,
+    "violations": 10
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.markteekman.nl/",
+  "requestedUrl": "https://www.markteekman.nl/",
+  "timestamp": 1675232662345,
+  "ranks": {
+    "hundos": 84,
+    "performance": 109,
+    "accessibility": 6,
+    "cumulative": 84
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.95,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 387
+  },
+  "firstContentfulPaint": 1609.068,
+  "firstMeaningfulPaint": 1609.068,
+  "speedIndex": 1609.068,
+  "largestContentfulPaint": 2818.558,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1609.068,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 29.266,
+  "weight": {
+    "summary": "18 requests • 315 KiB",
+    "total": 322179,
+    "image": 238798,
+    "imageCount": 8,
+    "script": 4182,
+    "scriptCount": 2,
+    "document": 8150,
+    "font": 60816,
+    "fontCount": 4,
+    "stylesheet": 10233,
+    "stylesheetCount": 3,
+    "thirdParty": 61942,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 100,
+    "+weight.total": 115,
+    "-weight.document": 127,
+    "+weight.document": 87,
+    "-weight.script": 29,
+    "+weight.script": 159,
+    "-weight.image": 112,
+    "+weight.image": 82,
+    "-weight.font": 78,
+    "+weight.font": 78,
+    "+weight.fontCount": 9,
+    "-timeToFirstByte": 99,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 161
+  },
+  "axe": {
+    "passes": 323,
+    "violations": 0
+  }
+}

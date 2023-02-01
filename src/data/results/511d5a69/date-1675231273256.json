@@ -1,0 +1,67 @@
+{
+  "url": "https://www.herisdia.me/en/",
+  "requestedUrl": "https://www.herisdia.me/",
+  "timestamp": 1675238653532,
+  "ranks": {
+    "hundos": 80,
+    "performance": 125,
+    "accessibility": 127,
+    "cumulative": 81
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.93,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 388
+  },
+  "firstContentfulPaint": 2424.6130000000003,
+  "firstMeaningfulPaint": 2424.6130000000003,
+  "speedIndex": 2882.2019099999825,
+  "largestContentfulPaint": 2704.322,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2424.6130000000003,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 216.865,
+  "weight": {
+    "summary": "20 requests • 1,063 KiB",
+    "total": 1088889,
+    "image": 1024435,
+    "imageCount": 3,
+    "script": 22991,
+    "scriptCount": 8,
+    "document": 3459,
+    "font": 30947,
+    "fontCount": 1,
+    "stylesheet": 7057,
+    "stylesheetCount": 6,
+    "thirdParty": 31705,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 164,
+    "+weight.total": 51,
+    "-weight.document": 36,
+    "+weight.document": 178,
+    "-weight.script": 65,
+    "+weight.script": 123,
+    "-weight.image": 166,
+    "+weight.image": 28,
+    "-weight.font": 31,
+    "+weight.font": 125,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 178,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 158
+  },
+  "axe": {
+    "passes": 91,
+    "violations": 9
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.stevefenton.co.uk/",
+  "requestedUrl": "https://www.stevefenton.co.uk/",
+  "timestamp": 1675237222270,
+  "ranks": {
+    "hundos": 98,
+    "performance": 143,
+    "accessibility": 111,
+    "cumulative": 98
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.87,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 383
+  },
+  "firstContentfulPaint": 796.796,
+  "firstMeaningfulPaint": 811.296,
+  "speedIndex": 796.796,
+  "largestContentfulPaint": 1074.796,
+  "totalBlockingTime": 100.5,
+  "cumulativeLayoutShift": 0.46125,
+  "timeToInteractive": 2872.5,
+  "maxPotentialFirstInputDelay": 109,
+  "timeToFirstByte": 28.264000000000003,
+  "weight": {
+    "summary": "30 requests • 169 KiB",
+    "total": 172609,
+    "image": 443,
+    "imageCount": 1,
+    "script": 127180,
+    "scriptCount": 19,
+    "document": 4404,
+    "font": 33219,
+    "fontCount": 2,
+    "stylesheet": 5621,
+    "stylesheetCount": 2,
+    "thirdParty": 111470,
+    "thirdPartyCount": 9
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 63,
+    "+weight.total": 152,
+    "-weight.document": 58,
+    "+weight.document": 156,
+    "-weight.script": 128,
+    "+weight.script": 60,
+    "-weight.image": 2,
+    "+weight.image": 192,
+    "-weight.font": 37,
+    "+weight.font": 119,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 98,
+    "-totalBlockingTime": 55,
+    "-largestContentfulPaint": 22
+  },
+  "axe": {
+    "passes": 341,
+    "violations": 0
+  }
+}

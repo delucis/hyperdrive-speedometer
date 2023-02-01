@@ -1,0 +1,67 @@
+{
+  "url": "https://dental-lounge.de/",
+  "requestedUrl": "https://dental-lounge.de/",
+  "timestamp": 1675240079100,
+  "ranks": {
+    "hundos": 180,
+    "performance": 184,
+    "accessibility": 109,
+    "cumulative": 180
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.75,
+    "accessibility": 0.97,
+    "bestPractices": 0.75,
+    "seo": 1,
+    "total": 347
+  },
+  "firstContentfulPaint": 1403.9009999999998,
+  "firstMeaningfulPaint": 1430.9009999999998,
+  "speedIndex": 4685.7983924318505,
+  "largestContentfulPaint": 2086.647,
+  "totalBlockingTime": 537.5,
+  "cumulativeLayoutShift": 0.011497504340277777,
+  "timeToInteractive": 10403.216,
+  "maxPotentialFirstInputDelay": 396,
+  "timeToFirstByte": 109.15500000000003,
+  "weight": {
+    "summary": "35 requests • 1,370 KiB",
+    "total": 1403345,
+    "image": 372775,
+    "imageCount": 7,
+    "script": 767816,
+    "scriptCount": 7,
+    "document": 41721,
+    "font": 133316,
+    "fontCount": 12,
+    "stylesheet": 56885,
+    "stylesheetCount": 2,
+    "thirdParty": 1256044,
+    "thirdPartyCount": 19
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 172,
+    "+weight.total": 43,
+    "-weight.document": 196,
+    "+weight.document": 18,
+    "-weight.script": 179,
+    "+weight.script": 9,
+    "-weight.image": 128,
+    "+weight.image": 66,
+    "-weight.font": 116,
+    "+weight.font": 40,
+    "+weight.fontCount": 4,
+    "-timeToFirstByte": 147,
+    "-totalBlockingTime": 93,
+    "-largestContentfulPaint": 127
+  },
+  "axe": {
+    "passes": 566,
+    "violations": 26
+  }
+}

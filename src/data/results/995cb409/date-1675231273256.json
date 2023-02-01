@@ -1,0 +1,67 @@
+{
+  "url": "https://nblackburn.uk/",
+  "requestedUrl": "https://nblackburn.uk/",
+  "timestamp": 1675238072215,
+  "ranks": {
+    "hundos": 38,
+    "performance": 42,
+    "accessibility": 114,
+    "cumulative": 37
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 1060.7350000000001,
+  "firstMeaningfulPaint": 1060.7350000000001,
+  "speedIndex": 1551.036645999639,
+  "largestContentfulPaint": 1060.7350000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.005419486045837403,
+  "timeToInteractive": 1060.7350000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 10.68,
+  "weight": {
+    "summary": "17 requests • 68 KiB",
+    "total": 69644,
+    "image": 15620,
+    "imageCount": 2,
+    "script": 25844,
+    "scriptCount": 5,
+    "document": 6472,
+    "font": 17157,
+    "fontCount": 1,
+    "stylesheet": 4457,
+    "stylesheetCount": 7,
+    "thirdParty": 1256,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 27,
+    "+weight.total": 188,
+    "-weight.document": 108,
+    "+weight.document": 106,
+    "-weight.script": 69,
+    "+weight.script": 119,
+    "-weight.image": 30,
+    "+weight.image": 164,
+    "-weight.font": 14,
+    "+weight.font": 142,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 64,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 21
+  },
+  "axe": {
+    "passes": 172,
+    "violations": 1
+  }
+}

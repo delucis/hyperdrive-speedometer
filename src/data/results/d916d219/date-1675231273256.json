@@ -1,0 +1,67 @@
+{
+  "url": "https://unwrapped.design/",
+  "requestedUrl": "https://unwrapped.design/",
+  "timestamp": 1675234417413,
+  "ranks": {
+    "hundos": 211,
+    "performance": 93,
+    "accessibility": 214,
+    "cumulative": 211
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.97,
+    "accessibility": null,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 297
+  },
+  "firstContentfulPaint": 1913.4260000000002,
+  "firstMeaningfulPaint": 3194.4355000000005,
+  "speedIndex": 2154.85610000005,
+  "largestContentfulPaint": 2025.6140000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3194.4355000000005,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 27.69999999999999,
+  "weight": {
+    "summary": "17 requests • 463 KiB",
+    "total": 474034,
+    "image": 211288,
+    "imageCount": 5,
+    "script": 24378,
+    "scriptCount": 3,
+    "document": 3806,
+    "font": 225216,
+    "fontCount": 2,
+    "stylesheet": 8560,
+    "stylesheetCount": 3,
+    "thirdParty": 470228,
+    "thirdPartyCount": 16
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 122,
+    "+weight.total": 93,
+    "-weight.document": 45,
+    "+weight.document": 169,
+    "-weight.script": 67,
+    "+weight.script": 121,
+    "-weight.image": 104,
+    "+weight.image": 90,
+    "-weight.font": 133,
+    "+weight.font": 23,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 97,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 126
+  },
+  "axe": {
+    "passes": 99,
+    "violations": 4
+  }
+}
