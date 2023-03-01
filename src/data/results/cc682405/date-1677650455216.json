@@ -1,0 +1,67 @@
+{
+  "url": "https://miduconf.com/",
+  "requestedUrl": "https://miduconf.com/",
+  "timestamp": 1677659912825,
+  "ranks": {
+    "hundos": 127,
+    "performance": 106,
+    "accessibility": 169,
+    "cumulative": 127
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.96,
+    "accessibility": 0.89,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 377
+  },
+  "firstContentfulPaint": 2116.8641430511475,
+  "firstMeaningfulPaint": 2116.8641430511475,
+  "speedIndex": 2116.8641430511475,
+  "largestContentfulPaint": 2267.8642861022945,
+  "totalBlockingTime": 40,
+  "cumulativeLayoutShift": 0.00033747846940831473,
+  "timeToInteractive": 2265.8639999999996,
+  "maxPotentialFirstInputDelay": 90,
+  "timeToFirstByte": 253.05800000000002,
+  "weight": {
+    "summary": "25 requests • 359 KiB",
+    "total": 367228,
+    "image": 262771,
+    "imageCount": 8,
+    "script": 50279,
+    "scriptCount": 12,
+    "document": 47579,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 5983,
+    "stylesheetCount": 1,
+    "thirdParty": 11871,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 113,
+    "+weight.total": 108,
+    "-weight.document": 202,
+    "+weight.document": 15,
+    "-weight.script": 89,
+    "+weight.script": 109,
+    "-weight.image": 110,
+    "+weight.image": 87,
+    "-weight.font": 1,
+    "+weight.font": 166,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 186,
+    "-totalBlockingTime": 30,
+    "-largestContentfulPaint": 127
+  },
+  "axe": {
+    "passes": 1050,
+    "violations": 89
+  }
+}

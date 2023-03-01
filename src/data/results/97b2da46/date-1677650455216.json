@@ -1,0 +1,67 @@
+{
+  "url": "https://boxtimer.app/",
+  "requestedUrl": "https://boxtimer.app/",
+  "timestamp": 1677654082818,
+  "ranks": {
+    "hundos": 9,
+    "performance": 52,
+    "accessibility": 74,
+    "cumulative": 21
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 958.989,
+  "firstMeaningfulPaint": 958.989,
+  "speedIndex": 1820.4550620002653,
+  "largestContentfulPaint": 1627.647,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 958.989,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 108.84799999999998,
+  "weight": {
+    "summary": "14 requests • 200 KiB",
+    "total": 204898,
+    "image": 190705,
+    "imageCount": 11,
+    "script": 2458,
+    "scriptCount": 1,
+    "document": 8171,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 3564,
+    "stylesheetCount": 1,
+    "thirdParty": 2795,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 71,
+    "+weight.total": 150,
+    "-weight.document": 126,
+    "+weight.document": 91,
+    "-weight.script": 29,
+    "+weight.script": 169,
+    "-weight.image": 95,
+    "+weight.image": 102,
+    "-weight.font": 1,
+    "+weight.font": 166,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 121,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 74
+  },
+  "axe": {
+    "passes": 270,
+    "violations": 10
+  }
+}

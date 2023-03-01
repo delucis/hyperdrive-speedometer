@@ -1,0 +1,67 @@
+{
+  "url": "https://www.enjoyyearof.com/",
+  "requestedUrl": "https://www.enjoyyearof.com/",
+  "timestamp": 1677652670739,
+  "ranks": {
+    "hundos": 195,
+    "performance": 200,
+    "accessibility": 154,
+    "cumulative": 195
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.61,
+    "accessibility": 0.91,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 336
+  },
+  "firstContentfulPaint": 1895.2649999999996,
+  "firstMeaningfulPaint": 2061.7119999999995,
+  "speedIndex": 3191.100681570024,
+  "largestContentfulPaint": 5581.656,
+  "totalBlockingTime": 390.5,
+  "cumulativeLayoutShift": 0.08199334716796876,
+  "timeToInteractive": 8870.702000000001,
+  "maxPotentialFirstInputDelay": 239,
+  "timeToFirstByte": 219.52,
+  "weight": {
+    "summary": "64 requests • 6,482 KiB",
+    "total": 6637430,
+    "image": 3761640,
+    "imageCount": 31,
+    "script": 561100,
+    "scriptCount": 14,
+    "document": 5019,
+    "font": 81426,
+    "fontCount": 2,
+    "stylesheet": 7785,
+    "stylesheetCount": 2,
+    "thirdParty": 568840,
+    "thirdPartyCount": 24
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 215,
+    "+weight.total": 6,
+    "-weight.document": 70,
+    "+weight.document": 147,
+    "-weight.script": 186,
+    "+weight.script": 12,
+    "-weight.image": 189,
+    "+weight.image": 8,
+    "-weight.font": 103,
+    "+weight.font": 63,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 180,
+    "-totalBlockingTime": 88,
+    "-largestContentfulPaint": 205
+  },
+  "axe": {
+    "passes": 1064,
+    "violations": 13
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://behold.so/",
+  "requestedUrl": "https://behold.so/",
+  "timestamp": 1677658584252,
+  "ranks": {
+    "hundos": 138,
+    "performance": 176,
+    "accessibility": 79,
+    "cumulative": 139
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.82,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 374
+  },
+  "firstContentfulPaint": 2518.7520000000004,
+  "firstMeaningfulPaint": 2518.7520000000004,
+  "speedIndex": 4366.533226608675,
+  "largestContentfulPaint": 2518.7520000000004,
+  "totalBlockingTime": 128,
+  "cumulativeLayoutShift": 0.03288628472222222,
+  "timeToInteractive": 10896.766499999998,
+  "maxPotentialFirstInputDelay": 149,
+  "timeToFirstByte": 86.26499999999999,
+  "weight": {
+    "summary": "106 requests • 13,831 KiB",
+    "total": 14163229,
+    "image": 13818663,
+    "imageCount": 70,
+    "script": 172635,
+    "scriptCount": 21,
+    "document": 33320,
+    "font": 85884,
+    "fontCount": 3,
+    "stylesheet": 14945,
+    "stylesheetCount": 6,
+    "thirdParty": 14003801,
+    "thirdPartyCount": 70
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 220,
+    "+weight.total": 1,
+    "-weight.document": 190,
+    "+weight.document": 27,
+    "-weight.script": 148,
+    "+weight.script": 50,
+    "-weight.image": 196,
+    "+weight.image": 1,
+    "-weight.font": 105,
+    "+weight.font": 61,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 108,
+    "-totalBlockingTime": 57,
+    "-largestContentfulPaint": 142
+  },
+  "axe": {
+    "passes": 1187,
+    "violations": 30
+  }
+}

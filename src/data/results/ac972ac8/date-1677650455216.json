@@ -1,0 +1,67 @@
+{
+  "url": "https://astro.rishi.app/",
+  "requestedUrl": "https://astro.rishi.app/",
+  "timestamp": 1677660514850,
+  "ranks": {
+    "hundos": 18,
+    "performance": 2,
+    "accessibility": 60,
+    "cumulative": 17
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 798.2870000000003,
+  "firstMeaningfulPaint": 798.2870000000003,
+  "speedIndex": 798.2870000000003,
+  "largestContentfulPaint": 798.2870000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.05220703125,
+  "timeToInteractive": 798.2870000000003,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 11.099999999999994,
+  "weight": {
+    "summary": "5 requests • 26 KiB",
+    "total": 26848,
+    "image": 11479,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 6161,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 8306,
+    "stylesheetCount": 2,
+    "thirdParty": 11479,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 5,
+    "+weight.total": 216,
+    "-weight.document": 101,
+    "+weight.document": 116,
+    "-weight.script": 1,
+    "+weight.script": 198,
+    "-weight.image": 25,
+    "+weight.image": 172,
+    "-weight.font": 1,
+    "+weight.font": 166,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 12,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 3
+  },
+  "axe": {
+    "passes": 107,
+    "violations": 3
+  }
+}

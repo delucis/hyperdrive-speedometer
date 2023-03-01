@@ -1,0 +1,67 @@
+{
+  "url": "https://www.undefinedtea.dev/",
+  "requestedUrl": "https://www.undefinedtea.dev/",
+  "timestamp": 1677663179272,
+  "ranks": {
+    "hundos": 30,
+    "performance": 63,
+    "accessibility": 55,
+    "cumulative": 30
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1550.06,
+  "firstMeaningfulPaint": 1550.06,
+  "speedIndex": 1591.2319999988526,
+  "largestContentfulPaint": 1550.06,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1550.06,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 299.028,
+  "weight": {
+    "summary": "8 requests • 29 KiB",
+    "total": 29440,
+    "image": 5037,
+    "imageCount": 1,
+    "script": 10711,
+    "scriptCount": 4,
+    "document": 6184,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 7508,
+    "stylesheetCount": 2,
+    "thirdParty": 1745,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 6,
+    "+weight.total": 215,
+    "-weight.document": 102,
+    "+weight.document": 115,
+    "-weight.script": 55,
+    "+weight.script": 143,
+    "-weight.image": 15,
+    "+weight.image": 182,
+    "-weight.font": 1,
+    "+weight.font": 166,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 198,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 68
+  },
+  "axe": {
+    "passes": 159,
+    "violations": 2
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.paulettehelsinki.fi/",
+  "requestedUrl": "https://www.paulettehelsinki.fi/",
+  "timestamp": 1677656583816,
+  "ranks": {
+    "hundos": 151,
+    "performance": 187,
+    "accessibility": 134,
+    "cumulative": 151
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.74,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 369
+  },
+  "firstContentfulPaint": 2283.664,
+  "firstMeaningfulPaint": 2356.164,
+  "speedIndex": 2447.838049290171,
+  "largestContentfulPaint": 6562.474999999999,
+  "totalBlockingTime": 61,
+  "cumulativeLayoutShift": 0.019332107543945314,
+  "timeToInteractive": 2657.26,
+  "maxPotentialFirstInputDelay": 145,
+  "timeToFirstByte": 116.78499999999997,
+  "weight": {
+    "summary": "34 requests • 7,833 KiB",
+    "total": 8020481,
+    "image": 7821626,
+    "imageCount": 22,
+    "script": 77066,
+    "scriptCount": 4,
+    "document": 8970,
+    "font": 105060,
+    "fontCount": 4,
+    "stylesheet": 7759,
+    "stylesheetCount": 3,
+    "thirdParty": 161373,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 216,
+    "+weight.total": 5,
+    "-weight.document": 134,
+    "+weight.document": 83,
+    "-weight.script": 113,
+    "+weight.script": 85,
+    "-weight.image": 192,
+    "+weight.image": 5,
+    "-weight.font": 110,
+    "+weight.font": 56,
+    "+weight.fontCount": 9,
+    "-timeToFirstByte": 134,
+    "-totalBlockingTime": 41,
+    "-largestContentfulPaint": 210
+  },
+  "axe": {
+    "passes": 1024,
+    "violations": 16
+  }
+}

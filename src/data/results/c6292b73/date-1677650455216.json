@@ -1,0 +1,67 @@
+{
+  "url": "https://journal.aryan.ink/",
+  "requestedUrl": "https://0thorderlogic.github.io/",
+  "timestamp": 1677660085979,
+  "ranks": {
+    "hundos": 33,
+    "performance": 82,
+    "accessibility": 37,
+    "cumulative": 33
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 1768.3370000000002,
+  "firstMeaningfulPaint": 2593.4800000000005,
+  "speedIndex": 1768.3370000000002,
+  "largestContentfulPaint": 1768.3370000000002,
+  "totalBlockingTime": 2.5,
+  "cumulativeLayoutShift": 0.01535324435763889,
+  "timeToInteractive": 3596.149000000001,
+  "maxPotentialFirstInputDelay": 55,
+  "timeToFirstByte": 23.409999999999997,
+  "weight": {
+    "summary": "14 requests • 562 KiB",
+    "total": 575782,
+    "image": 0,
+    "imageCount": 0,
+    "script": 1102,
+    "scriptCount": 1,
+    "document": 4359,
+    "font": 555065,
+    "fontCount": 3,
+    "stylesheet": 2606,
+    "stylesheetCount": 3,
+    "thirdParty": 492,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 133,
+    "+weight.total": 88,
+    "-weight.document": 51,
+    "+weight.document": 166,
+    "-weight.script": 8,
+    "+weight.script": 190,
+    "-weight.image": 1,
+    "+weight.image": 197,
+    "-weight.font": 160,
+    "+weight.font": 6,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 44,
+    "-totalBlockingTime": 5,
+    "-largestContentfulPaint": 91
+  },
+  "axe": {
+    "passes": 244,
+    "violations": 1
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://ffbloggen.nl/",
+  "requestedUrl": "https://ffbloggen.nl/",
+  "timestamp": 1677659110203,
+  "ranks": {
+    "hundos": 54,
+    "performance": 78,
+    "accessibility": 105,
+    "cumulative": 54
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.98,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 0.98,
+    "total": 393
+  },
+  "firstContentfulPaint": 876,
+  "firstMeaningfulPaint": 876,
+  "speedIndex": 876,
+  "largestContentfulPaint": 2130,
+  "totalBlockingTime": 13,
+  "cumulativeLayoutShift": 0.065693359375,
+  "timeToInteractive": 939,
+  "maxPotentialFirstInputDelay": 69,
+  "timeToFirstByte": 9.352999999999994,
+  "weight": {
+    "summary": "14 requests • 3,315 KiB",
+    "total": 3395023,
+    "image": 3328181,
+    "imageCount": 10,
+    "script": 59961,
+    "scriptCount": 2,
+    "document": 3704,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 3177,
+    "stylesheetCount": 1,
+    "thirdParty": 3138787,
+    "thirdPartyCount": 9
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 208,
+    "+weight.total": 13,
+    "-weight.document": 37,
+    "+weight.document": 180,
+    "-weight.script": 99,
+    "+weight.script": 99,
+    "-weight.image": 188,
+    "+weight.image": 9,
+    "-weight.font": 1,
+    "+weight.font": 166,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 4,
+    "-totalBlockingTime": 15,
+    "-largestContentfulPaint": 121
+  },
+  "axe": {
+    "passes": 254,
+    "violations": 8
+  }
+}
