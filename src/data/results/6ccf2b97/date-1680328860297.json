@@ -1,0 +1,67 @@
+{
+  "url": "https://exerra.xyz/",
+  "requestedUrl": "https://exerra.xyz/",
+  "timestamp": 1680343758296,
+  "ranks": {
+    "hundos": 24,
+    "performance": 68,
+    "accessibility": 40,
+    "cumulative": 30
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1679.277,
+  "firstMeaningfulPaint": 1679.277,
+  "speedIndex": 1679.277,
+  "largestContentfulPaint": 1679.277,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0040077311197916675,
+  "timeToInteractive": 1679.277,
+  "maxPotentialFirstInputDelay": 37,
+  "timeToFirstByte": 113.291,
+  "weight": {
+    "summary": "11 requests • 277 KiB",
+    "total": 284089,
+    "image": 218849,
+    "imageCount": 3,
+    "script": 7944,
+    "scriptCount": 2,
+    "document": 12034,
+    "font": 40205,
+    "fontCount": 3,
+    "stylesheet": 5057,
+    "stylesheetCount": 2,
+    "thirdParty": 41161,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 110,
+    "+weight.total": 142,
+    "-weight.document": 176,
+    "+weight.document": 74,
+    "-weight.script": 52,
+    "+weight.script": 172,
+    "-weight.image": 115,
+    "+weight.image": 108,
+    "-weight.font": 64,
+    "+weight.font": 126,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 158,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 111
+  },
+  "axe": {
+    "passes": 454,
+    "violations": 1
+  }
+}

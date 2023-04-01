@@ -1,0 +1,67 @@
+{
+  "url": "https://syncore.llc/",
+  "requestedUrl": "https://synco.re/",
+  "timestamp": 1680339948939,
+  "ranks": {
+    "hundos": 80,
+    "performance": 70,
+    "accessibility": 54,
+    "cumulative": 75
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 391
+  },
+  "firstContentfulPaint": 1694.522,
+  "firstMeaningfulPaint": 1694.522,
+  "speedIndex": 1694.522,
+  "largestContentfulPaint": 1733.522,
+  "totalBlockingTime": 15,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2398.522,
+  "maxPotentialFirstInputDelay": 65,
+  "timeToFirstByte": 41.05800000000001,
+  "weight": {
+    "summary": "10 requests • 99 KiB",
+    "total": 101104,
+    "image": 0,
+    "imageCount": 0,
+    "script": 52888,
+    "scriptCount": 6,
+    "document": 1882,
+    "font": 38668,
+    "fontCount": 1,
+    "stylesheet": 7220,
+    "stylesheetCount": 1,
+    "thirdParty": 446,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 50,
+    "+weight.total": 202,
+    "-weight.document": 8,
+    "+weight.document": 242,
+    "-weight.script": 103,
+    "+weight.script": 121,
+    "-weight.image": 1,
+    "+weight.image": 223,
+    "-weight.font": 58,
+    "+weight.font": 132,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 93,
+    "-totalBlockingTime": 15,
+    "-largestContentfulPaint": 115
+  },
+  "axe": {
+    "passes": 27,
+    "violations": 1
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://weboreviews.com/",
+  "requestedUrl": "https://weboreviews.com/",
+  "timestamp": 1680334482009,
+  "ranks": {
+    "hundos": 50,
+    "performance": 118,
+    "accessibility": 78,
+    "cumulative": 52
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.95,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 395
+  },
+  "firstContentfulPaint": 1164.3229999999999,
+  "firstMeaningfulPaint": 1164.3229999999999,
+  "speedIndex": 1357.3164580002713,
+  "largestContentfulPaint": 2965.3250599365233,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.047607421875,
+  "timeToInteractive": 1164.3229999999999,
+  "maxPotentialFirstInputDelay": 19.5,
+  "timeToFirstByte": 52.48899999999999,
+  "weight": {
+    "summary": "13 requests • 334 KiB",
+    "total": 342489,
+    "image": 306956,
+    "imageCount": 4,
+    "script": 5890,
+    "scriptCount": 3,
+    "document": 5965,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 18383,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 124,
+    "+weight.total": 128,
+    "-weight.document": 102,
+    "+weight.document": 148,
+    "-weight.script": 46,
+    "+weight.script": 178,
+    "-weight.image": 135,
+    "+weight.image": 88,
+    "-weight.font": 1,
+    "+weight.font": 190,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 128,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 198
+  },
+  "axe": {
+    "passes": 293,
+    "violations": 6
+  }
+}

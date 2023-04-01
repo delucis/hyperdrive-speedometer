@@ -1,0 +1,67 @@
+{
+  "url": "https://www.viko.co.uk/",
+  "requestedUrl": "https://www.viko.co.uk/",
+  "timestamp": 1680346311884,
+  "ranks": {
+    "hundos": 161,
+    "performance": 187,
+    "accessibility": 107,
+    "cumulative": 163
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.77,
+    "accessibility": 0.98,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 367
+  },
+  "firstContentfulPaint": 1076.542,
+  "firstMeaningfulPaint": 1076.542,
+  "speedIndex": 1788.4039800999922,
+  "largestContentfulPaint": 3310.3979999999997,
+  "totalBlockingTime": 504.5,
+  "cumulativeLayoutShift": 0.03712320963541666,
+  "timeToInteractive": 4762.347,
+  "maxPotentialFirstInputDelay": 341,
+  "timeToFirstByte": 8.960000000000008,
+  "weight": {
+    "summary": "23 requests • 633 KiB",
+    "total": 647832,
+    "image": 98574,
+    "imageCount": 4,
+    "script": 271526,
+    "scriptCount": 10,
+    "document": 13888,
+    "font": 178446,
+    "fontCount": 2,
+    "stylesheet": 16961,
+    "stylesheetCount": 3,
+    "thirdParty": 322511,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 152,
+    "+weight.total": 100,
+    "-weight.document": 184,
+    "+weight.document": 66,
+    "-weight.script": 187,
+    "+weight.script": 37,
+    "-weight.image": 85,
+    "+weight.image": 138,
+    "-weight.font": 152,
+    "+weight.font": 38,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 5,
+    "-totalBlockingTime": 82,
+    "-largestContentfulPaint": 28
+  },
+  "axe": {
+    "passes": 463,
+    "violations": 41
+  }
+}

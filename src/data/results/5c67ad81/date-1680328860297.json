@@ -1,0 +1,66 @@
+{
+  "url": "https://myworkshops.live/",
+  "requestedUrl": "https://myworkshops.live/",
+  "timestamp": 1680344901905,
+  "ranks": {
+    "hundos": 154,
+    "performance": 164,
+    "accessibility": 98,
+    "cumulative": 154
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.87,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.83,
+    "total": 370
+  },
+  "firstContentfulPaint": 851.9260000000002,
+  "firstMeaningfulPaint": 851.9260000000002,
+  "speedIndex": 1950.392944375242,
+  "largestContentfulPaint": 3383.696,
+  "totalBlockingTime": 138.5,
+  "cumulativeLayoutShift": 0.0849609375,
+  "timeToInteractive": 4535.527,
+  "maxPotentialFirstInputDelay": 105,
+  "timeToFirstByte": 9.402000000000001,
+  "weight": {
+    "summary": "17 requests • 227 KiB",
+    "total": 232555,
+    "image": 0,
+    "imageCount": 0,
+    "script": 218511,
+    "scriptCount": 10,
+    "document": 10537,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 803,
+    "stylesheetCount": 1,
+    "thirdParty": 135786,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 91,
+    "+weight.total": 161,
+    "-weight.document": 168,
+    "+weight.document": 82,
+    "-weight.script": 177,
+    "+weight.script": 47,
+    "-weight.image": 1,
+    "+weight.image": 223,
+    "-weight.font": 1,
+    "+weight.font": 190,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 8,
+    "-totalBlockingTime": 53,
+    "-largestContentfulPaint": 213
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

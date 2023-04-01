@@ -1,0 +1,66 @@
+{
+  "url": "https://andreashackel.de/",
+  "requestedUrl": "https://andreashackel.de/",
+  "timestamp": 1680329182877,
+  "ranks": {
+    "hundos": 189,
+    "performance": 210,
+    "accessibility": 97,
+    "cumulative": 189
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.67,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 359
+  },
+  "firstContentfulPaint": 830.278,
+  "firstMeaningfulPaint": 847.278,
+  "speedIndex": 1399.962344375026,
+  "largestContentfulPaint": 847.278,
+  "totalBlockingTime": 2201,
+  "cumulativeLayoutShift": 0.07438368055555555,
+  "timeToInteractive": 6463.778,
+  "maxPotentialFirstInputDelay": 312,
+  "timeToFirstByte": 65.36599999999999,
+  "weight": {
+    "summary": "13 requests • 1,140 KiB",
+    "total": 1167174,
+    "image": 1157374,
+    "imageCount": 5,
+    "script": 4724,
+    "scriptCount": 2,
+    "document": 2483,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1530,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 191,
+    "+weight.total": 61,
+    "-weight.document": 17,
+    "+weight.document": 233,
+    "-weight.script": 41,
+    "+weight.script": 183,
+    "-weight.image": 188,
+    "+weight.image": 35,
+    "-weight.font": 1,
+    "+weight.font": 190,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 143,
+    "-totalBlockingTime": 104,
+    "-largestContentfulPaint": 4
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

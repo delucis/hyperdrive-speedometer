@@ -1,0 +1,66 @@
+{
+  "url": "https://angeldollface.art/",
+  "requestedUrl": "https://angeldollface.art/",
+  "timestamp": 1680341141206,
+  "ranks": {
+    "hundos": 244,
+    "performance": 239,
+    "accessibility": 236,
+    "cumulative": 244
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.44,
+    "accessibility": 0.75,
+    "bestPractices": 1,
+    "seo": 0.83,
+    "total": 302
+  },
+  "firstContentfulPaint": 833.91,
+  "firstMeaningfulPaint": 1986.4099999999999,
+  "speedIndex": 8320.646854498407,
+  "largestContentfulPaint": 3384.41,
+  "totalBlockingTime": 154624,
+  "cumulativeLayoutShift": 0.0016962890625,
+  "timeToInteractive": 178782.91,
+  "maxPotentialFirstInputDelay": 2349,
+  "timeToFirstByte": 50.83000000000001,
+  "weight": {
+    "summary": "10 requests • 455 KiB",
+    "total": 465909,
+    "image": 209099,
+    "imageCount": 1,
+    "script": 154342,
+    "scriptCount": 2,
+    "document": 1554,
+    "font": 77181,
+    "fontCount": 3,
+    "stylesheet": 2620,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 137,
+    "+weight.total": 115,
+    "-weight.document": 3,
+    "+weight.document": 247,
+    "-weight.script": 165,
+    "+weight.script": 59,
+    "-weight.image": 111,
+    "+weight.image": 112,
+    "-weight.font": 108,
+    "+weight.font": 82,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 123,
+    "-totalBlockingTime": 107,
+    "-largestContentfulPaint": 30
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

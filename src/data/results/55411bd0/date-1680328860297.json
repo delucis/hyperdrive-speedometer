@@ -1,0 +1,67 @@
+{
+  "url": "https://rodneylab.com/",
+  "requestedUrl": "https://rodneylab.com/",
+  "timestamp": 1680339507722,
+  "ranks": {
+    "hundos": 165,
+    "performance": 212,
+    "accessibility": 36,
+    "cumulative": 165
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.65,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 365
+  },
+  "firstContentfulPaint": 2526.1560000000004,
+  "firstMeaningfulPaint": 2526.1560000000004,
+  "speedIndex": 2526.1560000000004,
+  "largestContentfulPaint": 3381.1745,
+  "totalBlockingTime": 812.9999999999998,
+  "cumulativeLayoutShift": 0.017433458116319446,
+  "timeToInteractive": 6129.077999999997,
+  "maxPotentialFirstInputDelay": 653,
+  "timeToFirstByte": 47.67599999999999,
+  "weight": {
+    "summary": "63 requests • 1,738 KiB",
+    "total": 1779820,
+    "image": 19567,
+    "imageCount": 5,
+    "script": 1374642,
+    "scriptCount": 32,
+    "document": 165901,
+    "font": 196339,
+    "fontCount": 10,
+    "stylesheet": 23348,
+    "stylesheetCount": 14,
+    "thirdParty": 20412,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 210,
+    "+weight.total": 42,
+    "-weight.document": 246,
+    "+weight.document": 4,
+    "-weight.script": 221,
+    "+weight.script": 3,
+    "-weight.image": 37,
+    "+weight.image": 186,
+    "-weight.font": 156,
+    "+weight.font": 34,
+    "+weight.fontCount": 6,
+    "-timeToFirstByte": 108,
+    "-totalBlockingTime": 91,
+    "-largestContentfulPaint": 29
+  },
+  "axe": {
+    "passes": 1873,
+    "violations": 1
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.sayics.com/",
+  "requestedUrl": "https://www.sayics.com/",
+  "timestamp": 1680346592045,
+  "ranks": {
+    "hundos": 118,
+    "performance": 127,
+    "accessibility": 144,
+    "cumulative": 118
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.94,
+    "accessibility": 0.95,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 381
+  },
+  "firstContentfulPaint": 1946.2939999999999,
+  "firstMeaningfulPaint": 2117.522,
+  "speedIndex": 1993.2037634848675,
+  "largestContentfulPaint": 2439.5860000000002,
+  "totalBlockingTime": 105,
+  "cumulativeLayoutShift": 0.0011214192708333334,
+  "timeToInteractive": 3994.5279999999993,
+  "maxPotentialFirstInputDelay": 122,
+  "timeToFirstByte": 38.482,
+  "weight": {
+    "summary": "47 requests • 5,958 KiB",
+    "total": 6101436,
+    "image": 82018,
+    "imageCount": 12,
+    "script": 192907,
+    "scriptCount": 24,
+    "document": 9273,
+    "font": 68956,
+    "fontCount": 3,
+    "stylesheet": 23536,
+    "stylesheetCount": 3,
+    "thirdParty": 5857265,
+    "thirdPartyCount": 11
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 240,
+    "+weight.total": 12,
+    "-weight.document": 152,
+    "+weight.document": 98,
+    "-weight.script": 171,
+    "+weight.script": 53,
+    "-weight.image": 81,
+    "+weight.image": 142,
+    "-weight.font": 99,
+    "+weight.font": 91,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 70,
+    "-totalBlockingTime": 47,
+    "-largestContentfulPaint": 163
+  },
+  "axe": {
+    "passes": 574,
+    "violations": 6
+  }
+}

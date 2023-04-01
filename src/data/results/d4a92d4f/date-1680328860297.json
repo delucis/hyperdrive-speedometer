@@ -1,0 +1,66 @@
+{
+  "url": "https://www.cityflo.com/",
+  "requestedUrl": "https://www.cityflo.com/",
+  "timestamp": 1680346519136,
+  "ranks": {
+    "hundos": 188,
+    "performance": 208,
+    "accessibility": 177,
+    "cumulative": 188
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.68,
+    "accessibility": 0.91,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 359
+  },
+  "firstContentfulPaint": 1154.316,
+  "firstMeaningfulPaint": 1154.316,
+  "speedIndex": 2528.2231637821133,
+  "largestContentfulPaint": 3006.816,
+  "totalBlockingTime": 389,
+  "cumulativeLayoutShift": 1.0022448717753092,
+  "timeToInteractive": 4636.316,
+  "maxPotentialFirstInputDelay": 216,
+  "timeToFirstByte": 9.013999999999996,
+  "weight": {
+    "summary": "38 requests • 4,275 KiB",
+    "total": 4377576,
+    "image": 301901,
+    "imageCount": 5,
+    "script": 134639,
+    "scriptCount": 17,
+    "document": 21247,
+    "font": 226806,
+    "fontCount": 6,
+    "stylesheet": 20270,
+    "stylesheetCount": 5,
+    "thirdParty": 91776,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 234,
+    "+weight.total": 18,
+    "-weight.document": 202,
+    "+weight.document": 48,
+    "-weight.script": 156,
+    "+weight.script": 68,
+    "-weight.image": 132,
+    "+weight.image": 91,
+    "-weight.font": 160,
+    "+weight.font": 30,
+    "+weight.fontCount": 8,
+    "-timeToFirstByte": 6,
+    "-totalBlockingTime": 76,
+    "-largestContentfulPaint": 202
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

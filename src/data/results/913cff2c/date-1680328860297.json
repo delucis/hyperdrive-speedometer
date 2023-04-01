@@ -1,0 +1,67 @@
+{
+  "url": "https://use-kfc.deno.dev/",
+  "requestedUrl": "https://use-kfc.deno.dev/",
+  "timestamp": 1680334344267,
+  "ranks": {
+    "hundos": 226,
+    "performance": 228,
+    "accessibility": 214,
+    "cumulative": 225
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.52,
+    "accessibility": 0.82,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 326
+  },
+  "firstContentfulPaint": 1184.22,
+  "firstMeaningfulPaint": 1184.22,
+  "speedIndex": 7994.9665026150105,
+  "largestContentfulPaint": 1683.807,
+  "totalBlockingTime": 158204.5,
+  "cumulativeLayoutShift": 0.0007331000434027778,
+  "timeToInteractive": 176950.72,
+  "maxPotentialFirstInputDelay": 959,
+  "timeToFirstByte": 245.771,
+  "weight": {
+    "summary": "15 requests • 637 KiB",
+    "total": 652606,
+    "image": 391207,
+    "imageCount": 6,
+    "script": 254082,
+    "scriptCount": 7,
+    "document": 4152,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 3165,
+    "stylesheetCount": 1,
+    "thirdParty": 8870,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 153,
+    "+weight.total": 99,
+    "-weight.document": 53,
+    "+weight.document": 197,
+    "-weight.script": 186,
+    "+weight.script": 38,
+    "-weight.image": 148,
+    "+weight.image": 75,
+    "-weight.font": 1,
+    "+weight.font": 190,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 201,
+    "-totalBlockingTime": 160,
+    "-largestContentfulPaint": 112
+  },
+  "axe": {
+    "passes": 152,
+    "violations": 10
+  }
+}
