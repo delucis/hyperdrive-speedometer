@@ -1,0 +1,66 @@
+{
+  "url": "https://www.realmof.tech/",
+  "requestedUrl": "https://www.realmof.tech/",
+  "timestamp": 1682959464552,
+  "ranks": {
+    "hundos": 229,
+    "performance": 265,
+    "accessibility": 146,
+    "cumulative": 229
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.63,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 360
+  },
+  "firstContentfulPaint": 2788.067,
+  "firstMeaningfulPaint": 3142.267,
+  "speedIndex": 6165.50884869547,
+  "largestContentfulPaint": 5756.308999999999,
+  "totalBlockingTime": 186.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 5613.099,
+  "maxPotentialFirstInputDelay": 215,
+  "timeToFirstByte": 2426.991,
+  "weight": {
+    "summary": "40 requests • 506 KiB",
+    "total": 518274,
+    "image": 129149,
+    "imageCount": 7,
+    "script": 261285,
+    "scriptCount": 15,
+    "document": 22572,
+    "font": 74014,
+    "fontCount": 2,
+    "stylesheet": 16704,
+    "stylesheetCount": 3,
+    "thirdParty": 300410,
+    "thirdPartyCount": 23
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 167,
+    "+weight.total": 120,
+    "-weight.document": 233,
+    "+weight.document": 53,
+    "-weight.script": 208,
+    "+weight.script": 43,
+    "-weight.image": 104,
+    "+weight.image": 151,
+    "-weight.font": 115,
+    "+weight.font": 98,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 282,
+    "-totalBlockingTime": 95,
+    "-largestContentfulPaint": 266
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://hexarolls.com/",
+  "requestedUrl": "https://hexarolls.com/",
+  "timestamp": 1682956733594,
+  "ranks": {
+    "hundos": 113,
+    "performance": 118,
+    "accessibility": 200,
+    "cumulative": 110
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.97,
+    "accessibility": 0.91,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 388
+  },
+  "firstContentfulPaint": 1317.904,
+  "firstMeaningfulPaint": 1317.904,
+  "speedIndex": 2403.487017179523,
+  "largestContentfulPaint": 1617.904,
+  "totalBlockingTime": 100.5,
+  "cumulativeLayoutShift": 0.10731711387634277,
+  "timeToInteractive": 1592.404,
+  "maxPotentialFirstInputDelay": 110,
+  "timeToFirstByte": 124.78799999999995,
+  "weight": {
+    "summary": "53 requests • 233 KiB",
+    "total": 238382,
+    "image": 926,
+    "imageCount": 1,
+    "script": 45742,
+    "scriptCount": 17,
+    "document": 44447,
+    "font": 33347,
+    "fontCount": 2,
+    "stylesheet": 35047,
+    "stylesheetCount": 13,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 104,
+    "+weight.total": 183,
+    "-weight.document": 263,
+    "+weight.document": 23,
+    "-weight.script": 108,
+    "+weight.script": 143,
+    "-weight.image": 5,
+    "+weight.image": 250,
+    "-weight.font": 42,
+    "+weight.font": 171,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 199,
+    "-totalBlockingTime": 68,
+    "-largestContentfulPaint": 90
+  },
+  "axe": {
+    "passes": 900,
+    "violations": 4
+  }
+}

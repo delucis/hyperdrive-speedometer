@@ -1,0 +1,67 @@
+{
+  "url": "https://westsidepizza.com/",
+  "requestedUrl": "https://westsidepizza.com/",
+  "timestamp": 1682954634257,
+  "ranks": {
+    "hundos": 273,
+    "performance": 253,
+    "accessibility": 275,
+    "cumulative": 273
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.71,
+    "accessibility": 0.68,
+    "bestPractices": 0.92,
+    "seo": 0.86,
+    "total": 317
+  },
+  "firstContentfulPaint": 1553.235,
+  "firstMeaningfulPaint": 1553.235,
+  "speedIndex": 1671.6978990890354,
+  "largestContentfulPaint": 6588.448,
+  "totalBlockingTime": 180.5,
+  "cumulativeLayoutShift": 0.03636347537570529,
+  "timeToInteractive": 5615.467999999999,
+  "maxPotentialFirstInputDelay": 196,
+  "timeToFirstByte": 8.664000000000001,
+  "weight": {
+    "summary": "54 requests • 2,691 KiB",
+    "total": 2755312,
+    "image": 2092943,
+    "imageCount": 21,
+    "script": 465310,
+    "scriptCount": 11,
+    "document": 6358,
+    "font": 178467,
+    "fontCount": 3,
+    "stylesheet": 11569,
+    "stylesheetCount": 12,
+    "thirdParty": 2615850,
+    "thirdPartyCount": 33
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 256,
+    "+weight.total": 31,
+    "-weight.document": 123,
+    "+weight.document": 163,
+    "-weight.script": 231,
+    "+weight.script": 20,
+    "-weight.image": 232,
+    "+weight.image": 23,
+    "-weight.font": 167,
+    "+weight.font": 46,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 28,
+    "-totalBlockingTime": 90,
+    "-largestContentfulPaint": 272
+  },
+  "axe": {
+    "passes": 388,
+    "violations": 14
+  }
+}

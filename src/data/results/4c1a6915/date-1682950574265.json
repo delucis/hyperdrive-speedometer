@@ -1,0 +1,67 @@
+{
+  "url": "https://pukima.site/",
+  "requestedUrl": "https://pukima.site/",
+  "timestamp": 1682953422482,
+  "ranks": {
+    "hundos": 176,
+    "performance": 219,
+    "accessibility": 61,
+    "cumulative": 176
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.82,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 374
+  },
+  "firstContentfulPaint": 1770.7930000000001,
+  "firstMeaningfulPaint": 1770.7930000000001,
+  "speedIndex": 2076.2430140005063,
+  "largestContentfulPaint": 4770.793,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.00018360572391086155,
+  "timeToInteractive": 1770.7930000000001,
+  "maxPotentialFirstInputDelay": 41,
+  "timeToFirstByte": 119.00500000000001,
+  "weight": {
+    "summary": "9 requests • 506 KiB",
+    "total": 518154,
+    "image": 415332,
+    "imageCount": 2,
+    "script": 35280,
+    "scriptCount": 3,
+    "document": 4027,
+    "font": 61434,
+    "fontCount": 2,
+    "stylesheet": 2081,
+    "stylesheetCount": 1,
+    "thirdParty": 512600,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 166,
+    "+weight.total": 121,
+    "-weight.document": 52,
+    "+weight.document": 234,
+    "-weight.script": 102,
+    "+weight.script": 149,
+    "-weight.image": 173,
+    "+weight.image": 82,
+    "-weight.font": 98,
+    "+weight.font": 115,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 195,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 253
+  },
+  "axe": {
+    "passes": 80,
+    "violations": 1
+  }
+}

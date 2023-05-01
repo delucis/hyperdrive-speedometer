@@ -1,0 +1,66 @@
+{
+  "url": "https://www.alexstreza.dev/",
+  "requestedUrl": "https://www.alexstreza.dev/",
+  "timestamp": 1682959904236,
+  "ranks": {
+    "hundos": 274,
+    "performance": 286,
+    "accessibility": 189,
+    "cumulative": 274
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.24,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 317
+  },
+  "firstContentfulPaint": 1665.457,
+  "firstMeaningfulPaint": 7588.345499999996,
+  "speedIndex": 24040.052884147444,
+  "largestContentfulPaint": 15178.485499999992,
+  "totalBlockingTime": 153112.4425,
+  "cumulativeLayoutShift": 0.0010954996744791667,
+  "timeToInteractive": 170618.9855,
+  "maxPotentialFirstInputDelay": 2590,
+  "timeToFirstByte": 219.03300000000002,
+  "weight": {
+    "summary": "49 requests • 2,720 KiB",
+    "total": 2784995,
+    "image": 516339,
+    "imageCount": 9,
+    "script": 2116073,
+    "scriptCount": 28,
+    "document": 6799,
+    "font": 135357,
+    "fontCount": 3,
+    "stylesheet": 9141,
+    "stylesheetCount": 2,
+    "thirdParty": 555284,
+    "thirdPartyCount": 19
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 257,
+    "+weight.total": 30,
+    "-weight.document": 136,
+    "+weight.document": 150,
+    "-weight.script": 250,
+    "+weight.script": 1,
+    "-weight.image": 186,
+    "+weight.image": 69,
+    "-weight.font": 159,
+    "+weight.font": 54,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 232,
+    "-totalBlockingTime": 146,
+    "-largestContentfulPaint": 285
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

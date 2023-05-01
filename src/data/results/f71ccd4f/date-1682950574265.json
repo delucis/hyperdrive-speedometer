@@ -1,0 +1,67 @@
+{
+  "url": "https://halb.it/",
+  "requestedUrl": "https://halb.it/",
+  "timestamp": 1682950668230,
+  "ranks": {
+    "hundos": 15,
+    "performance": 41,
+    "accessibility": 26,
+    "cumulative": 9
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 762.66,
+  "firstMeaningfulPaint": 797.16,
+  "speedIndex": 1251.0764326215265,
+  "largestContentfulPaint": 1201.9899999999998,
+  "totalBlockingTime": 13.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 826.16,
+  "maxPotentialFirstInputDelay": 69,
+  "timeToFirstByte": 93.57900000000001,
+  "weight": {
+    "summary": "14 requests • 68 KiB",
+    "total": 69175,
+    "image": 199,
+    "imageCount": 1,
+    "script": 9009,
+    "scriptCount": 3,
+    "document": 5372,
+    "font": 46719,
+    "fontCount": 5,
+    "stylesheet": 7876,
+    "stylesheetCount": 4,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 34,
+    "+weight.total": 253,
+    "-weight.document": 96,
+    "+weight.document": 190,
+    "-weight.script": 59,
+    "+weight.script": 192,
+    "-weight.image": 1,
+    "+weight.image": 254,
+    "-weight.font": 81,
+    "+weight.font": 132,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 181,
+    "-totalBlockingTime": 17,
+    "-largestContentfulPaint": 47
+  },
+  "axe": {
+    "passes": 182,
+    "violations": 0
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.dadsworksheets.com/",
+  "requestedUrl": "https://www.dadsworksheets.com/",
+  "timestamp": 1682956185522,
+  "ranks": {
+    "hundos": 243,
+    "performance": 240,
+    "accessibility": 164,
+    "cumulative": 243
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.77,
+    "accessibility": 0.95,
+    "bestPractices": 0.83,
+    "seo": 0.93,
+    "total": 348
+  },
+  "firstContentfulPaint": 1081.0629999999999,
+  "firstMeaningfulPaint": 1105.5629999999999,
+  "speedIndex": 2697.8460598007914,
+  "largestContentfulPaint": 2595.023,
+  "totalBlockingTime": 597.5,
+  "cumulativeLayoutShift": 0.0076722005208333345,
+  "timeToInteractive": 7288.965499999998,
+  "maxPotentialFirstInputDelay": 305,
+  "timeToFirstByte": 64.542,
+  "weight": {
+    "summary": "76 requests • 863 KiB",
+    "total": 883409,
+    "image": 398641,
+    "imageCount": 18,
+    "script": 368289,
+    "scriptCount": 29,
+    "document": 29512,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 15479,
+    "stylesheetCount": 8,
+    "thirdParty": 364859,
+    "thirdPartyCount": 28
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 198,
+    "+weight.total": 89,
+    "-weight.document": 243,
+    "+weight.document": 43,
+    "-weight.script": 221,
+    "+weight.script": 30,
+    "-weight.image": 171,
+    "+weight.image": 84,
+    "-weight.font": 1,
+    "+weight.font": 213,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 153,
+    "-totalBlockingTime": 131,
+    "-largestContentfulPaint": 181
+  },
+  "axe": {
+    "passes": 66,
+    "violations": 5
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.saturdayquiztime.com.au/",
+  "requestedUrl": "https://saturdayquiztime.com.au/",
+  "timestamp": 1682953692363,
+  "ranks": {
+    "hundos": 286,
+    "performance": 284,
+    "accessibility": 274,
+    "cumulative": 286
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.33,
+    "accessibility": 0.69,
+    "bestPractices": 0.83,
+    "seo": 0.83,
+    "total": 268
+  },
+  "firstContentfulPaint": 2651.704,
+  "firstMeaningfulPaint": 3928.0405,
+  "speedIndex": 7179.207789991646,
+  "largestContentfulPaint": 12458.286,
+  "totalBlockingTime": 504.4125000000013,
+  "cumulativeLayoutShift": 0.3350346527099609,
+  "timeToInteractive": 12620.610999999999,
+  "maxPotentialFirstInputDelay": 239,
+  "timeToFirstByte": 202.046,
+  "weight": {
+    "summary": "76 requests • 2,763 KiB",
+    "total": 2829738,
+    "image": 1283131,
+    "imageCount": 10,
+    "script": 473323,
+    "scriptCount": 37,
+    "document": 31961,
+    "font": 1012082,
+    "fontCount": 17,
+    "stylesheet": 26541,
+    "stylesheetCount": 4,
+    "thirdParty": 194303,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 258,
+    "+weight.total": 29,
+    "-weight.document": 248,
+    "+weight.document": 38,
+    "-weight.script": 233,
+    "+weight.script": 18,
+    "-weight.image": 220,
+    "+weight.image": 35,
+    "-weight.font": 210,
+    "+weight.font": 3,
+    "+weight.fontCount": 3,
+    "-timeToFirstByte": 227,
+    "-totalBlockingTime": 126,
+    "-largestContentfulPaint": 284
+  },
+  "axe": {
+    "passes": 198,
+    "violations": 19
+  }
+}

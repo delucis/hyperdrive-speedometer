@@ -1,0 +1,67 @@
+{
+  "url": "https://www.lemokami.dev/",
+  "requestedUrl": "https://lemokami.dev/",
+  "timestamp": 1682957273034,
+  "ranks": {
+    "hundos": 119,
+    "performance": 126,
+    "accessibility": 203,
+    "cumulative": 118
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.96,
+    "accessibility": 0.91,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 387
+  },
+  "firstContentfulPaint": 1850.5079999999998,
+  "firstMeaningfulPaint": 1850.5079999999998,
+  "speedIndex": 1850.5079999999998,
+  "largestContentfulPaint": 2453.2839999999997,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0017847696940104165,
+  "timeToInteractive": 1850.5079999999998,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 44.135000000000005,
+  "weight": {
+    "summary": "22 requests • 259 KiB",
+    "total": 265110,
+    "image": 150517,
+    "imageCount": 13,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 4399,
+    "font": 86113,
+    "fontCount": 6,
+    "stylesheet": 23907,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 116,
+    "+weight.total": 171,
+    "-weight.document": 60,
+    "+weight.document": 226,
+    "-weight.script": 1,
+    "+weight.script": 251,
+    "-weight.image": 112,
+    "+weight.image": 143,
+    "-weight.font": 132,
+    "+weight.font": 81,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 125,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 170
+  },
+  "axe": {
+    "passes": 224,
+    "violations": 6
+  }
+}
