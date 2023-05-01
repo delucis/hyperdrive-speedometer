@@ -7,6 +7,8 @@ module.exports = {
       'https://www.mostlywhat.cf/',
       'https://flamrdevs.vercel.app/',
       'https://legrostonneau-festival.fr/',
+      'https://cantoo.app/',
+      'https://www.articoliesocial.it/',
     ]);
 
     const fetch = (await import('node-fetch')).default;
