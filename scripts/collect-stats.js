@@ -1,9 +1,6 @@
 // @ts-check
 
-const fs = require('fs').promises;
-const shortHash = require('short-hash');
-const PerfLeaderboard = require('performance-leaderboard');
-const sites = require('../data/sites');
+const { downloadBrowser } = require('puppeteer/internal/node/install.js');
 
 const NUMBER_OF_RUNS = 3;
 const FREQUENCY = 60; // in minutes
@@ -25,6 +22,13 @@ const prettyTime = (seconds) => {
 };
 
 (async function () {
+  await downloadBrowser();
+
+  const fs = require('fs').promises;
+  const shortHash = require('short-hash');
+  const PerfLeaderboard = require('performance-leaderboard');
+  const sites = require('../data/sites');
+
   const dateTestsStarted = Date.now();
   const dataDir = `./src/data/`;
   const lastRunsFilename = `${dataDir}results-last-runs.json`;
