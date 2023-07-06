@@ -9,6 +9,15 @@ module.exports = {
       'https://legrostonneau-festival.fr/',
       'https://cantoo.app/',
       'https://www.articoliesocial.it/',
+      // Sites blocked 5 July 2023:
+      'https://angeldollface.art/',
+      'https://anasweb.site',
+      'https://www.codef.site/',
+      'https://blog.lanceross.xyz/',
+      'https://lanceross.xyz/',
+      'https://serendipitytheme.com/',
+      'https://t-red.love/',
+      'https://weboreviews.com/',
     ]);
 
     const fetch = (await import('node-fetch')).default;
