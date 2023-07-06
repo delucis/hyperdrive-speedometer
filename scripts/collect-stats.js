@@ -7,6 +7,7 @@ const sites = require('../data/sites');
 
 const NUMBER_OF_RUNS = 3;
 const FREQUENCY = 60; // in minutes
+const LONG_RUN_MS = 30_000; // in milliseconds
 
 const prettyTime = (seconds) => {
   // Based on https://johnresig.com/blog/javascript-pretty-date/
@@ -36,6 +37,45 @@ const prettyTime = (seconds) => {
     console.log(`There are no known last run timestamps`);
     lastRuns = {};
   }
+
+  class TimingStore {
+    /** @type {Map<string, { runStart?: number, timings: number[] }>} */
+    store = new Map();
+    /** @param {string | undefined} url */
+    trackRunStart(url) {
+      if (!url) return;
+      const { timings = [] } = this.store.get(url) || {};
+      this.store.set(url, { timings, runStart: performance.now() });
+    }
+    /** @param {string | undefined} url */
+    trackRunEnd(url) {
+      if (!url) return;
+      const { runStart, timings = [] } = this.store.get(url) || {};
+      if (runStart) {
+        const elapsedMs = performance.now() - runStart;
+        timings.push(elapsedMs);
+        if (elapsedMs > LONG_RUN_MS) {
+          console.warn(
+            `SLOW WEBSITE: ${url} took ${Math.round(elapsedMs / 1000)}s`
+          );
+        }
+      }
+      this.store.set(url, { timings });
+    }
+    printSummary() {
+      console.log('\n\nSLOW WEBSITES THIS RUN');
+      for (const [url, { timings }] of this.store) {
+        if (timings.some((val) => val > LONG_RUN_MS)) {
+          const timesInSeconds = timings
+            .map((n) => Math.round(n / 1000) + 's')
+            .join(' / ');
+          console.warn(`${url} — Run timings: ${timesInSeconds}`);
+        }
+      }
+      console.log('\n\n');
+    }
+  }
+  const timingStore = new TimingStore();
 
   for (let [key, groupOrGroupGetter] of Object.entries(sites)) {
     const group =
@@ -74,6 +114,8 @@ const prettyTime = (seconds) => {
     const results = await PerfLeaderboard(group.urls, runCount, {
       chromeFlags: ['--headless', '--disable-dev-shm-usage'],
       ...group.options,
+      beforeHook: (url) => timingStore.trackRunStart(url),
+      afterHook: (o) => timingStore.trackRunEnd(o?.requestedUrl || o?.url),
     });
 
     const promises = [];
@@ -87,6 +129,8 @@ const prettyTime = (seconds) => {
       promises.push(fs.writeFile(filename, JSON.stringify(result, null, 2)));
       console.log(`Writing ${filename}.`);
     }
+
+    timingStore.printSummary();
 
     await Promise.all(promises);
     lastRuns[key] = { timestamp: Date.now() };
