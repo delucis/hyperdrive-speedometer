@@ -18,6 +18,21 @@ module.exports = {
       'https://serendipitytheme.com/',
       'https://t-red.love/',
       'https://weboreviews.com/',
+      // Sites blocked 6 July 2023:
+      'https://akinkunmi.dev/',
+      'https://www.alexstreza.dev/',
+      'https://anasweb.site/',
+      'https://beradiostereo.com/',
+      'https://juniorjobs.pages.dev/',
+      'https://michaels.studio/',
+      'https://www.notionpaper.cc/',
+      'https://sequoiatheme.com/',
+      'https://www.stardew.cc/',
+      'https://synco.re/',
+      'https://unwrapped.design/',
+      'https://unwrapped.studio/',
+      'https://uzzieltech.co.ke/',
+      'https://zkrew.red/rescaler/',
     ]);
 
     const fetch = (await import('node-fetch')).default;
