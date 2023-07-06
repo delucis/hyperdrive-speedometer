@@ -64,7 +64,11 @@ const prettyTime = (seconds) => {
     }
     printSummary() {
       console.log('\n\nSLOW WEBSITES THIS RUN');
-      for (const [url, { timings }] of this.store) {
+      const sum = (numbers) => numbers.reduce((acc, i) => acc + i, 0);
+      const sorted = [...this.store.entries()].sort(
+        ([, a], [, b]) => sum(b.timings) - sum(a.timings)
+      );
+      for (const [url, { timings }] of sorted) {
         if (timings.some((val) => val > LONG_RUN_MS)) {
           const timesInSeconds = timings
             .map((n) => Math.round(n / 1000) + 's')
