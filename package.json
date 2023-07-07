@@ -23,7 +23,8 @@
   "packageManager": "pnpm@8.6.2",
   "pnpm": {
     "patchedDependencies": {
-      "lighthouse@9.6.8": "patches/lighthouse@9.6.8.patch"
+      "lighthouse@9.6.8": "patches/lighthouse@9.6.8.patch",
+      "performance-leaderboard@9.6.3": "patches/performance-leaderboard@9.6.3.patch"
     }
   }
 }

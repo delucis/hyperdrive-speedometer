@@ -1,0 +1,53 @@
+diff --git a/src/AxeTester.js b/src/AxeTester.js
+index 7ed60470cb9ff7ca2f8865802914e3ac6a493820..37885e253ab00da3dfc5518565182c94abd62385 100644
+--- a/src/AxeTester.js
++++ b/src/AxeTester.js
+@@ -84,19 +84,36 @@ class AxeTester {
+     }
+ 
+     this.page = await this.browser.newPage();
+-    await this.page.setBypassCSP(true);
+-    await this.page.goto(url, {
+-      waitUntil: ["load", "networkidle0"],
+-      timeout: this.puppeteerTimeout
+-    });
+-
+-    const results = await new AxePuppeteer(this.page).analyze();
+-    if(this.writeLogs) {
+-      await writeLog(this.getLogFilename(url), results, this.logDirectory);
++    try {
++      const delay = (str) => new Promise(res => setTimeout(() => (console.log(str),res(str)), this.puppeteerTimeout))
++      const step1 = await Promise.race([
++        delay('Page load timed out'),
++        (async () => {
++          await this.page.setBypassCSP(true);
++          await this.page.goto(url, {
++            waitUntil: ["load", "networkidle0"],
++            timeout: this.puppeteerTimeout
++          });
++        })()
++      ])
++      if (typeof step1 === 'string') throw step1;
++      const step2 = await Promise.race([
++        delay('Axe timed out'),
++        (async () => {
++          const results = await new AxePuppeteer(this.page).analyze();
++          if(this.writeLogs) {
++            await writeLog(this.getLogFilename(url), results, this.logDirectory);
++          }
++          return this.cleanResults(results);
++        })()
++      ])
++      if (typeof step2 === 'string') throw step2;
++      return step2;
++    } catch (error) {
++      return { error }
++    } finally {
++      await this.page.close();
+     }
+-    await this.page.close();
+-
+-    return this.cleanResults(results);
+   }
+ 
+   async getResults(url) {
