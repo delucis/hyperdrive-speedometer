@@ -8,13 +8,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.PAT }}
-      - uses: pnpm/action-setup@v2.2.4
-        with:
-          version: 7.18.0
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v2
       - name: Use Node.js 20
         uses: actions/setup-node@v3
         with:
