@@ -35,6 +35,7 @@ module.exports = {
       'https://zkrew.red/rescaler/',
       // Sites blocked 7 July 2023:
       'https://ilyasslidingdoormobil.com',
+      'https://nikolovlazar.com',
     ]);
 
     const fetch = (await import('node-fetch')).default;
