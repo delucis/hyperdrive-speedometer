@@ -1,0 +1,67 @@
+{
+  "url": "https://portfolio-yuri.vercel.app/",
+  "requestedUrl": "https://portfolio-yuri.vercel.app/",
+  "timestamp": 1688782570559,
+  "ranks": {
+    "hundos": 228,
+    "performance": 236,
+    "accessibility": 20,
+    "cumulative": 228
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.86,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 370
+  },
+  "firstContentfulPaint": 1867.5629999999996,
+  "firstMeaningfulPaint": 1867.5629999999996,
+  "speedIndex": 1925.836742000268,
+  "largestContentfulPaint": 4000.1629999999996,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.004088326772054036,
+  "timeToInteractive": 1867.5629999999996,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 36.917000000000016,
+  "weight": {
+    "summary": "18 requests • 4,597 KiB",
+    "total": 4707838,
+    "image": 4632983,
+    "imageCount": 11,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 4043,
+    "font": 64061,
+    "fontCount": 3,
+    "stylesheet": 6751,
+    "stylesheetCount": 3,
+    "thirdParty": 67303,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 322,
+    "+weight.total": 17,
+    "-weight.document": 52,
+    "+weight.document": 285,
+    "-weight.script": 1,
+    "+weight.script": 302,
+    "-weight.image": 285,
+    "+weight.image": 12,
+    "-weight.font": 127,
+    "+weight.font": 127,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 45,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 197
+  },
+  "axe": {
+    "passes": 260,
+    "violations": 0
+  }
+}

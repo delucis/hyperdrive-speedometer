@@ -1,0 +1,67 @@
+{
+  "url": "https://gamerdigest.com/",
+  "requestedUrl": "https://gamerdigest.com/",
+  "timestamp": 1688776304130,
+  "ranks": {
+    "hundos": 223,
+    "performance": 145,
+    "accessibility": 272,
+    "cumulative": 224
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.96,
+    "accessibility": 0.86,
+    "bestPractices": 1,
+    "seo": 0.9,
+    "total": 372
+  },
+  "firstContentfulPaint": 1922.045,
+  "firstMeaningfulPaint": 1922.045,
+  "speedIndex": 1922.045,
+  "largestContentfulPaint": 2157.8540000000003,
+  "totalBlockingTime": 73,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3666.873,
+  "maxPotentialFirstInputDelay": 196,
+  "timeToFirstByte": 282.553,
+  "weight": {
+    "summary": "29 requests • 447 KiB",
+    "total": 457867,
+    "image": 248626,
+    "imageCount": 18,
+    "script": 137855,
+    "scriptCount": 5,
+    "document": 6474,
+    "font": 38331,
+    "fontCount": 1,
+    "stylesheet": 26337,
+    "stylesheetCount": 3,
+    "thirdParty": 174511,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 185,
+    "+weight.total": 154,
+    "-weight.document": 145,
+    "+weight.document": 192,
+    "-weight.script": 208,
+    "+weight.script": 94,
+    "-weight.image": 161,
+    "+weight.image": 136,
+    "-weight.font": 67,
+    "+weight.font": 187,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 286,
+    "-totalBlockingTime": 67,
+    "-largestContentfulPaint": 250
+  },
+  "axe": {
+    "passes": 460,
+    "violations": 49
+  }
+}

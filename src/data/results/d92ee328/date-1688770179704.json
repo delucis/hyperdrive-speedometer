@@ -1,0 +1,67 @@
+{
+  "url": "https://www.thomasledoux.be/",
+  "requestedUrl": "https://thomasledoux.be/",
+  "timestamp": 1688773875033,
+  "ranks": {
+    "hundos": 80,
+    "performance": 136,
+    "accessibility": 148,
+    "cumulative": 74
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.97,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 394
+  },
+  "firstContentfulPaint": 1713.1619999999998,
+  "firstMeaningfulPaint": 1713.1619999999998,
+  "speedIndex": 1997.0978360001336,
+  "largestContentfulPaint": 2473.3369999999995,
+  "totalBlockingTime": 1.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1762.1619999999998,
+  "maxPotentialFirstInputDelay": 53,
+  "timeToFirstByte": 36.16300000000001,
+  "weight": {
+    "summary": "9 requests • 49 KiB",
+    "total": 50272,
+    "image": 10878,
+    "imageCount": 1,
+    "script": 1111,
+    "scriptCount": 1,
+    "document": 5665,
+    "font": 26965,
+    "fontCount": 3,
+    "stylesheet": 5449,
+    "stylesheetCount": 1,
+    "thirdParty": 10878,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 27,
+    "+weight.total": 312,
+    "-weight.document": 119,
+    "+weight.document": 218,
+    "-weight.script": 10,
+    "+weight.script": 292,
+    "-weight.image": 32,
+    "+weight.image": 265,
+    "-weight.font": 32,
+    "+weight.font": 222,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 34,
+    "-totalBlockingTime": 2,
+    "-largestContentfulPaint": 147
+  },
+  "axe": {
+    "passes": 124,
+    "violations": 1
+  }
+}

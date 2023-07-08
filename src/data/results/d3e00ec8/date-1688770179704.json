@@ -1,0 +1,67 @@
+{
+  "url": "https://victoria.mossaway.ca/",
+  "requestedUrl": "https://victoria.mossaway.ca/",
+  "timestamp": 1688774203943,
+  "ranks": {
+    "hundos": 234,
+    "performance": 173,
+    "accessibility": 257,
+    "cumulative": 235
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.95,
+    "accessibility": 0.89,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 368
+  },
+  "firstContentfulPaint": 836.0360000000001,
+  "firstMeaningfulPaint": 863.0360000000001,
+  "speedIndex": 2622.5120630150527,
+  "largestContentfulPaint": 1278.487,
+  "totalBlockingTime": 30,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 6686.1005000000005,
+  "maxPotentialFirstInputDelay": 82,
+  "timeToFirstByte": 36.83399999999999,
+  "weight": {
+    "summary": "34 requests • 1,748 KiB",
+    "total": 1790149,
+    "image": 1319964,
+    "imageCount": 11,
+    "script": 265493,
+    "scriptCount": 8,
+    "document": 37586,
+    "font": 67976,
+    "fontCount": 1,
+    "stylesheet": 97859,
+    "stylesheetCount": 11,
+    "thirdParty": 458048,
+    "thirdPartyCount": 20
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 281,
+    "+weight.total": 58,
+    "-weight.document": 299,
+    "+weight.document": 38,
+    "-weight.script": 250,
+    "+weight.script": 52,
+    "-weight.image": 254,
+    "+weight.image": 43,
+    "-weight.font": 132,
+    "+weight.font": 122,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 44,
+    "-totalBlockingTime": 38,
+    "-largestContentfulPaint": 224
+  },
+  "axe": {
+    "passes": 668,
+    "violations": 72
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://leosvel.dev/",
+  "requestedUrl": "https://leosvel.dev/",
+  "timestamp": 1688776937891,
+  "ranks": {
+    "hundos": 24,
+    "performance": 3,
+    "accessibility": 92,
+    "cumulative": 24
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 808.178,
+  "firstMeaningfulPaint": 808.178,
+  "speedIndex": 808.178,
+  "largestContentfulPaint": 1058.1779999999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 808.178,
+  "maxPotentialFirstInputDelay": 33,
+  "timeToFirstByte": 72.31300000000002,
+  "weight": {
+    "summary": "7 requests • 27 KiB",
+    "total": 27239,
+    "image": 12040,
+    "imageCount": 1,
+    "script": 8276,
+    "scriptCount": 2,
+    "document": 3210,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 3676,
+    "stylesheetCount": 1,
+    "thirdParty": 7087,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 11,
+    "+weight.total": 328,
+    "-weight.document": 29,
+    "+weight.document": 308,
+    "-weight.script": 70,
+    "+weight.script": 232,
+    "-weight.image": 35,
+    "+weight.image": 262,
+    "-weight.font": 1,
+    "+weight.font": 254,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 190,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 32
+  },
+  "axe": {
+    "passes": 76,
+    "violations": 4
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://danidiaztech.com/",
+  "requestedUrl": "https://danidiaztech.com/",
+  "timestamp": 1688775876867,
+  "ranks": {
+    "hundos": 7,
+    "performance": 50,
+    "accessibility": 74,
+    "cumulative": 22
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 933.245,
+  "firstMeaningfulPaint": 1383.245,
+  "speedIndex": 1180.4380597327226,
+  "largestContentfulPaint": 1458.245,
+  "totalBlockingTime": 49,
+  "cumulativeLayoutShift": 0.0379829593234592,
+  "timeToInteractive": 1383.245,
+  "maxPotentialFirstInputDelay": 109,
+  "timeToFirstByte": 41.81100000000001,
+  "weight": {
+    "summary": "13 requests • 143 KiB",
+    "total": 146021,
+    "image": 31579,
+    "imageCount": 4,
+    "script": 56470,
+    "scriptCount": 6,
+    "document": 10456,
+    "font": 38047,
+    "fontCount": 1,
+    "stylesheet": 9469,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 83,
+    "+weight.total": 256,
+    "-weight.document": 213,
+    "+weight.document": 124,
+    "-weight.script": 145,
+    "+weight.script": 157,
+    "-weight.image": 55,
+    "+weight.image": 242,
+    "-weight.font": 63,
+    "+weight.font": 191,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 116,
+    "-totalBlockingTime": 51,
+    "-largestContentfulPaint": 229
+  },
+  "axe": {
+    "passes": 608,
+    "violations": 2
+  }
+}

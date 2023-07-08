@@ -1,0 +1,67 @@
+{
+  "url": "https://brunoalves.me/",
+  "requestedUrl": "https://brunoalves.me/",
+  "timestamp": 1688775521906,
+  "ranks": {
+    "hundos": 226,
+    "performance": 291,
+    "accessibility": 118,
+    "cumulative": 225
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.71,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 371
+  },
+  "firstContentfulPaint": 1764.7020000000002,
+  "firstMeaningfulPaint": 1764.7020000000002,
+  "speedIndex": 1764.7020000000002,
+  "largestContentfulPaint": 3986.191,
+  "totalBlockingTime": 467.5,
+  "cumulativeLayoutShift": 0.000978732638888889,
+  "timeToInteractive": 6360.982,
+  "maxPotentialFirstInputDelay": 247,
+  "timeToFirstByte": 48.400000000000006,
+  "weight": {
+    "summary": "40 requests • 696 KiB",
+    "total": 712706,
+    "image": 223712,
+    "imageCount": 13,
+    "script": 403933,
+    "scriptCount": 10,
+    "document": 11511,
+    "font": 61603,
+    "fontCount": 4,
+    "stylesheet": 7607,
+    "stylesheetCount": 4,
+    "thirdParty": 473090,
+    "thirdPartyCount": 28
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 216,
+    "+weight.total": 123,
+    "-weight.document": 223,
+    "+weight.document": 114,
+    "-weight.script": 267,
+    "+weight.script": 35,
+    "-weight.image": 149,
+    "+weight.image": 148,
+    "-weight.font": 120,
+    "+weight.font": 134,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 131,
+    "-totalBlockingTime": 146,
+    "-largestContentfulPaint": 300
+  },
+  "axe": {
+    "passes": 810,
+    "violations": 34
+  }
+}

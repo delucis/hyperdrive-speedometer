@@ -1,0 +1,67 @@
+{
+  "url": "https://kratess.dev/",
+  "requestedUrl": "https://kratess.dev/",
+  "timestamp": 1688772148497,
+  "ranks": {
+    "hundos": 241,
+    "performance": 266,
+    "accessibility": 255,
+    "cumulative": 242
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.8,
+    "accessibility": 0.89,
+    "bestPractices": 1,
+    "seo": 0.97,
+    "total": 366
+  },
+  "firstContentfulPaint": 929.0739999999998,
+  "firstMeaningfulPaint": 4872.6849999999995,
+  "speedIndex": 1312.2506559999629,
+  "largestContentfulPaint": 4872.6849999999995,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.011218414306640626,
+  "timeToInteractive": 4872.6849999999995,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 131.971,
+  "weight": {
+    "summary": "11 requests • 1,311 KiB",
+    "total": 1342770,
+    "image": 616164,
+    "imageCount": 6,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 4970,
+    "font": 718974,
+    "fontCount": 3,
+    "stylesheet": 2662,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 265,
+    "+weight.total": 74,
+    "-weight.document": 87,
+    "+weight.document": 250,
+    "-weight.script": 1,
+    "+weight.script": 302,
+    "-weight.image": 220,
+    "+weight.image": 77,
+    "-weight.font": 247,
+    "+weight.font": 7,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 234,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 203
+  },
+  "axe": {
+    "passes": 276,
+    "violations": 15
+  }
+}

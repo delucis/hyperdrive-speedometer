@@ -1,0 +1,67 @@
+{
+  "url": "https://www.trapti.dev/",
+  "requestedUrl": "https://www.trapti.dev/",
+  "timestamp": 1688773970520,
+  "ranks": {
+    "hundos": 326,
+    "performance": 333,
+    "accessibility": 228,
+    "cumulative": 326
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.35,
+    "accessibility": 0.92,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 311
+  },
+  "firstContentfulPaint": 4326.295,
+  "firstMeaningfulPaint": 4360.795,
+  "speedIndex": 5441.350792237699,
+  "largestContentfulPaint": 4631.287,
+  "totalBlockingTime": 2228.967743392946,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 11110.760743392946,
+  "maxPotentialFirstInputDelay": 366,
+  "timeToFirstByte": 39.734999999999985,
+  "weight": {
+    "summary": "82 requests • 1,530 KiB",
+    "total": 1566271,
+    "image": 84162,
+    "imageCount": 27,
+    "script": 520025,
+    "scriptCount": 42,
+    "document": 683741,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 3736,
+    "stylesheetCount": 2,
+    "thirdParty": 920399,
+    "thirdPartyCount": 75
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 273,
+    "+weight.total": 66,
+    "-weight.document": 336,
+    "+weight.document": 1,
+    "-weight.script": 280,
+    "+weight.script": 22,
+    "-weight.image": 99,
+    "+weight.image": 198,
+    "-weight.font": 1,
+    "+weight.font": 254,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 89,
+    "-totalBlockingTime": 178,
+    "-largestContentfulPaint": 310
+  },
+  "axe": {
+    "passes": 2273,
+    "violations": 7
+  }
+}

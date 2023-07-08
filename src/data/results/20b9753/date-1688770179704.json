@@ -1,0 +1,67 @@
+{
+  "url": "https://www.behrouz.nl/",
+  "requestedUrl": "https://www.behrouz.nl/",
+  "timestamp": 1688775390701,
+  "ranks": {
+    "hundos": 53,
+    "performance": 101,
+    "accessibility": 142,
+    "cumulative": 58
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 397
+  },
+  "firstContentfulPaint": 1696.104,
+  "firstMeaningfulPaint": 2597.463,
+  "speedIndex": 1696.104,
+  "largestContentfulPaint": 1696.1040000000003,
+  "totalBlockingTime": 17.29276565551777,
+  "cumulativeLayoutShift": 0.014663194444444444,
+  "timeToInteractive": 2597.463,
+  "maxPotentialFirstInputDelay": 80,
+  "timeToFirstByte": 40.281000000000006,
+  "weight": {
+    "summary": "15 requests • 155 KiB",
+    "total": 159192,
+    "image": 68078,
+    "imageCount": 4,
+    "script": 8512,
+    "scriptCount": 5,
+    "document": 31853,
+    "font": 38332,
+    "fontCount": 1,
+    "stylesheet": 12417,
+    "stylesheetCount": 3,
+    "thirdParty": 39395,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 87,
+    "+weight.total": 252,
+    "-weight.document": 291,
+    "+weight.document": 46,
+    "-weight.script": 72,
+    "+weight.script": 230,
+    "-weight.image": 86,
+    "+weight.image": 211,
+    "-weight.font": 68,
+    "+weight.font": 186,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 99,
+    "-totalBlockingTime": 24,
+    "-largestContentfulPaint": 237
+  },
+  "axe": {
+    "passes": 1098,
+    "violations": 158
+  }
+}

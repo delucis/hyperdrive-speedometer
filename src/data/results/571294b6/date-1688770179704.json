@@ -1,0 +1,67 @@
+{
+  "url": "https://csusb.dev/",
+  "requestedUrl": "https://csusb.dev/",
+  "timestamp": 1688780639977,
+  "ranks": {
+    "hundos": 295,
+    "performance": 252,
+    "accessibility": 316,
+    "cumulative": 297
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.83,
+    "accessibility": 0.75,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 342
+  },
+  "firstContentfulPaint": 1114.362,
+  "firstMeaningfulPaint": 1114.362,
+  "speedIndex": 1386.0073760005785,
+  "largestContentfulPaint": 3214.362,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.3406640625,
+  "timeToInteractive": 1114.362,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 95.42599999999999,
+  "weight": {
+    "summary": "10 requests • 488 KiB",
+    "total": 500122,
+    "image": 395396,
+    "imageCount": 3,
+    "script": 14117,
+    "scriptCount": 1,
+    "document": 6403,
+    "font": 71242,
+    "fontCount": 4,
+    "stylesheet": 12964,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 193,
+    "+weight.total": 146,
+    "-weight.document": 139,
+    "+weight.document": 198,
+    "-weight.script": 91,
+    "+weight.script": 211,
+    "-weight.image": 197,
+    "+weight.image": 100,
+    "-weight.font": 140,
+    "+weight.font": 114,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 213,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 177
+  },
+  "axe": {
+    "passes": 269,
+    "violations": 45
+  }
+}

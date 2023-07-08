@@ -1,0 +1,67 @@
+{
+  "url": "https://webslc.com/",
+  "requestedUrl": "https://webslc.com/",
+  "timestamp": 1688776974873,
+  "ranks": {
+    "hundos": 247,
+    "performance": 30,
+    "accessibility": 266,
+    "cumulative": 247
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 0.87,
+    "bestPractices": 1,
+    "seo": 0.77,
+    "total": 364
+  },
+  "firstContentfulPaint": 843.572,
+  "firstMeaningfulPaint": 843.572,
+  "speedIndex": 991.2131240007593,
+  "largestContentfulPaint": 1645.7960000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.045582519531250004,
+  "timeToInteractive": 843.572,
+  "maxPotentialFirstInputDelay": 41,
+  "timeToFirstByte": 71.65299999999999,
+  "weight": {
+    "summary": "12 requests • 154 KiB",
+    "total": 157270,
+    "image": 101250,
+    "imageCount": 1,
+    "script": 16402,
+    "scriptCount": 4,
+    "document": 9426,
+    "font": 27504,
+    "fontCount": 2,
+    "stylesheet": 2651,
+    "stylesheetCount": 2,
+    "thirdParty": 7087,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 86,
+    "+weight.total": 253,
+    "-weight.document": 201,
+    "+weight.document": 136,
+    "-weight.script": 94,
+    "+weight.script": 208,
+    "-weight.image": 105,
+    "+weight.image": 192,
+    "-weight.font": 34,
+    "+weight.font": 220,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 186,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 91
+  },
+  "axe": {
+    "passes": 181,
+    "violations": 2
+  }
+}

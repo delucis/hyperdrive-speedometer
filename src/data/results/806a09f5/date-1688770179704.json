@@ -1,0 +1,62 @@
+{
+  "url": "https://calckey.org/",
+  "requestedUrl": "https://calckey.org/",
+  "timestamp": 1688770723160,
+  "ranks": {
+    "hundos": 338,
+    "performance": 338,
+    "accessibility": 256,
+    "cumulative": 338
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": null,
+    "accessibility": 0.89,
+    "bestPractices": 0.92,
+    "seo": 0.69,
+    "total": 250
+  },
+  "firstContentfulPaint": 1821.3480000000004,
+  "firstMeaningfulPaint": 1977.8480000000004,
+  "speedIndex": 2923.618961759603,
+  "totalBlockingTime": 184,
+  "cumulativeLayoutShift": 0.009280242919921876,
+  "timeToInteractive": 2939.2240000000006,
+  "maxPotentialFirstInputDelay": 313,
+  "timeToFirstByte": 73.732,
+  "weight": {
+    "summary": "34 requests • 437 KiB",
+    "total": 447603,
+    "image": 282368,
+    "imageCount": 13,
+    "script": 63926,
+    "scriptCount": 4,
+    "document": 18872,
+    "font": 61875,
+    "fontCount": 5,
+    "stylesheet": 20231,
+    "stylesheetCount": 9,
+    "thirdParty": 202263,
+    "thirdPartyCount": 1
+  },
+  "sidequests": {
+    "-weight.total": 182,
+    "+weight.total": 157,
+    "-weight.document": 267,
+    "+weight.document": 70,
+    "-weight.script": 151,
+    "+weight.script": 151,
+    "-weight.image": 169,
+    "+weight.image": 128,
+    "-weight.font": 121,
+    "+weight.font": 133,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 192,
+    "-totalBlockingTime": 113,
+    "-largestContentfulPaint": 212
+  },
+  "axe": {
+    "passes": 966,
+    "violations": 23
+  }
+}

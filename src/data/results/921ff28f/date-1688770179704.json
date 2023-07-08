@@ -1,0 +1,67 @@
+{
+  "url": "https://www.riclinic.com.mx/",
+  "requestedUrl": "https://riclinic.com.mx/",
+  "timestamp": 1688773236159,
+  "ranks": {
+    "hundos": 330,
+    "performance": 330,
+    "accessibility": 295,
+    "cumulative": 330
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.38,
+    "accessibility": 0.81,
+    "bestPractices": 0.92,
+    "seo": 0.96,
+    "total": 307
+  },
+  "firstContentfulPaint": 2487.775,
+  "firstMeaningfulPaint": 3087.775,
+  "speedIndex": 9885.62383661113,
+  "largestContentfulPaint": 5592.049,
+  "totalBlockingTime": 888.0000000000018,
+  "cumulativeLayoutShift": 0.003460017098320855,
+  "timeToInteractive": 14863.768000000004,
+  "maxPotentialFirstInputDelay": 346,
+  "timeToFirstByte": 1770.475,
+  "weight": {
+    "summary": "98 requests • 2,618 KiB",
+    "total": 2681336,
+    "image": 1298913,
+    "imageCount": 34,
+    "script": 452182,
+    "scriptCount": 22,
+    "document": 58783,
+    "font": 626225,
+    "fontCount": 10,
+    "stylesheet": 184096,
+    "stylesheetCount": 14,
+    "thirdParty": 1561930,
+    "thirdPartyCount": 56
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 302,
+    "+weight.total": 37,
+    "-weight.document": 316,
+    "+weight.document": 21,
+    "-weight.script": 272,
+    "+weight.script": 30,
+    "-weight.image": 253,
+    "+weight.image": 44,
+    "-weight.font": 245,
+    "+weight.font": 9,
+    "+weight.fontCount": 8,
+    "-timeToFirstByte": 326,
+    "-totalBlockingTime": 170,
+    "-largestContentfulPaint": 316
+  },
+  "axe": {
+    "passes": 1097,
+    "violations": 51
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://kokitree.com/",
+  "requestedUrl": "https://kokitree.com/",
+  "timestamp": 1688781688470,
+  "ranks": {
+    "hundos": 15,
+    "performance": 38,
+    "accessibility": 55,
+    "cumulative": 20
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1057.924,
+  "firstMeaningfulPaint": 1057.924,
+  "speedIndex": 1072.6421181224628,
+  "largestContentfulPaint": 1113.924,
+  "totalBlockingTime": 6.5,
+  "cumulativeLayoutShift": 0.05632552083333334,
+  "timeToInteractive": 1289.424,
+  "maxPotentialFirstInputDelay": 57,
+  "timeToFirstByte": 132.767,
+  "weight": {
+    "summary": "6 requests • 77 KiB",
+    "total": 79359,
+    "image": 18455,
+    "imageCount": 1,
+    "script": 4302,
+    "scriptCount": 1,
+    "document": 8232,
+    "font": 38556,
+    "fontCount": 1,
+    "stylesheet": 9814,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 50,
+    "+weight.total": 289,
+    "-weight.document": 181,
+    "+weight.document": 156,
+    "-weight.script": 50,
+    "+weight.script": 252,
+    "-weight.image": 42,
+    "+weight.image": 255,
+    "-weight.font": 71,
+    "+weight.font": 183,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 235,
+    "-totalBlockingTime": 10,
+    "-largestContentfulPaint": 40
+  },
+  "axe": {
+    "passes": 373,
+    "violations": 1
+  }
+}
