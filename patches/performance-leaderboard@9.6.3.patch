@@ -16,7 +16,7 @@ index 7ed60470cb9ff7ca2f8865802914e3ac6a493820..37885e253ab00da3dfc5518565182c94
 -    if(this.writeLogs) {
 -      await writeLog(this.getLogFilename(url), results, this.logDirectory);
 +    try {
-+      const delay = (str) => new Promise(res => setTimeout(() => (console.log(str),res(str)), this.puppeteerTimeout))
++      const delay = (str) => new Promise(res => setTimeout(() => res(str), this.puppeteerTimeout))
 +      const step1 = await Promise.race([
 +        delay('Page load timed out'),
 +        (async () => {
@@ -41,7 +41,7 @@ index 7ed60470cb9ff7ca2f8865802914e3ac6a493820..37885e253ab00da3dfc5518565182c94
 +      if (typeof step2 === 'string') throw step2;
 +      return step2;
 +    } catch (error) {
-+      return { error }
++      console.error(error); return { error }
 +    } finally {
 +      await this.page.close();
      }

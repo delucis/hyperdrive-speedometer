@@ -9,7 +9,7 @@ patchedDependencies:
     hash: vj7ew6rammisnpcqpnfay44f4m
     path: patches/lighthouse@9.6.8.patch
   performance-leaderboard@9.6.3:
-    hash: h4p6fd4okpgmhwo6atjtppe63i
+    hash: finy42pgslf74zqwazvl3atrrq
     path: patches/performance-leaderboard@9.6.3.patch
 
 devDependencies:
@@ -30,7 +30,7 @@ devDependencies:
     version: 9.6.8(patch_hash=vj7ew6rammisnpcqpnfay44f4m)
   performance-leaderboard:
     specifier: ^9.6.3
-    version: 9.6.3(patch_hash=h4p6fd4okpgmhwo6atjtppe63i)
+    version: 9.6.3(patch_hash=finy42pgslf74zqwazvl3atrrq)
   short-hash:
     specifier: ^1.0.0
     version: 1.0.0
@@ -2706,7 +2706,7 @@ packages:
     resolution: {integrity: sha512-F3asv42UuXchdzt+xXqfW1OGlVBe+mxa2mqI0pg5yAHZPvFmY3Y6drSf/GQ1A86WgWEN9Kzh/WrgKa6iGcHXLg==}
     dev: true
 
-  /performance-leaderboard@9.6.3(patch_hash=h4p6fd4okpgmhwo6atjtppe63i):
+  /performance-leaderboard@9.6.3(patch_hash=finy42pgslf74zqwazvl3atrrq):
     resolution: {integrity: sha512-vZJR91b67v493qH+9QEmpGXzbBJGMgw2S1ObX8NbhgR1n7DGT5lXaG2MlY2E/JNwoiBCoC75a6syVXbz4X5enA==}
     dependencies:
       '@axe-core/puppeteer': 4.5.0(puppeteer@15.5.0)
