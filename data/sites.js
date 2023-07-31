@@ -36,6 +36,10 @@ module.exports = {
       // Sites blocked 7 July 2023:
       'https://ilyasslidingdoormobil.com',
       'https://nikolovlazar.com',
+      // Sites blocked 1 August 2023:
+      'https://www.cityflo.com/',
+      'https://riclinic.com.mx/',
+      'https://myworkshops.live/',
     ]);
 
     const fetch = (await import('node-fetch')).default;
