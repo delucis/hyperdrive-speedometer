@@ -1,0 +1,67 @@
+{
+  "url": "https://flori.dev/",
+  "requestedUrl": "https://flori.dev/",
+  "timestamp": 1690871081805,
+  "ranks": {
+    "hundos": 19,
+    "performance": 37,
+    "accessibility": 24,
+    "cumulative": 10
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 949.354,
+  "firstMeaningfulPaint": 949.354,
+  "speedIndex": 949.354,
+  "largestContentfulPaint": 1003.354,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 949.354,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 8.254999999999995,
+  "weight": {
+    "summary": "9 requests • 56 KiB",
+    "total": 56878,
+    "image": 38364,
+    "imageCount": 1,
+    "script": 4010,
+    "scriptCount": 2,
+    "document": 5467,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 8831,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 34,
+    "+weight.total": 378,
+    "-weight.document": 117,
+    "+weight.document": 290,
+    "-weight.script": 44,
+    "+weight.script": 330,
+    "-weight.image": 72,
+    "+weight.image": 295,
+    "-weight.font": 1,
+    "+weight.font": 312,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 76,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 24
+  },
+  "axe": {
+    "passes": 251,
+    "violations": 0
+  }
+}

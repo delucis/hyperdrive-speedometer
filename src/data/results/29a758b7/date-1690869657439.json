@@ -1,0 +1,67 @@
+{
+  "url": "https://www.cypress.io/",
+  "requestedUrl": "https://www.cypress.io/",
+  "timestamp": 1690874557336,
+  "ranks": {
+    "hundos": 411,
+    "performance": 401,
+    "accessibility": 147,
+    "cumulative": 411
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.35,
+    "accessibility": 0.98,
+    "bestPractices": null,
+    "seo": 0.89,
+    "total": 222
+  },
+  "firstContentfulPaint": 2940.542,
+  "firstMeaningfulPaint": 4274.9890000000005,
+  "speedIndex": 4539.935687701423,
+  "largestContentfulPaint": 5277.9490000000005,
+  "totalBlockingTime": 2298.0000000000023,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 13922.740859664917,
+  "maxPotentialFirstInputDelay": 392,
+  "timeToFirstByte": 45.988,
+  "weight": {
+    "summary": "121 requests • 3,953 KiB",
+    "total": 4048310,
+    "image": 183342,
+    "imageCount": 26,
+    "script": 1108031,
+    "scriptCount": 52,
+    "document": 107922,
+    "font": 134227,
+    "fontCount": 9,
+    "stylesheet": 25554,
+    "stylesheetCount": 6,
+    "thirdParty": 997561,
+    "thirdPartyCount": 55
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 376,
+    "+weight.total": 36,
+    "-weight.document": 390,
+    "+weight.document": 17,
+    "-weight.script": 365,
+    "+weight.script": 9,
+    "-weight.image": 153,
+    "+weight.image": 214,
+    "-weight.font": 235,
+    "+weight.font": 77,
+    "+weight.fontCount": 9,
+    "-timeToFirstByte": 205,
+    "-totalBlockingTime": 225,
+    "-largestContentfulPaint": 382
+  },
+  "axe": {
+    "passes": 2361,
+    "violations": 13
+  }
+}

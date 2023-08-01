@@ -1,0 +1,67 @@
+{
+  "url": "https://www.liljeholmstorget.se/",
+  "requestedUrl": "https://www.liljeholmstorget.se/",
+  "timestamp": 1690880619661,
+  "ranks": {
+    "hundos": 358,
+    "performance": 339,
+    "accessibility": 363,
+    "cumulative": 357
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.72,
+    "accessibility": 0.8,
+    "bestPractices": 0.83,
+    "seo": 1,
+    "total": 335
+  },
+  "firstContentfulPaint": 2799.1130000000003,
+  "firstMeaningfulPaint": 4417.3265,
+  "speedIndex": 4328.803016172776,
+  "largestContentfulPaint": 2951.8950000000004,
+  "totalBlockingTime": 365.99999999999955,
+  "cumulativeLayoutShift": 0.00017361111111111112,
+  "timeToInteractive": 9550.914999999999,
+  "maxPotentialFirstInputDelay": 206,
+  "timeToFirstByte": 175.971,
+  "weight": {
+    "summary": "55 requests • 2,853 KiB",
+    "total": 2921265,
+    "image": 2018710,
+    "imageCount": 18,
+    "script": 521945,
+    "scriptCount": 24,
+    "document": 73423,
+    "font": 196599,
+    "fontCount": 4,
+    "stylesheet": 110519,
+    "stylesheetCount": 5,
+    "thirdParty": 2621345,
+    "thirdPartyCount": 27
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 363,
+    "+weight.total": 49,
+    "-weight.document": 378,
+    "+weight.document": 29,
+    "-weight.script": 330,
+    "+weight.script": 44,
+    "-weight.image": 321,
+    "+weight.image": 46,
+    "-weight.font": 261,
+    "+weight.font": 51,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 318,
+    "-totalBlockingTime": 169,
+    "-largestContentfulPaint": 195
+  },
+  "axe": {
+    "passes": 549,
+    "violations": 21
+  }
+}

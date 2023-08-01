@@ -1,0 +1,67 @@
+{
+  "url": "https://www.crossriver.com/",
+  "requestedUrl": "https://www.crossriver.com/",
+  "timestamp": 1690886033272,
+  "ranks": {
+    "hundos": 389,
+    "performance": 395,
+    "accessibility": 207,
+    "cumulative": 388
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.44,
+    "accessibility": 0.96,
+    "bestPractices": 0.83,
+    "seo": 0.91,
+    "total": 314
+  },
+  "firstContentfulPaint": 1653.0200000000004,
+  "firstMeaningfulPaint": 1653.0200000000004,
+  "speedIndex": 31895.596893103484,
+  "largestContentfulPaint": 2944.8210000000004,
+  "totalBlockingTime": 36403.586500000005,
+  "cumulativeLayoutShift": 0.0005338541666666666,
+  "timeToInteractive": 83277.0965,
+  "maxPotentialFirstInputDelay": 251,
+  "timeToFirstByte": 39.12900000000002,
+  "weight": {
+    "summary": "97 requests • 1,489 KiB",
+    "total": 1524542,
+    "image": 112693,
+    "imageCount": 20,
+    "script": 1053512,
+    "scriptCount": 35,
+    "document": 82079,
+    "font": 234464,
+    "fontCount": 5,
+    "stylesheet": 27959,
+    "stylesheetCount": 10,
+    "thirdParty": 517993,
+    "thirdPartyCount": 57
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 314,
+    "+weight.total": 98,
+    "-weight.document": 381,
+    "+weight.document": 26,
+    "-weight.script": 363,
+    "+weight.script": 11,
+    "-weight.image": 128,
+    "+weight.image": 239,
+    "-weight.font": 272,
+    "+weight.font": 40,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 187,
+    "-totalBlockingTime": 230,
+    "-largestContentfulPaint": 344
+  },
+  "axe": {
+    "passes": 1411,
+    "violations": 17
+  }
+}

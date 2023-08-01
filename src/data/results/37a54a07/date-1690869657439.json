@@ -1,0 +1,67 @@
+{
+  "url": "https://list.weavescan.com/",
+  "requestedUrl": "https://list.weavescan.com/",
+  "timestamp": 1690875676257,
+  "ranks": {
+    "hundos": 186,
+    "performance": 195,
+    "accessibility": 195,
+    "cumulative": 186
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.94,
+    "accessibility": 0.97,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 383
+  },
+  "firstContentfulPaint": 789.346,
+  "firstMeaningfulPaint": 804.346,
+  "speedIndex": 789.346,
+  "largestContentfulPaint": 2157.558,
+  "totalBlockingTime": 259,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1498.346,
+  "maxPotentialFirstInputDelay": 212,
+  "timeToFirstByte": 1.4819999999999993,
+  "weight": {
+    "summary": "21 requests • 60 KiB",
+    "total": 61816,
+    "image": 12120,
+    "imageCount": 9,
+    "script": 9627,
+    "scriptCount": 3,
+    "document": 3707,
+    "font": 14012,
+    "fontCount": 2,
+    "stylesheet": 4083,
+    "stylesheetCount": 4,
+    "thirdParty": 8497,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 37,
+    "+weight.total": 375,
+    "-weight.document": 40,
+    "+weight.document": 367,
+    "-weight.script": 79,
+    "+weight.script": 295,
+    "-weight.image": 39,
+    "+weight.image": 328,
+    "-weight.font": 15,
+    "+weight.font": 297,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 8,
+    "-totalBlockingTime": 149,
+    "-largestContentfulPaint": 144
+  },
+  "axe": {
+    "passes": 4783,
+    "violations": 57
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://opensrcai.com/",
+  "requestedUrl": "https://opensrcai.com/",
+  "timestamp": 1690884147803,
+  "ranks": {
+    "hundos": 222,
+    "performance": 8,
+    "accessibility": 249,
+    "cumulative": 218
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 0.93,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 377
+  },
+  "firstContentfulPaint": 806,
+  "firstMeaningfulPaint": 820.5,
+  "speedIndex": 806,
+  "largestContentfulPaint": 820.5,
+  "totalBlockingTime": 1.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 847,
+  "maxPotentialFirstInputDelay": 53,
+  "timeToFirstByte": 7.168000000000006,
+  "weight": {
+    "summary": "3 requests • 7 KiB",
+    "total": 6742,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 5163,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1579,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 5,
+    "+weight.total": 407,
+    "-weight.document": 100,
+    "+weight.document": 307,
+    "-weight.script": 1,
+    "+weight.script": 374,
+    "-weight.image": 1,
+    "+weight.image": 367,
+    "-weight.font": 1,
+    "+weight.font": 312,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 50,
+    "-totalBlockingTime": 3,
+    "-largestContentfulPaint": 7
+  },
+  "axe": {
+    "passes": 412,
+    "violations": 6
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.isoomena.fi/",
+  "requestedUrl": "https://www.isoomena.fi/",
+  "timestamp": 1690880528085,
+  "ranks": {
+    "hundos": 392,
+    "performance": 379,
+    "accessibility": 377,
+    "cumulative": 391
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.58,
+    "accessibility": 0.77,
+    "bestPractices": 0.83,
+    "seo": 0.91,
+    "total": 309
+  },
+  "firstContentfulPaint": 3237.994,
+  "firstMeaningfulPaint": 4791.216,
+  "speedIndex": 5056.102942856922,
+  "largestContentfulPaint": 4674.1955,
+  "totalBlockingTime": 275,
+  "cumulativeLayoutShift": 0.11881999376085067,
+  "timeToInteractive": 10624.933,
+  "maxPotentialFirstInputDelay": 208,
+  "timeToFirstByte": 209.16899999999998,
+  "weight": {
+    "summary": "75 requests • 5,468 KiB",
+    "total": 5599404,
+    "image": 4596000,
+    "imageCount": 38,
+    "script": 525378,
+    "scriptCount": 24,
+    "document": 171338,
+    "font": 196598,
+    "fontCount": 4,
+    "stylesheet": 109674,
+    "stylesheetCount": 4,
+    "thirdParty": 5201569,
+    "thirdPartyCount": 47
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 391,
+    "+weight.total": 21,
+    "-weight.document": 398,
+    "+weight.document": 9,
+    "-weight.script": 331,
+    "+weight.script": 43,
+    "-weight.image": 352,
+    "+weight.image": 15,
+    "-weight.font": 260,
+    "+weight.font": 52,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 330,
+    "-totalBlockingTime": 153,
+    "-largestContentfulPaint": 238
+  },
+  "axe": {
+    "passes": 829,
+    "violations": 26
+  }
+}

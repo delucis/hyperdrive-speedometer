@@ -1,0 +1,67 @@
+{
+  "url": "https://mijnvraagovercorona.nl/",
+  "requestedUrl": "https://mijnvraagovercorona.nl/",
+  "timestamp": 1690883854411,
+  "ranks": {
+    "hundos": 58,
+    "performance": 158,
+    "accessibility": 104,
+    "cumulative": 62
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.97,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 397
+  },
+  "firstContentfulPaint": 1302.3689999999997,
+  "firstMeaningfulPaint": 1302.3689999999997,
+  "speedIndex": 2008.226144843616,
+  "largestContentfulPaint": 1302.3689999999997,
+  "totalBlockingTime": 157,
+  "cumulativeLayoutShift": 0.016762480205959742,
+  "timeToInteractive": 3254.152,
+  "maxPotentialFirstInputDelay": 165,
+  "timeToFirstByte": 93.86699999999996,
+  "weight": {
+    "summary": "37 requests • 286 KiB",
+    "total": 293319,
+    "image": 34635,
+    "imageCount": 7,
+    "script": 94658,
+    "scriptCount": 9,
+    "document": 31971,
+    "font": 104807,
+    "fontCount": 2,
+    "stylesheet": 27248,
+    "stylesheetCount": 18,
+    "thirdParty": 85075,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 149,
+    "+weight.total": 263,
+    "-weight.document": 338,
+    "+weight.document": 69,
+    "-weight.script": 210,
+    "+weight.script": 164,
+    "-weight.image": 70,
+    "+weight.image": 297,
+    "-weight.font": 205,
+    "+weight.font": 107,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 266,
+    "-totalBlockingTime": 120,
+    "-largestContentfulPaint": 275
+  },
+  "axe": {
+    "passes": 1116,
+    "violations": 6
+  }
+}

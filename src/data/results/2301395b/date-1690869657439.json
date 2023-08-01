@@ -1,0 +1,67 @@
+{
+  "url": "https://michaelandreuzza.com/",
+  "requestedUrl": "https://michaelandreuzza.com/",
+  "timestamp": 1690872299052,
+  "ranks": {
+    "hundos": 145,
+    "performance": 137,
+    "accessibility": 150,
+    "cumulative": 146
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 388
+  },
+  "firstContentfulPaint": 1676.9920000000002,
+  "firstMeaningfulPaint": 1676.9920000000002,
+  "speedIndex": 1676.9920000000002,
+  "largestContentfulPaint": 2035.377,
+  "totalBlockingTime": 33,
+  "cumulativeLayoutShift": 0.0008609288533528647,
+  "timeToInteractive": 2035.377,
+  "maxPotentialFirstInputDelay": 83,
+  "timeToFirstByte": 100.656,
+  "weight": {
+    "summary": "14 requests • 291 KiB",
+    "total": 297949,
+    "image": 20796,
+    "imageCount": 3,
+    "script": 31627,
+    "scriptCount": 3,
+    "document": 5989,
+    "font": 228137,
+    "fontCount": 1,
+    "stylesheet": 10613,
+    "stylesheetCount": 3,
+    "thirdParty": 263911,
+    "thirdPartyCount": 9
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 152,
+    "+weight.total": 260,
+    "-weight.document": 135,
+    "+weight.document": 272,
+    "-weight.script": 132,
+    "+weight.script": 242,
+    "-weight.image": 52,
+    "+weight.image": 315,
+    "-weight.font": 269,
+    "+weight.font": 43,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 272,
+    "-totalBlockingTime": 37,
+    "-largestContentfulPaint": 136
+  },
+  "axe": {
+    "passes": 124,
+    "violations": 15
+  }
+}

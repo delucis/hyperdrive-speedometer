@@ -1,0 +1,67 @@
+{
+  "url": "https://frontendmastery.com/",
+  "requestedUrl": "http://frontendmastery.com/",
+  "timestamp": 1690876926078,
+  "ranks": {
+    "hundos": 208,
+    "performance": 142,
+    "accessibility": 285,
+    "cumulative": 204
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.98,
+    "accessibility": 0.9,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 380
+  },
+  "firstContentfulPaint": 1927.2490000000003,
+  "firstMeaningfulPaint": 1927.2490000000003,
+  "speedIndex": 1927.2490000000003,
+  "largestContentfulPaint": 1927.2490000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.01880537245008681,
+  "timeToInteractive": 1927.2490000000003,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 233.677,
+  "weight": {
+    "summary": "14 requests • 84 KiB",
+    "total": 86340,
+    "image": 0,
+    "imageCount": 0,
+    "script": 3321,
+    "scriptCount": 4,
+    "document": 5229,
+    "font": 69038,
+    "fontCount": 5,
+    "stylesheet": 8518,
+    "stylesheetCount": 2,
+    "thirdParty": 70144,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 65,
+    "+weight.total": 347,
+    "-weight.document": 104,
+    "+weight.document": 303,
+    "-weight.script": 35,
+    "+weight.script": 339,
+    "-weight.image": 1,
+    "+weight.image": 367,
+    "-weight.font": 162,
+    "+weight.font": 150,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 335,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 127
+  },
+  "axe": {
+    "passes": 263,
+    "violations": 4
+  }
+}

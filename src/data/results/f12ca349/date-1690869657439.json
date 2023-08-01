@@ -1,0 +1,67 @@
+{
+  "url": "https://www.hellopret.fr/",
+  "requestedUrl": "https://www.hellopret.fr/",
+  "timestamp": 1690886229814,
+  "ranks": {
+    "hundos": 275,
+    "performance": 277,
+    "accessibility": 310,
+    "cumulative": 275
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.85,
+    "accessibility": 0.88,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 366
+  },
+  "firstContentfulPaint": 2029.0890000000002,
+  "firstMeaningfulPaint": 2029.0890000000002,
+  "speedIndex": 3379.4182437134455,
+  "largestContentfulPaint": 2198.758,
+  "totalBlockingTime": 253,
+  "cumulativeLayoutShift": 0.035145643446180555,
+  "timeToInteractive": 8413.225,
+  "maxPotentialFirstInputDelay": 261,
+  "timeToFirstByte": 77.17099999999999,
+  "weight": {
+    "summary": "73 requests • 1,000 KiB",
+    "total": 1024154,
+    "image": 294889,
+    "imageCount": 14,
+    "script": 612138,
+    "scriptCount": 30,
+    "document": 11887,
+    "font": 70137,
+    "fontCount": 4,
+    "stylesheet": 28712,
+    "stylesheetCount": 16,
+    "thirdParty": 708628,
+    "thirdPartyCount": 35
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 274,
+    "+weight.total": 138,
+    "-weight.document": 248,
+    "+weight.document": 159,
+    "-weight.script": 341,
+    "+weight.script": 33,
+    "-weight.image": 200,
+    "+weight.image": 167,
+    "-weight.font": 165,
+    "+weight.font": 147,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 252,
+    "-totalBlockingTime": 148,
+    "-largestContentfulPaint": 145
+  },
+  "axe": {
+    "passes": 743,
+    "violations": 50
+  }
+}

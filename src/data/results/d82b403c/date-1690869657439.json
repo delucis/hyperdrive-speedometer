@@ -1,0 +1,67 @@
+{
+  "url": "https://www.alloresto.app/",
+  "requestedUrl": "https://www.alloresto.app/",
+  "timestamp": 1690880165337,
+  "ranks": {
+    "hundos": 52,
+    "performance": 83,
+    "accessibility": 135,
+    "cumulative": 51
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 1230.305,
+  "firstMeaningfulPaint": 1236.305,
+  "speedIndex": 1575.1039291800196,
+  "largestContentfulPaint": 1761.1220000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1236.305,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 330.26699999999994,
+  "weight": {
+    "summary": "17 requests • 298 KiB",
+    "total": 305265,
+    "image": 209629,
+    "imageCount": 5,
+    "script": 11173,
+    "scriptCount": 2,
+    "document": 7893,
+    "font": 63642,
+    "fontCount": 2,
+    "stylesheet": 8487,
+    "stylesheetCount": 1,
+    "thirdParty": 1172,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 154,
+    "+weight.total": 258,
+    "-weight.document": 187,
+    "+weight.document": 220,
+    "-weight.script": 88,
+    "+weight.script": 286,
+    "-weight.image": 165,
+    "+weight.image": 202,
+    "-weight.font": 152,
+    "+weight.font": 160,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 356,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 114
+  },
+  "axe": {
+    "passes": 446,
+    "violations": 3
+  }
+}

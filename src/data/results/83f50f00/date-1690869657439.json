@@ -1,0 +1,67 @@
+{
+  "url": "https://www.samuelsiau.com/",
+  "requestedUrl": "https://www.samuelsiau.com/",
+  "timestamp": 1690880840571,
+  "ranks": {
+    "hundos": 204,
+    "performance": 304,
+    "accessibility": 22,
+    "cumulative": 201
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.8,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 380
+  },
+  "firstContentfulPaint": 1532.1569999999997,
+  "firstMeaningfulPaint": 1532.1569999999997,
+  "speedIndex": 2330.2717506782215,
+  "largestContentfulPaint": 3175.5119999999997,
+  "totalBlockingTime": 135,
+  "cumulativeLayoutShift": 0.33232283284929065,
+  "timeToInteractive": 4200.511999999999,
+  "maxPotentialFirstInputDelay": 163,
+  "timeToFirstByte": 15.737000000000009,
+  "weight": {
+    "summary": "28 requests • 1,376 KiB",
+    "total": 1408531,
+    "image": 338146,
+    "imageCount": 8,
+    "script": 230973,
+    "scriptCount": 9,
+    "document": 5072,
+    "font": 84909,
+    "fontCount": 3,
+    "stylesheet": 6842,
+    "stylesheetCount": 2,
+    "thirdParty": 1397776,
+    "thirdPartyCount": 26
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 305,
+    "+weight.total": 107,
+    "-weight.document": 96,
+    "+weight.document": 311,
+    "-weight.script": 278,
+    "+weight.script": 96,
+    "-weight.image": 210,
+    "+weight.image": 157,
+    "-weight.font": 189,
+    "+weight.font": 123,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 145,
+    "-totalBlockingTime": 108,
+    "-largestContentfulPaint": 353
+  },
+  "axe": {
+    "passes": 273,
+    "violations": 0
+  }
+}

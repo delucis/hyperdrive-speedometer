@@ -1,0 +1,67 @@
+{
+  "url": "https://feverup.com/en",
+  "requestedUrl": "https://feverup.com/",
+  "timestamp": 1690871007242,
+  "ranks": {
+    "hundos": 160,
+    "performance": 197,
+    "accessibility": 112,
+    "cumulative": 164
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.94,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 386
+  },
+  "firstContentfulPaint": 1096.7930000000001,
+  "firstMeaningfulPaint": 1154.7930000000001,
+  "speedIndex": 1169.6124566728963,
+  "largestContentfulPaint": 1154.7930000000001,
+  "totalBlockingTime": 194.5,
+  "cumulativeLayoutShift": 0.00006114959716796875,
+  "timeToInteractive": 5482.662,
+  "maxPotentialFirstInputDelay": 126,
+  "timeToFirstByte": 86.957,
+  "weight": {
+    "summary": "66 requests • 661 KiB",
+    "total": 676489,
+    "image": 288802,
+    "imageCount": 17,
+    "script": 311446,
+    "scriptCount": 38,
+    "document": 23714,
+    "font": 31356,
+    "fontCount": 1,
+    "stylesheet": 20528,
+    "stylesheetCount": 7,
+    "thirdParty": 329645,
+    "thirdPartyCount": 19
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 237,
+    "+weight.total": 175,
+    "-weight.document": 316,
+    "+weight.document": 91,
+    "-weight.script": 297,
+    "+weight.script": 77,
+    "-weight.image": 198,
+    "+weight.image": 169,
+    "-weight.font": 50,
+    "+weight.font": 262,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 261,
+    "-totalBlockingTime": 137,
+    "-largestContentfulPaint": 44
+  },
+  "axe": {
+    "passes": 545,
+    "violations": 9
+  }
+}

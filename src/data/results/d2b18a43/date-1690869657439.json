@@ -1,0 +1,67 @@
+{
+  "url": "https://dayofthedead.holiday/",
+  "requestedUrl": "https://dayofthedead.holiday/",
+  "timestamp": 1690876436502,
+  "ranks": {
+    "hundos": 396,
+    "performance": 405,
+    "accessibility": 192,
+    "cumulative": 395
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.27,
+    "accessibility": 0.97,
+    "bestPractices": 0.83,
+    "seo": 1,
+    "total": 307
+  },
+  "firstContentfulPaint": 1072.1549999999997,
+  "firstMeaningfulPaint": 1072.1549999999997,
+  "speedIndex": 9802.882732301732,
+  "largestContentfulPaint": 10076.304499999995,
+  "totalBlockingTime": 2774.49999999999,
+  "cumulativeLayoutShift": 0.00390625,
+  "timeToInteractive": 29124.497999999978,
+  "maxPotentialFirstInputDelay": 503.9999999999982,
+  "timeToFirstByte": 11.242000000000019,
+  "weight": {
+    "summary": "847 requests • 2,236 KiB",
+    "total": 2289956,
+    "image": 525243,
+    "imageCount": 267,
+    "script": 1175393,
+    "scriptCount": 69,
+    "document": 173276,
+    "font": 154563,
+    "fontCount": 3,
+    "stylesheet": 8758,
+    "stylesheetCount": 6,
+    "thirdParty": 1659156,
+    "thirdPartyCount": 826
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 340,
+    "+weight.total": 72,
+    "-weight.document": 399,
+    "+weight.document": 8,
+    "-weight.script": 366,
+    "+weight.script": 8,
+    "-weight.image": 250,
+    "+weight.image": 117,
+    "-weight.font": 243,
+    "+weight.font": 69,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 126,
+    "-totalBlockingTime": 226,
+    "-largestContentfulPaint": 402
+  },
+  "axe": {
+    "passes": 1148,
+    "violations": 32
+  }
+}

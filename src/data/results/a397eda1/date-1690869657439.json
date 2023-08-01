@@ -1,0 +1,62 @@
+{
+  "url": "https://joinfirefish.org/",
+  "requestedUrl": "https://calckey.org/",
+  "timestamp": 1690870257681,
+  "ranks": {
+    "hundos": 407,
+    "performance": 411,
+    "accessibility": 299,
+    "cumulative": 407
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": null,
+    "accessibility": 0.89,
+    "bestPractices": 1,
+    "seo": 0.77,
+    "total": 266
+  },
+  "firstContentfulPaint": 2486.9839999999995,
+  "firstMeaningfulPaint": 2692.4839999999995,
+  "speedIndex": 3585.9194428252094,
+  "totalBlockingTime": 476,
+  "cumulativeLayoutShift": 0.009280242919921876,
+  "timeToInteractive": 3961.7695000000003,
+  "maxPotentialFirstInputDelay": 411,
+  "timeToFirstByte": 73.30199999999999,
+  "weight": {
+    "summary": "38 requests • 290 KiB",
+    "total": 297298,
+    "image": 129521,
+    "imageCount": 14,
+    "script": 65424,
+    "scriptCount": 5,
+    "document": 18730,
+    "font": 61910,
+    "fontCount": 5,
+    "stylesheet": 20276,
+    "stylesheetCount": 9,
+    "thirdParty": 3238,
+    "thirdPartyCount": 5
+  },
+  "sidequests": {
+    "-weight.total": 151,
+    "+weight.total": 261,
+    "-weight.document": 296,
+    "+weight.document": 111,
+    "-weight.script": 173,
+    "+weight.script": 201,
+    "-weight.image": 135,
+    "+weight.image": 232,
+    "-weight.font": 147,
+    "+weight.font": 165,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 250,
+    "-totalBlockingTime": 183,
+    "-largestContentfulPaint": 261
+  },
+  "axe": {
+    "passes": 1033,
+    "violations": 24
+  }
+}
