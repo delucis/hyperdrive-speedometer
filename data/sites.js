@@ -46,6 +46,8 @@ module.exports = {
       'https://hexarolls.com/',
       'https://www.crossriver.com/',
       'https://publication2023.bits-und-baeume.org/',
+      'https://www.herisdia.me/',
+      'https://lukreativ360.pl/',
     ]);
 
     const fetch = (await import('node-fetch')).default;
