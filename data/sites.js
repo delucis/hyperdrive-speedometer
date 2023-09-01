@@ -40,6 +40,12 @@ module.exports = {
       'https://www.cityflo.com/',
       'https://riclinic.com.mx/',
       'https://myworkshops.live/',
+      // Sites blocked 1 September 2023:
+      'https://meetslides.com/',
+      'https://lays.kz/',
+      'https://hexarolls.com/',
+      'https://www.crossriver.com/',
+      'https://publication2023.bits-und-baeume.org/',
     ]);
 
     const fetch = (await import('node-fetch')).default;
