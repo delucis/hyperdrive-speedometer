@@ -1,0 +1,67 @@
+{
+  "url": "https://www.ada.cx/",
+  "requestedUrl": "https://www.ada.cx/",
+  "timestamp": 1693885770182,
+  "ranks": {
+    "hundos": 395,
+    "performance": 402,
+    "accessibility": 315,
+    "cumulative": 395
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.68,
+    "accessibility": 0.9,
+    "bestPractices": 0.92,
+    "seo": 0.85,
+    "total": 335
+  },
+  "firstContentfulPaint": 1736.141,
+  "firstMeaningfulPaint": 1736.141,
+  "speedIndex": 3951.604421646251,
+  "largestContentfulPaint": 1842.1580000000001,
+  "totalBlockingTime": 893.5,
+  "cumulativeLayoutShift": 0.0021930609809027776,
+  "timeToInteractive": 13178.480500000001,
+  "maxPotentialFirstInputDelay": 345,
+  "timeToFirstByte": 40.403999999999996,
+  "weight": {
+    "summary": "130 requests • 1,393 KiB",
+    "total": 1426123,
+    "image": 232838,
+    "imageCount": 47,
+    "script": 991283,
+    "scriptCount": 49,
+    "document": 23106,
+    "font": 38331,
+    "fontCount": 1,
+    "stylesheet": 10560,
+    "stylesheetCount": 3,
+    "thirdParty": 1305134,
+    "thirdPartyCount": 102
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 338,
+    "+weight.total": 111,
+    "-weight.document": 341,
+    "+weight.document": 102,
+    "-weight.script": 394,
+    "+weight.script": 13,
+    "-weight.image": 197,
+    "+weight.image": 203,
+    "-weight.font": 90,
+    "+weight.font": 246,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 200,
+    "-totalBlockingTime": 211,
+    "-largestContentfulPaint": 257
+  },
+  "axe": {
+    "passes": 1029,
+    "violations": 14
+  }
+}

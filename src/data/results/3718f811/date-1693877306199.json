@@ -1,0 +1,67 @@
+{
+  "url": "https://offlands.net/",
+  "requestedUrl": "https://offlands.net/",
+  "timestamp": 1693884999783,
+  "ranks": {
+    "hundos": 216,
+    "performance": 117,
+    "accessibility": 230,
+    "cumulative": 217
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 0.96,
+    "bestPractices": 0.92,
+    "seo": 0.96,
+    "total": 383
+  },
+  "firstContentfulPaint": 985.2350000000001,
+  "firstMeaningfulPaint": 985.2350000000001,
+  "speedIndex": 985.2350000000001,
+  "largestContentfulPaint": 1205.2350000000001,
+  "totalBlockingTime": 104.5,
+  "cumulativeLayoutShift": 0.0011033592224121093,
+  "timeToInteractive": 2609.2090000000003,
+  "maxPotentialFirstInputDelay": 111,
+  "timeToFirstByte": 8.132999999999996,
+  "weight": {
+    "summary": "15 requests • 173 KiB",
+    "total": 176786,
+    "image": 0,
+    "imageCount": 0,
+    "script": 152631,
+    "scriptCount": 6,
+    "document": 6016,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 7204,
+    "stylesheetCount": 2,
+    "thirdParty": 87485,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 116,
+    "+weight.total": 333,
+    "-weight.document": 152,
+    "+weight.document": 291,
+    "-weight.script": 262,
+    "+weight.script": 145,
+    "-weight.image": 1,
+    "+weight.image": 400,
+    "-weight.font": 1,
+    "+weight.font": 336,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 92,
+    "-totalBlockingTime": 98,
+    "-largestContentfulPaint": 193
+  },
+  "axe": {
+    "passes": 185,
+    "violations": 6
+  }
+}

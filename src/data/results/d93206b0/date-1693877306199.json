@@ -1,0 +1,67 @@
+{
+  "url": "https://graphme.app/",
+  "requestedUrl": "https://graphme.app/",
+  "timestamp": 1693880628646,
+  "ranks": {
+    "hundos": 197,
+    "performance": 263,
+    "accessibility": 35,
+    "cumulative": 197
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.93,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 385
+  },
+  "firstContentfulPaint": 1314.298,
+  "firstMeaningfulPaint": 2221.2980000000002,
+  "speedIndex": 1497.3991000005556,
+  "largestContentfulPaint": 3131.1180000000004,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0060320362317044345,
+  "timeToInteractive": 2221.2980000000002,
+  "maxPotentialFirstInputDelay": 30,
+  "timeToFirstByte": 55.01899999999999,
+  "weight": {
+    "summary": "17 requests • 1,639 KiB",
+    "total": 1678655,
+    "image": 1498368,
+    "imageCount": 8,
+    "script": 36318,
+    "scriptCount": 5,
+    "document": 3398,
+    "font": 134352,
+    "fontCount": 1,
+    "stylesheet": 6081,
+    "stylesheetCount": 1,
+    "thirdParty": 35068,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 358,
+    "+weight.total": 91,
+    "-weight.document": 39,
+    "+weight.document": 404,
+    "-weight.script": 152,
+    "+weight.script": 255,
+    "-weight.image": 343,
+    "+weight.image": 57,
+    "-weight.font": 256,
+    "+weight.font": 80,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 241,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 152
+  },
+  "axe": {
+    "passes": 183,
+    "violations": 0
+  }
+}

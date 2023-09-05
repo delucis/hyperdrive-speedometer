@@ -1,0 +1,67 @@
+{
+  "url": "https://www.thinkmill.com.au/",
+  "requestedUrl": "https://www.thinkmill.com.au/",
+  "timestamp": 1693884689102,
+  "ranks": {
+    "hundos": 282,
+    "performance": 353,
+    "accessibility": 7,
+    "cumulative": 281
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.79,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 372
+  },
+  "firstContentfulPaint": 1679.2420000000002,
+  "firstMeaningfulPaint": 2591.2690000000002,
+  "speedIndex": 2781.6175893460386,
+  "largestContentfulPaint": 2591.2690000000002,
+  "totalBlockingTime": 446.5,
+  "cumulativeLayoutShift": 0.07944736607869465,
+  "timeToInteractive": 7227.105,
+  "maxPotentialFirstInputDelay": 303,
+  "timeToFirstByte": 7.6229999999999905,
+  "weight": {
+    "summary": "34 requests • 794 KiB",
+    "total": 813263,
+    "image": 64522,
+    "imageCount": 11,
+    "script": 658924,
+    "scriptCount": 13,
+    "document": 22459,
+    "font": 38331,
+    "fontCount": 1,
+    "stylesheet": 28354,
+    "stylesheetCount": 3,
+    "thirdParty": 696335,
+    "thirdPartyCount": 16
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 280,
+    "+weight.total": 169,
+    "-weight.document": 338,
+    "+weight.document": 105,
+    "-weight.script": 379,
+    "+weight.script": 28,
+    "-weight.image": 108,
+    "+weight.image": 292,
+    "-weight.font": 90,
+    "+weight.font": 246,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 81,
+    "-totalBlockingTime": 188,
+    "-largestContentfulPaint": 329
+  },
+  "axe": {
+    "passes": 625,
+    "violations": 0
+  }
+}

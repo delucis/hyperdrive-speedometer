@@ -1,0 +1,67 @@
+{
+  "url": "https://blog.webdevsimplified.com/",
+  "requestedUrl": "https://blog.webdevsimplified.com/",
+  "timestamp": 1693882265286,
+  "ranks": {
+    "hundos": 217,
+    "performance": 254,
+    "accessibility": 186,
+    "cumulative": 218
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.94,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 0.91,
+    "total": 383
+  },
+  "firstContentfulPaint": 1725.019,
+  "firstMeaningfulPaint": 1725.019,
+  "speedIndex": 1941.3193324082167,
+  "largestContentfulPaint": 1823.7669999999998,
+  "totalBlockingTime": 155,
+  "cumulativeLayoutShift": 0.0011360206604003906,
+  "timeToInteractive": 5723.974397583007,
+  "maxPotentialFirstInputDelay": 145,
+  "timeToFirstByte": 42.687,
+  "weight": {
+    "summary": "46 requests • 406 KiB",
+    "total": 415653,
+    "image": 2252,
+    "imageCount": 1,
+    "script": 269135,
+    "scriptCount": 15,
+    "document": 49486,
+    "font": 50633,
+    "fontCount": 4,
+    "stylesheet": 44013,
+    "stylesheetCount": 23,
+    "thirdParty": 322799,
+    "thirdPartyCount": 15
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 211,
+    "+weight.total": 238,
+    "-weight.document": 396,
+    "+weight.document": 47,
+    "-weight.script": 315,
+    "+weight.script": 92,
+    "-weight.image": 13,
+    "+weight.image": 387,
+    "-weight.font": 134,
+    "+weight.font": 202,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 206,
+    "-totalBlockingTime": 122,
+    "-largestContentfulPaint": 253
+  },
+  "axe": {
+    "passes": 3319,
+    "violations": 261
+  }
+}

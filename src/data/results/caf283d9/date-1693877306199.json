@@ -1,0 +1,67 @@
+{
+  "url": "https://tobiasedwards.co.uk/",
+  "requestedUrl": "https://tobiasedwards.co.uk/",
+  "timestamp": 1693878200028,
+  "ranks": {
+    "hundos": 38,
+    "performance": 3,
+    "accessibility": 56,
+    "cumulative": 25
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 811.333,
+  "firstMeaningfulPaint": 811.333,
+  "speedIndex": 811.333,
+  "largestContentfulPaint": 811.333,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 811.333,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 21.666000000000025,
+  "weight": {
+    "summary": "1 request • 1 KiB",
+    "total": 1280,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1280,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1,
+    "+weight.total": 448,
+    "-weight.document": 3,
+    "+weight.document": 440,
+    "-weight.script": 1,
+    "+weight.script": 407,
+    "-weight.image": 1,
+    "+weight.image": 400,
+    "-weight.font": 1,
+    "+weight.font": 336,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 177,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 1
+  },
+  "axe": {
+    "passes": 53,
+    "violations": 0
+  }
+}

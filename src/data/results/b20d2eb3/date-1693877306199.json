@@ -1,0 +1,67 @@
+{
+  "url": "https://www.cloudnative.quest/blog/",
+  "requestedUrl": "https://www.cloudnative.quest/",
+  "timestamp": 1693879248059,
+  "ranks": {
+    "hundos": 321,
+    "performance": 184,
+    "accessibility": 159,
+    "cumulative": 321
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "bestPractices": 0.75,
+    "seo": 0.93,
+    "total": 364
+  },
+  "firstContentfulPaint": 1397.137,
+  "firstMeaningfulPaint": 1493.637,
+  "speedIndex": 2290.1365337815832,
+  "largestContentfulPaint": 1694.637,
+  "totalBlockingTime": 127.5,
+  "cumulativeLayoutShift": 0.012678719563616646,
+  "timeToInteractive": 2715.1369999999997,
+  "maxPotentialFirstInputDelay": 193,
+  "timeToFirstByte": 429.62899999999996,
+  "weight": {
+    "summary": "27 requests • 170 KiB",
+    "total": 173708,
+    "image": 30972,
+    "imageCount": 7,
+    "script": 65600,
+    "scriptCount": 12,
+    "document": 9147,
+    "font": 37395,
+    "fontCount": 2,
+    "stylesheet": 29055,
+    "stylesheetCount": 1,
+    "thirdParty": 2302,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 114,
+    "+weight.total": 335,
+    "-weight.document": 230,
+    "+weight.document": 213,
+    "-weight.script": 190,
+    "+weight.script": 217,
+    "-weight.image": 67,
+    "+weight.image": 333,
+    "-weight.font": 79,
+    "+weight.font": 257,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 411,
+    "-totalBlockingTime": 108,
+    "-largestContentfulPaint": 236
+  },
+  "axe": {
+    "passes": 173,
+    "violations": 2
+  }
+}

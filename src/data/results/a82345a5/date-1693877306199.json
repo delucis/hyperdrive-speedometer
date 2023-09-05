@@ -1,0 +1,67 @@
+{
+  "url": "https://yumiizumi.com/card/",
+  "requestedUrl": "https://yumiizumi.com/card",
+  "timestamp": 1693892744185,
+  "ranks": {
+    "hundos": 86,
+    "performance": 22,
+    "accessibility": 200,
+    "cumulative": 79
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 397
+  },
+  "firstContentfulPaint": 868.409,
+  "firstMeaningfulPaint": 868.409,
+  "speedIndex": 868.409,
+  "largestContentfulPaint": 1541.096,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 868.409,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 6.041,
+  "weight": {
+    "summary": "5 requests • 7 KiB",
+    "total": 6737,
+    "image": 0,
+    "imageCount": 0,
+    "script": 1358,
+    "scriptCount": 1,
+    "document": 3430,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1421,
+    "stylesheetCount": 2,
+    "thirdParty": 1358,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 4,
+    "+weight.total": 445,
+    "-weight.document": 40,
+    "+weight.document": 403,
+    "-weight.script": 20,
+    "+weight.script": 387,
+    "-weight.image": 1,
+    "+weight.image": 400,
+    "-weight.font": 1,
+    "+weight.font": 336,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 44,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 72
+  },
+  "axe": {
+    "passes": 129,
+    "violations": 5
+  }
+}

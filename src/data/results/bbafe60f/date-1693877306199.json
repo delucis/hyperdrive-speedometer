@@ -1,0 +1,66 @@
+{
+  "url": "https://fluent2.microsoft.design/",
+  "requestedUrl": "https://fluent2.microsoft.design/",
+  "timestamp": 1693883214898,
+  "ranks": {
+    "hundos": 118,
+    "performance": 215,
+    "accessibility": 157,
+    "cumulative": 121
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.96,
+    "accessibility": 0.99,
+    "bestPractices": 1,
+    "seo": 0.98,
+    "total": 393
+  },
+  "firstContentfulPaint": 1328.1635,
+  "firstMeaningfulPaint": 1328.1635,
+  "speedIndex": 1351.0884463293348,
+  "largestContentfulPaint": 2760.3500000000004,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1328.1635,
+  "maxPotentialFirstInputDelay": 49,
+  "timeToFirstByte": 68.528,
+  "weight": {
+    "summary": "56 requests • 3,128 KiB",
+    "total": 3203222,
+    "image": 2941114,
+    "imageCount": 35,
+    "script": 109355,
+    "scriptCount": 12,
+    "document": 16863,
+    "font": 118939,
+    "fontCount": 3,
+    "stylesheet": 16792,
+    "stylesheetCount": 3,
+    "thirdParty": 119098,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 403,
+    "+weight.total": 46,
+    "-weight.document": 314,
+    "+weight.document": 129,
+    "-weight.script": 236,
+    "+weight.script": 171,
+    "-weight.image": 366,
+    "+weight.image": 34,
+    "-weight.font": 235,
+    "+weight.font": 101,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 268,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 140
+  },
+  "axe": {
+    "error": "Page load timed out"
+  }
+}
