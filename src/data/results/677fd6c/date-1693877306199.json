@@ -1,0 +1,67 @@
+{
+  "url": "https://newimpact.be/",
+  "requestedUrl": "https://newimpact.be/",
+  "timestamp": 1693891553444,
+  "ranks": {
+    "hundos": 88,
+    "performance": 68,
+    "accessibility": 198,
+    "cumulative": 91
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 0.99,
+    "total": 396
+  },
+  "firstContentfulPaint": 1207.6749999999997,
+  "firstMeaningfulPaint": 1207.6749999999997,
+  "speedIndex": 1207.6749999999997,
+  "largestContentfulPaint": 1357.9549999999997,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1207.6749999999997,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 9.140999999999991,
+  "weight": {
+    "summary": "18 requests • 1,083 KiB",
+    "total": 1109245,
+    "image": 280095,
+    "imageCount": 7,
+    "script": 6713,
+    "scriptCount": 3,
+    "document": 18333,
+    "font": 36016,
+    "fontCount": 4,
+    "stylesheet": 14802,
+    "stylesheetCount": 1,
+    "thirdParty": 1033381,
+    "thirdPartyCount": 9
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 314,
+    "+weight.total": 135,
+    "-weight.document": 320,
+    "+weight.document": 123,
+    "-weight.script": 70,
+    "+weight.script": 337,
+    "-weight.image": 216,
+    "+weight.image": 184,
+    "-weight.font": 78,
+    "+weight.font": 258,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 106,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 54
+  },
+  "axe": {
+    "passes": 528,
+    "violations": 5
+  }
+}

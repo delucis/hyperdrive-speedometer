@@ -1,0 +1,67 @@
+{
+  "url": "https://geoportal-krajowy.pl/",
+  "requestedUrl": "https://geoportal-krajowy.pl/",
+  "timestamp": 1693883519162,
+  "ranks": {
+    "hundos": 399,
+    "performance": 369,
+    "accessibility": 379,
+    "cumulative": 400
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.75,
+    "accessibility": 0.82,
+    "bestPractices": 0.83,
+    "seo": 0.93,
+    "total": 333
+  },
+  "firstContentfulPaint": 1867.5970000000002,
+  "firstMeaningfulPaint": 1867.5970000000002,
+  "speedIndex": 3225.7607036812146,
+  "largestContentfulPaint": 4530.242,
+  "totalBlockingTime": 202,
+  "cumulativeLayoutShift": 0.025265299479166666,
+  "timeToInteractive": 5734.014000000001,
+  "maxPotentialFirstInputDelay": 188,
+  "timeToFirstByte": 221.789,
+  "weight": {
+    "summary": "64 requests • 1,144 KiB",
+    "total": 1171423,
+    "image": 743603,
+    "imageCount": 13,
+    "script": 365280,
+    "scriptCount": 36,
+    "document": 10079,
+    "font": 40795,
+    "fontCount": 2,
+    "stylesheet": 9794,
+    "stylesheetCount": 8,
+    "thirdParty": 340574,
+    "thirdPartyCount": 18
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 318,
+    "+weight.total": 131,
+    "-weight.document": 248,
+    "+weight.document": 195,
+    "-weight.script": 335,
+    "+weight.script": 72,
+    "-weight.image": 300,
+    "+weight.image": 100,
+    "-weight.font": 106,
+    "+weight.font": 230,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 373,
+    "-totalBlockingTime": 135,
+    "-largestContentfulPaint": 398
+  },
+  "axe": {
+    "passes": 595,
+    "violations": 55
+  }
+}

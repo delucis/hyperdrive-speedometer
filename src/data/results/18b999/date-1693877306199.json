@@ -1,0 +1,67 @@
+{
+  "url": "https://www.publictransportforum.nz/",
+  "requestedUrl": "https://publictransportforum.nz/",
+  "timestamp": 1693892717167,
+  "ranks": {
+    "hundos": 117,
+    "performance": 266,
+    "accessibility": 41,
+    "cumulative": 116
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.93,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 393
+  },
+  "firstContentfulPaint": 1812.2819999999997,
+  "firstMeaningfulPaint": 1842.2819999999997,
+  "speedIndex": 1886.2501684261065,
+  "largestContentfulPaint": 3013.1779999999994,
+  "totalBlockingTime": 5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2547.7859999999996,
+  "maxPotentialFirstInputDelay": 60,
+  "timeToFirstByte": 21.58499999999998,
+  "weight": {
+    "summary": "21 requests • 346 KiB",
+    "total": 353878,
+    "image": 223474,
+    "imageCount": 3,
+    "script": 65459,
+    "scriptCount": 3,
+    "document": 3772,
+    "font": 32846,
+    "fontCount": 2,
+    "stylesheet": 3183,
+    "stylesheetCount": 2,
+    "thirdParty": 874,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 187,
+    "+weight.total": 262,
+    "-weight.document": 57,
+    "+weight.document": 386,
+    "-weight.script": 188,
+    "+weight.script": 219,
+    "-weight.image": 192,
+    "+weight.image": 208,
+    "-weight.font": 65,
+    "+weight.font": 271,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 175,
+    "-totalBlockingTime": 8,
+    "-largestContentfulPaint": 355
+  },
+  "axe": {
+    "passes": 158,
+    "violations": 0
+  }
+}

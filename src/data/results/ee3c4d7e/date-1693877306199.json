@@ -1,0 +1,67 @@
+{
+  "url": "https://corset.dev/",
+  "requestedUrl": "https://corset.dev/",
+  "timestamp": 1693880767983,
+  "ranks": {
+    "hundos": 376,
+    "performance": 147,
+    "accessibility": 442,
+    "cumulative": 375
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 0.59,
+    "bestPractices": 1,
+    "seo": 0.86,
+    "total": 344
+  },
+  "firstContentfulPaint": 1706.9605,
+  "firstMeaningfulPaint": 1706.9605,
+  "speedIndex": 1706.9605,
+  "largestContentfulPaint": 1737.271,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1706.9605,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 9.685000000000002,
+  "weight": {
+    "summary": "15 requests • 148 KiB",
+    "total": 151522,
+    "image": 119388,
+    "imageCount": 1,
+    "script": 11347,
+    "scriptCount": 3,
+    "document": 3597,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 12057,
+    "stylesheetCount": 5,
+    "thirdParty": 10187,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 102,
+    "+weight.total": 347,
+    "-weight.document": 46,
+    "+weight.document": 397,
+    "-weight.script": 99,
+    "+weight.script": 308,
+    "-weight.image": 147,
+    "+weight.image": 253,
+    "-weight.font": 1,
+    "+weight.font": 336,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 113,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 99
+  },
+  "axe": {
+    "passes": 289,
+    "violations": 17
+  }
+}

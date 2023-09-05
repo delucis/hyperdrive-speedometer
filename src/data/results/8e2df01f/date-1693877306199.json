@@ -1,0 +1,66 @@
+{
+  "url": "https://ai.cloudflare.com/",
+  "requestedUrl": "https://ai.cloudflare.com/",
+  "timestamp": 1693883440191,
+  "ranks": {
+    "hundos": 57,
+    "performance": 138,
+    "accessibility": 155,
+    "cumulative": 58
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1407.953,
+  "firstMeaningfulPaint": 1432.453,
+  "speedIndex": 1591.0611742267558,
+  "largestContentfulPaint": 2096.329,
+  "totalBlockingTime": 8,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1514.953,
+  "maxPotentialFirstInputDelay": 64,
+  "timeToFirstByte": 420.319,
+  "weight": {
+    "summary": "11 requests • 52 KiB",
+    "total": 53408,
+    "image": 24204,
+    "imageCount": 6,
+    "script": 10689,
+    "scriptCount": 2,
+    "document": 18478,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 7114,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 34,
+    "+weight.total": 415,
+    "-weight.document": 321,
+    "+weight.document": 122,
+    "-weight.script": 94,
+    "+weight.script": 313,
+    "-weight.image": 61,
+    "+weight.image": 339,
+    "-weight.font": 1,
+    "+weight.font": 336,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 408,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 282
+  },
+  "axe": {
+    "error": "Axe timed out"
+  }
+}

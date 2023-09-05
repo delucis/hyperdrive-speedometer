@@ -1,0 +1,67 @@
+{
+  "url": "https://aidailynews.io/",
+  "requestedUrl": "https://aidailynews.io/",
+  "timestamp": 1693886956638,
+  "ranks": {
+    "hundos": 241,
+    "performance": 114,
+    "accessibility": 341,
+    "cumulative": 245
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 0.88,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 379
+  },
+  "firstContentfulPaint": 908.5590000000002,
+  "firstMeaningfulPaint": 1241.9475000000002,
+  "speedIndex": 908.5590000000002,
+  "largestContentfulPaint": 1963.1160000000002,
+  "totalBlockingTime": 8.5,
+  "cumulativeLayoutShift": 0.006186035156249999,
+  "timeToInteractive": 2256.9145,
+  "maxPotentialFirstInputDelay": 65,
+  "timeToFirstByte": 7.548000000000002,
+  "weight": {
+    "summary": "39 requests • 421 KiB",
+    "total": 430942,
+    "image": 14022,
+    "imageCount": 9,
+    "script": 59592,
+    "scriptCount": 5,
+    "document": 7603,
+    "font": 333701,
+    "fontCount": 6,
+    "stylesheet": 12439,
+    "stylesheetCount": 11,
+    "thirdParty": 115238,
+    "thirdPartyCount": 26
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 218,
+    "+weight.total": 231,
+    "-weight.document": 197,
+    "+weight.document": 246,
+    "-weight.script": 177,
+    "+weight.script": 230,
+    "-weight.image": 48,
+    "+weight.image": 352,
+    "-weight.font": 314,
+    "+weight.font": 22,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 78,
+    "-totalBlockingTime": 12,
+    "-largestContentfulPaint": 267
+  },
+  "axe": {
+    "passes": 425,
+    "violations": 43
+  }
+}

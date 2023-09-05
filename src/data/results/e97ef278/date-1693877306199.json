@@ -1,0 +1,67 @@
+{
+  "url": "https://flatfox.ch/c/en/",
+  "requestedUrl": "https://flatfox.ch/",
+  "timestamp": 1693881044623,
+  "ranks": {
+    "hundos": 401,
+    "performance": 419,
+    "accessibility": 177,
+    "cumulative": 398
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.59,
+    "accessibility": 0.98,
+    "bestPractices": 0.83,
+    "seo": 0.93,
+    "total": 333
+  },
+  "firstContentfulPaint": 1923.2865,
+  "firstMeaningfulPaint": 1923.2865,
+  "speedIndex": 3182.185408000215,
+  "largestContentfulPaint": 5114.531,
+  "totalBlockingTime": 699.1939999999997,
+  "cumulativeLayoutShift": 0.058997047424316405,
+  "timeToInteractive": 4861.030999999999,
+  "maxPotentialFirstInputDelay": 615,
+  "timeToFirstByte": 60.465,
+  "weight": {
+    "summary": "35 requests • 408 KiB",
+    "total": 417909,
+    "image": 51771,
+    "imageCount": 7,
+    "script": 297831,
+    "scriptCount": 19,
+    "document": 30443,
+    "font": 24516,
+    "fontCount": 2,
+    "stylesheet": 12023,
+    "stylesheetCount": 1,
+    "thirdParty": 310778,
+    "thirdPartyCount": 13
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 213,
+    "+weight.total": 236,
+    "-weight.document": 360,
+    "+weight.document": 83,
+    "-weight.script": 321,
+    "+weight.script": 86,
+    "-weight.image": 95,
+    "+weight.image": 305,
+    "-weight.font": 36,
+    "+weight.font": 300,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 254,
+    "-totalBlockingTime": 201,
+    "-largestContentfulPaint": 405
+  },
+  "axe": {
+    "passes": 637,
+    "violations": 21
+  }
+}
