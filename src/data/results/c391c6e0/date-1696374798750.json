@@ -1,0 +1,67 @@
+{
+  "url": "https://microattestations.ca/",
+  "requestedUrl": "https://microattestations.ca/",
+  "timestamp": 1696389470928,
+  "ranks": {
+    "hundos": 390,
+    "performance": 36,
+    "accessibility": 466,
+    "cumulative": 391
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 0.56,
+    "bestPractices": 1,
+    "seo": 0.8,
+    "total": 336
+  },
+  "firstContentfulPaint": 1072.277,
+  "firstMeaningfulPaint": 1072.277,
+  "speedIndex": 1072.277,
+  "largestContentfulPaint": 1147.277,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1072.277,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 19.07899999999998,
+  "weight": {
+    "summary": "14 requests • 81 KiB",
+    "total": 83129,
+    "image": 53845,
+    "imageCount": 3,
+    "script": 10235,
+    "scriptCount": 5,
+    "document": 3661,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 14893,
+    "stylesheetCount": 2,
+    "thirdParty": 1587,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 59,
+    "+weight.total": 413,
+    "-weight.document": 46,
+    "+weight.document": 423,
+    "-weight.script": 93,
+    "+weight.script": 338,
+    "-weight.image": 95,
+    "+weight.image": 325,
+    "-weight.font": 1,
+    "+weight.font": 351,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 195,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 38
+  },
+  "axe": {
+    "passes": 141,
+    "violations": 19
+  }
+}

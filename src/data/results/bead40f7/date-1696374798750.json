@@ -1,0 +1,67 @@
+{
+  "url": "https://ians.dev/",
+  "requestedUrl": "https://ians.dev/",
+  "timestamp": 1696383896156,
+  "ranks": {
+    "hundos": 54,
+    "performance": 62,
+    "accessibility": 193,
+    "cumulative": 61
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 982.502,
+  "firstMeaningfulPaint": 1026.002,
+  "speedIndex": 1296.5394302350305,
+  "largestContentfulPaint": 1619.502,
+  "totalBlockingTime": 27,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1105.502,
+  "maxPotentialFirstInputDelay": 168,
+  "timeToFirstByte": 71.51800000000003,
+  "weight": {
+    "summary": "13 requests • 152 KiB",
+    "total": 155190,
+    "image": 129025,
+    "imageCount": 6,
+    "script": 10224,
+    "scriptCount": 5,
+    "document": 10615,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 5326,
+    "stylesheetCount": 1,
+    "thirdParty": 45799,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 109,
+    "+weight.total": 363,
+    "-weight.document": 275,
+    "+weight.document": 194,
+    "-weight.script": 92,
+    "+weight.script": 339,
+    "-weight.image": 157,
+    "+weight.image": 263,
+    "-weight.font": 1,
+    "+weight.font": 351,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 289,
+    "-totalBlockingTime": 38,
+    "-largestContentfulPaint": 97
+  },
+  "axe": {
+    "passes": 429,
+    "violations": 61
+  }
+}

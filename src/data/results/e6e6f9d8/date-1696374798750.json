@@ -1,0 +1,67 @@
+{
+  "url": "https://thebase.com/",
+  "requestedUrl": "https://thebase.com/",
+  "timestamp": 1696395939157,
+  "ranks": {
+    "hundos": 461,
+    "performance": 468,
+    "accessibility": 192,
+    "cumulative": 461
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.2,
+    "accessibility": 0.98,
+    "bestPractices": 0.83,
+    "seo": 0.97,
+    "total": 298
+  },
+  "firstContentfulPaint": 3686.825,
+  "firstMeaningfulPaint": 3686.825,
+  "speedIndex": 10352.475705087249,
+  "largestContentfulPaint": 7526.1799999999985,
+  "totalBlockingTime": 6110.732500000012,
+  "cumulativeLayoutShift": 0.014364212095737457,
+  "timeToInteractive": 25828.482000000004,
+  "maxPotentialFirstInputDelay": 482.9999999999991,
+  "timeToFirstByte": 171.90500000000003,
+  "weight": {
+    "summary": "194 requests • 2,493 KiB",
+    "total": 2552650,
+    "image": 178780,
+    "imageCount": 30,
+    "script": 1210647,
+    "scriptCount": 90,
+    "document": 30348,
+    "font": 174805,
+    "fontCount": 5,
+    "stylesheet": 34698,
+    "stylesheetCount": 9,
+    "thirdParty": 2192210,
+    "thirdPartyCount": 142
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 409,
+    "+weight.total": 63,
+    "-weight.document": 384,
+    "+weight.document": 85,
+    "-weight.script": 421,
+    "+weight.script": 10,
+    "-weight.image": 181,
+    "+weight.image": 239,
+    "-weight.font": 282,
+    "+weight.font": 69,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 376,
+    "-totalBlockingTime": 314,
+    "-largestContentfulPaint": 450
+  },
+  "axe": {
+    "passes": 1526,
+    "violations": 47
+  }
+}

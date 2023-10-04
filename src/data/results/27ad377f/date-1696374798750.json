@@ -1,0 +1,67 @@
+{
+  "url": "https://www.coachrec.com/",
+  "requestedUrl": "https://www.coachrec.com/",
+  "timestamp": 1696391450830,
+  "ranks": {
+    "hundos": 401,
+    "performance": 428,
+    "accessibility": 390,
+    "cumulative": 400
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.53,
+    "accessibility": 0.84,
+    "bestPractices": 1,
+    "seo": 0.97,
+    "total": 334
+  },
+  "firstContentfulPaint": 1065.2930000000001,
+  "firstMeaningfulPaint": 1218.0260000000003,
+  "speedIndex": 3873.443768490131,
+  "largestContentfulPaint": 7789.779499999999,
+  "totalBlockingTime": 680.4999999999999,
+  "cumulativeLayoutShift": 0.061015625000000004,
+  "timeToInteractive": 6534.131000000001,
+  "maxPotentialFirstInputDelay": 419,
+  "timeToFirstByte": 1189.045,
+  "weight": {
+    "summary": "36 requests • 4,362 KiB",
+    "total": 4467008,
+    "image": 4090415,
+    "imageCount": 13,
+    "script": 327350,
+    "scriptCount": 15,
+    "document": 20047,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 17295,
+    "stylesheetCount": 2,
+    "thirdParty": 4276187,
+    "thirdPartyCount": 24
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 438,
+    "+weight.total": 34,
+    "-weight.document": 347,
+    "+weight.document": 122,
+    "-weight.script": 341,
+    "+weight.script": 90,
+    "-weight.image": 399,
+    "+weight.image": 21,
+    "-weight.font": 1,
+    "+weight.font": 351,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 450,
+    "-totalBlockingTime": 245,
+    "-largestContentfulPaint": 452
+  },
+  "axe": {
+    "passes": 369,
+    "violations": 35
+  }
+}

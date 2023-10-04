@@ -1,0 +1,67 @@
+{
+  "url": "https://www.johnjohnson.live/",
+  "requestedUrl": "https://www.johnjohnson.live/",
+  "timestamp": 1696387357784,
+  "ranks": {
+    "hundos": 52,
+    "performance": 141,
+    "accessibility": 83,
+    "cumulative": 55
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 1173.5459999999998,
+  "firstMeaningfulPaint": 1173.5459999999998,
+  "speedIndex": 1389.2317519953788,
+  "largestContentfulPaint": 2208.871,
+  "totalBlockingTime": 93,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2600.1549999999997,
+  "maxPotentialFirstInputDelay": 170,
+  "timeToFirstByte": 3.3859999999999957,
+  "weight": {
+    "summary": "10 requests • 203 KiB",
+    "total": 208315,
+    "image": 82241,
+    "imageCount": 3,
+    "script": 113390,
+    "scriptCount": 3,
+    "document": 7956,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4479,
+    "stylesheetCount": 1,
+    "thirdParty": 98610,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 138,
+    "+weight.total": 334,
+    "-weight.document": 213,
+    "+weight.document": 256,
+    "-weight.script": 256,
+    "+weight.script": 175,
+    "-weight.image": 119,
+    "+weight.image": 301,
+    "-weight.font": 1,
+    "+weight.font": 351,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 16,
+    "-totalBlockingTime": 94,
+    "-largestContentfulPaint": 163
+  },
+  "axe": {
+    "passes": 287,
+    "violations": 1
+  }
+}

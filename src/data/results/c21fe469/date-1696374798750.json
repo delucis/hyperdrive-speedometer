@@ -1,0 +1,67 @@
+{
+  "url": "https://windbasics.com/",
+  "requestedUrl": "https://windbasics.com/",
+  "timestamp": 1696379994163,
+  "ranks": {
+    "hundos": 151,
+    "performance": 115,
+    "accessibility": 227,
+    "cumulative": 157
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 0.97,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 388
+  },
+  "firstContentfulPaint": 1541.596,
+  "firstMeaningfulPaint": 1541.596,
+  "speedIndex": 1624.1065280070247,
+  "largestContentfulPaint": 1779.9070000000002,
+  "totalBlockingTime": 57,
+  "cumulativeLayoutShift": 0.01634157986111111,
+  "timeToInteractive": 1929.9070000000002,
+  "maxPotentialFirstInputDelay": 107,
+  "timeToFirstByte": 3.5509999999999877,
+  "weight": {
+    "summary": "18 requests • 1,812 KiB",
+    "total": 1855580,
+    "image": 1315780,
+    "imageCount": 7,
+    "script": 17705,
+    "scriptCount": 2,
+    "document": 3934,
+    "font": 508816,
+    "fontCount": 3,
+    "stylesheet": 8852,
+    "stylesheetCount": 3,
+    "thirdParty": 529650,
+    "thirdPartyCount": 9
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 382,
+    "+weight.total": 90,
+    "-weight.document": 59,
+    "+weight.document": 410,
+    "-weight.script": 121,
+    "+weight.script": 310,
+    "-weight.image": 353,
+    "+weight.image": 67,
+    "-weight.font": 334,
+    "+weight.font": 17,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 23,
+    "-totalBlockingTime": 69,
+    "-largestContentfulPaint": 128
+  },
+  "axe": {
+    "passes": 217,
+    "violations": 31
+  }
+}

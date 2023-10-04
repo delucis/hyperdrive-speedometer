@@ -1,0 +1,67 @@
+{
+  "url": "https://refact.ai/",
+  "requestedUrl": "https://refact.ai/",
+  "timestamp": 1696385773538,
+  "ranks": {
+    "hundos": 348,
+    "performance": 307,
+    "accessibility": 389,
+    "cumulative": 348
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.84,
+    "accessibility": 0.84,
+    "bestPractices": 1,
+    "seo": 0.89,
+    "total": 357
+  },
+  "firstContentfulPaint": 2734.4239999999995,
+  "firstMeaningfulPaint": 2852.1734999999994,
+  "speedIndex": 3143.8960022668334,
+  "largestContentfulPaint": 2852.1734999999994,
+  "totalBlockingTime": 183,
+  "cumulativeLayoutShift": 0.02050065104166667,
+  "timeToInteractive": 6198.0014999999985,
+  "maxPotentialFirstInputDelay": 244,
+  "timeToFirstByte": 93.20800000000003,
+  "weight": {
+    "summary": "28 requests • 4,477 KiB",
+    "total": 4584889,
+    "image": 1641670,
+    "imageCount": 9,
+    "script": 221209,
+    "scriptCount": 6,
+    "document": 71626,
+    "font": 22854,
+    "fontCount": 1,
+    "stylesheet": 114625,
+    "stylesheetCount": 4,
+    "thirdParty": 243550,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 439,
+    "+weight.total": 33,
+    "-weight.document": 439,
+    "+weight.document": 30,
+    "-weight.script": 307,
+    "+weight.script": 124,
+    "-weight.image": 368,
+    "+weight.image": 52,
+    "-weight.font": 27,
+    "+weight.font": 324,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 321,
+    "-totalBlockingTime": 151,
+    "-largestContentfulPaint": 363
+  },
+  "axe": {
+    "passes": 321,
+    "violations": 23
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://pyros.sh/",
+  "requestedUrl": "https://pyros.sh/",
+  "timestamp": 1696383622620,
+  "ranks": {
+    "hundos": 2,
+    "performance": 26,
+    "accessibility": 86,
+    "cumulative": 27
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1000.822,
+  "firstMeaningfulPaint": 1000.822,
+  "speedIndex": 1000.822,
+  "largestContentfulPaint": 1103.8220000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1000.822,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 37.82299999999999,
+  "weight": {
+    "summary": "19 requests • 189 KiB",
+    "total": 193670,
+    "image": 173590,
+    "imageCount": 4,
+    "script": 1094,
+    "scriptCount": 1,
+    "document": 4283,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2200,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 132,
+    "+weight.total": 340,
+    "-weight.document": 71,
+    "+weight.document": 398,
+    "-weight.script": 12,
+    "+weight.script": 419,
+    "-weight.image": 176,
+    "+weight.image": 244,
+    "-weight.font": 1,
+    "+weight.font": 351,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 228,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 30
+  },
+  "axe": {
+    "passes": 222,
+    "violations": 1
+  }
+}

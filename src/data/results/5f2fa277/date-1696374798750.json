@@ -1,0 +1,67 @@
+{
+  "url": "https://yourpanama.com/",
+  "requestedUrl": "https://yourpanama.com/",
+  "timestamp": 1696387667225,
+  "ranks": {
+    "hundos": 363,
+    "performance": 384,
+    "accessibility": 336,
+    "cumulative": 363
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.69,
+    "accessibility": 0.9,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 351
+  },
+  "firstContentfulPaint": 1014.901,
+  "firstMeaningfulPaint": 1050.9009999999998,
+  "speedIndex": 4852.093645358188,
+  "largestContentfulPaint": 1050.9009999999998,
+  "totalBlockingTime": 939,
+  "cumulativeLayoutShift": 0.00608184814453125,
+  "timeToInteractive": 9367.0535,
+  "maxPotentialFirstInputDelay": 232,
+  "timeToFirstByte": 293.01099999999997,
+  "weight": {
+    "summary": "93 requests • 1,946 KiB",
+    "total": 1992716,
+    "image": 213874,
+    "imageCount": 24,
+    "script": 585253,
+    "scriptCount": 27,
+    "document": 101321,
+    "font": 65626,
+    "fontCount": 2,
+    "stylesheet": 5089,
+    "stylesheetCount": 3,
+    "thirdParty": 1756719,
+    "thirdPartyCount": 82
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 388,
+    "+weight.total": 84,
+    "-weight.document": 446,
+    "+weight.document": 23,
+    "-weight.script": 388,
+    "+weight.script": 43,
+    "-weight.image": 193,
+    "+weight.image": 227,
+    "-weight.font": 176,
+    "+weight.font": 175,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 417,
+    "-totalBlockingTime": 269,
+    "-largestContentfulPaint": 242
+  },
+  "axe": {
+    "passes": 342,
+    "violations": 5
+  }
+}

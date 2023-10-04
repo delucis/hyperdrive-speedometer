@@ -1,0 +1,67 @@
+{
+  "url": "https://ask.foolishdev.com/",
+  "requestedUrl": "https://ask.foolishdev.com/",
+  "timestamp": 1696386383327,
+  "ranks": {
+    "hundos": 113,
+    "performance": 180,
+    "accessibility": 248,
+    "cumulative": 111
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.97,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 393
+  },
+  "firstContentfulPaint": 1356.138,
+  "firstMeaningfulPaint": 1356.138,
+  "speedIndex": 3726.262666408548,
+  "largestContentfulPaint": 1513.138,
+  "totalBlockingTime": 147,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1767.138,
+  "maxPotentialFirstInputDelay": 103,
+  "timeToFirstByte": 1836.7600000000002,
+  "weight": {
+    "summary": "20 requests • 785 KiB",
+    "total": 803419,
+    "image": 661479,
+    "imageCount": 8,
+    "script": 27727,
+    "scriptCount": 7,
+    "document": 104755,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 9458,
+    "stylesheetCount": 3,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 297,
+    "+weight.total": 175,
+    "-weight.document": 451,
+    "+weight.document": 18,
+    "-weight.script": 147,
+    "+weight.script": 284,
+    "-weight.image": 311,
+    "+weight.image": 109,
+    "-weight.font": 1,
+    "+weight.font": 351,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 460,
+    "-totalBlockingTime": 132,
+    "-largestContentfulPaint": 267
+  },
+  "axe": {
+    "passes": 327,
+    "violations": 29
+  }
+}

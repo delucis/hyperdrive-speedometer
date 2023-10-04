@@ -1,0 +1,67 @@
+{
+  "url": "https://ufostation.tech/",
+  "requestedUrl": "https://ufostation.tech/",
+  "timestamp": 1696394437035,
+  "ranks": {
+    "hundos": 336,
+    "performance": 210,
+    "accessibility": 404,
+    "cumulative": 338
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.95,
+    "accessibility": 0.81,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 360
+  },
+  "firstContentfulPaint": 1012.3639999999999,
+  "firstMeaningfulPaint": 1024.364,
+  "speedIndex": 1524.7493758666587,
+  "largestContentfulPaint": 1061.888,
+  "totalBlockingTime": 113.5,
+  "cumulativeLayoutShift": 0.16056988271077474,
+  "timeToInteractive": 3152.367,
+  "maxPotentialFirstInputDelay": 211,
+  "timeToFirstByte": 11.89700000000002,
+  "weight": {
+    "summary": "26 requests • 446 KiB",
+    "total": 457189,
+    "image": 296009,
+    "imageCount": 8,
+    "script": 73043,
+    "scriptCount": 4,
+    "document": 5635,
+    "font": 76438,
+    "fontCount": 6,
+    "stylesheet": 2263,
+    "stylesheetCount": 1,
+    "thirdParty": 338897,
+    "thirdPartyCount": 12
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 235,
+    "+weight.total": 237,
+    "-weight.document": 145,
+    "+weight.document": 324,
+    "-weight.script": 216,
+    "+weight.script": 215,
+    "-weight.image": 235,
+    "+weight.image": 185,
+    "-weight.font": 196,
+    "+weight.font": 155,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 165,
+    "-totalBlockingTime": 112,
+    "-largestContentfulPaint": 243
+  },
+  "axe": {
+    "passes": 162,
+    "violations": 7
+  }
+}
