@@ -1,0 +1,67 @@
+{
+  "url": "https://vidavera.pt/",
+  "requestedUrl": "https://vidavera.pt/",
+  "timestamp": 1696377475957,
+  "ranks": {
+    "hundos": 109,
+    "performance": 87,
+    "accessibility": 224,
+    "cumulative": 110
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 0.96,
+    "total": 393
+  },
+  "firstContentfulPaint": 1091.6689999999999,
+  "firstMeaningfulPaint": 1091.6689999999999,
+  "speedIndex": 2347.1271900333613,
+  "largestContentfulPaint": 1515.6689999999999,
+  "totalBlockingTime": 56,
+  "cumulativeLayoutShift": 0.0010503472222222223,
+  "timeToInteractive": 2164.879,
+  "maxPotentialFirstInputDelay": 170.9999999999999,
+  "timeToFirstByte": 56.99400000000003,
+  "weight": {
+    "summary": "32 requests • 501 KiB",
+    "total": 513141,
+    "image": 417217,
+    "imageCount": 15,
+    "script": 20171,
+    "scriptCount": 10,
+    "document": 10106,
+    "font": 59309,
+    "fontCount": 2,
+    "stylesheet": 6200,
+    "stylesheetCount": 2,
+    "thirdParty": 7077,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 252,
+    "+weight.total": 220,
+    "-weight.document": 262,
+    "+weight.document": 207,
+    "-weight.script": 130,
+    "+weight.script": 301,
+    "-weight.image": 273,
+    "+weight.image": 147,
+    "-weight.font": 155,
+    "+weight.font": 196,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 262,
+    "-totalBlockingTime": 68,
+    "-largestContentfulPaint": 72
+  },
+  "axe": {
+    "passes": 583,
+    "violations": 22
+  }
+}

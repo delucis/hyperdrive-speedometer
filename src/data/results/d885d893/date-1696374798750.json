@@ -1,0 +1,67 @@
+{
+  "url": "https://www.jamesperkins.dev/",
+  "requestedUrl": "https://jamesperkins.dev/",
+  "timestamp": 1696389640812,
+  "ranks": {
+    "hundos": 93,
+    "performance": 220,
+    "accessibility": 106,
+    "cumulative": 90
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.95,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 395
+  },
+  "firstContentfulPaint": 2284.4300000000003,
+  "firstMeaningfulPaint": 2284.4300000000003,
+  "speedIndex": 2284.4300000000003,
+  "largestContentfulPaint": 2320.731,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.04045599026150174,
+  "timeToInteractive": 2284.4300000000003,
+  "maxPotentialFirstInputDelay": 30,
+  "timeToFirstByte": 9.763999999999996,
+  "weight": {
+    "summary": "12 requests • 68 KiB",
+    "total": 69678,
+    "image": 0,
+    "imageCount": 0,
+    "script": 3406,
+    "scriptCount": 4,
+    "document": 5479,
+    "font": 50564,
+    "fontCount": 3,
+    "stylesheet": 9897,
+    "stylesheetCount": 3,
+    "thirdParty": 2595,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 48,
+    "+weight.total": 424,
+    "-weight.document": 135,
+    "+weight.document": 334,
+    "-weight.script": 41,
+    "+weight.script": 390,
+    "-weight.image": 1,
+    "+weight.image": 420,
+    "-weight.font": 137,
+    "+weight.font": 214,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 137,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 170
+  },
+  "axe": {
+    "passes": 372,
+    "violations": 2
+  }
+}

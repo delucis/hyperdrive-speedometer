@@ -1,0 +1,67 @@
+{
+  "url": "https://www.sarbeh.com/",
+  "requestedUrl": "https://www.sarbeh.com/",
+  "timestamp": 1696377689556,
+  "ranks": {
+    "hundos": 182,
+    "performance": 183,
+    "accessibility": 256,
+    "cumulative": 177
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.97,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 385
+  },
+  "firstContentfulPaint": 1359.7120000000002,
+  "firstMeaningfulPaint": 1359.7120000000002,
+  "speedIndex": 4178.181572774157,
+  "largestContentfulPaint": 1702.4658460388187,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1359.7120000000002,
+  "maxPotentialFirstInputDelay": 24,
+  "timeToFirstByte": 1828.2430000000002,
+  "weight": {
+    "summary": "11 requests • 413 KiB",
+    "total": 422636,
+    "image": 355499,
+    "imageCount": 5,
+    "script": 17287,
+    "scriptCount": 2,
+    "document": 6812,
+    "font": 32137,
+    "fontCount": 1,
+    "stylesheet": 10901,
+    "stylesheetCount": 2,
+    "thirdParty": 388896,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 224,
+    "+weight.total": 248,
+    "-weight.document": 180,
+    "+weight.document": 289,
+    "-weight.script": 120,
+    "+weight.script": 311,
+    "-weight.image": 254,
+    "+weight.image": 166,
+    "-weight.font": 59,
+    "+weight.font": 292,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 459,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 117
+  },
+  "axe": {
+    "passes": 424,
+    "violations": 3
+  }
+}

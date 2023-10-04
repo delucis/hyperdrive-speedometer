@@ -1,0 +1,67 @@
+{
+  "url": "https://keeghan.io/",
+  "requestedUrl": "http://www.keeghan.io/",
+  "timestamp": 1696385858099,
+  "ranks": {
+    "hundos": 419,
+    "performance": 408,
+    "accessibility": 406,
+    "cumulative": 419
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.61,
+    "accessibility": 0.81,
+    "bestPractices": 0.92,
+    "seo": 0.91,
+    "total": 325
+  },
+  "firstContentfulPaint": 1946.1730000000002,
+  "firstMeaningfulPaint": 1946.1730000000002,
+  "speedIndex": 6594.118129689266,
+  "largestContentfulPaint": 2639.5840000000003,
+  "totalBlockingTime": 1007,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 8266.992,
+  "maxPotentialFirstInputDelay": 554,
+  "timeToFirstByte": 2183.075,
+  "weight": {
+    "summary": "13 requests • 416 KiB",
+    "total": 425590,
+    "image": 0,
+    "imageCount": 0,
+    "script": 415226,
+    "scriptCount": 5,
+    "document": 7391,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1579,
+    "stylesheetCount": 2,
+    "thirdParty": 417121,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 226,
+    "+weight.total": 246,
+    "-weight.document": 195,
+    "+weight.document": 274,
+    "-weight.script": 362,
+    "+weight.script": 69,
+    "-weight.image": 1,
+    "+weight.image": 420,
+    "-weight.font": 1,
+    "+weight.font": 351,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 463,
+    "-totalBlockingTime": 276,
+    "-largestContentfulPaint": 351
+  },
+  "axe": {
+    "passes": 237,
+    "violations": 25
+  }
+}

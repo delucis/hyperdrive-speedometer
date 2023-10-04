@@ -1,0 +1,67 @@
+{
+  "url": "https://www.pharos-development.com/",
+  "requestedUrl": "https://pharos-development.com/",
+  "timestamp": 1696391766259,
+  "ranks": {
+    "hundos": 61,
+    "performance": 150,
+    "accessibility": 82,
+    "cumulative": 58
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 1763.812,
+  "firstMeaningfulPaint": 1763.812,
+  "speedIndex": 1763.812,
+  "largestContentfulPaint": 1763.812,
+  "totalBlockingTime": 2,
+  "cumulativeLayoutShift": 0.05285231823391384,
+  "timeToInteractive": 1790.812,
+  "maxPotentialFirstInputDelay": 182,
+  "timeToFirstByte": 86.523,
+  "weight": {
+    "summary": "18 requests • 44 KiB",
+    "total": 44869,
+    "image": 6189,
+    "imageCount": 8,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 6795,
+    "font": 23743,
+    "fontCount": 3,
+    "stylesheet": 7933,
+    "stylesheetCount": 5,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 24,
+    "+weight.total": 448,
+    "-weight.document": 177,
+    "+weight.document": 292,
+    "-weight.script": 1,
+    "+weight.script": 431,
+    "-weight.image": 29,
+    "+weight.image": 391,
+    "-weight.font": 31,
+    "+weight.font": 320,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 309,
+    "-totalBlockingTime": 4,
+    "-largestContentfulPaint": 127
+  },
+  "axe": {
+    "passes": 337,
+    "violations": 1
+  }
+}
