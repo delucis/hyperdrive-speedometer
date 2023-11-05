@@ -1,0 +1,67 @@
+{
+  "url": "https://www.akcija.de/",
+  "requestedUrl": "https://www.akcija.de/",
+  "timestamp": 1699144585318,
+  "ranks": {
+    "hundos": 430,
+    "performance": 300,
+    "accessibility": 469,
+    "cumulative": 430
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.86,
+    "accessibility": 0.64,
+    "bestPractices": 0.92,
+    "seo": 0.81,
+    "total": 323
+  },
+  "firstContentfulPaint": 2236.5340000000006,
+  "firstMeaningfulPaint": 2236.5340000000006,
+  "speedIndex": 2671.6643955660584,
+  "largestContentfulPaint": 2854.864,
+  "totalBlockingTime": 312.9174999999998,
+  "cumulativeLayoutShift": 0.000300750732421875,
+  "timeToInteractive": 2624.4515,
+  "maxPotentialFirstInputDelay": 412,
+  "timeToFirstByte": 78.13999999999999,
+  "weight": {
+    "summary": "35 requests • 274 KiB",
+    "total": 280771,
+    "image": 176439,
+    "imageCount": 21,
+    "script": 25011,
+    "scriptCount": 4,
+    "document": 38816,
+    "font": 30062,
+    "fontCount": 3,
+    "stylesheet": 10304,
+    "stylesheetCount": 5,
+    "thirdParty": 201147,
+    "thirdPartyCount": 25
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 179,
+    "+weight.total": 304,
+    "-weight.document": 406,
+    "+weight.document": 69,
+    "-weight.script": 149,
+    "+weight.script": 299,
+    "-weight.image": 185,
+    "+weight.image": 241,
+    "-weight.font": 56,
+    "+weight.font": 307,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 303,
+    "-totalBlockingTime": 191,
+    "-largestContentfulPaint": 87
+  },
+  "axe": {
+    "passes": 1286,
+    "violations": 41
+  }
+}

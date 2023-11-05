@@ -1,0 +1,67 @@
+{
+  "url": "https://www.thereseadoremos.com/",
+  "requestedUrl": "https://www.thereseadoremos.com/",
+  "timestamp": 1699141952767,
+  "ranks": {
+    "hundos": 390,
+    "performance": 444,
+    "accessibility": 106,
+    "cumulative": 386
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.51,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 343
+  },
+  "firstContentfulPaint": 1550.4769999999999,
+  "firstMeaningfulPaint": 1626.3489999999997,
+  "speedIndex": 4680.7076103519985,
+  "largestContentfulPaint": 2823.2974999999997,
+  "totalBlockingTime": 1166.499999999999,
+  "cumulativeLayoutShift": 0.3076464450704902,
+  "timeToInteractive": 11608.488000000001,
+  "maxPotentialFirstInputDelay": 464,
+  "timeToFirstByte": 6.84699999999998,
+  "weight": {
+    "summary": "43 requests • 1,476 KiB",
+    "total": 1511153,
+    "image": 158113,
+    "imageCount": 8,
+    "script": 1010636,
+    "scriptCount": 9,
+    "document": 51366,
+    "font": 183131,
+    "fontCount": 6,
+    "stylesheet": 72722,
+    "stylesheetCount": 6,
+    "thirdParty": 1216388,
+    "thirdPartyCount": 25
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 370,
+    "+weight.total": 113,
+    "-weight.document": 424,
+    "+weight.document": 51,
+    "-weight.script": 432,
+    "+weight.script": 16,
+    "-weight.image": 177,
+    "+weight.image": 249,
+    "-weight.font": 302,
+    "+weight.font": 61,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 76,
+    "-totalBlockingTime": 300,
+    "-largestContentfulPaint": 384
+  },
+  "axe": {
+    "passes": 638,
+    "violations": 2
+  }
+}

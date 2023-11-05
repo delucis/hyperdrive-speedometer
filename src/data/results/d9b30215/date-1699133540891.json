@@ -1,0 +1,67 @@
+{
+  "url": "https://www.giftgenius.io/",
+  "requestedUrl": "https://www.giftgenius.io/",
+  "timestamp": 1699140645726,
+  "ranks": {
+    "hundos": 143,
+    "performance": 147,
+    "accessibility": 326,
+    "cumulative": 145
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.98,
+    "accessibility": 0.91,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 389
+  },
+  "firstContentfulPaint": 1205.8200000000002,
+  "firstMeaningfulPaint": 1205.8200000000002,
+  "speedIndex": 1205.8200000000002,
+  "largestContentfulPaint": 1588.8735000000001,
+  "totalBlockingTime": 137.5,
+  "cumulativeLayoutShift": 0.02179724799262153,
+  "timeToInteractive": 2417.32,
+  "maxPotentialFirstInputDelay": 215,
+  "timeToFirstByte": 8.575000000000017,
+  "weight": {
+    "summary": "25 requests • 220 KiB",
+    "total": 225085,
+    "image": 53592,
+    "imageCount": 5,
+    "script": 80334,
+    "scriptCount": 8,
+    "document": 7476,
+    "font": 52167,
+    "fontCount": 4,
+    "stylesheet": 15293,
+    "stylesheetCount": 1,
+    "thirdParty": 5907,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 150,
+    "+weight.total": 333,
+    "-weight.document": 194,
+    "+weight.document": 281,
+    "-weight.script": 231,
+    "+weight.script": 217,
+    "-weight.image": 93,
+    "+weight.image": 333,
+    "-weight.font": 152,
+    "+weight.font": 211,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 116,
+    "-totalBlockingTime": 133,
+    "-largestContentfulPaint": 31
+  },
+  "axe": {
+    "passes": 294,
+    "violations": 4
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://franguerrero.dev/",
+  "requestedUrl": "https://franguerrero.dev/",
+  "timestamp": 1699142725209,
+  "ranks": {
+    "hundos": 49,
+    "performance": 117,
+    "accessibility": 163,
+    "cumulative": 56
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1514.7219999999998,
+  "firstMeaningfulPaint": 1514.7219999999998,
+  "speedIndex": 1515.6696199899184,
+  "largestContentfulPaint": 1514.7219999999998,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.05491620551215278,
+  "timeToInteractive": 1514.7219999999998,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 8.036000000000001,
+  "weight": {
+    "summary": "12 requests • 115 KiB",
+    "total": 117974,
+    "image": 9581,
+    "imageCount": 1,
+    "script": 49866,
+    "scriptCount": 7,
+    "document": 7303,
+    "font": 47103,
+    "fontCount": 1,
+    "stylesheet": 4121,
+    "stylesheetCount": 2,
+    "thirdParty": 48424,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 89,
+    "+weight.total": 394,
+    "-weight.document": 185,
+    "+weight.document": 290,
+    "-weight.script": 181,
+    "+weight.script": 267,
+    "-weight.image": 36,
+    "+weight.image": 390,
+    "-weight.font": 139,
+    "+weight.font": 224,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 101,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 163
+  },
+  "axe": {
+    "passes": 367,
+    "violations": 26
+  }
+}

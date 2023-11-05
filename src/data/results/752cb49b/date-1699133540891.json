@@ -1,0 +1,67 @@
+{
+  "url": "https://internetoflife.org/",
+  "requestedUrl": "https://internetoflife.org/",
+  "timestamp": 1699145566811,
+  "ranks": {
+    "hundos": 287,
+    "performance": 337,
+    "accessibility": 186,
+    "cumulative": 287
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.8,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 371
+  },
+  "firstContentfulPaint": 1197.82,
+  "firstMeaningfulPaint": 1810.0439999999999,
+  "speedIndex": 3641.0336107348285,
+  "largestContentfulPaint": 2488.2120000000004,
+  "totalBlockingTime": 515.5000000000005,
+  "cumulativeLayoutShift": 0.000789104315429768,
+  "timeToInteractive": 5264.155381469728,
+  "maxPotentialFirstInputDelay": 295,
+  "timeToFirstByte": 4.939000000000021,
+  "weight": {
+    "summary": "62 requests • 1,436 KiB",
+    "total": 1470009,
+    "image": 659616,
+    "imageCount": 22,
+    "script": 212696,
+    "scriptCount": 20,
+    "document": 17471,
+    "font": 131369,
+    "fontCount": 5,
+    "stylesheet": 16971,
+    "stylesheetCount": 1,
+    "thirdParty": 636133,
+    "thirdPartyCount": 32
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 362,
+    "+weight.total": 121,
+    "-weight.document": 337,
+    "+weight.document": 138,
+    "-weight.script": 314,
+    "+weight.script": 134,
+    "-weight.image": 316,
+    "+weight.image": 110,
+    "-weight.font": 271,
+    "+weight.font": 92,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 58,
+    "-totalBlockingTime": 235,
+    "-largestContentfulPaint": 368
+  },
+  "axe": {
+    "passes": 994,
+    "violations": 8
+  }
+}

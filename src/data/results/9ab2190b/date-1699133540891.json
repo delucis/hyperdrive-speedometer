@@ -1,0 +1,67 @@
+{
+  "url": "https://battarang.anissan.com/",
+  "requestedUrl": "https://battarang.anissan.com/",
+  "timestamp": 1699150131136,
+  "ranks": {
+    "hundos": 156,
+    "performance": 152,
+    "accessibility": 161,
+    "cumulative": 158
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.9,
+    "total": 388
+  },
+  "firstContentfulPaint": 1431.1390000000001,
+  "firstMeaningfulPaint": 1517.6390000000001,
+  "speedIndex": 1567.349981228137,
+  "largestContentfulPaint": 1947.1875,
+  "totalBlockingTime": 128.5,
+  "cumulativeLayoutShift": 0.0069846434891223915,
+  "timeToInteractive": 1709.6390000000001,
+  "maxPotentialFirstInputDelay": 118,
+  "timeToFirstByte": 38.081999999999994,
+  "weight": {
+    "summary": "18 requests • 165 KiB",
+    "total": 168682,
+    "image": 55171,
+    "imageCount": 1,
+    "script": 39014,
+    "scriptCount": 10,
+    "document": 22735,
+    "font": 38860,
+    "fontCount": 1,
+    "stylesheet": 11037,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 117,
+    "+weight.total": 366,
+    "-weight.document": 360,
+    "+weight.document": 115,
+    "-weight.script": 169,
+    "+weight.script": 279,
+    "-weight.image": 98,
+    "+weight.image": 328,
+    "-weight.font": 106,
+    "+weight.font": 257,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 237,
+    "-totalBlockingTime": 127,
+    "-largestContentfulPaint": 53
+  },
+  "axe": {
+    "passes": 354,
+    "violations": 24
+  }
+}

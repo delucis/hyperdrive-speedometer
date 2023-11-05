@@ -1,0 +1,67 @@
+{
+  "url": "https://okikio.dev/",
+  "requestedUrl": "https://okikio.dev/",
+  "timestamp": 1699149534427,
+  "ranks": {
+    "hundos": 206,
+    "performance": 133,
+    "accessibility": 74,
+    "cumulative": 204
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 0.83,
+    "seo": 1,
+    "total": 382
+  },
+  "firstContentfulPaint": 1234.279,
+  "firstMeaningfulPaint": 1234.279,
+  "speedIndex": 1761.9053904473485,
+  "largestContentfulPaint": 1998.355,
+  "totalBlockingTime": 78.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2174.279,
+  "maxPotentialFirstInputDelay": 137,
+  "timeToFirstByte": 217.75799999999998,
+  "weight": {
+    "summary": "14 requests • 162 KiB",
+    "total": 165394,
+    "image": 66989,
+    "imageCount": 1,
+    "script": 8771,
+    "scriptCount": 4,
+    "document": 11333,
+    "font": 62935,
+    "fontCount": 2,
+    "stylesheet": 14043,
+    "stylesheetCount": 2,
+    "thirdParty": 68312,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 113,
+    "+weight.total": 370,
+    "-weight.document": 280,
+    "+weight.document": 195,
+    "-weight.script": 89,
+    "+weight.script": 359,
+    "-weight.image": 109,
+    "+weight.image": 317,
+    "-weight.font": 174,
+    "+weight.font": 189,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 407,
+    "-totalBlockingTime": 87,
+    "-largestContentfulPaint": 333
+  },
+  "axe": {
+    "passes": 612,
+    "violations": 1
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://reindeere.ca/",
+  "requestedUrl": "https://reindeere.ca/",
+  "timestamp": 1699135193461,
+  "ranks": {
+    "hundos": 267,
+    "performance": 325,
+    "accessibility": 314,
+    "cumulative": 269
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.81,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 373
+  },
+  "firstContentfulPaint": 1516.8319999999999,
+  "firstMeaningfulPaint": 1525.2769999999998,
+  "speedIndex": 1677.7346703406688,
+  "largestContentfulPaint": 1668.2019999999998,
+  "totalBlockingTime": 406,
+  "cumulativeLayoutShift": 0.24108528455098469,
+  "timeToInteractive": 3945.012,
+  "maxPotentialFirstInputDelay": 254,
+  "timeToFirstByte": 8.049000000000007,
+  "weight": {
+    "summary": "21 requests • 9,791 KiB",
+    "total": 10026252,
+    "image": 192449,
+    "imageCount": 5,
+    "script": 99033,
+    "scriptCount": 6,
+    "document": 63917,
+    "font": 113539,
+    "fontCount": 4,
+    "stylesheet": 25082,
+    "stylesheetCount": 2,
+    "thirdParty": 9810373,
+    "thirdPartyCount": 9
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 472,
+    "+weight.total": 11,
+    "-weight.document": 435,
+    "+weight.document": 40,
+    "-weight.script": 249,
+    "+weight.script": 199,
+    "-weight.image": 195,
+    "+weight.image": 231,
+    "-weight.font": 254,
+    "+weight.font": 109,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 102,
+    "-totalBlockingTime": 218,
+    "-largestContentfulPaint": 35
+  },
+  "axe": {
+    "passes": 489,
+    "violations": 5
+  }
+}

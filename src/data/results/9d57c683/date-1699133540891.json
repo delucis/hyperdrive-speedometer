@@ -1,0 +1,67 @@
+{
+  "url": "https://linux.tcetmumbai.in/",
+  "requestedUrl": "https://linux.tcetmumbai.in/",
+  "timestamp": 1699134201899,
+  "ranks": {
+    "hundos": 371,
+    "performance": 160,
+    "accessibility": 474,
+    "cumulative": 371
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.98,
+    "accessibility": 0.59,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 350
+  },
+  "firstContentfulPaint": 1524.5860000000002,
+  "firstMeaningfulPaint": 1592.2445000000002,
+  "speedIndex": 1751.6716544990077,
+  "largestContentfulPaint": 1592.2445000000002,
+  "totalBlockingTime": 5.317000000000007,
+  "cumulativeLayoutShift": 0.10115033637152777,
+  "timeToInteractive": 1619.9030000000002,
+  "maxPotentialFirstInputDelay": 70.00000000000023,
+  "timeToFirstByte": 11.464999999999975,
+  "weight": {
+    "summary": "24 requests • 400 KiB",
+    "total": 409683,
+    "image": 279314,
+    "imageCount": 13,
+    "script": 52720,
+    "scriptCount": 6,
+    "document": 9123,
+    "font": 62245,
+    "fontCount": 2,
+    "stylesheet": 6281,
+    "stylesheetCount": 2,
+    "thirdParty": 63490,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 223,
+    "+weight.total": 260,
+    "-weight.document": 231,
+    "+weight.document": 244,
+    "-weight.script": 186,
+    "+weight.script": 262,
+    "-weight.image": 233,
+    "+weight.image": 193,
+    "-weight.font": 172,
+    "+weight.font": 191,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 149,
+    "-totalBlockingTime": 13,
+    "-largestContentfulPaint": 294
+  },
+  "axe": {
+    "passes": 324,
+    "violations": 21
+  }
+}

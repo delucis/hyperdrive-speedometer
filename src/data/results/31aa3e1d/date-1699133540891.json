@@ -1,0 +1,67 @@
+{
+  "url": "https://www.elian.codes/",
+  "requestedUrl": "https://www.elian.codes/",
+  "timestamp": 1699141702776,
+  "ranks": {
+    "hundos": 45,
+    "performance": 103,
+    "accessibility": 120,
+    "cumulative": 50
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1014.218,
+  "firstMeaningfulPaint": 1040.2179999999998,
+  "speedIndex": 1014.218,
+  "largestContentfulPaint": 2030.2179999999998,
+  "totalBlockingTime": 0.9999999999999432,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1060.7179999999998,
+  "maxPotentialFirstInputDelay": 51.999999999999886,
+  "timeToFirstByte": 6.7760000000000105,
+  "weight": {
+    "summary": "18 requests • 268 KiB",
+    "total": 274101,
+    "image": 61610,
+    "imageCount": 3,
+    "script": 7793,
+    "scriptCount": 5,
+    "document": 5126,
+    "font": 193894,
+    "fontCount": 5,
+    "stylesheet": 5457,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 173,
+    "+weight.total": 310,
+    "-weight.document": 106,
+    "+weight.document": 369,
+    "-weight.script": 81,
+    "+weight.script": 367,
+    "-weight.image": 104,
+    "+weight.image": 322,
+    "-weight.font": 307,
+    "+weight.font": 56,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 74,
+    "-totalBlockingTime": 2,
+    "-largestContentfulPaint": 215
+  },
+  "axe": {
+    "passes": 369,
+    "violations": 3
+  }
+}
