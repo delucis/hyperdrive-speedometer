@@ -1,0 +1,67 @@
+{
+  "url": "https://www.e-gov.az/",
+  "requestedUrl": "https://www.e-gov.az/",
+  "timestamp": 1699151877918,
+  "ranks": {
+    "hundos": 470,
+    "performance": 473,
+    "accessibility": 424,
+    "cumulative": 470
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.27,
+    "accessibility": 0.8,
+    "bestPractices": 0.83,
+    "seo": 1,
+    "total": 290
+  },
+  "firstContentfulPaint": 3289.546,
+  "firstMeaningfulPaint": 4387.9439999999995,
+  "speedIndex": 7376.807327695598,
+  "largestContentfulPaint": 6558.420000000002,
+  "totalBlockingTime": 1854.533215805055,
+  "cumulativeLayoutShift": 0.03178769259982639,
+  "timeToInteractive": 15175.512215805054,
+  "maxPotentialFirstInputDelay": 745,
+  "timeToFirstByte": 326.02,
+  "weight": {
+    "summary": "124 requests • 9,314 KiB",
+    "total": 9537741,
+    "image": 8210380,
+    "imageCount": 58,
+    "script": 1065290,
+    "scriptCount": 34,
+    "document": 87761,
+    "font": 117309,
+    "fontCount": 4,
+    "stylesheet": 47080,
+    "stylesheetCount": 8,
+    "thirdParty": 1126883,
+    "thirdPartyCount": 51
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 469,
+    "+weight.total": 14,
+    "-weight.document": 449,
+    "+weight.document": 26,
+    "-weight.script": 435,
+    "+weight.script": 13,
+    "-weight.image": 417,
+    "+weight.image": 9,
+    "-weight.font": 256,
+    "+weight.font": 107,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 431,
+    "-totalBlockingTime": 317,
+    "-largestContentfulPaint": 460
+  },
+  "axe": {
+    "passes": 1393,
+    "violations": 55
+  }
+}

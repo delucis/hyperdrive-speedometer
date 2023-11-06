@@ -1,0 +1,67 @@
+{
+  "url": "https://fluentos.com/",
+  "requestedUrl": "https://fluentos.com/",
+  "timestamp": 1699148027017,
+  "ranks": {
+    "hundos": 6,
+    "performance": 30,
+    "accessibility": 10,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 990.082,
+  "firstMeaningfulPaint": 1047.5819999999999,
+  "speedIndex": 990.082,
+  "largestContentfulPaint": 1047.5819999999999,
+  "totalBlockingTime": 2.499999999999943,
+  "cumulativeLayoutShift": 0.025788330078124998,
+  "timeToInteractive": 1059.5819999999999,
+  "maxPotentialFirstInputDelay": 154,
+  "timeToFirstByte": 54.59900000000002,
+  "weight": {
+    "summary": "15 requests • 190 KiB",
+    "total": 194397,
+    "image": 121244,
+    "imageCount": 10,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 9248,
+    "font": 57372,
+    "fontCount": 3,
+    "stylesheet": 6533,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 136,
+    "+weight.total": 347,
+    "-weight.document": 233,
+    "+weight.document": 242,
+    "-weight.script": 1,
+    "+weight.script": 448,
+    "-weight.image": 153,
+    "+weight.image": 273,
+    "-weight.font": 161,
+    "+weight.font": 202,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 257,
+    "-totalBlockingTime": 6,
+    "-largestContentfulPaint": 140
+  },
+  "axe": {
+    "passes": 602,
+    "violations": 0
+  }
+}

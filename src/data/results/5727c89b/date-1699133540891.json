@@ -1,0 +1,67 @@
+{
+  "url": "https://blog.kakaopay.com/",
+  "requestedUrl": "https://blog.kakaopay.com/",
+  "timestamp": 1699134547611,
+  "ranks": {
+    "hundos": 202,
+    "performance": 248,
+    "accessibility": 322,
+    "cumulative": 203
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.91,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 383
+  },
+  "firstContentfulPaint": 919.271,
+  "firstMeaningfulPaint": 3573.5834999999997,
+  "speedIndex": 1081.4318132230421,
+  "largestContentfulPaint": 1298.4585000000002,
+  "totalBlockingTime": 345.32500000000005,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 4067.7469999999994,
+  "maxPotentialFirstInputDelay": 145,
+  "timeToFirstByte": 13.128000000000014,
+  "weight": {
+    "summary": "36 requests • 1,694 KiB",
+    "total": 1734342,
+    "image": 1014337,
+    "imageCount": 7,
+    "script": 228695,
+    "scriptCount": 19,
+    "document": 10780,
+    "font": 472381,
+    "fontCount": 2,
+    "stylesheet": 7763,
+    "stylesheetCount": 4,
+    "thirdParty": 170473,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 386,
+    "+weight.total": 97,
+    "-weight.document": 275,
+    "+weight.document": 200,
+    "-weight.script": 327,
+    "+weight.script": 121,
+    "-weight.image": 345,
+    "+weight.image": 81,
+    "-weight.font": 341,
+    "+weight.font": 22,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 165,
+    "-totalBlockingTime": 201,
+    "-largestContentfulPaint": 22
+  },
+  "axe": {
+    "passes": 335,
+    "violations": 19
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://enklare.se/",
+  "requestedUrl": "https://enklare.se/",
+  "timestamp": 1699135952352,
+  "ranks": {
+    "hundos": 382,
+    "performance": 400,
+    "accessibility": 348,
+    "cumulative": 382
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.64,
+    "accessibility": 0.9,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 346
+  },
+  "firstContentfulPaint": 1097.0029999999997,
+  "firstMeaningfulPaint": 1251.0029999999997,
+  "speedIndex": 3296.2369371393925,
+  "largestContentfulPaint": 1251.0029999999997,
+  "totalBlockingTime": 2370.4999999999986,
+  "cumulativeLayoutShift": 0.0024191724989149305,
+  "timeToInteractive": 8973.310226135254,
+  "maxPotentialFirstInputDelay": 360,
+  "timeToFirstByte": 116.64799999999997,
+  "weight": {
+    "summary": "103 requests • 716 KiB",
+    "total": 733653,
+    "image": 40635,
+    "imageCount": 37,
+    "script": 608388,
+    "scriptCount": 25,
+    "document": 44827,
+    "font": 0,
+    "fontCount": 3,
+    "stylesheet": 32919,
+    "stylesheetCount": 25,
+    "thirdParty": 268834,
+    "thirdPartyCount": 38
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 296,
+    "+weight.total": 187,
+    "-weight.document": 411,
+    "+weight.document": 64,
+    "-weight.script": 404,
+    "+weight.script": 44,
+    "-weight.image": 79,
+    "+weight.image": 347,
+    "-weight.font": 1,
+    "+weight.font": 363,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 352,
+    "-totalBlockingTime": 322,
+    "-largestContentfulPaint": 271
+  },
+  "axe": {
+    "passes": 1140,
+    "violations": 72
+  }
+}
