@@ -33,7 +33,7 @@ const { entries } = Astro.props as Props;
           <td><code class="date">{displayDate(entry.timestamp)}</code></td>
           <WeightCell size={entry.weight.total} />
           <WeightCell size={entry.weight.document} />
-          <WeightCell size={entry.weight.stylesheet} count={entry.weight.stylesheet} />
+          <WeightCell size={entry.weight.stylesheet} count={entry.weight.stylesheetCount} />
           <WeightCell size={entry.weight.script} count={entry.weight.scriptCount} />
           <WeightCell size={entry.weight.image} count={entry.weight.imageCount} />
           <WeightCell size={entry.weight.font} count={entry.weight.fontCount} />
