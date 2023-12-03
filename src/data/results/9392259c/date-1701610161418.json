@@ -1,0 +1,67 @@
+{
+  "url": "https://openresource.dev/",
+  "requestedUrl": "https://openresource.dev/",
+  "timestamp": 1701623121273,
+  "ranks": {
+    "hundos": 111,
+    "performance": 80,
+    "accessibility": 317,
+    "cumulative": 108
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 394
+  },
+  "firstContentfulPaint": 1392.913,
+  "firstMeaningfulPaint": 1392.913,
+  "speedIndex": 1392.913,
+  "largestContentfulPaint": 1392.913,
+  "totalBlockingTime": 36,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1478.913,
+  "maxPotentialFirstInputDelay": 186,
+  "timeToFirstByte": 75.52399999999999,
+  "weight": {
+    "summary": "8 requests • 76 KiB",
+    "total": 77488,
+    "image": 0,
+    "imageCount": 0,
+    "script": 38297,
+    "scriptCount": 3,
+    "document": 14445,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 24548,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 56,
+    "+weight.total": 471,
+    "-weight.document": 348,
+    "+weight.document": 176,
+    "-weight.script": 178,
+    "+weight.script": 309,
+    "-weight.image": 1,
+    "+weight.image": 473,
+    "-weight.font": 1,
+    "+weight.font": 402,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 329,
+    "-totalBlockingTime": 48,
+    "-largestContentfulPaint": 201
+  },
+  "axe": {
+    "passes": 318,
+    "violations": 6
+  }
+}

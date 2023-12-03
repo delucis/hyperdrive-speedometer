@@ -1,0 +1,67 @@
+{
+  "url": "https://www.matbiec.net/",
+  "requestedUrl": "https://ask.foolishdev.com/",
+  "timestamp": 1701620680450,
+  "ranks": {
+    "hundos": 159,
+    "performance": 243,
+    "accessibility": 277,
+    "cumulative": 162
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.94,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 390
+  },
+  "firstContentfulPaint": 2234.2589999999996,
+  "firstMeaningfulPaint": 2321.2589999999996,
+  "speedIndex": 2694.5051325321883,
+  "largestContentfulPaint": 2408.2589999999996,
+  "totalBlockingTime": 116.5,
+  "cumulativeLayoutShift": 0.0014287109375000003,
+  "timeToInteractive": 2578.7589999999996,
+  "maxPotentialFirstInputDelay": 118,
+  "timeToFirstByte": 692.9879999999999,
+  "weight": {
+    "summary": "20 requests • 681 KiB",
+    "total": 696988,
+    "image": 536678,
+    "imageCount": 9,
+    "script": 28550,
+    "scriptCount": 7,
+    "document": 122716,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 8733,
+    "stylesheetCount": 1,
+    "thirdParty": 311,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 314,
+    "+weight.total": 213,
+    "-weight.document": 510,
+    "+weight.document": 14,
+    "-weight.script": 163,
+    "+weight.script": 324,
+    "-weight.image": 330,
+    "+weight.image": 143,
+    "-weight.font": 1,
+    "+weight.font": 402,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 491,
+    "-totalBlockingTime": 119,
+    "-largestContentfulPaint": 75
+  },
+  "axe": {
+    "passes": 358,
+    "violations": 15
+  }
+}

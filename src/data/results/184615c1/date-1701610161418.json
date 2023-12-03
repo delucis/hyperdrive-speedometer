@@ -1,0 +1,67 @@
+{
+  "url": "https://edumentors.co.uk/",
+  "requestedUrl": "https://edumentors.co.uk/",
+  "timestamp": 1701621422388,
+  "ranks": {
+    "hundos": 375,
+    "performance": 339,
+    "accessibility": 375,
+    "cumulative": 379
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.84,
+    "accessibility": 0.91,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 359
+  },
+  "firstContentfulPaint": 1232.4605000000001,
+  "firstMeaningfulPaint": 1232.4605000000001,
+  "speedIndex": 1728.4441503935536,
+  "largestContentfulPaint": 2109.8990000000003,
+  "totalBlockingTime": 422.00000000000045,
+  "cumulativeLayoutShift": 0.12323404947916666,
+  "timeToInteractive": 4505.256500000001,
+  "maxPotentialFirstInputDelay": 343,
+  "timeToFirstByte": 139.925,
+  "weight": {
+    "summary": "80 requests • 895 KiB",
+    "total": 916987,
+    "image": 158839,
+    "imageCount": 23,
+    "script": 228215,
+    "scriptCount": 42,
+    "document": 24918,
+    "font": 99551,
+    "fontCount": 3,
+    "stylesheet": 20737,
+    "stylesheetCount": 6,
+    "thirdParty": 115280,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 341,
+    "+weight.total": 186,
+    "-weight.document": 410,
+    "+weight.document": 114,
+    "-weight.script": 356,
+    "+weight.script": 131,
+    "-weight.image": 195,
+    "+weight.image": 278,
+    "-weight.font": 258,
+    "+weight.font": 144,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 400,
+    "-totalBlockingTime": 239,
+    "-largestContentfulPaint": 324
+  },
+  "axe": {
+    "passes": 957,
+    "violations": 83
+  }
+}

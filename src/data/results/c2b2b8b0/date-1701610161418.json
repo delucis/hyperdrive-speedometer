@@ -1,0 +1,67 @@
+{
+  "url": "https://jordemort.dev/",
+  "requestedUrl": "https://jordemort.dev/",
+  "timestamp": 1701622362263,
+  "ranks": {
+    "hundos": 392,
+    "performance": 148,
+    "accessibility": 464,
+    "cumulative": 391
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.98,
+    "accessibility": 0.79,
+    "bestPractices": 1,
+    "seo": 0.78,
+    "total": 355
+  },
+  "firstContentfulPaint": 872.3820000000001,
+  "firstMeaningfulPaint": 872.3820000000001,
+  "speedIndex": 872.3820000000001,
+  "largestContentfulPaint": 872.3820000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.11135722011990017,
+  "timeToInteractive": 872.3820000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 11.227000000000004,
+  "weight": {
+    "summary": "7 requests • 80 KiB",
+    "total": 81741,
+    "image": 30564,
+    "imageCount": 1,
+    "script": 1520,
+    "scriptCount": 1,
+    "document": 4229,
+    "font": 39595,
+    "fontCount": 3,
+    "stylesheet": 5833,
+    "stylesheetCount": 1,
+    "thirdParty": 30564,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 60,
+    "+weight.total": 467,
+    "-weight.document": 68,
+    "+weight.document": 456,
+    "-weight.script": 29,
+    "+weight.script": 458,
+    "-weight.image": 77,
+    "+weight.image": 396,
+    "-weight.font": 116,
+    "+weight.font": 286,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 152,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 5
+  },
+  "axe": {
+    "passes": 88,
+    "violations": 2
+  }
+}

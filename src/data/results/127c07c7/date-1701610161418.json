@@ -1,0 +1,67 @@
+{
+  "url": "https://miskamyasa.me/",
+  "requestedUrl": "https://miskamyasa.me/",
+  "timestamp": 1701611666792,
+  "ranks": {
+    "hundos": 83,
+    "performance": 74,
+    "accessibility": 235,
+    "cumulative": 77
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 397
+  },
+  "firstContentfulPaint": 980.2080000000001,
+  "firstMeaningfulPaint": 1240.4160000000002,
+  "speedIndex": 1328.162797046342,
+  "largestContentfulPaint": 1758.2270000000003,
+  "totalBlockingTime": 20,
+  "cumulativeLayoutShift": 0.0020067596435546877,
+  "timeToInteractive": 1758.2270000000003,
+  "maxPotentialFirstInputDelay": 66,
+  "timeToFirstByte": 90.08100000000002,
+  "weight": {
+    "summary": "8 requests • 63 KiB",
+    "total": 64184,
+    "image": 1871,
+    "imageCount": 1,
+    "script": 20757,
+    "scriptCount": 1,
+    "document": 4931,
+    "font": 32519,
+    "fontCount": 1,
+    "stylesheet": 3774,
+    "stylesheetCount": 2,
+    "thirdParty": 21089,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 43,
+    "+weight.total": 484,
+    "-weight.document": 99,
+    "+weight.document": 425,
+    "-weight.script": 140,
+    "+weight.script": 347,
+    "-weight.image": 13,
+    "+weight.image": 460,
+    "-weight.font": 71,
+    "+weight.font": 331,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 350,
+    "-totalBlockingTime": 31,
+    "-largestContentfulPaint": 276
+  },
+  "axe": {
+    "passes": 377,
+    "violations": 5
+  }
+}

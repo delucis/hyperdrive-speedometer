@@ -1,0 +1,67 @@
+{
+  "url": "https://csgoconsole.com/",
+  "requestedUrl": "https://csgoconsole.com/",
+  "timestamp": 1701619853880,
+  "ranks": {
+    "hundos": 436,
+    "performance": 433,
+    "accessibility": 427,
+    "cumulative": 436
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.65,
+    "accessibility": 0.85,
+    "bestPractices": 0.92,
+    "seo": 0.95,
+    "total": 337
+  },
+  "firstContentfulPaint": 2233.981,
+  "firstMeaningfulPaint": 2270.481,
+  "speedIndex": 3237.318499064132,
+  "largestContentfulPaint": 4224.0830000000005,
+  "totalBlockingTime": 526.5000000000002,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 6518.591,
+  "maxPotentialFirstInputDelay": 194,
+  "timeToFirstByte": 102.77900000000001,
+  "weight": {
+    "summary": "57 requests • 933 KiB",
+    "total": 955179,
+    "image": 498599,
+    "imageCount": 15,
+    "script": 403005,
+    "scriptCount": 20,
+    "document": 24928,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 15914,
+    "stylesheetCount": 12,
+    "thirdParty": 414556,
+    "thirdPartyCount": 22
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 347,
+    "+weight.total": 180,
+    "-weight.document": 411,
+    "+weight.document": 113,
+    "-weight.script": 413,
+    "+weight.script": 74,
+    "-weight.image": 323,
+    "+weight.image": 150,
+    "-weight.font": 1,
+    "+weight.font": 402,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 365,
+    "-totalBlockingTime": 262,
+    "-largestContentfulPaint": 460
+  },
+  "axe": {
+    "passes": 528,
+    "violations": 5
+  }
+}

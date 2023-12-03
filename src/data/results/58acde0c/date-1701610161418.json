@@ -1,0 +1,67 @@
+{
+  "url": "https://www.hungrimind.com/",
+  "requestedUrl": "https://hungrimind.com/",
+  "timestamp": 1701621507537,
+  "ranks": {
+    "hundos": 493,
+    "performance": 508,
+    "accessibility": 320,
+    "cumulative": 492
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.36,
+    "accessibility": 0.94,
+    "bestPractices": 0.83,
+    "seo": 1,
+    "total": 313
+  },
+  "firstContentfulPaint": 2383.5285,
+  "firstMeaningfulPaint": 2383.5285,
+  "speedIndex": 7520.959933897002,
+  "largestContentfulPaint": 5690.298499999999,
+  "totalBlockingTime": 730.5,
+  "cumulativeLayoutShift": 0.20035510762532552,
+  "timeToInteractive": 12926.4035,
+  "maxPotentialFirstInputDelay": 537,
+  "timeToFirstByte": 1058.8950000000002,
+  "weight": {
+    "summary": "46 requests • 1,744 KiB",
+    "total": 1785507,
+    "image": 577707,
+    "imageCount": 6,
+    "script": 1043392,
+    "scriptCount": 20,
+    "document": 46089,
+    "font": 22187,
+    "fontCount": 2,
+    "stylesheet": 61000,
+    "stylesheetCount": 5,
+    "thirdParty": 1129838,
+    "thirdPartyCount": 26
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 413,
+    "+weight.total": 114,
+    "-weight.document": 463,
+    "+weight.document": 61,
+    "-weight.script": 471,
+    "+weight.script": 16,
+    "-weight.image": 337,
+    "+weight.image": 136,
+    "-weight.font": 29,
+    "+weight.font": 373,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 500,
+    "-totalBlockingTime": 284,
+    "-largestContentfulPaint": 480
+  },
+  "axe": {
+    "passes": 321,
+    "violations": 12
+  }
+}

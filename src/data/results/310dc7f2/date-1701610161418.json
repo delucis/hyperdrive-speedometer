@@ -1,0 +1,67 @@
+{
+  "url": "https://urbanizze.com/",
+  "requestedUrl": "https://urbanizze.com/",
+  "timestamp": 1701625073470,
+  "ranks": {
+    "hundos": 175,
+    "performance": 164,
+    "accessibility": 311,
+    "cumulative": 173
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.98,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 0.96,
+    "total": 388
+  },
+  "firstContentfulPaint": 1747.102,
+  "firstMeaningfulPaint": 1747.102,
+  "speedIndex": 1756.3107002536967,
+  "largestContentfulPaint": 1997.0759999999998,
+  "totalBlockingTime": 30.98350000000005,
+  "cumulativeLayoutShift": 0.04887711418999566,
+  "timeToInteractive": 2403.1255,
+  "maxPotentialFirstInputDelay": 97,
+  "timeToFirstByte": 11.75399999999999,
+  "weight": {
+    "summary": "23 requests • 545 KiB",
+    "total": 558559,
+    "image": 2868,
+    "imageCount": 1,
+    "script": 45945,
+    "scriptCount": 5,
+    "document": 3130,
+    "font": 429327,
+    "fontCount": 5,
+    "stylesheet": 76727,
+    "stylesheetCount": 9,
+    "thirdParty": 544777,
+    "thirdPartyCount": 17
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 293,
+    "+weight.total": 234,
+    "-weight.document": 30,
+    "+weight.document": 494,
+    "-weight.script": 184,
+    "+weight.script": 303,
+    "-weight.image": 21,
+    "+weight.image": 452,
+    "-weight.font": 371,
+    "+weight.font": 31,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 157,
+    "-totalBlockingTime": 43,
+    "-largestContentfulPaint": 306
+  },
+  "axe": {
+    "passes": 243,
+    "violations": 2
+  }
+}

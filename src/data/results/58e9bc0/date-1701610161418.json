@@ -1,0 +1,67 @@
+{
+  "url": "https://unitary.fund/",
+  "requestedUrl": "https://unitary.fund/",
+  "timestamp": 1701627978909,
+  "ranks": {
+    "hundos": 121,
+    "performance": 238,
+    "accessibility": 177,
+    "cumulative": 121
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.94,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.99,
+    "total": 393
+  },
+  "firstContentfulPaint": 1697.5369999999998,
+  "firstMeaningfulPaint": 1697.5369999999998,
+  "speedIndex": 2252.3742123039,
+  "largestContentfulPaint": 1697.5369999999998,
+  "totalBlockingTime": 205.5,
+  "cumulativeLayoutShift": 0.013264671325683593,
+  "timeToInteractive": 4375.513999999999,
+  "maxPotentialFirstInputDelay": 147,
+  "timeToFirstByte": 36.56,
+  "weight": {
+    "summary": "40 requests • 393 KiB",
+    "total": 402445,
+    "image": 38564,
+    "imageCount": 14,
+    "script": 269216,
+    "scriptCount": 15,
+    "document": 20838,
+    "font": 57474,
+    "fontCount": 4,
+    "stylesheet": 15970,
+    "stylesheetCount": 3,
+    "thirdParty": 265327,
+    "thirdPartyCount": 21
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 236,
+    "+weight.total": 291,
+    "-weight.document": 385,
+    "+weight.document": 139,
+    "-weight.script": 375,
+    "+weight.script": 112,
+    "-weight.image": 93,
+    "+weight.image": 380,
+    "-weight.font": 176,
+    "+weight.font": 226,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 253,
+    "-totalBlockingTime": 172,
+    "-largestContentfulPaint": 41
+  },
+  "axe": {
+    "passes": 894,
+    "violations": 25
+  }
+}

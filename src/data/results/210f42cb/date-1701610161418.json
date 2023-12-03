@@ -1,0 +1,67 @@
+{
+  "url": "https://limpbizkit.com/",
+  "requestedUrl": "https://limpbizkit.com/",
+  "timestamp": 1701620772142,
+  "ranks": {
+    "hundos": 487,
+    "performance": 495,
+    "accessibility": 419,
+    "cumulative": 486
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.47,
+    "accessibility": 0.86,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 317
+  },
+  "firstContentfulPaint": 2376.7929999999997,
+  "firstMeaningfulPaint": 2376.7929999999997,
+  "speedIndex": 15560.570907256613,
+  "largestContentfulPaint": 2526.793,
+  "totalBlockingTime": 1982.9999999999982,
+  "cumulativeLayoutShift": 0.043740885416666674,
+  "timeToInteractive": 22411.0105,
+  "maxPotentialFirstInputDelay": 597,
+  "timeToFirstByte": 121.58500000000001,
+  "weight": {
+    "summary": "114 requests • 5,649 KiB",
+    "total": 5784454,
+    "image": 3942853,
+    "imageCount": 26,
+    "script": 1579491,
+    "scriptCount": 31,
+    "document": 76016,
+    "font": 77511,
+    "fontCount": 4,
+    "stylesheet": 62773,
+    "stylesheetCount": 4,
+    "thirdParty": 3164271,
+    "thirdPartyCount": 109
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 492,
+    "+weight.total": 35,
+    "-weight.document": 493,
+    "+weight.document": 31,
+    "-weight.script": 479,
+    "+weight.script": 8,
+    "-weight.image": 444,
+    "+weight.image": 29,
+    "-weight.font": 225,
+    "+weight.font": 177,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 388,
+    "-totalBlockingTime": 334,
+    "-largestContentfulPaint": 365
+  },
+  "axe": {
+    "passes": 294,
+    "violations": 18
+  }
+}
