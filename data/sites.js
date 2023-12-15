@@ -48,6 +48,12 @@ module.exports = {
       'https://publication2023.bits-und-baeume.org/',
       'https://www.herisdia.me/',
       'https://lukreativ360.pl/',
+      // Sites blocked 15 December 2023:
+      'https://ai.cloudflare.com/',
+      'https://www.design-tokens.dev/',
+      'https://offerstreet.in/',
+      'https://softhardsystem.com/',
+      'https://bfloow.com/',
     ]);
 
     const fetch = (await import('node-fetch')).default;
