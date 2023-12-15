@@ -1,0 +1,67 @@
+{
+  "url": "https://orangeman.dev/",
+  "requestedUrl": "https://www.orangeman.dev/",
+  "timestamp": 1701616015418,
+  "ranks": {
+    "hundos": 324,
+    "performance": 168,
+    "accessibility": 258,
+    "cumulative": 325
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.98,
+    "accessibility": 0.97,
+    "bestPractices": 0.75,
+    "seo": 1,
+    "total": 370
+  },
+  "firstContentfulPaint": 1850.7580000000003,
+  "firstMeaningfulPaint": 1850.7580000000003,
+  "speedIndex": 1850.7580000000003,
+  "largestContentfulPaint": 2187.7580000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1850.7580000000003,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 12.703000000000003,
+  "weight": {
+    "summary": "27 requests • 633 KiB",
+    "total": 648677,
+    "image": 638856,
+    "imageCount": 24,
+    "script": 514,
+    "scriptCount": 1,
+    "document": 8976,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 289472,
+    "thirdPartyCount": 10
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 311,
+    "+weight.total": 216,
+    "-weight.document": 248,
+    "+weight.document": 276,
+    "-weight.script": 5,
+    "+weight.script": 482,
+    "-weight.image": 346,
+    "+weight.image": 127,
+    "-weight.font": 1,
+    "+weight.font": 402,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 164,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 330
+  },
+  "axe": {
+    "passes": 525,
+    "violations": 41
+  }
+}

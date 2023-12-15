@@ -1,0 +1,67 @@
+{
+  "url": "https://explorations.viget.com/healthcare/",
+  "requestedUrl": "https://explorations.viget.com/healthcare/",
+  "timestamp": 1701612150070,
+  "ranks": {
+    "hundos": 276,
+    "performance": 385,
+    "accessibility": 15,
+    "cumulative": 273
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.76,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 376
+  },
+  "firstContentfulPaint": 2530.9109999999996,
+  "firstMeaningfulPaint": 2530.9109999999996,
+  "speedIndex": 2708.3822936660017,
+  "largestContentfulPaint": 2790.194,
+  "totalBlockingTime": 503.4380000000001,
+  "cumulativeLayoutShift": 0.043170247289869526,
+  "timeToInteractive": 5467.129000000001,
+  "maxPotentialFirstInputDelay": 358,
+  "timeToFirstByte": 37.478999999999985,
+  "weight": {
+    "summary": "34 requests • 4,097 KiB",
+    "total": 4195475,
+    "image": 224886,
+    "imageCount": 7,
+    "script": 275204,
+    "scriptCount": 5,
+    "document": 11469,
+    "font": 119983,
+    "fontCount": 5,
+    "stylesheet": 6991,
+    "stylesheetCount": 3,
+    "thirdParty": 510846,
+    "thirdPartyCount": 14
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 475,
+    "+weight.total": 52,
+    "-weight.document": 306,
+    "+weight.document": 218,
+    "-weight.script": 380,
+    "+weight.script": 107,
+    "-weight.image": 235,
+    "+weight.image": 238,
+    "-weight.font": 287,
+    "+weight.font": 115,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 256,
+    "-totalBlockingTime": 256,
+    "-largestContentfulPaint": 385
+  },
+  "axe": {
+    "passes": 463,
+    "violations": 0
+  }
+}

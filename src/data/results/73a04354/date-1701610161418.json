@@ -1,0 +1,67 @@
+{
+  "url": "https://dantedecodes.vercel.app/",
+  "requestedUrl": "https://dantedecodes.vercel.app/",
+  "timestamp": 1701622407220,
+  "ranks": {
+    "hundos": 119,
+    "performance": 200,
+    "accessibility": 244,
+    "cumulative": 118
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.96,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 393
+  },
+  "firstContentfulPaint": 1508.598,
+  "firstMeaningfulPaint": 1508.598,
+  "speedIndex": 1508.598,
+  "largestContentfulPaint": 1717.225,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.1489144973754883,
+  "timeToInteractive": 1508.598,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 14.00099999999999,
+  "weight": {
+    "summary": "11 requests • 270 KiB",
+    "total": 276395,
+    "image": 6459,
+    "imageCount": 1,
+    "script": 22098,
+    "scriptCount": 2,
+    "document": 6844,
+    "font": 214137,
+    "fontCount": 4,
+    "stylesheet": 26857,
+    "stylesheetCount": 3,
+    "thirdParty": 30055,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 183,
+    "+weight.total": 344,
+    "-weight.document": 183,
+    "+weight.document": 341,
+    "-weight.script": 146,
+    "+weight.script": 341,
+    "-weight.image": 37,
+    "+weight.image": 436,
+    "-weight.font": 341,
+    "+weight.font": 61,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 174,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 268
+  },
+  "axe": {
+    "passes": 299,
+    "violations": 8
+  }
+}

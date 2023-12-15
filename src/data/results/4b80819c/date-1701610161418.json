@@ -1,0 +1,67 @@
+{
+  "url": "https://dhawalsah.vercel.app/",
+  "requestedUrl": "https://dhawalsah.vercel.app/",
+  "timestamp": 1701613241636,
+  "ranks": {
+    "hundos": 282,
+    "performance": 389,
+    "accessibility": 184,
+    "cumulative": 288
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.75,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 375
+  },
+  "firstContentfulPaint": 1108.3179999999998,
+  "firstMeaningfulPaint": 1108.3179999999998,
+  "speedIndex": 1400.5917428938012,
+  "largestContentfulPaint": 5363.093000000001,
+  "totalBlockingTime": 258.95900000000006,
+  "cumulativeLayoutShift": 0.021993164062499997,
+  "timeToInteractive": 1871.3999999999999,
+  "maxPotentialFirstInputDelay": 437,
+  "timeToFirstByte": 14.686999999999998,
+  "weight": {
+    "summary": "14 requests • 3,919 KiB",
+    "total": 4012625,
+    "image": 3877680,
+    "imageCount": 6,
+    "script": 29098,
+    "scriptCount": 1,
+    "document": 6869,
+    "font": 93687,
+    "fontCount": 5,
+    "stylesheet": 5291,
+    "stylesheetCount": 1,
+    "thirdParty": 3964119,
+    "thirdPartyCount": 9
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 472,
+    "+weight.total": 55,
+    "-weight.document": 185,
+    "+weight.document": 339,
+    "-weight.script": 165,
+    "+weight.script": 322,
+    "-weight.image": 442,
+    "+weight.image": 31,
+    "-weight.font": 255,
+    "+weight.font": 147,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 180,
+    "-totalBlockingTime": 193,
+    "-largestContentfulPaint": 125
+  },
+  "axe": {
+    "passes": 335,
+    "violations": 47
+  }
+}

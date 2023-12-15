@@ -1,0 +1,67 @@
+{
+  "url": "https://ionae.de/",
+  "requestedUrl": "https://ionae.de/",
+  "timestamp": 1701612814805,
+  "ranks": {
+    "hundos": 50,
+    "performance": 128,
+    "accessibility": 150,
+    "cumulative": 58
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 842.188,
+  "firstMeaningfulPaint": 1511.188,
+  "speedIndex": 1534.8328098842699,
+  "largestContentfulPaint": 1736.188,
+  "totalBlockingTime": 85.00000000000011,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1511.188,
+  "maxPotentialFirstInputDelay": 115,
+  "timeToFirstByte": 285.98499999999996,
+  "weight": {
+    "summary": "26 requests • 753 KiB",
+    "total": 770744,
+    "image": 630538,
+    "imageCount": 17,
+    "script": 50879,
+    "scriptCount": 4,
+    "document": 4650,
+    "font": 79993,
+    "fontCount": 2,
+    "stylesheet": 4684,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 327,
+    "+weight.total": 200,
+    "-weight.document": 83,
+    "+weight.document": 441,
+    "-weight.script": 196,
+    "+weight.script": 291,
+    "-weight.image": 343,
+    "+weight.image": 130,
+    "-weight.font": 228,
+    "+weight.font": 174,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 446,
+    "-totalBlockingTime": 96,
+    "-largestContentfulPaint": 271
+  },
+  "axe": {
+    "passes": 304,
+    "violations": 6
+  }
+}

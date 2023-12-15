@@ -1,0 +1,67 @@
+{
+  "url": "https://pedrokehl.net/",
+  "requestedUrl": "https://pedrokehl.net/",
+  "timestamp": 1701616424148,
+  "ranks": {
+    "hundos": 200,
+    "performance": 309,
+    "accessibility": 239,
+    "cumulative": 202
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.87,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 384
+  },
+  "firstContentfulPaint": 906.7919999999998,
+  "firstMeaningfulPaint": 913.4959999999999,
+  "speedIndex": 1271.1258716692798,
+  "largestContentfulPaint": 3866.79,
+  "totalBlockingTime": 115.90800000000002,
+  "cumulativeLayoutShift": 0.03726996527777778,
+  "timeToInteractive": 2421.1224999999995,
+  "maxPotentialFirstInputDelay": 107,
+  "timeToFirstByte": 5.181000000000012,
+  "weight": {
+    "summary": "23 requests • 520 KiB",
+    "total": 532641,
+    "image": 383566,
+    "imageCount": 8,
+    "script": 65693,
+    "scriptCount": 6,
+    "document": 11601,
+    "font": 64040,
+    "fontCount": 4,
+    "stylesheet": 7741,
+    "stylesheetCount": 3,
+    "thirdParty": 437369,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 285,
+    "+weight.total": 242,
+    "-weight.document": 309,
+    "+weight.document": 215,
+    "-weight.script": 225,
+    "+weight.script": 262,
+    "-weight.image": 297,
+    "+weight.image": 176,
+    "-weight.font": 195,
+    "+weight.font": 207,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 65,
+    "-totalBlockingTime": 117,
+    "-largestContentfulPaint": 112
+  },
+  "axe": {
+    "passes": 555,
+    "violations": 6
+  }
+}

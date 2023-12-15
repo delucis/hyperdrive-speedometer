@@ -1,0 +1,66 @@
+{
+  "url": "https://bfloow.com/",
+  "requestedUrl": "https://bfloow.com/",
+  "timestamp": 1701628878298,
+  "ranks": {
+    "hundos": 293,
+    "performance": 324,
+    "accessibility": 283,
+    "cumulative": 294
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.86,
+    "accessibility": 0.96,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 374
+  },
+  "firstContentfulPaint": 1647.5070000000003,
+  "firstMeaningfulPaint": 1647.5070000000003,
+  "speedIndex": 2069.8456606141326,
+  "largestContentfulPaint": 1716.3220000000003,
+  "totalBlockingTime": 490.32199999999943,
+  "cumulativeLayoutShift": 0.00014072418212890625,
+  "timeToInteractive": 2468.8289999999997,
+  "maxPotentialFirstInputDelay": 309.9999999999998,
+  "timeToFirstByte": 147.39899999999997,
+  "weight": {
+    "summary": "69 requests • 17,071 KiB",
+    "total": 17480491,
+    "image": 15486170,
+    "imageCount": 44,
+    "script": 196350,
+    "scriptCount": 7,
+    "document": 81137,
+    "font": 33629,
+    "fontCount": 4,
+    "stylesheet": 31637,
+    "stylesheetCount": 6,
+    "thirdParty": 323209,
+    "thirdPartyCount": 19
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 521,
+    "+weight.total": 6,
+    "-weight.document": 496,
+    "+weight.document": 28,
+    "-weight.script": 334,
+    "+weight.script": 153,
+    "-weight.image": 470,
+    "+weight.image": 3,
+    "-weight.font": 76,
+    "+weight.font": 326,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 404,
+    "-totalBlockingTime": 253,
+    "-largestContentfulPaint": 267
+  },
+  "axe": {
+    "error": "Page load timed out"
+  }
+}
