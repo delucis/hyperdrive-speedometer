@@ -1,0 +1,67 @@
+{
+  "url": "https://docs.hyblocker.dev/en/",
+  "requestedUrl": "https://docs.hyblocker.dev/en/",
+  "timestamp": 1705714315661,
+  "ranks": {
+    "hundos": 519,
+    "performance": 104,
+    "accessibility": 593,
+    "cumulative": 519
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 0.36,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 327
+  },
+  "firstContentfulPaint": 1681.7339999999997,
+  "firstMeaningfulPaint": 1681.7339999999997,
+  "speedIndex": 1681.7339999999997,
+  "largestContentfulPaint": 1681.7339999999997,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0002648162841796875,
+  "timeToInteractive": 1681.7339999999997,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 134.082,
+  "weight": {
+    "summary": "10 requests • 81 KiB",
+    "total": 82946,
+    "image": 0,
+    "imageCount": 0,
+    "script": 13296,
+    "scriptCount": 3,
+    "document": 4463,
+    "font": 44978,
+    "fontCount": 3,
+    "stylesheet": 7885,
+    "stylesheetCount": 2,
+    "thirdParty": 46358,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 77,
+    "+weight.total": 517,
+    "-weight.document": 83,
+    "+weight.document": 502,
+    "-weight.script": 129,
+    "+weight.script": 415,
+    "-weight.image": 1,
+    "+weight.image": 530,
+    "-weight.font": 147,
+    "+weight.font": 302,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 302,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 92
+  },
+  "axe": {
+    "passes": 256,
+    "violations": 45
+  }
+}

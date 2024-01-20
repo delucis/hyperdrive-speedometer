@@ -1,0 +1,67 @@
+{
+  "url": "https://www.yunielacosta.com/",
+  "requestedUrl": "https://www.yunielacosta.com/",
+  "timestamp": 1705703371469,
+  "ranks": {
+    "hundos": 192,
+    "performance": 275,
+    "accessibility": 220,
+    "cumulative": 195
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.89,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 0.98,
+    "total": 385
+  },
+  "firstContentfulPaint": 2362.638,
+  "firstMeaningfulPaint": 2411.7619999999997,
+  "speedIndex": 2403.9368433099185,
+  "largestContentfulPaint": 2496.2149999999997,
+  "totalBlockingTime": 141.54700000000003,
+  "cumulativeLayoutShift": 0.1427188179228041,
+  "timeToInteractive": 2881.6679999999997,
+  "maxPotentialFirstInputDelay": 194,
+  "timeToFirstByte": 28.34699999999998,
+  "weight": {
+    "summary": "16 requests • 246 KiB",
+    "total": 252392,
+    "image": 56649,
+    "imageCount": 4,
+    "script": 103194,
+    "scriptCount": 6,
+    "document": 42335,
+    "font": 16567,
+    "fontCount": 1,
+    "stylesheet": 33436,
+    "stylesheetCount": 3,
+    "thirdParty": 21509,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 191,
+    "+weight.total": 403,
+    "-weight.document": 518,
+    "+weight.document": 67,
+    "-weight.script": 306,
+    "+weight.script": 238,
+    "-weight.image": 133,
+    "+weight.image": 397,
+    "-weight.font": 21,
+    "+weight.font": 428,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 97,
+    "-totalBlockingTime": 133,
+    "-largestContentfulPaint": 438
+  },
+  "axe": {
+    "passes": 1205,
+    "violations": 3
+  }
+}

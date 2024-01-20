@@ -1,0 +1,67 @@
+{
+  "url": "https://www.jarvisbitz.com/",
+  "requestedUrl": "https://www.jarvisbitz.com/",
+  "timestamp": 1705712582134,
+  "ranks": {
+    "hundos": 328,
+    "performance": 426,
+    "accessibility": 293,
+    "cumulative": 335
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.73,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 0.99,
+    "total": 369
+  },
+  "firstContentfulPaint": 2645.786,
+  "firstMeaningfulPaint": 2872.329,
+  "speedIndex": 3727.303125081949,
+  "largestContentfulPaint": 3159.872,
+  "totalBlockingTime": 414,
+  "cumulativeLayoutShift": 0.10287143198649089,
+  "timeToInteractive": 5468.371999999999,
+  "maxPotentialFirstInputDelay": 231,
+  "timeToFirstByte": 7.660000000000025,
+  "weight": {
+    "summary": "199 requests • 7,233 KiB",
+    "total": 7406467,
+    "image": 6987477,
+    "imageCount": 165,
+    "script": 185779,
+    "scriptCount": 25,
+    "document": 118601,
+    "font": 56046,
+    "fontCount": 4,
+    "stylesheet": 37611,
+    "stylesheetCount": 1,
+    "thirdParty": 6217930,
+    "thirdPartyCount": 57
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 560,
+    "+weight.total": 34,
+    "-weight.document": 567,
+    "+weight.document": 18,
+    "-weight.script": 383,
+    "+weight.script": 161,
+    "-weight.image": 506,
+    "+weight.image": 24,
+    "-weight.font": 200,
+    "+weight.font": 249,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 20,
+    "-totalBlockingTime": 252,
+    "-largestContentfulPaint": 481
+  },
+  "axe": {
+    "passes": 4317,
+    "violations": 83
+  }
+}

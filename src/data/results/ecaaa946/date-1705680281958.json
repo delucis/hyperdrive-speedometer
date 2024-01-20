@@ -1,0 +1,67 @@
+{
+  "url": "https://troll.is/",
+  "requestedUrl": "https://troll.is/",
+  "timestamp": 1705702355808,
+  "ranks": {
+    "hundos": 436,
+    "performance": 524,
+    "accessibility": 237,
+    "cumulative": 436
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.54,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 352
+  },
+  "firstContentfulPaint": 1809.591,
+  "firstMeaningfulPaint": 2023.591,
+  "speedIndex": 3799.0623593008345,
+  "largestContentfulPaint": 3294.682,
+  "totalBlockingTime": 2018.5,
+  "cumulativeLayoutShift": 0.004566786024305556,
+  "timeToInteractive": 10210.059000000001,
+  "maxPotentialFirstInputDelay": 797,
+  "timeToFirstByte": 35.283000000000015,
+  "weight": {
+    "summary": "77 requests • 1,470 KiB",
+    "total": 1505248,
+    "image": 267429,
+    "imageCount": 17,
+    "script": 790158,
+    "scriptCount": 29,
+    "document": 128510,
+    "font": 34123,
+    "fontCount": 2,
+    "stylesheet": 14260,
+    "stylesheetCount": 5,
+    "thirdParty": 1304168,
+    "thirdPartyCount": 49
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 440,
+    "+weight.total": 154,
+    "-weight.document": 569,
+    "+weight.document": 16,
+    "-weight.script": 515,
+    "+weight.script": 29,
+    "-weight.image": 284,
+    "+weight.image": 246,
+    "-weight.font": 87,
+    "+weight.font": 362,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 130,
+    "-totalBlockingTime": 409,
+    "-largestContentfulPaint": 490
+  },
+  "axe": {
+    "passes": 1356,
+    "violations": 19
+  }
+}

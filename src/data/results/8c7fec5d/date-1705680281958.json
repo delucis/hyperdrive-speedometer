@@ -1,0 +1,67 @@
+{
+  "url": "https://scottkellum.com/",
+  "requestedUrl": "https://scottkellum.com/",
+  "timestamp": 1705709311692,
+  "ranks": {
+    "hundos": 258,
+    "performance": 333,
+    "accessibility": 340,
+    "cumulative": 261
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.83,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 378
+  },
+  "firstContentfulPaint": 2104.851,
+  "firstMeaningfulPaint": 2124.851,
+  "speedIndex": 2177.1967362263395,
+  "largestContentfulPaint": 2124.851,
+  "totalBlockingTime": 13.5,
+  "cumulativeLayoutShift": 0.8349494934082031,
+  "timeToInteractive": 2221.851,
+  "maxPotentialFirstInputDelay": 144,
+  "timeToFirstByte": 201.11600000000004,
+  "weight": {
+    "summary": "16 requests • 1,244 KiB",
+    "total": 1273615,
+    "image": 1020262,
+    "imageCount": 8,
+    "script": 2311,
+    "scriptCount": 2,
+    "document": 5410,
+    "font": 242766,
+    "fontCount": 4,
+    "stylesheet": 2866,
+    "stylesheetCount": 1,
+    "thirdParty": 1268205,
+    "thirdPartyCount": 15
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 425,
+    "+weight.total": 169,
+    "-weight.document": 133,
+    "+weight.document": 452,
+    "-weight.script": 32,
+    "+weight.script": 512,
+    "-weight.image": 414,
+    "+weight.image": 116,
+    "-weight.font": 389,
+    "+weight.font": 60,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 388,
+    "-totalBlockingTime": 25,
+    "-largestContentfulPaint": 156
+  },
+  "axe": {
+    "passes": 341,
+    "violations": 11
+  }
+}

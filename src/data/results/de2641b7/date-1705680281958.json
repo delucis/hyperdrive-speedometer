@@ -1,0 +1,67 @@
+{
+  "url": "https://mesaschool.co/",
+  "requestedUrl": "https://mesaschool.co/",
+  "timestamp": 1705695494493,
+  "ranks": {
+    "hundos": 568,
+    "performance": 552,
+    "accessibility": 475,
+    "cumulative": 568
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.43,
+    "accessibility": 0.86,
+    "bestPractices": 0.75,
+    "seo": 1,
+    "total": 304
+  },
+  "firstContentfulPaint": 2378.822,
+  "firstMeaningfulPaint": 3478.0325000000003,
+  "speedIndex": 3938.931313170935,
+  "largestContentfulPaint": 4021.8520000000003,
+  "totalBlockingTime": 1824.1549999999997,
+  "cumulativeLayoutShift": 0.19212333159976536,
+  "timeToInteractive": 9298.347999999998,
+  "maxPotentialFirstInputDelay": 609,
+  "timeToFirstByte": 440.24199999999996,
+  "weight": {
+    "summary": "147 requests • 12,223 KiB",
+    "total": 12516644,
+    "image": 11884058,
+    "imageCount": 104,
+    "script": 440122,
+    "scriptCount": 17,
+    "document": 15536,
+    "font": 111839,
+    "fontCount": 5,
+    "stylesheet": 57634,
+    "stylesheetCount": 7,
+    "thirdParty": 500539,
+    "thirdPartyCount": 39
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 583,
+    "+weight.total": 11,
+    "-weight.document": 400,
+    "+weight.document": 185,
+    "-weight.script": 484,
+    "+weight.script": 60,
+    "-weight.image": 521,
+    "+weight.image": 9,
+    "-weight.font": 310,
+    "+weight.font": 139,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 522,
+    "-totalBlockingTime": 402,
+    "-largestContentfulPaint": 521
+  },
+  "axe": {
+    "passes": 1392,
+    "violations": 103
+  }
+}

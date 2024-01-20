@@ -1,0 +1,67 @@
+{
+  "url": "https://with.kodansha.co.jp/",
+  "requestedUrl": "https://with.kodansha.co.jp/",
+  "timestamp": 1705689077851,
+  "ranks": {
+    "hundos": 588,
+    "performance": 585,
+    "accessibility": 474,
+    "cumulative": 588
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.24,
+    "accessibility": 0.86,
+    "bestPractices": 0.83,
+    "seo": 0.83,
+    "total": 276
+  },
+  "firstContentfulPaint": 4878.854,
+  "firstMeaningfulPaint": 4878.854,
+  "speedIndex": 7552.295387527844,
+  "largestContentfulPaint": 7447.700999999999,
+  "totalBlockingTime": 659.1855000000005,
+  "cumulativeLayoutShift": 0.6647059532801312,
+  "timeToInteractive": 7576.355000000001,
+  "maxPotentialFirstInputDelay": 372,
+  "timeToFirstByte": 1410.5349999999999,
+  "weight": {
+    "summary": "69 requests • 2,142 KiB",
+    "total": 2193781,
+    "image": 1653899,
+    "imageCount": 42,
+    "script": 388771,
+    "scriptCount": 8,
+    "document": 55854,
+    "font": 56752,
+    "fontCount": 3,
+    "stylesheet": 7177,
+    "stylesheetCount": 5,
+    "thirdParty": 2128382,
+    "thirdPartyCount": 61
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 478,
+    "+weight.total": 116,
+    "-weight.document": 542,
+    "+weight.document": 43,
+    "-weight.script": 469,
+    "+weight.script": 75,
+    "-weight.image": 446,
+    "+weight.image": 84,
+    "-weight.font": 202,
+    "+weight.font": 247,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 568,
+    "-totalBlockingTime": 313,
+    "-largestContentfulPaint": 564
+  },
+  "axe": {
+    "passes": 882,
+    "violations": 59
+  }
+}

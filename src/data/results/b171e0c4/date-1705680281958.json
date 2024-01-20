@@ -1,0 +1,67 @@
+{
+  "url": "https://harryjatkins.com/",
+  "requestedUrl": "https://harryjatkins.com/",
+  "timestamp": 1705703263411,
+  "ranks": {
+    "hundos": 310,
+    "performance": 135,
+    "accessibility": 516,
+    "cumulative": 315
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.98,
+    "accessibility": 0.81,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 371
+  },
+  "firstContentfulPaint": 1019.423,
+  "firstMeaningfulPaint": 1479.4115000000002,
+  "speedIndex": 1206.8669386950223,
+  "largestContentfulPaint": 2304.423,
+  "totalBlockingTime": 50,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1479.4115000000002,
+  "maxPotentialFirstInputDelay": 84,
+  "timeToFirstByte": 25.729000000000013,
+  "weight": {
+    "summary": "13 requests • 907 KiB",
+    "total": 928417,
+    "image": 870403,
+    "imageCount": 8,
+    "script": 12011,
+    "scriptCount": 2,
+    "document": 7594,
+    "font": 33246,
+    "fontCount": 1,
+    "stylesheet": 5163,
+    "stylesheetCount": 1,
+    "thirdParty": 1368,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 391,
+    "+weight.total": 203,
+    "-weight.document": 222,
+    "+weight.document": 363,
+    "-weight.script": 122,
+    "+weight.script": 422,
+    "-weight.image": 404,
+    "+weight.image": 126,
+    "-weight.font": 80,
+    "+weight.font": 369,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 66,
+    "-totalBlockingTime": 61,
+    "-largestContentfulPaint": 176
+  },
+  "axe": {
+    "passes": 482,
+    "violations": 54
+  }
+}

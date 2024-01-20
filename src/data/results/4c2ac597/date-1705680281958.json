@@ -1,0 +1,67 @@
+{
+  "url": "https://florian-lefebvre.dev/",
+  "requestedUrl": "https://florian-lefebvre.dev/",
+  "timestamp": 1705684375729,
+  "ranks": {
+    "hundos": 164,
+    "performance": 103,
+    "accessibility": 177,
+    "cumulative": 164
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 0.98,
+    "total": 389
+  },
+  "firstContentfulPaint": 1232.941,
+  "firstMeaningfulPaint": 1362.941,
+  "speedIndex": 1609.963940916316,
+  "largestContentfulPaint": 1467.941,
+  "totalBlockingTime": 101.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1564.941,
+  "maxPotentialFirstInputDelay": 145,
+  "timeToFirstByte": 27.061000000000035,
+  "weight": {
+    "summary": "8 requests • 146 KiB",
+    "total": 149607,
+    "image": 57524,
+    "imageCount": 3,
+    "script": 6290,
+    "scriptCount": 2,
+    "document": 31004,
+    "font": 46943,
+    "fontCount": 1,
+    "stylesheet": 7846,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 127,
+    "+weight.total": 467,
+    "-weight.document": 495,
+    "+weight.document": 90,
+    "-weight.script": 81,
+    "+weight.script": 463,
+    "-weight.image": 135,
+    "+weight.image": 395,
+    "-weight.font": 168,
+    "+weight.font": 281,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 91,
+    "-totalBlockingTime": 102,
+    "-largestContentfulPaint": 345
+  },
+  "axe": {
+    "passes": 1342,
+    "violations": 8
+  }
+}

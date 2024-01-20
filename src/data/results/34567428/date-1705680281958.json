@@ -1,0 +1,67 @@
+{
+  "url": "https://www.noticiasdiaadia.com/",
+  "requestedUrl": "https://www.noticiasdiaadia.com/",
+  "timestamp": 1705701639029,
+  "ranks": {
+    "hundos": 443,
+    "performance": 491,
+    "accessibility": 408,
+    "cumulative": 445
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.59,
+    "accessibility": 0.91,
+    "bestPractices": 1,
+    "seo": 0.99,
+    "total": 349
+  },
+  "firstContentfulPaint": 1733.4010000000003,
+  "firstMeaningfulPaint": 1733.4010000000003,
+  "speedIndex": 2501.179679739222,
+  "largestContentfulPaint": 3809.0715,
+  "totalBlockingTime": 506.5000000000001,
+  "cumulativeLayoutShift": 0.7812978375752767,
+  "timeToInteractive": 4133.206,
+  "maxPotentialFirstInputDelay": 249,
+  "timeToFirstByte": 18.861999999999995,
+  "weight": {
+    "summary": "87 requests • 844 KiB",
+    "total": 864202,
+    "image": 615333,
+    "imageCount": 42,
+    "script": 72942,
+    "scriptCount": 36,
+    "document": 33957,
+    "font": 127569,
+    "fontCount": 2,
+    "stylesheet": 14401,
+    "stylesheetCount": 5,
+    "thirdParty": 605486,
+    "thirdPartyCount": 51
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 381,
+    "+weight.total": 213,
+    "-weight.document": 500,
+    "+weight.document": 85,
+    "-weight.script": 261,
+    "+weight.script": 283,
+    "-weight.image": 379,
+    "+weight.image": 151,
+    "-weight.font": 330,
+    "+weight.font": 119,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 30,
+    "-totalBlockingTime": 274,
+    "-largestContentfulPaint": 509
+  },
+  "axe": {
+    "passes": 4369,
+    "violations": 9
+  }
+}

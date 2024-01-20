@@ -1,0 +1,67 @@
+{
+  "url": "https://orso.app/",
+  "requestedUrl": "https://orso.app/",
+  "timestamp": 1705682234297,
+  "ranks": {
+    "hundos": 215,
+    "performance": 291,
+    "accessibility": 178,
+    "cumulative": 218
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.87,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.96,
+    "total": 383
+  },
+  "firstContentfulPaint": 1000.275,
+  "firstMeaningfulPaint": 1033.275,
+  "speedIndex": 1308.5102908005974,
+  "largestContentfulPaint": 1740.2480000000003,
+  "totalBlockingTime": 200.0000000000001,
+  "cumulativeLayoutShift": 0.2978655819363064,
+  "timeToInteractive": 1846.275,
+  "maxPotentialFirstInputDelay": 225.0000000000001,
+  "timeToFirstByte": 6.674000000000007,
+  "weight": {
+    "summary": "8 requests • 109 KiB",
+    "total": 111616,
+    "image": 53954,
+    "imageCount": 3,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 9106,
+    "font": 38239,
+    "fontCount": 1,
+    "stylesheet": 10317,
+    "stylesheetCount": 2,
+    "thirdParty": 29853,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 101,
+    "+weight.total": 493,
+    "-weight.document": 276,
+    "+weight.document": 309,
+    "-weight.script": 1,
+    "+weight.script": 544,
+    "-weight.image": 127,
+    "+weight.image": 403,
+    "-weight.font": 117,
+    "+weight.font": 332,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 6,
+    "-totalBlockingTime": 154,
+    "-largestContentfulPaint": 364
+  },
+  "axe": {
+    "passes": 729,
+    "violations": 8
+  }
+}
