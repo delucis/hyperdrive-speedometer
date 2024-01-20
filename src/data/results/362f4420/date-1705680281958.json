@@ -1,0 +1,67 @@
+{
+  "url": "https://monomod.studio/",
+  "requestedUrl": "https://monomod.studio/",
+  "timestamp": 1705691230367,
+  "ranks": {
+    "hundos": 379,
+    "performance": 205,
+    "accessibility": 472,
+    "cumulative": 383
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.95,
+    "accessibility": 0.86,
+    "bestPractices": 0.92,
+    "seo": 0.89,
+    "total": 362
+  },
+  "firstContentfulPaint": 1881.4180000000001,
+  "firstMeaningfulPaint": 1881.4180000000001,
+  "speedIndex": 2217.030534319239,
+  "largestContentfulPaint": 2360.4600000000005,
+  "totalBlockingTime": 133.99999999999955,
+  "cumulativeLayoutShift": 0.003894911024305556,
+  "timeToInteractive": 2510.918,
+  "maxPotentialFirstInputDelay": 183.99999999999955,
+  "timeToFirstByte": 119.49199999999999,
+  "weight": {
+    "summary": "22 requests • 13,194 KiB",
+    "total": 13510582,
+    "image": 13367986,
+    "imageCount": 9,
+    "script": 32094,
+    "scriptCount": 3,
+    "document": 27206,
+    "font": 73677,
+    "fontCount": 3,
+    "stylesheet": 8751,
+    "stylesheetCount": 3,
+    "thirdParty": 35852,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 586,
+    "+weight.total": 8,
+    "-weight.document": 471,
+    "+weight.document": 114,
+    "-weight.script": 189,
+    "+weight.script": 355,
+    "-weight.image": 524,
+    "+weight.image": 6,
+    "-weight.font": 243,
+    "+weight.font": 206,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 287,
+    "-totalBlockingTime": 125,
+    "-largestContentfulPaint": 421
+  },
+  "axe": {
+    "passes": 760,
+    "violations": 25
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://planx.site/",
+  "requestedUrl": "https://planx.site/",
+  "timestamp": 1705693618903,
+  "ranks": {
+    "hundos": 341,
+    "performance": 424,
+    "accessibility": 324,
+    "cumulative": 340
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.73,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 368
+  },
+  "firstContentfulPaint": 1006.5,
+  "firstMeaningfulPaint": 1006.5,
+  "speedIndex": 3612.898495528232,
+  "largestContentfulPaint": 1176.5,
+  "totalBlockingTime": 821,
+  "cumulativeLayoutShift": 0.17308079725743222,
+  "timeToInteractive": 4685,
+  "maxPotentialFirstInputDelay": 399,
+  "timeToFirstByte": 92.76100000000002,
+  "weight": {
+    "summary": "23 requests • 333 KiB",
+    "total": 340972,
+    "image": 65744,
+    "imageCount": 3,
+    "script": 217366,
+    "scriptCount": 14,
+    "document": 6917,
+    "font": 40419,
+    "fontCount": 1,
+    "stylesheet": 10526,
+    "stylesheetCount": 3,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 247,
+    "+weight.total": 347,
+    "-weight.document": 197,
+    "+weight.document": 388,
+    "-weight.script": 407,
+    "+weight.script": 137,
+    "-weight.image": 145,
+    "+weight.image": 385,
+    "-weight.font": 132,
+    "+weight.font": 317,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 236,
+    "-totalBlockingTime": 335,
+    "-largestContentfulPaint": 321
+  },
+  "axe": {
+    "passes": 342,
+    "violations": 2
+  }
+}

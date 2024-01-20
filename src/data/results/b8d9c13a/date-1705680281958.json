@@ -1,0 +1,67 @@
+{
+  "url": "https://charl.sh/",
+  "requestedUrl": "https://charl.sh/",
+  "timestamp": 1705705747219,
+  "ranks": {
+    "hundos": 118,
+    "performance": 161,
+    "accessibility": 330,
+    "cumulative": 117
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.98,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 393
+  },
+  "firstContentfulPaint": 1173.56,
+  "firstMeaningfulPaint": 1196.56,
+  "speedIndex": 3486.9756250392506,
+  "largestContentfulPaint": 1785.56,
+  "totalBlockingTime": 2,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1266.56,
+  "maxPotentialFirstInputDelay": 54,
+  "timeToFirstByte": 1333.936,
+  "weight": {
+    "summary": "10 requests • 1,295 KiB",
+    "total": 1325828,
+    "image": 1206537,
+    "imageCount": 2,
+    "script": 1709,
+    "scriptCount": 2,
+    "document": 4708,
+    "font": 108040,
+    "fontCount": 4,
+    "stylesheet": 4834,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 427,
+    "+weight.total": 167,
+    "-weight.document": 99,
+    "+weight.document": 486,
+    "-weight.script": 26,
+    "+weight.script": 518,
+    "-weight.image": 427,
+    "+weight.image": 103,
+    "-weight.font": 303,
+    "+weight.font": 146,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 566,
+    "-totalBlockingTime": 5,
+    "-largestContentfulPaint": 115
+  },
+  "axe": {
+    "passes": 160,
+    "violations": 3
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://vsctrust.org.nz/",
+  "requestedUrl": "https://vsctrust.org.nz/",
+  "timestamp": 1705706039179,
+  "ranks": {
+    "hundos": 31,
+    "performance": 79,
+    "accessibility": 125,
+    "cumulative": 50
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1094.684,
+  "firstMeaningfulPaint": 1183.684,
+  "speedIndex": 1125.7598354813736,
+  "largestContentfulPaint": 1532.684,
+  "totalBlockingTime": 101,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1835.6840000000002,
+  "maxPotentialFirstInputDelay": 120,
+  "timeToFirstByte": 23.710000000000008,
+  "weight": {
+    "summary": "35 requests • 438 KiB",
+    "total": 448568,
+    "image": 292059,
+    "imageCount": 13,
+    "script": 78882,
+    "scriptCount": 16,
+    "document": 17911,
+    "font": 30243,
+    "fontCount": 1,
+    "stylesheet": 7086,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 295,
+    "+weight.total": 299,
+    "-weight.document": 424,
+    "+weight.document": 161,
+    "-weight.script": 272,
+    "+weight.script": 272,
+    "-weight.image": 300,
+    "+weight.image": 230,
+    "-weight.font": 64,
+    "+weight.font": 385,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 36,
+    "-totalBlockingTime": 100,
+    "-largestContentfulPaint": 70
+  },
+  "axe": {
+    "passes": 846,
+    "violations": 2
+  }
+}

@@ -54,6 +54,8 @@ module.exports = {
       'https://offerstreet.in/',
       'https://softhardsystem.com/',
       'https://bfloow.com/',
+      // Sites blocked 19 January 2024
+      'https://ark-ui.com',
     ]);
 
     const fetch = (await import('node-fetch')).default;

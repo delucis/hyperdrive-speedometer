@@ -1,0 +1,67 @@
+{
+  "url": "https://eriksolsen.com/",
+  "requestedUrl": "https://eriksolsen.com/",
+  "timestamp": 1705700841939,
+  "ranks": {
+    "hundos": 224,
+    "performance": 341,
+    "accessibility": 181,
+    "cumulative": 223
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.82,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 382
+  },
+  "firstContentfulPaint": 1729.5799999999997,
+  "firstMeaningfulPaint": 3305.62,
+  "speedIndex": 2042.0439159966995,
+  "largestContentfulPaint": 3305.62,
+  "totalBlockingTime": 299.90950000000066,
+  "cumulativeLayoutShift": 0.03185392761230469,
+  "timeToInteractive": 5648.5464999999995,
+  "maxPotentialFirstInputDelay": 254,
+  "timeToFirstByte": 213.431,
+  "weight": {
+    "summary": "14 requests • 624 KiB",
+    "total": 638556,
+    "image": 121124,
+    "imageCount": 4,
+    "script": 177001,
+    "scriptCount": 6,
+    "document": 5707,
+    "font": 325169,
+    "fontCount": 1,
+    "stylesheet": 9302,
+    "stylesheetCount": 1,
+    "thirdParty": 161858,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 355,
+    "+weight.total": 239,
+    "-weight.document": 154,
+    "+weight.document": 431,
+    "-weight.script": 380,
+    "+weight.script": 164,
+    "-weight.image": 194,
+    "+weight.image": 336,
+    "-weight.font": 411,
+    "+weight.font": 38,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 399,
+    "-totalBlockingTime": 213,
+    "-largestContentfulPaint": 278
+  },
+  "axe": {
+    "passes": 275,
+    "violations": 8
+  }
+}

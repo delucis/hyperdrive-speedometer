@@ -1,0 +1,67 @@
+{
+  "url": "https://www.unlace.net/",
+  "requestedUrl": "https://www.unlace.net/",
+  "timestamp": 1705711336248,
+  "ranks": {
+    "hundos": 591,
+    "performance": 586,
+    "accessibility": 592,
+    "cumulative": 591
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.24,
+    "accessibility": 0.47,
+    "bestPractices": 0.75,
+    "seo": 0.91,
+    "total": 237
+  },
+  "firstContentfulPaint": 3290.8320000000003,
+  "firstMeaningfulPaint": 3290.8320000000003,
+  "speedIndex": 9987.863027818086,
+  "largestContentfulPaint": 6612.3625,
+  "totalBlockingTime": 2382.877999999999,
+  "cumulativeLayoutShift": 0.007446872923109267,
+  "timeToInteractive": 18632.0475,
+  "maxPotentialFirstInputDelay": 869,
+  "timeToFirstByte": 133.267,
+  "weight": {
+    "summary": "168 requests • 3,700 KiB",
+    "total": 3789012,
+    "image": 2729120,
+    "imageCount": 74,
+    "script": 827535,
+    "scriptCount": 76,
+    "document": 174522,
+    "font": 14513,
+    "fontCount": 1,
+    "stylesheet": 16472,
+    "stylesheetCount": 6,
+    "thirdParty": 811445,
+    "thirdPartyCount": 42
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 526,
+    "+weight.total": 68,
+    "-weight.document": 576,
+    "+weight.document": 9,
+    "-weight.script": 518,
+    "+weight.script": 26,
+    "-weight.image": 474,
+    "+weight.image": 56,
+    "-weight.font": 14,
+    "+weight.font": 435,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 301,
+    "-totalBlockingTime": 418,
+    "-largestContentfulPaint": 562
+  },
+  "axe": {
+    "passes": 1987,
+    "violations": 183
+  }
+}
