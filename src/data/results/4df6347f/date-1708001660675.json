@@ -1,0 +1,67 @@
+{
+  "url": "https://opencap.co/",
+  "requestedUrl": "https://dub.sh/cap-new-astro",
+  "timestamp": 1708006553078,
+  "ranks": {
+    "hundos": 182,
+    "performance": 288,
+    "accessibility": 288,
+    "cumulative": 180
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.9,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 387
+  },
+  "firstContentfulPaint": 2837.7440000000006,
+  "firstMeaningfulPaint": 2837.7440000000006,
+  "speedIndex": 2924.5871595298013,
+  "largestContentfulPaint": 2837.7440000000006,
+  "totalBlockingTime": 24,
+  "cumulativeLayoutShift": 0.0006813620461357964,
+  "timeToInteractive": 3555.044000000001,
+  "maxPotentialFirstInputDelay": 74,
+  "timeToFirstByte": 87.67299999999999,
+  "weight": {
+    "summary": "18 requests • 245 KiB",
+    "total": 250854,
+    "image": 61176,
+    "imageCount": 3,
+    "script": 72300,
+    "scriptCount": 5,
+    "document": 6302,
+    "font": 105982,
+    "fontCount": 5,
+    "stylesheet": 4092,
+    "stylesheetCount": 1,
+    "thirdParty": 113883,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 202,
+    "+weight.total": 437,
+    "-weight.document": 183,
+    "+weight.document": 446,
+    "-weight.script": 280,
+    "+weight.script": 309,
+    "-weight.image": 156,
+    "+weight.image": 419,
+    "-weight.font": 322,
+    "+weight.font": 164,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 260,
+    "-totalBlockingTime": 35,
+    "-largestContentfulPaint": 235
+  },
+  "axe": {
+    "passes": 82,
+    "violations": 7
+  }
+}

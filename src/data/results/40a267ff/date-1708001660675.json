@@ -1,0 +1,67 @@
+{
+  "url": "https://cjohanaja.com/",
+  "requestedUrl": "https://cjohanaja.com/",
+  "timestamp": 1708033563522,
+  "ranks": {
+    "hundos": 91,
+    "performance": 111,
+    "accessibility": 279,
+    "cumulative": 88
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 1204.0230000000001,
+  "firstMeaningfulPaint": 1204.0230000000001,
+  "speedIndex": 1682.3518092996887,
+  "largestContentfulPaint": 1800.2760000000003,
+  "totalBlockingTime": 36,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1800.2760000000003,
+  "maxPotentialFirstInputDelay": 321.0000000000001,
+  "timeToFirstByte": 100.02300000000002,
+  "weight": {
+    "summary": "7 requests • 62 KiB",
+    "total": 63109,
+    "image": 0,
+    "imageCount": 0,
+    "script": 7081,
+    "scriptCount": 1,
+    "document": 5440,
+    "font": 42475,
+    "fontCount": 1,
+    "stylesheet": 8076,
+    "stylesheetCount": 2,
+    "thirdParty": 7118,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 48,
+    "+weight.total": 591,
+    "-weight.document": 141,
+    "+weight.document": 488,
+    "-weight.script": 96,
+    "+weight.script": 493,
+    "-weight.image": 1,
+    "+weight.image": 575,
+    "-weight.font": 149,
+    "+weight.font": 337,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 302,
+    "-totalBlockingTime": 51,
+    "-largestContentfulPaint": 141
+  },
+  "axe": {
+    "passes": 226,
+    "violations": 4
+  }
+}

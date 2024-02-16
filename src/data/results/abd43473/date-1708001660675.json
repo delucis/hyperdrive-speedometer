@@ -1,0 +1,67 @@
+{
+  "url": "https://www.coxcode.io/",
+  "requestedUrl": "https://www.coxcode.io/",
+  "timestamp": 1708013143835,
+  "ranks": {
+    "hundos": 207,
+    "performance": 223,
+    "accessibility": 306,
+    "cumulative": 218
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.95,
+    "accessibility": 0.97,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 384
+  },
+  "firstContentfulPaint": 2103.2960000000003,
+  "firstMeaningfulPaint": 2128.7960000000003,
+  "speedIndex": 2592.941900193881,
+  "largestContentfulPaint": 2428.7960000000003,
+  "totalBlockingTime": 75.00000000000011,
+  "cumulativeLayoutShift": 0.00020582312165937804,
+  "timeToInteractive": 2563.2960000000003,
+  "maxPotentialFirstInputDelay": 103,
+  "timeToFirstByte": 37.226,
+  "weight": {
+    "summary": "24 requests • 1,527 KiB",
+    "total": 1564011,
+    "image": 1317891,
+    "imageCount": 6,
+    "script": 106768,
+    "scriptCount": 13,
+    "document": 83713,
+    "font": 44801,
+    "fontCount": 2,
+    "stylesheet": 10838,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 480,
+    "+weight.total": 159,
+    "-weight.document": 600,
+    "+weight.document": 29,
+    "-weight.script": 334,
+    "+weight.script": 255,
+    "-weight.image": 470,
+    "+weight.image": 105,
+    "-weight.font": 157,
+    "+weight.font": 329,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 119,
+    "-totalBlockingTime": 88,
+    "-largestContentfulPaint": 214
+  },
+  "axe": {
+    "passes": 364,
+    "violations": 33
+  }
+}

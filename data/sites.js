@@ -56,6 +56,9 @@ module.exports = {
       'https://bfloow.com/',
       // Sites blocked 19 January 2024
       'https://ark-ui.com',
+      // Sites blocked 15 February 2024
+      'https://www.netlify.com/',
+      'https://www.snowfox.art'
     ]);
 
     const fetch = (await import('node-fetch')).default;

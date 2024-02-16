@@ -1,0 +1,67 @@
+{
+  "url": "https://jaular.vercel.app/",
+  "requestedUrl": "https://jaular.vercel.app/",
+  "timestamp": 1708026550901,
+  "ranks": {
+    "hundos": 48,
+    "performance": 88,
+    "accessibility": 68,
+    "cumulative": 43
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1248.546,
+  "firstMeaningfulPaint": 1248.546,
+  "speedIndex": 1370.1428160023356,
+  "largestContentfulPaint": 1398.546,
+  "totalBlockingTime": 100,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1398.546,
+  "maxPotentialFirstInputDelay": 177,
+  "timeToFirstByte": 32.82400000000001,
+  "weight": {
+    "summary": "7 requests • 80 KiB",
+    "total": 81753,
+    "image": 0,
+    "imageCount": 0,
+    "script": 22139,
+    "scriptCount": 3,
+    "document": 7748,
+    "font": 37956,
+    "fontCount": 1,
+    "stylesheet": 13910,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 74,
+    "+weight.total": 565,
+    "-weight.document": 241,
+    "+weight.document": 388,
+    "-weight.script": 177,
+    "+weight.script": 412,
+    "-weight.image": 1,
+    "+weight.image": 575,
+    "-weight.font": 112,
+    "+weight.font": 374,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 104,
+    "-totalBlockingTime": 103,
+    "-largestContentfulPaint": 68
+  },
+  "axe": {
+    "passes": 144,
+    "violations": 0
+  }
+}

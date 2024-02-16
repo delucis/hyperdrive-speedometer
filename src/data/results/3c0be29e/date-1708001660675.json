@@ -1,0 +1,67 @@
+{
+  "url": "https://www.citedrive.com/en/",
+  "requestedUrl": "https://www.citedrive.com/",
+  "timestamp": 1708008045427,
+  "ranks": {
+    "hundos": 9,
+    "performance": 17,
+    "accessibility": 23,
+    "cumulative": 8
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1095.687,
+  "firstMeaningfulPaint": 1095.687,
+  "speedIndex": 1095.687,
+  "largestContentfulPaint": 1095.687,
+  "totalBlockingTime": 44,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1242.687,
+  "maxPotentialFirstInputDelay": 93,
+  "timeToFirstByte": 6.1240000000000006,
+  "weight": {
+    "summary": "19 requests • 68 KiB",
+    "total": 69723,
+    "image": 6205,
+    "imageCount": 6,
+    "script": 49591,
+    "scriptCount": 7,
+    "document": 10236,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 3443,
+    "stylesheetCount": 3,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 53,
+    "+weight.total": 586,
+    "-weight.document": 320,
+    "+weight.document": 309,
+    "-weight.script": 232,
+    "+weight.script": 357,
+    "-weight.image": 40,
+    "+weight.image": 535,
+    "-weight.font": 1,
+    "+weight.font": 486,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 3,
+    "-totalBlockingTime": 59,
+    "-largestContentfulPaint": 22
+  },
+  "axe": {
+    "passes": 396,
+    "violations": 0
+  }
+}

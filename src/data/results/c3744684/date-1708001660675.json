@@ -1,0 +1,67 @@
+{
+  "url": "https://clebek.dev/",
+  "requestedUrl": "https://clebek.dev/",
+  "timestamp": 1708035566058,
+  "ranks": {
+    "hundos": 286,
+    "performance": 100,
+    "accessibility": 520,
+    "cumulative": 296
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 0.85,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 376
+  },
+  "firstContentfulPaint": 1404.129,
+  "firstMeaningfulPaint": 1404.129,
+  "speedIndex": 1576.6147100112325,
+  "largestContentfulPaint": 2016.465,
+  "totalBlockingTime": 90.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1552.129,
+  "maxPotentialFirstInputDelay": 87,
+  "timeToFirstByte": 31.15700000000004,
+  "weight": {
+    "summary": "24 requests • 415 KiB",
+    "total": 425386,
+    "image": 372615,
+    "imageCount": 14,
+    "script": 22145,
+    "scriptCount": 6,
+    "document": 18846,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 11780,
+    "stylesheetCount": 3,
+    "thirdParty": 1193,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 301,
+    "+weight.total": 338,
+    "-weight.document": 458,
+    "+weight.document": 171,
+    "-weight.script": 178,
+    "+weight.script": 411,
+    "-weight.image": 355,
+    "+weight.image": 220,
+    "-weight.font": 1,
+    "+weight.font": 486,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 97,
+    "-totalBlockingTime": 97,
+    "-largestContentfulPaint": 178
+  },
+  "axe": {
+    "passes": 707,
+    "violations": 48
+  }
+}

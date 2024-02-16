@@ -1,0 +1,67 @@
+{
+  "url": "https://koptional.com/",
+  "requestedUrl": "https://koptional.com/",
+  "timestamp": 1708014779588,
+  "ranks": {
+    "hundos": 586,
+    "performance": 540,
+    "accessibility": 553,
+    "cumulative": 587
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.57,
+    "accessibility": 0.81,
+    "bestPractices": 0.92,
+    "seo": 0.85,
+    "total": 315
+  },
+  "firstContentfulPaint": 2060.763500000001,
+  "firstMeaningfulPaint": 2802.4340000000007,
+  "speedIndex": 4048.0419473111333,
+  "largestContentfulPaint": 2957.5200000000004,
+  "totalBlockingTime": 1204.9999999999998,
+  "cumulativeLayoutShift": 0.0134873046875,
+  "timeToInteractive": 23849.571000000014,
+  "maxPotentialFirstInputDelay": 375,
+  "timeToFirstByte": 37.95500000000001,
+  "weight": {
+    "summary": "74 requests • 6,778 KiB",
+    "total": 6940266,
+    "image": 6171218,
+    "imageCount": 17,
+    "script": 667063,
+    "scriptCount": 32,
+    "document": 19767,
+    "font": 24816,
+    "fontCount": 1,
+    "stylesheet": 37014,
+    "stylesheetCount": 11,
+    "thirdParty": 633568,
+    "thirdPartyCount": 33
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 600,
+    "+weight.total": 39,
+    "-weight.document": 462,
+    "+weight.document": 167,
+    "-weight.script": 551,
+    "+weight.script": 38,
+    "-weight.image": 549,
+    "+weight.image": 26,
+    "-weight.font": 51,
+    "+weight.font": 435,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 122,
+    "-totalBlockingTime": 390,
+    "-largestContentfulPaint": 539
+  },
+  "axe": {
+    "passes": 709,
+    "violations": 41
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://jblaha.art/",
+  "requestedUrl": "https://jblaha.art/",
+  "timestamp": 1708028374142,
+  "ranks": {
+    "hundos": 506,
+    "performance": 567,
+    "accessibility": 224,
+    "cumulative": 504
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.5,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 342
+  },
+  "firstContentfulPaint": 1005.8530000000001,
+  "firstMeaningfulPaint": 1005.8530000000001,
+  "speedIndex": 16499.96037987582,
+  "largestContentfulPaint": 1005.8530000000001,
+  "totalBlockingTime": 167304.5,
+  "cumulativeLayoutShift": 0.014416791915893555,
+  "timeToInteractive": 172672.353,
+  "maxPotentialFirstInputDelay": 3985,
+  "timeToFirstByte": 77.28899999999999,
+  "weight": {
+    "summary": "16 requests • 903 KiB",
+    "total": 924451,
+    "image": 3105,
+    "imageCount": 5,
+    "script": 247931,
+    "scriptCount": 4,
+    "document": 2845,
+    "font": 51353,
+    "fontCount": 3,
+    "stylesheet": 1682,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 415,
+    "+weight.total": 224,
+    "-weight.document": 35,
+    "+weight.document": 594,
+    "-weight.script": 450,
+    "+weight.script": 139,
+    "-weight.image": 27,
+    "+weight.image": 548,
+    "-weight.font": 200,
+    "+weight.font": 286,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 218,
+    "-totalBlockingTime": 477,
+    "-largestContentfulPaint": 457
+  },
+  "axe": {
+    "error": "Page load timed out"
+  }
+}
