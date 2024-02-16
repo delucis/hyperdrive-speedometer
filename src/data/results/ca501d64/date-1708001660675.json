@@ -1,0 +1,67 @@
+{
+  "url": "https://aroreretini.dev/",
+  "requestedUrl": "https://aroreretini.dev/",
+  "timestamp": 1708015185076,
+  "ranks": {
+    "hundos": 249,
+    "performance": 30,
+    "accessibility": 545,
+    "cumulative": 248
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 0.81,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 381
+  },
+  "firstContentfulPaint": 1063.1660000000002,
+  "firstMeaningfulPaint": 1595.1660000000002,
+  "speedIndex": 1210.1469218402726,
+  "largestContentfulPaint": 1595.1660000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0008886922200520834,
+  "timeToInteractive": 1595.1660000000002,
+  "maxPotentialFirstInputDelay": 45,
+  "timeToFirstByte": 39.721000000000004,
+  "weight": {
+    "summary": "8 requests • 147 KiB",
+    "total": 150706,
+    "image": 20045,
+    "imageCount": 1,
+    "script": 487,
+    "scriptCount": 2,
+    "document": 8493,
+    "font": 117938,
+    "fontCount": 3,
+    "stylesheet": 3743,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 139,
+    "+weight.total": 500,
+    "-weight.document": 267,
+    "+weight.document": 362,
+    "-weight.script": 4,
+    "+weight.script": 585,
+    "-weight.image": 83,
+    "+weight.image": 492,
+    "-weight.font": 340,
+    "+weight.font": 146,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 128,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 94
+  },
+  "axe": {
+    "passes": 295,
+    "violations": 3
+  }
+}

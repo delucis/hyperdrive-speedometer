@@ -1,0 +1,67 @@
+{
+  "url": "https://starlight.astro.build/",
+  "requestedUrl": "https://starlight.astro.build/",
+  "timestamp": 1708025487682,
+  "ranks": {
+    "hundos": 5,
+    "performance": 26,
+    "accessibility": 27,
+    "cumulative": 4
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1064.186,
+  "firstMeaningfulPaint": 1133.076,
+  "speedIndex": 1171.0100651676107,
+  "largestContentfulPaint": 1640.7359999999999,
+  "totalBlockingTime": 27.279999999999973,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1398.3509999999999,
+  "maxPotentialFirstInputDelay": 162,
+  "timeToFirstByte": 106.48500000000001,
+  "weight": {
+    "summary": "19 requests • 105 KiB",
+    "total": 107309,
+    "image": 59363,
+    "imageCount": 12,
+    "script": 25074,
+    "scriptCount": 5,
+    "document": 12036,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 10836,
+    "stylesheetCount": 1,
+    "thirdParty": 2848,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 104,
+    "+weight.total": 535,
+    "-weight.document": 359,
+    "+weight.document": 270,
+    "-weight.script": 189,
+    "+weight.script": 400,
+    "-weight.image": 154,
+    "+weight.image": 421,
+    "-weight.font": 1,
+    "+weight.font": 486,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 321,
+    "-totalBlockingTime": 39,
+    "-largestContentfulPaint": 102
+  },
+  "axe": {
+    "passes": 362,
+    "violations": 0
+  }
+}

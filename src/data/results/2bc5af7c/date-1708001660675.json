@@ -1,0 +1,67 @@
+{
+  "url": "https://www.midufest.com/",
+  "requestedUrl": "https://midufest.com/",
+  "timestamp": 1708009086158,
+  "ranks": {
+    "hundos": 557,
+    "performance": 515,
+    "accessibility": 571,
+    "cumulative": 554
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.64,
+    "accessibility": 0.79,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 327
+  },
+  "firstContentfulPaint": 1943.9160000000002,
+  "firstMeaningfulPaint": 1943.9160000000002,
+  "speedIndex": 5935.8591992237625,
+  "largestContentfulPaint": 2241.916,
+  "totalBlockingTime": 1165.0000000000005,
+  "cumulativeLayoutShift": 0.00921448395382339,
+  "timeToInteractive": 6417.416000000001,
+  "maxPotentialFirstInputDelay": 294,
+  "timeToFirstByte": 1894.559,
+  "weight": {
+    "summary": "52 requests • 592 KiB",
+    "total": 606024,
+    "image": 347902,
+    "imageCount": 26,
+    "script": 108108,
+    "scriptCount": 8,
+    "document": 27309,
+    "font": 91495,
+    "fontCount": 7,
+    "stylesheet": 30869,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 9
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 366,
+    "+weight.total": 273,
+    "-weight.document": 506,
+    "+weight.document": 123,
+    "-weight.script": 338,
+    "+weight.script": 251,
+    "-weight.image": 346,
+    "+weight.image": 229,
+    "-weight.font": 305,
+    "+weight.font": 181,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 625,
+    "-totalBlockingTime": 387,
+    "-largestContentfulPaint": 507
+  },
+  "axe": {
+    "passes": 1309,
+    "violations": 7
+  }
+}

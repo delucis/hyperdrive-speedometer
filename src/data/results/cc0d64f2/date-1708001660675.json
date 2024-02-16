@@ -1,0 +1,67 @@
+{
+  "url": "https://www.clemobile.fr/",
+  "requestedUrl": "https://www.clemobile.fr/",
+  "timestamp": 1708023374011,
+  "ranks": {
+    "hundos": 497,
+    "performance": 445,
+    "accessibility": 606,
+    "cumulative": 497
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.74,
+    "accessibility": 0.72,
+    "bestPractices": 1,
+    "seo": 0.98,
+    "total": 344
+  },
+  "firstContentfulPaint": 2233.549,
+  "firstMeaningfulPaint": 2233.549,
+  "speedIndex": 4051.878093632059,
+  "largestContentfulPaint": 4008.751,
+  "totalBlockingTime": 328,
+  "cumulativeLayoutShift": 0.03217561425103082,
+  "timeToInteractive": 4522.545,
+  "maxPotentialFirstInputDelay": 640.0000000000002,
+  "timeToFirstByte": 300.64300000000003,
+  "weight": {
+    "summary": "38 requests • 486 KiB",
+    "total": 497939,
+    "image": 218133,
+    "imageCount": 22,
+    "script": 151933,
+    "scriptCount": 7,
+    "document": 39443,
+    "font": 76453,
+    "fontCount": 5,
+    "stylesheet": 11204,
+    "stylesheetCount": 2,
+    "thirdParty": 70193,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 328,
+    "+weight.total": 311,
+    "-weight.document": 548,
+    "+weight.document": 81,
+    "-weight.script": 389,
+    "+weight.script": 200,
+    "-weight.image": 279,
+    "+weight.image": 296,
+    "-weight.font": 272,
+    "+weight.font": 214,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 511,
+    "-totalBlockingTime": 225,
+    "-largestContentfulPaint": 427
+  },
+  "axe": {
+    "passes": 1505,
+    "violations": 29
+  }
+}

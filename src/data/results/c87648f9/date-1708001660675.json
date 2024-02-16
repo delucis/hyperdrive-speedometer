@@ -1,0 +1,67 @@
+{
+  "url": "https://www.hachikolabs.io/",
+  "requestedUrl": "https://hachikolabs.io/",
+  "timestamp": 1708010818401,
+  "ranks": {
+    "hundos": 564,
+    "performance": 575,
+    "accessibility": 405,
+    "cumulative": 564
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.47,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 0.83,
+    "total": 324
+  },
+  "firstContentfulPaint": 2373.813,
+  "firstMeaningfulPaint": 2448.813,
+  "speedIndex": 3452.1273440362156,
+  "largestContentfulPaint": 4759.126,
+  "totalBlockingTime": 2462.5,
+  "cumulativeLayoutShift": 0.012915555953979493,
+  "timeToInteractive": 5953.061,
+  "maxPotentialFirstInputDelay": 1862,
+  "timeToFirstByte": 26.189999999999998,
+  "weight": {
+    "summary": "22 requests • 6,192 KiB",
+    "total": 6340977,
+    "image": 6076182,
+    "imageCount": 5,
+    "script": 132234,
+    "scriptCount": 8,
+    "document": 78435,
+    "font": 34830,
+    "fontCount": 2,
+    "stylesheet": 17914,
+    "stylesheetCount": 1,
+    "thirdParty": 34301,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 599,
+    "+weight.total": 40,
+    "-weight.document": 595,
+    "+weight.document": 34,
+    "-weight.script": 368,
+    "+weight.script": 221,
+    "-weight.image": 548,
+    "+weight.image": 27,
+    "-weight.font": 100,
+    "+weight.font": 386,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 66,
+    "-totalBlockingTime": 444,
+    "-largestContentfulPaint": 585
+  },
+  "axe": {
+    "passes": 490,
+    "violations": 45
+  }
+}

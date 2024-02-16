@@ -1,0 +1,67 @@
+{
+  "url": "https://www.raedlinger.com/",
+  "requestedUrl": "https://www.raedlinger.com/",
+  "timestamp": 1708008061579,
+  "ranks": {
+    "hundos": 524,
+    "performance": 570,
+    "accessibility": 496,
+    "cumulative": 526
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.48,
+    "accessibility": 0.88,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 336
+  },
+  "firstContentfulPaint": 1303.0869999999998,
+  "firstMeaningfulPaint": 1363.3349999999998,
+  "speedIndex": 2655.6500297109133,
+  "largestContentfulPaint": 7423.043499999997,
+  "totalBlockingTime": 1151.622,
+  "cumulativeLayoutShift": 0.003111205206976997,
+  "timeToInteractive": 6488.942500000001,
+  "maxPotentialFirstInputDelay": 321,
+  "timeToFirstByte": 448.02600000000007,
+  "weight": {
+    "summary": "46 requests • 3,494 KiB",
+    "total": 3578195,
+    "image": 2969136,
+    "imageCount": 8,
+    "script": 394372,
+    "scriptCount": 25,
+    "document": 33250,
+    "font": 156342,
+    "fontCount": 2,
+    "stylesheet": 13744,
+    "stylesheetCount": 3,
+    "thirdParty": 3347560,
+    "thirdPartyCount": 27
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 563,
+    "+weight.total": 76,
+    "-weight.document": 533,
+    "+weight.document": 96,
+    "-weight.script": 511,
+    "+weight.script": 78,
+    "-weight.image": 522,
+    "+weight.image": 53,
+    "-weight.font": 386,
+    "+weight.font": 100,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 573,
+    "-totalBlockingTime": 384,
+    "-largestContentfulPaint": 607
+  },
+  "axe": {
+    "passes": 935,
+    "violations": 106
+  }
+}

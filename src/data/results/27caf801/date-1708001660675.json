@@ -1,0 +1,67 @@
+{
+  "url": "https://doggoland-b72ca.web.app/",
+  "requestedUrl": "https://doggoland-b72ca.web.app/",
+  "timestamp": 1708016648378,
+  "ranks": {
+    "hundos": 565,
+    "performance": 432,
+    "accessibility": 601,
+    "cumulative": 567
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.75,
+    "accessibility": 0.73,
+    "bestPractices": 0.92,
+    "seo": 0.83,
+    "total": 323
+  },
+  "firstContentfulPaint": 1521.2969999999996,
+  "firstMeaningfulPaint": 1521.2969999999996,
+  "speedIndex": 1521.2969999999996,
+  "largestContentfulPaint": 25953.988,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0064100045098198786,
+  "timeToInteractive": 1521.2969999999996,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 6.015000000000015,
+  "weight": {
+    "summary": "10 requests • 11,081 KiB",
+    "total": 11346853,
+    "image": 11327546,
+    "imageCount": 5,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 873,
+    "font": 15364,
+    "fontCount": 1,
+    "stylesheet": 3070,
+    "stylesheetCount": 3,
+    "thirdParty": 16465,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 622,
+    "+weight.total": 17,
+    "-weight.document": 1,
+    "+weight.document": 628,
+    "-weight.script": 1,
+    "+weight.script": 589,
+    "-weight.image": 562,
+    "+weight.image": 13,
+    "-weight.font": 17,
+    "+weight.font": 469,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 2,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 290
+  },
+  "axe": {
+    "passes": 46,
+    "violations": 11
+  }
+}

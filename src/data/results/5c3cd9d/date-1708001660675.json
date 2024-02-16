@@ -1,0 +1,67 @@
+{
+  "url": "https://stephen-lunt.dev/",
+  "requestedUrl": "https://stephen-lunt.dev/",
+  "timestamp": 1708022906183,
+  "ranks": {
+    "hundos": 220,
+    "performance": 145,
+    "accessibility": 515,
+    "cumulative": 222
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.98,
+    "accessibility": 0.85,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 383
+  },
+  "firstContentfulPaint": 928.752,
+  "firstMeaningfulPaint": 1040.252,
+  "speedIndex": 1470.328546577935,
+  "largestContentfulPaint": 1786.375,
+  "totalBlockingTime": 164,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1269.752,
+  "maxPotentialFirstInputDelay": 223,
+  "timeToFirstByte": 152.568,
+  "weight": {
+    "summary": "15 requests • 210 KiB",
+    "total": 214776,
+    "image": 110171,
+    "imageCount": 6,
+    "script": 54141,
+    "scriptCount": 4,
+    "document": 5109,
+    "font": 38617,
+    "fontCount": 1,
+    "stylesheet": 5910,
+    "stylesheetCount": 2,
+    "thirdParty": 3974,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 185,
+    "+weight.total": 454,
+    "-weight.document": 124,
+    "+weight.document": 505,
+    "-weight.script": 245,
+    "+weight.script": 344,
+    "-weight.image": 208,
+    "+weight.image": 367,
+    "-weight.font": 127,
+    "+weight.font": 359,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 384,
+    "-totalBlockingTime": 143,
+    "-largestContentfulPaint": 137
+  },
+  "axe": {
+    "passes": 184,
+    "violations": 1
+  }
+}

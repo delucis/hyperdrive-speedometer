@@ -1,0 +1,67 @@
+{
+  "url": "https://www.venger.me/",
+  "requestedUrl": "https://venger.me/",
+  "timestamp": 1708002562794,
+  "ranks": {
+    "hundos": 556,
+    "performance": 583,
+    "accessibility": 232,
+    "cumulative": 553
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.45,
+    "accessibility": 0.98,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 327
+  },
+  "firstContentfulPaint": 2205.4700000000003,
+  "firstMeaningfulPaint": 2822.4700000000003,
+  "speedIndex": 4545.237980204393,
+  "largestContentfulPaint": 6917.001,
+  "totalBlockingTime": 1029.5,
+  "cumulativeLayoutShift": 0.00033587519327799486,
+  "timeToInteractive": 6843.4845000000005,
+  "maxPotentialFirstInputDelay": 358,
+  "timeToFirstByte": 194.597,
+  "weight": {
+    "summary": "24 requests • 602 KiB",
+    "total": 616678,
+    "image": 11468,
+    "imageCount": 1,
+    "script": 390417,
+    "scriptCount": 16,
+    "document": 60828,
+    "font": 134030,
+    "fontCount": 1,
+    "stylesheet": 11090,
+    "stylesheetCount": 1,
+    "thirdParty": 171492,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 369,
+    "+weight.total": 270,
+    "-weight.document": 583,
+    "+weight.document": 46,
+    "-weight.script": 510,
+    "+weight.script": 79,
+    "-weight.image": 57,
+    "+weight.image": 518,
+    "-weight.font": 364,
+    "+weight.font": 122,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 452,
+    "-totalBlockingTime": 374,
+    "-largestContentfulPaint": 602
+  },
+  "axe": {
+    "passes": 778,
+    "violations": 3
+  }
+}
