@@ -1,0 +1,67 @@
+{
+  "url": "https://christophhumpert.com/",
+  "requestedUrl": "https://christophhumpert.com/",
+  "timestamp": 1710346336814,
+  "ranks": {
+    "hundos": 527,
+    "performance": 553,
+    "accessibility": 505,
+    "cumulative": 531
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.6,
+    "accessibility": 0.89,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 341
+  },
+  "firstContentfulPaint": 3061.1710000000003,
+  "firstMeaningfulPaint": 3211.6995,
+  "speedIndex": 6460.421381627129,
+  "largestContentfulPaint": 7485.384000000002,
+  "totalBlockingTime": 201,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3639.6710000000003,
+  "maxPotentialFirstInputDelay": 440,
+  "timeToFirstByte": 345.712,
+  "weight": {
+    "summary": "16 requests • 1,864 KiB",
+    "total": 1908456,
+    "image": 765225,
+    "imageCount": 6,
+    "script": 4924,
+    "scriptCount": 2,
+    "document": 116017,
+    "font": 146817,
+    "fontCount": 5,
+    "stylesheet": 7023,
+    "stylesheetCount": 1,
+    "thirdParty": 3468,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 527,
+    "+weight.total": 143,
+    "-weight.document": 639,
+    "+weight.document": 22,
+    "-weight.script": 76,
+    "+weight.script": 539,
+    "-weight.image": 442,
+    "+weight.image": 158,
+    "-weight.font": 395,
+    "+weight.font": 122,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 571,
+    "-totalBlockingTime": 183,
+    "-largestContentfulPaint": 639
+  },
+  "axe": {
+    "passes": 658,
+    "violations": 30
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://cskl.pl/",
+  "requestedUrl": "https://cskl.pl/",
+  "timestamp": 1710334779235,
+  "ranks": {
+    "hundos": 175,
+    "performance": 132,
+    "accessibility": 296,
+    "cumulative": 179
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 0.97,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 388
+  },
+  "firstContentfulPaint": 1433.5748059692382,
+  "firstMeaningfulPaint": 1601.6304029846192,
+  "speedIndex": 1719.6857209140776,
+  "largestContentfulPaint": 1769.6860000000001,
+  "totalBlockingTime": 16,
+  "cumulativeLayoutShift": 0.00016154649522569445,
+  "timeToInteractive": 2512.17,
+  "maxPotentialFirstInputDelay": 66,
+  "timeToFirstByte": 88.28199999999998,
+  "weight": {
+    "summary": "17 requests • 206 KiB",
+    "total": 211408,
+    "image": 40657,
+    "imageCount": 3,
+    "script": 70283,
+    "scriptCount": 7,
+    "document": 14500,
+    "font": 15308,
+    "fontCount": 3,
+    "stylesheet": 70660,
+    "stylesheetCount": 3,
+    "thirdParty": 40657,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 189,
+    "+weight.total": 481,
+    "-weight.document": 432,
+    "+weight.document": 229,
+    "-weight.script": 281,
+    "+weight.script": 334,
+    "-weight.image": 127,
+    "+weight.image": 473,
+    "-weight.font": 17,
+    "+weight.font": 500,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 311,
+    "-totalBlockingTime": 32,
+    "-largestContentfulPaint": 166
+  },
+  "axe": {
+    "passes": 1297,
+    "violations": 6
+  }
+}

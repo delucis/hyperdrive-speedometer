@@ -1,0 +1,67 @@
+{
+  "url": "https://otterlord.dev/",
+  "requestedUrl": "https://otterlord.dev/",
+  "timestamp": 1710339288148,
+  "ranks": {
+    "hundos": 29,
+    "performance": 27,
+    "accessibility": 143,
+    "cumulative": 31
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1023.125,
+  "firstMeaningfulPaint": 1023.125,
+  "speedIndex": 1078.8436579982047,
+  "largestContentfulPaint": 1673.76,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1023.125,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 86.25199999999998,
+  "weight": {
+    "summary": "7 requests • 31 KiB",
+    "total": 31885,
+    "image": 20461,
+    "imageCount": 2,
+    "script": 3425,
+    "scriptCount": 2,
+    "document": 2827,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 5172,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 21,
+    "+weight.total": 649,
+    "-weight.document": 35,
+    "+weight.document": 626,
+    "-weight.script": 50,
+    "+weight.script": 565,
+    "-weight.image": 90,
+    "+weight.image": 510,
+    "-weight.font": 1,
+    "+weight.font": 517,
+    "+weight.fontCount": 20,
+    "-timeToFirstByte": 298,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 138
+  },
+  "axe": {
+    "passes": 82,
+    "violations": 2
+  }
+}

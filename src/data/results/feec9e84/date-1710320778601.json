@@ -1,0 +1,67 @@
+{
+  "url": "https://www.paulvall.dev/",
+  "requestedUrl": "https://www.paulvall.dev/",
+  "timestamp": 1710356138616,
+  "ranks": {
+    "hundos": 245,
+    "performance": 183,
+    "accessibility": 161,
+    "cumulative": 250
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.97,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 381
+  },
+  "firstContentfulPaint": 1178.0319999999997,
+  "firstMeaningfulPaint": 1178.0319999999997,
+  "speedIndex": 1178.0319999999997,
+  "largestContentfulPaint": 2641.4269999999997,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1178.0319999999997,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 37.49199999999999,
+  "weight": {
+    "summary": "16 requests • 364 KiB",
+    "total": 372447,
+    "image": 353726,
+    "imageCount": 10,
+    "script": 8199,
+    "scriptCount": 4,
+    "document": 5561,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4961,
+    "stylesheetCount": 1,
+    "thirdParty": 355052,
+    "thirdPartyCount": 11
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 284,
+    "+weight.total": 386,
+    "-weight.document": 160,
+    "+weight.document": 501,
+    "-weight.script": 109,
+    "+weight.script": 506,
+    "-weight.image": 364,
+    "+weight.image": 236,
+    "-weight.font": 1,
+    "+weight.font": 517,
+    "+weight.fontCount": 20,
+    "-timeToFirstByte": 172,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 262
+  },
+  "axe": {
+    "passes": 356,
+    "violations": 4
+  }
+}

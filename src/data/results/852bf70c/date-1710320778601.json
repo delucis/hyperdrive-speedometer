@@ -1,0 +1,67 @@
+{
+  "url": "https://elysegiroux.com/",
+  "requestedUrl": "https://elysegiroux.com/",
+  "timestamp": 1710323522297,
+  "ranks": {
+    "hundos": 235,
+    "performance": 304,
+    "accessibility": 108,
+    "cumulative": 229
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.9,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 383
+  },
+  "firstContentfulPaint": 1924.5030000000002,
+  "firstMeaningfulPaint": 1924.5030000000002,
+  "speedIndex": 2174.051599146192,
+  "largestContentfulPaint": 3258.9024999999997,
+  "totalBlockingTime": 105.5,
+  "cumulativeLayoutShift": 0.013613698323567708,
+  "timeToInteractive": 2756.0074999999997,
+  "maxPotentialFirstInputDelay": 177,
+  "timeToFirstByte": 310.50699999999995,
+  "weight": {
+    "summary": "16 requests • 187 KiB",
+    "total": 191745,
+    "image": 0,
+    "imageCount": 1,
+    "script": 99195,
+    "scriptCount": 5,
+    "document": 21648,
+    "font": 34827,
+    "fontCount": 1,
+    "stylesheet": 35118,
+    "stylesheetCount": 6,
+    "thirdParty": 111548,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 178,
+    "+weight.total": 492,
+    "-weight.document": 499,
+    "+weight.document": 162,
+    "-weight.script": 333,
+    "+weight.script": 282,
+    "-weight.image": 1,
+    "+weight.image": 600,
+    "-weight.font": 99,
+    "+weight.font": 418,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 557,
+    "-totalBlockingTime": 124,
+    "-largestContentfulPaint": 293
+  },
+  "axe": {
+    "passes": 303,
+    "violations": 1
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://embeddedllm.com/",
+  "requestedUrl": "https://embeddedllm.com/",
+  "timestamp": 1710323546498,
+  "ranks": {
+    "hundos": 446,
+    "performance": 406,
+    "accessibility": 264,
+    "cumulative": 447
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.8,
+    "accessibility": 0.98,
+    "bestPractices": 0.92,
+    "seo": 0.9,
+    "total": 360
+  },
+  "firstContentfulPaint": 2556.8039999999996,
+  "firstMeaningfulPaint": 2556.8039999999996,
+  "speedIndex": 2699.9527407075557,
+  "largestContentfulPaint": 3892.054,
+  "totalBlockingTime": 205.70900000000097,
+  "cumulativeLayoutShift": 0.00024591064453125,
+  "timeToInteractive": 4053.4040000000005,
+  "maxPotentialFirstInputDelay": 254.00000000000045,
+  "timeToFirstByte": 93.862,
+  "weight": {
+    "summary": "58 requests • 18,988 KiB",
+    "total": 19444200,
+    "image": 14386853,
+    "imageCount": 29,
+    "script": 110293,
+    "scriptCount": 11,
+    "document": 7601,
+    "font": 62425,
+    "fontCount": 2,
+    "stylesheet": 84260,
+    "stylesheetCount": 4,
+    "thirdParty": 93221,
+    "thirdPartyCount": 11
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 665,
+    "+weight.total": 5,
+    "-weight.document": 253,
+    "+weight.document": 408,
+    "-weight.script": 346,
+    "+weight.script": 269,
+    "-weight.image": 596,
+    "+weight.image": 4,
+    "-weight.font": 241,
+    "+weight.font": 276,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 345,
+    "-totalBlockingTime": 189,
+    "-largestContentfulPaint": 310
+  },
+  "axe": {
+    "passes": 339,
+    "violations": 24
+  }
+}

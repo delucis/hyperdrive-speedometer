@@ -1,0 +1,67 @@
+{
+  "url": "https://frenchtechlead.com/",
+  "requestedUrl": "https://frenchtechlead.com/",
+  "timestamp": 1710348265481,
+  "ranks": {
+    "hundos": 507,
+    "performance": 395,
+    "accessibility": 586,
+    "cumulative": 508
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.81,
+    "accessibility": 0.8,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 345
+  },
+  "firstContentfulPaint": 2279.1459999999997,
+  "firstMeaningfulPaint": 2279.1459999999997,
+  "speedIndex": 2909.4902567137838,
+  "largestContentfulPaint": 2437.2959999999994,
+  "totalBlockingTime": 409.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 6518.163999999999,
+  "maxPotentialFirstInputDelay": 233,
+  "timeToFirstByte": 26.000999999999976,
+  "weight": {
+    "summary": "30 requests • 8,327 KiB",
+    "total": 8527140,
+    "image": 8040315,
+    "imageCount": 11,
+    "script": 287359,
+    "scriptCount": 7,
+    "document": 16125,
+    "font": 108105,
+    "fontCount": 1,
+    "stylesheet": 62533,
+    "stylesheetCount": 3,
+    "thirdParty": 479948,
+    "thirdPartyCount": 20
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 640,
+    "+weight.total": 30,
+    "-weight.document": 453,
+    "+weight.document": 208,
+    "-weight.script": 483,
+    "+weight.script": 132,
+    "-weight.image": 581,
+    "+weight.image": 19,
+    "-weight.font": 346,
+    "+weight.font": 171,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 66,
+    "-totalBlockingTime": 288,
+    "-largestContentfulPaint": 425
+  },
+  "axe": {
+    "passes": 220,
+    "violations": 9
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://lindnerit.io/en/",
+  "requestedUrl": "https://lindnerit.io/",
+  "timestamp": 1710326126493,
+  "ranks": {
+    "hundos": 283,
+    "performance": 326,
+    "accessibility": 205,
+    "cumulative": 284
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.88,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 0.98,
+    "total": 378
+  },
+  "firstContentfulPaint": 1653.9050000000002,
+  "firstMeaningfulPaint": 1653.9050000000002,
+  "speedIndex": 2228.2269412288733,
+  "largestContentfulPaint": 2119.039,
+  "totalBlockingTime": 371.0000000000002,
+  "cumulativeLayoutShift": 0.08438736979166668,
+  "timeToInteractive": 2664.1610000000005,
+  "maxPotentialFirstInputDelay": 261.00000000000045,
+  "timeToFirstByte": 8.683,
+  "weight": {
+    "summary": "28 requests • 271 KiB",
+    "total": 277543,
+    "image": 13059,
+    "imageCount": 4,
+    "script": 157950,
+    "scriptCount": 12,
+    "document": 13148,
+    "font": 22959,
+    "fontCount": 1,
+    "stylesheet": 3057,
+    "stylesheetCount": 1,
+    "thirdParty": 368,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 230,
+    "+weight.total": 440,
+    "-weight.document": 407,
+    "+weight.document": 254,
+    "-weight.script": 400,
+    "+weight.script": 215,
+    "-weight.image": 68,
+    "+weight.image": 532,
+    "-weight.font": 37,
+    "+weight.font": 480,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 4,
+    "-totalBlockingTime": 269,
+    "-largestContentfulPaint": 403
+  },
+  "axe": {
+    "passes": 394,
+    "violations": 14
+  }
+}

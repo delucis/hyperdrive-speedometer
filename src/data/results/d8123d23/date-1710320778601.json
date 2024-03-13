@@ -1,0 +1,66 @@
+{
+  "url": "https://www.burnmynote.link/",
+  "requestedUrl": "https://www.burnmynote.link/",
+  "timestamp": 1710330646575,
+  "ranks": {
+    "hundos": 463,
+    "performance": 536,
+    "accessibility": 231,
+    "cumulative": 463
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.65,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 357
+  },
+  "firstContentfulPaint": 1124.808,
+  "firstMeaningfulPaint": 1124.808,
+  "speedIndex": 5665.965014648338,
+  "largestContentfulPaint": 5326.260000000002,
+  "totalBlockingTime": 235,
+  "cumulativeLayoutShift": 0.11673524083859392,
+  "timeToInteractive": 6724.241499999999,
+  "maxPotentialFirstInputDelay": 184,
+  "timeToFirstByte": 1591.596,
+  "weight": {
+    "summary": "25 requests • 1,025 KiB",
+    "total": 1049709,
+    "image": 834931,
+    "imageCount": 3,
+    "script": 186960,
+    "scriptCount": 12,
+    "document": 5205,
+    "font": 15961,
+    "fontCount": 1,
+    "stylesheet": 4614,
+    "stylesheetCount": 2,
+    "thirdParty": 120843,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 445,
+    "+weight.total": 225,
+    "-weight.document": 134,
+    "+weight.document": 527,
+    "-weight.script": 422,
+    "+weight.script": 193,
+    "-weight.image": 449,
+    "+weight.image": 151,
+    "-weight.font": 20,
+    "+weight.font": 497,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 650,
+    "-totalBlockingTime": 205,
+    "-largestContentfulPaint": 497
+  },
+  "axe": {
+    "error": "Page load timed out"
+  }
+}

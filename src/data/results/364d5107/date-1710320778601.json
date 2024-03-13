@@ -1,0 +1,67 @@
+{
+  "url": "https://lukealexdavis.co.uk/",
+  "requestedUrl": "https://lukealexdavis.co.uk/",
+  "timestamp": 1710338176364,
+  "ranks": {
+    "hundos": 173,
+    "performance": 148,
+    "accessibility": 394,
+    "cumulative": 172
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 0.96,
+    "total": 389
+  },
+  "firstContentfulPaint": 1462.1830000000002,
+  "firstMeaningfulPaint": 1462.1830000000002,
+  "speedIndex": 2176.456941992742,
+  "largestContentfulPaint": 2043.3580000000002,
+  "totalBlockingTime": 7.5,
+  "cumulativeLayoutShift": 0.0004972330729166667,
+  "timeToInteractive": 1515.1830000000002,
+  "maxPotentialFirstInputDelay": 210,
+  "timeToFirstByte": 198.83800000000002,
+  "weight": {
+    "summary": "5 requests • 27 KiB",
+    "total": 27318,
+    "image": 0,
+    "imageCount": 0,
+    "script": 1355,
+    "scriptCount": 1,
+    "document": 5431,
+    "font": 17434,
+    "fontCount": 1,
+    "stylesheet": 3098,
+    "stylesheetCount": 2,
+    "thirdParty": 1355,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 19,
+    "+weight.total": 651,
+    "-weight.document": 151,
+    "+weight.document": 510,
+    "-weight.script": 22,
+    "+weight.script": 593,
+    "-weight.image": 1,
+    "+weight.image": 600,
+    "-weight.font": 27,
+    "+weight.font": 490,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 516,
+    "-totalBlockingTime": 17,
+    "-largestContentfulPaint": 215
+  },
+  "axe": {
+    "passes": 262,
+    "violations": 2
+  }
+}

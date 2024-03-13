@@ -1,0 +1,67 @@
+{
+  "url": "https://www.iktp.net/blog",
+  "requestedUrl": "https://www.iktp.net/blog",
+  "timestamp": 1710331343470,
+  "ranks": {
+    "hundos": 457,
+    "performance": 487,
+    "accessibility": 391,
+    "cumulative": 457
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.71,
+    "accessibility": 0.95,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 358
+  },
+  "firstContentfulPaint": 1534.688,
+  "firstMeaningfulPaint": 1534.688,
+  "speedIndex": 1770.2547393766968,
+  "largestContentfulPaint": 4702.644,
+  "totalBlockingTime": 325.29349999999977,
+  "cumulativeLayoutShift": 0.14752834606170653,
+  "timeToInteractive": 3915.7595,
+  "maxPotentialFirstInputDelay": 243,
+  "timeToFirstByte": 47.65199999999999,
+  "weight": {
+    "summary": "28 requests • 9,439 KiB",
+    "total": 9665276,
+    "image": 8405815,
+    "imageCount": 15,
+    "script": 190051,
+    "scriptCount": 6,
+    "document": 13386,
+    "font": 1048030,
+    "fontCount": 3,
+    "stylesheet": 7742,
+    "stylesheetCount": 2,
+    "thirdParty": 721945,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 648,
+    "+weight.total": 22,
+    "-weight.document": 409,
+    "+weight.document": 252,
+    "-weight.script": 424,
+    "+weight.script": 191,
+    "-weight.image": 583,
+    "+weight.image": 17,
+    "-weight.font": 511,
+    "+weight.font": 6,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 204,
+    "-totalBlockingTime": 250,
+    "-largestContentfulPaint": 491
+  },
+  "axe": {
+    "passes": 615,
+    "violations": 34
+  }
+}

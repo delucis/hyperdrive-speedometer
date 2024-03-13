@@ -1,0 +1,67 @@
+{
+  "url": "https://www.juliancataldo.com/",
+  "requestedUrl": "https://www.juliancataldo.com/",
+  "timestamp": 1710349607524,
+  "ranks": {
+    "hundos": 640,
+    "performance": 616,
+    "accessibility": 641,
+    "cumulative": 640
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.41,
+    "accessibility": 0.7,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 303
+  },
+  "firstContentfulPaint": 1582.9734999999998,
+  "firstMeaningfulPaint": 1710.219,
+  "speedIndex": 3954.170724936887,
+  "largestContentfulPaint": 8068.842442070007,
+  "totalBlockingTime": 2041.745500000001,
+  "cumulativeLayoutShift": 0.0012097954220241971,
+  "timeToInteractive": 6472.000942070008,
+  "maxPotentialFirstInputDelay": 700.0000000000002,
+  "timeToFirstByte": 26.010999999999996,
+  "weight": {
+    "summary": "38 requests • 1,040 KiB",
+    "total": 1064995,
+    "image": 506549,
+    "imageCount": 4,
+    "script": 340192,
+    "scriptCount": 8,
+    "document": 53109,
+    "font": 129892,
+    "fontCount": 6,
+    "stylesheet": 20171,
+    "stylesheetCount": 15,
+    "thirdParty": 268736,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 449,
+    "+weight.total": 221,
+    "-weight.document": 602,
+    "+weight.document": 59,
+    "-weight.script": 512,
+    "+weight.script": 103,
+    "-weight.image": 403,
+    "+weight.image": 197,
+    "-weight.font": 374,
+    "+weight.font": 143,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 67,
+    "-totalBlockingTime": 464,
+    "-largestContentfulPaint": 643
+  },
+  "axe": {
+    "passes": 1527,
+    "violations": 45
+  }
+}

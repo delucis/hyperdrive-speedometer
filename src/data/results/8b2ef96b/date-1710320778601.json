@@ -1,0 +1,67 @@
+{
+  "url": "https://video-stable-diffusion.com/",
+  "requestedUrl": "https://video-stable-diffusion.com/",
+  "timestamp": 1710342124099,
+  "ranks": {
+    "hundos": 341,
+    "performance": 259,
+    "accessibility": 497,
+    "cumulative": 342
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.93,
+    "accessibility": 0.89,
+    "bestPractices": 0.92,
+    "seo": 0.98,
+    "total": 372
+  },
+  "firstContentfulPaint": 1071.0720000000001,
+  "firstMeaningfulPaint": 1125.0720000000001,
+  "speedIndex": 1507.5038591710131,
+  "largestContentfulPaint": 1255.5720000000001,
+  "totalBlockingTime": 313,
+  "cumulativeLayoutShift": 0.007239562988281251,
+  "timeToInteractive": 2396.572,
+  "maxPotentialFirstInputDelay": 276.0000000000001,
+  "timeToFirstByte": 127.75000000000003,
+  "weight": {
+    "summary": "15 requests • 11,731 KiB",
+    "total": 12012766,
+    "image": 11932834,
+    "imageCount": 8,
+    "script": 1056,
+    "scriptCount": 1,
+    "document": 12882,
+    "font": 47284,
+    "fontCount": 1,
+    "stylesheet": 18710,
+    "stylesheetCount": 2,
+    "thirdParty": 2127,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 656,
+    "+weight.total": 14,
+    "-weight.document": 398,
+    "+weight.document": 263,
+    "-weight.script": 12,
+    "+weight.script": 603,
+    "-weight.image": 591,
+    "+weight.image": 9,
+    "-weight.font": 192,
+    "+weight.font": 325,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 430,
+    "-totalBlockingTime": 244,
+    "-largestContentfulPaint": 354
+  },
+  "axe": {
+    "passes": 570,
+    "violations": 11
+  }
+}

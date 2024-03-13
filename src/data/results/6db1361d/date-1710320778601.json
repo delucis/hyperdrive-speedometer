@@ -1,0 +1,66 @@
+{
+  "url": "https://gianmarco.xyz/",
+  "requestedUrl": "https://gianmarco.xyz/",
+  "timestamp": 1710348455124,
+  "ranks": {
+    "hundos": 542,
+    "performance": 606,
+    "accessibility": 332,
+    "cumulative": 542
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.46,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 0.95,
+    "total": 338
+  },
+  "firstContentfulPaint": 992.569,
+  "firstMeaningfulPaint": 1093.569,
+  "speedIndex": 9995.271358382248,
+  "largestContentfulPaint": 3092.4339999999997,
+  "totalBlockingTime": 5794.000000000001,
+  "cumulativeLayoutShift": 0.036871337890624994,
+  "timeToInteractive": 14165.129,
+  "maxPotentialFirstInputDelay": 277,
+  "timeToFirstByte": 1434.77,
+  "weight": {
+    "summary": "16 requests • 360 KiB",
+    "total": 368651,
+    "image": 88115,
+    "imageCount": 1,
+    "script": 131544,
+    "scriptCount": 8,
+    "document": 19746,
+    "font": 124685,
+    "fontCount": 3,
+    "stylesheet": 4446,
+    "stylesheetCount": 1,
+    "thirdParty": 126736,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 282,
+    "+weight.total": 388,
+    "-weight.document": 489,
+    "+weight.document": 172,
+    "-weight.script": 375,
+    "+weight.script": 240,
+    "-weight.image": 197,
+    "+weight.image": 403,
+    "-weight.font": 367,
+    "+weight.font": 150,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 647,
+    "-totalBlockingTime": 497,
+    "-largestContentfulPaint": 577
+  },
+  "axe": {
+    "error": "Page load timed out"
+  }
+}

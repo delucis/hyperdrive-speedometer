@@ -1,0 +1,67 @@
+{
+  "url": "https://nextblick.com/",
+  "requestedUrl": "https://nextblick.com/",
+  "timestamp": 1710338839359,
+  "ranks": {
+    "hundos": 388,
+    "performance": 473,
+    "accessibility": 399,
+    "cumulative": 385
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.73,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 367
+  },
+  "firstContentfulPaint": 2285.5710000000004,
+  "firstMeaningfulPaint": 2609.1730000000007,
+  "speedIndex": 3174.1091680558707,
+  "largestContentfulPaint": 4155.015000000001,
+  "totalBlockingTime": 289.5,
+  "cumulativeLayoutShift": 0.143619140625,
+  "timeToInteractive": 2890.8455000000004,
+  "maxPotentialFirstInputDelay": 443,
+  "timeToFirstByte": 25.620000000000005,
+  "weight": {
+    "summary": "42 requests • 507 KiB",
+    "total": 519284,
+    "image": 346804,
+    "imageCount": 29,
+    "script": 39268,
+    "scriptCount": 4,
+    "document": 13424,
+    "font": 111126,
+    "fontCount": 4,
+    "stylesheet": 8662,
+    "stylesheetCount": 4,
+    "thirdParty": 157576,
+    "thirdPartyCount": 22
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 347,
+    "+weight.total": 323,
+    "-weight.document": 410,
+    "+weight.document": 251,
+    "-weight.script": 217,
+    "+weight.script": 398,
+    "-weight.image": 359,
+    "+weight.image": 241,
+    "-weight.font": 351,
+    "+weight.font": 166,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 56,
+    "-totalBlockingTime": 235,
+    "-largestContentfulPaint": 479
+  },
+  "axe": {
+    "passes": 1003,
+    "violations": 3
+  }
+}

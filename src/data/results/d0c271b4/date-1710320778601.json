@@ -1,0 +1,67 @@
+{
+  "url": "https://hira.page/",
+  "requestedUrl": "https://hira.page/",
+  "timestamp": 1710348871841,
+  "ranks": {
+    "hundos": 332,
+    "performance": 436,
+    "accessibility": 350,
+    "cumulative": 331
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.77,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 373
+  },
+  "firstContentfulPaint": 1434.117,
+  "firstMeaningfulPaint": 1434.117,
+  "speedIndex": 2917.125417121664,
+  "largestContentfulPaint": 4072.158,
+  "totalBlockingTime": 352,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 4064.117,
+  "maxPotentialFirstInputDelay": 257,
+  "timeToFirstByte": 105.874,
+  "weight": {
+    "summary": "26 requests • 733 KiB",
+    "total": 750701,
+    "image": 493718,
+    "imageCount": 8,
+    "script": 216195,
+    "scriptCount": 6,
+    "document": 9285,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 5549,
+    "stylesheetCount": 2,
+    "thirdParty": 97756,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 405,
+    "+weight.total": 265,
+    "-weight.document": 314,
+    "+weight.document": 347,
+    "-weight.script": 445,
+    "+weight.script": 170,
+    "-weight.image": 399,
+    "+weight.image": 201,
+    "-weight.font": 1,
+    "+weight.font": 517,
+    "+weight.fontCount": 20,
+    "-timeToFirstByte": 396,
+    "-totalBlockingTime": 260,
+    "-largestContentfulPaint": 477
+  },
+  "axe": {
+    "passes": 762,
+    "violations": 9
+  }
+}

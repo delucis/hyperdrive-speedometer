@@ -1,0 +1,67 @@
+{
+  "url": "https://www.tomcariano.com/",
+  "requestedUrl": "https://www.tomcariano.com/",
+  "timestamp": 1710344449302,
+  "ranks": {
+    "hundos": 221,
+    "performance": 283,
+    "accessibility": 172,
+    "cumulative": 226
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.92,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 384
+  },
+  "firstContentfulPaint": 1459.4490000000003,
+  "firstMeaningfulPaint": 1459.4490000000003,
+  "speedIndex": 2015.126754003546,
+  "largestContentfulPaint": 3331.4400000000005,
+  "totalBlockingTime": 9,
+  "cumulativeLayoutShift": 0.001715956793891059,
+  "timeToInteractive": 2123.0825000000004,
+  "maxPotentialFirstInputDelay": 68,
+  "timeToFirstByte": 176.44999999999993,
+  "weight": {
+    "summary": "20 requests • 581 KiB",
+    "total": 594493,
+    "image": 488051,
+    "imageCount": 9,
+    "script": 11362,
+    "scriptCount": 1,
+    "document": 5544,
+    "font": 63015,
+    "fontCount": 2,
+    "stylesheet": 10042,
+    "stylesheetCount": 1,
+    "thirdParty": 1212,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 367,
+    "+weight.total": 303,
+    "-weight.document": 157,
+    "+weight.document": 504,
+    "-weight.script": 136,
+    "+weight.script": 479,
+    "-weight.image": 396,
+    "+weight.image": 204,
+    "-weight.font": 243,
+    "+weight.font": 274,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 496,
+    "-totalBlockingTime": 20,
+    "-largestContentfulPaint": 297
+  },
+  "axe": {
+    "passes": 239,
+    "violations": 5
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://ciso360.ai/",
+  "requestedUrl": "https://ciso360.ai/",
+  "timestamp": 1710346349608,
+  "ranks": {
+    "hundos": 200,
+    "performance": 330,
+    "accessibility": 96,
+    "cumulative": 194
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.88,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.98,
+    "total": 386
+  },
+  "firstContentfulPaint": 1122.7759999999998,
+  "firstMeaningfulPaint": 1197.7759999999998,
+  "speedIndex": 3035.2807603788333,
+  "largestContentfulPaint": 1197.7759999999998,
+  "totalBlockingTime": 410,
+  "cumulativeLayoutShift": 0.011582420349121093,
+  "timeToInteractive": 4267.186,
+  "maxPotentialFirstInputDelay": 263,
+  "timeToFirstByte": 138.9670000000001,
+  "weight": {
+    "summary": "15 requests • 462 KiB",
+    "total": 473549,
+    "image": 332531,
+    "imageCount": 1,
+    "script": 71216,
+    "scriptCount": 6,
+    "document": 12941,
+    "font": 39234,
+    "fontCount": 1,
+    "stylesheet": 17426,
+    "stylesheetCount": 2,
+    "thirdParty": 67265,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 332,
+    "+weight.total": 338,
+    "-weight.document": 400,
+    "+weight.document": 261,
+    "-weight.script": 282,
+    "+weight.script": 333,
+    "-weight.image": 353,
+    "+weight.image": 247,
+    "-weight.font": 135,
+    "+weight.font": 382,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 450,
+    "-totalBlockingTime": 289,
+    "-largestContentfulPaint": 352
+  },
+  "axe": {
+    "passes": 655,
+    "violations": 1
+  }
+}

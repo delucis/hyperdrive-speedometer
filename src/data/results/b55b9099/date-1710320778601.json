@@ -1,0 +1,67 @@
+{
+  "url": "https://www.deskpro.com/",
+  "requestedUrl": "https://www.deskpro.com/",
+  "timestamp": 1710355063897,
+  "ranks": {
+    "hundos": 608,
+    "performance": 657,
+    "accessibility": 351,
+    "cumulative": 604
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.24,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 320
+  },
+  "firstContentfulPaint": 3054.0840000000003,
+  "firstMeaningfulPaint": 3054.0840000000003,
+  "speedIndex": 7526.143607655426,
+  "largestContentfulPaint": 8958.244000000002,
+  "totalBlockingTime": 2869.665500000003,
+  "cumulativeLayoutShift": 0.019663317362467445,
+  "timeToInteractive": 19946.2035,
+  "maxPotentialFirstInputDelay": 596,
+  "timeToFirstByte": 961.542,
+  "weight": {
+    "summary": "157 requests • 2,379 KiB",
+    "total": 2435607,
+    "image": 362615,
+    "imageCount": 42,
+    "script": 1433883,
+    "scriptCount": 66,
+    "document": 72891,
+    "font": 389316,
+    "fontCount": 9,
+    "stylesheet": 104880,
+    "stylesheetCount": 11,
+    "thirdParty": 1190730,
+    "thirdPartyCount": 96
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 553,
+    "+weight.total": 117,
+    "-weight.document": 620,
+    "+weight.document": 41,
+    "-weight.script": 605,
+    "+weight.script": 10,
+    "-weight.image": 368,
+    "+weight.image": 232,
+    "-weight.font": 479,
+    "+weight.font": 38,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 633,
+    "-totalBlockingTime": 480,
+    "-largestContentfulPaint": 649
+  },
+  "axe": {
+    "passes": 2157,
+    "violations": 12
+  }
+}

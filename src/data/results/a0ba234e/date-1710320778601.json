@@ -1,0 +1,67 @@
+{
+  "url": "https://centiskor.ch/",
+  "requestedUrl": "https://centiskor.ch/",
+  "timestamp": 1710322186228,
+  "ranks": {
+    "hundos": 184,
+    "performance": 131,
+    "accessibility": 413,
+    "cumulative": 185
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 0.95,
+    "total": 388
+  },
+  "firstContentfulPaint": 1292.0929999999998,
+  "firstMeaningfulPaint": 1292.0929999999998,
+  "speedIndex": 1695.0616776467418,
+  "largestContentfulPaint": 1995.0929999999998,
+  "totalBlockingTime": 17,
+  "cumulativeLayoutShift": 0.03596736653645834,
+  "timeToInteractive": 1660.0929999999998,
+  "maxPotentialFirstInputDelay": 328,
+  "timeToFirstByte": 158.89700000000002,
+  "weight": {
+    "summary": "24 requests • 85 KiB",
+    "total": 87342,
+    "image": 55041,
+    "imageCount": 18,
+    "script": 4112,
+    "scriptCount": 3,
+    "document": 6450,
+    "font": 19919,
+    "fontCount": 1,
+    "stylesheet": 1820,
+    "stylesheetCount": 1,
+    "thirdParty": 4112,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 90,
+    "+weight.total": 580,
+    "-weight.document": 204,
+    "+weight.document": 457,
+    "-weight.script": 59,
+    "+weight.script": 556,
+    "-weight.image": 156,
+    "+weight.image": 444,
+    "-weight.font": 30,
+    "+weight.font": 487,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 467,
+    "-totalBlockingTime": 34,
+    "-largestContentfulPaint": 199
+  },
+  "axe": {
+    "passes": 484,
+    "violations": 14
+  }
+}

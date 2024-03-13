@@ -1,0 +1,67 @@
+{
+  "url": "https://opusflow.io/",
+  "requestedUrl": "https://opusflow.io/",
+  "timestamp": 1710327241695,
+  "ranks": {
+    "hundos": 467,
+    "performance": 521,
+    "accessibility": 484,
+    "cumulative": 467
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.66,
+    "accessibility": 0.9,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 356
+  },
+  "firstContentfulPaint": 1210.497,
+  "firstMeaningfulPaint": 1757.0275000000001,
+  "speedIndex": 2653.1332384465095,
+  "largestContentfulPaint": 2630.943,
+  "totalBlockingTime": 1188.725,
+  "cumulativeLayoutShift": 0.00539014180501302,
+  "timeToInteractive": 8735.475499999999,
+  "maxPotentialFirstInputDelay": 229.99999999999955,
+  "timeToFirstByte": 99.434,
+  "weight": {
+    "summary": "84 requests • 1,020 KiB",
+    "total": 1044387,
+    "image": 258473,
+    "imageCount": 43,
+    "script": 609167,
+    "scriptCount": 27,
+    "document": 18854,
+    "font": 27633,
+    "fontCount": 1,
+    "stylesheet": 24728,
+    "stylesheetCount": 2,
+    "thirdParty": 352336,
+    "thirdPartyCount": 23
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 444,
+    "+weight.total": 226,
+    "-weight.document": 486,
+    "+weight.document": 175,
+    "-weight.script": 564,
+    "+weight.script": 51,
+    "-weight.image": 318,
+    "+weight.image": 282,
+    "-weight.font": 63,
+    "+weight.font": 454,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 371,
+    "-totalBlockingTime": 419,
+    "-largestContentfulPaint": 566
+  },
+  "axe": {
+    "passes": 755,
+    "violations": 46
+  }
+}

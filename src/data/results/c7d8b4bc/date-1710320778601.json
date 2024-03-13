@@ -1,0 +1,67 @@
+{
+  "url": "https://www.touha.dev/",
+  "requestedUrl": "https://www.touha.dev/",
+  "timestamp": 1710356599924,
+  "ranks": {
+    "hundos": 239,
+    "performance": 56,
+    "accessibility": 482,
+    "cumulative": 241
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 0.9,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 382
+  },
+  "firstContentfulPaint": 1063.0850000000003,
+  "firstMeaningfulPaint": 1063.0850000000003,
+  "speedIndex": 1283.3291510092586,
+  "largestContentfulPaint": 1063.0850000000003,
+  "totalBlockingTime": 12.581999999999994,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1125.2490000000003,
+  "maxPotentialFirstInputDelay": 92,
+  "timeToFirstByte": 37.59700000000004,
+  "weight": {
+    "summary": "20 requests • 193 KiB",
+    "total": 197627,
+    "image": 159753,
+    "imageCount": 12,
+    "script": 12716,
+    "scriptCount": 5,
+    "document": 11913,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 13245,
+    "stylesheetCount": 2,
+    "thirdParty": 9538,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 181,
+    "+weight.total": 489,
+    "-weight.document": 377,
+    "+weight.document": 284,
+    "-weight.script": 142,
+    "+weight.script": 473,
+    "-weight.image": 257,
+    "+weight.image": 343,
+    "-weight.font": 1,
+    "+weight.font": 517,
+    "+weight.fontCount": 20,
+    "-timeToFirstByte": 173,
+    "-totalBlockingTime": 28,
+    "-largestContentfulPaint": 33
+  },
+  "axe": {
+    "passes": 363,
+    "violations": 19
+  }
+}

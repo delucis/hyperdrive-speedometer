@@ -1,0 +1,67 @@
+{
+  "url": "https://kidney.wiki/",
+  "requestedUrl": "https://kidney.wiki/",
+  "timestamp": 1710325790423,
+  "ranks": {
+    "hundos": 380,
+    "performance": 423,
+    "accessibility": 312,
+    "cumulative": 379
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.78,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 368
+  },
+  "firstContentfulPaint": 1336.328,
+  "firstMeaningfulPaint": 1398.328,
+  "speedIndex": 1467.3870798321097,
+  "largestContentfulPaint": 1398.328,
+  "totalBlockingTime": 827,
+  "cumulativeLayoutShift": 0.007132975260416667,
+  "timeToInteractive": 5162.3279999999995,
+  "maxPotentialFirstInputDelay": 530,
+  "timeToFirstByte": 63.807000000000016,
+  "weight": {
+    "summary": "56 requests • 690 KiB",
+    "total": 706242,
+    "image": 66044,
+    "imageCount": 11,
+    "script": 135830,
+    "scriptCount": 36,
+    "document": 21978,
+    "font": 467624,
+    "fontCount": 5,
+    "stylesheet": 14729,
+    "stylesheetCount": 1,
+    "thirdParty": 7109,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 394,
+    "+weight.total": 276,
+    "-weight.document": 501,
+    "+weight.document": 160,
+    "-weight.script": 380,
+    "+weight.script": 235,
+    "-weight.image": 177,
+    "+weight.image": 423,
+    "-weight.font": 483,
+    "+weight.font": 34,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 229,
+    "-totalBlockingTime": 371,
+    "-largestContentfulPaint": 524
+  },
+  "axe": {
+    "passes": 546,
+    "violations": 12
+  }
+}
