@@ -12,198 +12,233 @@ const res = await db
 	.get();
 const latestRun = new Date(res?.latestRun || Date.now()).getTime();
 
-const sites =	(
+const sites = (
 	await db
 		.select()
 		.from(Result)
 		.where(gte(Result.runTime, new Date(latestRun - 24 * 60 * 60 * 1000)))
 		.orderBy(sql`${Result.data}->>'$.ranks.cumulative'`)
-).map((site) => ({ ...site, data: TestResult.parse(site.data) }))
+).map((site) => ({ ...site, data: TestResult.parse(site.data) }));
 
 const randomBuildID = Math.round(Math.random() * 10e6);
 ---
+
 <Layout>
-<div class="leaderboard-wrapper">
-<table class="leaderboard">
-	<thead>
-		<tr>
-			<th>Rank</th>
-			<th class="leaderboard-hide-md">Trophy</th>
-			<th>URL</th>
-			<th class="leaderboard-score">Lighthouse</th>
-			<th class="leaderboard-data-right"><span class="sr-only">Data and Graphs</span></th>
-		</tr>
-	</thead>
-	<tbody>
-	{sites.map(async ({ siteHash, data }, index) => {
-		const urlHash = shorthash(data.url);
-		const id = 'site-' + urlHash;
-		const displayURL = (url: string | undefined) => url?.replace(/^https?:\/\//, '');
-		const hasRedirect = data.requestedUrl && data.requestedUrl !== data.url
-		const isNew = (await db.select({ count: sql`count(*)` }).from(Result).where(eq(Result.siteHash, siteHash)).get())?.count === 1;
-		return (
-			<tr {id} class="leaderboard-list-entry">
-				<td>
-					<a href={`#${id}`}>{index + 1}</a>
-				</td>
-				<td class="leaderboard-hide-md leaderboard-trophies">{data.lighthouse.total === 400 && '🏆'}{['🥇','🥈','🥉'][index]}{isNew && <span title="New entry">✨</span>}</td>
-				<td class="leaderboard-url">
-					<a href={data.url}>
-						<img src={`https://v1.indieweb-avatar.11ty.dev/${encodeURIComponent(data.url + '?bust=' + randomBuildID)}`} alt={`IndieWeb Avatar for ${displayURL(data.url)}`} class="leaderboard-list-entry-thumbnail" loading="lazy" decoding="async" width="150" height="150">
-						<code class="url">{displayURL(data.url)}</code>
-					</a>
-					{hasRedirect && <span class="leaderboard-redirect-warn">Redirect from <code class="url">{displayURL(data.requestedUrl)}</code></span>}
-				</td>
-				<td class="leaderboard-score">
-					<speedlify-score
-						class={`leaderboard-score-circles ${data.lighthouse.total === 400 ? 'leaderboard-score-circles-400' : ''}`}
-						raw-data={JSON.stringify(data)}
-					></speedlify-score>
-					<span class="leaderboard-score-sum leaderboard-number">{data.lighthouse.total === 400 ? '😍' : data.lighthouse.total }</span>
-					<td class="leaderboard-data-right"><a href={`#details-${urlHash}`} data-expand-alias data-js-only>
-						<span class="leaderboard-expand-icon"></span> Data<span class="leaderboard-hide-md"> and Graphs</span></a>
-					</td>
-				</td>
-			</tr>
-			<SiteDetails {siteHash} {urlHash} />
-		);
-	})}
-	</tbody>
-</table>
-</div>
-<script>import 'speedlify-score';</script>
+	<div class="leaderboard-wrapper">
+		<table class="leaderboard">
+			<thead>
+				<tr>
+					<th>Rank</th>
+					<th class="leaderboard-hide-md">Trophy</th>
+					<th>URL</th>
+					<th class="leaderboard-score">Lighthouse</th>
+					<th class="leaderboard-data-right"><span class="sr-only">Data and Graphs</span></th>
+				</tr>
+			</thead>
+			<tbody>
+				{
+					sites.map(async ({ siteHash, data }, index) => {
+						const urlHash = shorthash(data.url);
+						const id = 'site-' + urlHash;
+						const displayURL = (url: string | undefined) => url?.replace(/^https?:\/\//, '');
+						const hasRedirect = data.requestedUrl && data.requestedUrl !== data.url;
+						const isNew =
+							(
+								await db
+									.select({ count: sql`count(*)` })
+									.from(Result)
+									.where(eq(Result.siteHash, siteHash))
+									.get()
+							)?.count === 1;
+						return (
+							<>
+								<tr {id} class="leaderboard-list-entry">
+									<td>
+										<a href={`#${id}`}>{index + 1}</a>
+									</td>
+									<td class="leaderboard-hide-md leaderboard-trophies">
+										{data.lighthouse.total === 400 && '🏆'}
+										{['🥇', '🥈', '🥉'][index]}
+										{isNew && <span title="New entry">✨</span>}
+									</td>
+									<td class="leaderboard-url">
+										<a href={data.url}>
+											<img
+												src={`https://v1.indieweb-avatar.11ty.dev/${encodeURIComponent(data.url + '?bust=' + randomBuildID)}`}
+												alt={`IndieWeb Avatar for ${displayURL(data.url)}`}
+												class="leaderboard-list-entry-thumbnail"
+												loading="lazy"
+												decoding="async"
+												width="150"
+												height="150"
+											/>
+											<code class="url">{displayURL(data.url)}</code>
+										</a>
+										{hasRedirect && (
+											<span class="leaderboard-redirect-warn">
+												Redirect from <code class="url">{displayURL(data.requestedUrl)}</code>
+											</span>
+										)}
+									</td>
+									<td class="leaderboard-score">
+										<speedlify-score
+											class={`leaderboard-score-circles ${data.lighthouse.total === 400 ? 'leaderboard-score-circles-400' : ''}`}
+											raw-data={JSON.stringify(data)}
+										/>
+										<span class="leaderboard-score-sum leaderboard-number">
+											{data.lighthouse.total === 400 ? '😍' : data.lighthouse.total}
+										</span>
+										<td class="leaderboard-data-right">
+											<a href={`#details-${urlHash}`} data-expand-alias data-js-only>
+												<span class="leaderboard-expand-icon" /> Data
+												<span class="leaderboard-hide-md"> and Graphs</span>
+											</a>
+										</td>
+									</td>
+								</tr>
+								<SiteDetails {siteHash} {urlHash} />
+							</>
+						);
+					})
+				}
+			</tbody>
+		</table>
+	</div>
+	<script>
+		import 'speedlify-score';
+	</script>
 </Layout>
 
 <style>
-.leaderboard-wrapper {
-	margin-left: -.5rem;
-	margin-right: -.4375rem;
-}
-.leaderboard {
-	margin: 5em auto;
-	width: 100%;
-	max-width: 90rem;
-	border-spacing: 0;
-	border-collapse: collapse;
-	text-align: left;
-}
-
-.leaderboard th {
-	font-size: .8125em;
-	color: #ddd;
-	font-weight: normal;
-}
-
-@media (min-width: 50em) {
-	.leaderboard td {
-		font-size: 1.3125em;
+	.leaderboard-wrapper {
+		margin-left: -0.5rem;
+		margin-right: -0.4375rem;
 	}
-}
+	.leaderboard {
+		margin: 5em auto;
+		width: 100%;
+		max-width: 90rem;
+		border-spacing: 0;
+		border-collapse: collapse;
+		text-align: left;
+	}
 
-.leaderboard :is(th,td) {
-	padding: .75rem .5rem;
-}
+	.leaderboard th {
+		font-size: 0.8125em;
+		color: #ddd;
+		font-weight: normal;
+	}
 
-.leaderboard-data-right {
-	text-align: right;
-}
+	@media (min-width: 50em) {
+		.leaderboard td {
+			font-size: 1.3125em;
+		}
+	}
 
-.leaderboard-list-entry {
-	border-top: 1px dotted rgba(82, 111, 255, 0.5);
-}
+	.leaderboard :is(th, td) {
+		padding: 0.75rem 0.5rem;
+	}
 
-.leaderboard-list-entry-thumbnail {
-  width: 1.5em;
-  height: 1.5em;
-  margin-right: .5em;
-  padding: .25em;
-  vertical-align: middle;
-  border: none;
-  border-radius: .2em;
-  background-color: hsla(290, 100%, 85%, 0.36);
-}
+	.leaderboard-data-right {
+		text-align: right;
+	}
 
-.leaderboard-url {
-  width: 100%;
-}
+	.leaderboard-list-entry {
+		border-top: 1px dotted rgba(82, 111, 255, 0.5);
+	}
 
-.leaderboard-url a[href] {
-	display: flex;
-}
+	.leaderboard-list-entry-thumbnail {
+		width: 1.5em;
+		height: 1.5em;
+		margin-right: 0.5em;
+		padding: 0.25em;
+		vertical-align: middle;
+		border: none;
+		border-radius: 0.2em;
+		background-color: hsla(290, 100%, 85%, 0.36);
+	}
 
-.url {
-	word-break: break-word;
-}
+	.leaderboard-url {
+		width: 100%;
+	}
 
-@media (min-width: 37.5em) {
+	.leaderboard-url a[href] {
+		display: flex;
+	}
+
 	.url {
-		font-size: 1.25em;
+		word-break: break-word;
 	}
-}
 
-.leaderboard-redirect-error,
-.leaderboard-redirect-warn {
-  text-transform: uppercase;
-  font-size: 0.75em;
-  font-weight: 400;
-	margin-left: 1rem;
-}
+	@media (min-width: 37.5em) {
+		.url {
+			font-size: 1.25em;
+		}
+	}
 
-.leaderboard-redirect-warn {
-  color: hsl(58, 100%, 71%);
-}
+	.leaderboard-redirect-error,
+	.leaderboard-redirect-warn {
+		text-transform: uppercase;
+		font-size: 0.75em;
+		font-weight: 400;
+		margin-left: 1rem;
+	}
 
-.leaderboard-redirect-warn::before {
-	content: "⚠️ ";
-}
+	.leaderboard-redirect-warn {
+		color: hsl(58, 100%, 71%);
+	}
 
-.leaderboard-redirect-warn code {
-text-transform: none;
-}
+	.leaderboard-redirect-warn::before {
+		content: '⚠️ ';
+	}
 
-a[href^="#"] {
-	text-decoration: none;
-}
+	.leaderboard-redirect-warn code {
+		text-transform: none;
+	}
 
-.leaderboard-score {
-	white-space: nowrap;
-}
+	a[href^='#'] {
+		text-decoration: none;
+	}
 
-.leaderboard-score-circles {
-  display: inline-flex;
-  flex-wrap: nowrap;
-  margin-right: 8px;
-}
-
-.leaderboard-score-circles :global(.speedlify-score) {
-  font-size: 0.8125rem;
-}
-
-.leaderboard-score-circles-400 :global(.speedlify-score) {
-	border-color: currentColor;
-  color: #bcffc2;
-}
-
-.leaderboard-score-sum {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-@media (max-width: 29em) {
 	.leaderboard-score {
-		display: none;
+		white-space: nowrap;
 	}
-}
 
-@media (max-width: 64em) {
-	.leaderboard-hide-md {
-		display: none;
-	}
-}
-
-@media (max-width: 34em){
 	.leaderboard-score-circles {
-			display: none;
+		display: inline-flex;
+		flex-wrap: nowrap;
+		margin-right: 8px;
 	}
-}
+
+	.leaderboard-score-circles :global(.speedlify-score) {
+		font-size: 0.8125rem;
+	}
+
+	.leaderboard-score-circles-400 :global(.speedlify-score) {
+		border-color: currentColor;
+		color: #bcffc2;
+	}
+
+	.leaderboard-score-sum {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	@media (max-width: 29em) {
+		.leaderboard-score {
+			display: none;
+		}
+	}
+
+	@media (max-width: 64em) {
+		.leaderboard-hide-md {
+			display: none;
+		}
+	}
+
+	@media (max-width: 34em) {
+		.leaderboard-score-circles {
+			display: none;
+		}
+	}
 </style>
