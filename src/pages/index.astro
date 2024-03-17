@@ -1,5 +1,5 @@
 ---
-import { db, Result, sql, gte } from 'astro:db';
+import { db, Result, sql, gte, eq } from 'astro:db';
 import shorthash from 'short-hash';
 import 'speedlify-score/speedlify-score.css';
 import SiteDetails from '../components/SiteDetails.astro';
@@ -35,12 +35,12 @@ const randomBuildID = Math.round(Math.random() * 10e6);
 		</tr>
 	</thead>
 	<tbody>
-	{sites.map(({ siteHash, data }, index) => {
+	{sites.map(async ({ siteHash, data }, index) => {
 		const urlHash = shorthash(data.url);
 		const id = 'site-' + urlHash;
 		const displayURL = (url: string | undefined) => url?.replace(/^https?:\/\//, '');
 		const hasRedirect = data.requestedUrl && data.requestedUrl !== data.url
-		const isNew = false; // TODO
+		const isNew = (await db.select({ count: sql`count(*)` }).from(Result).where(eq(Result.siteHash, siteHash)).get())?.count === 1;
 		return (
 			<tr {id} class="leaderboard-list-entry">
 				<td>
