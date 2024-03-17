@@ -1,18 +1,26 @@
 ---
+import { db, Result, sql, gte } from 'astro:db';
 import shorthash from 'short-hash';
 import 'speedlify-score/speedlify-score.css';
 import SiteDetails from '../components/SiteDetails.astro';
 import Layout from '../layouts/Layout.astro';
-import { loadResults } from '../util/data';
+import { TestResult } from '../util/data-schema';
+
+const res = await db
+	.select({ latestRun: sql<string>`max(${Result.runTime})` })
+	.from(Result)
+	.get();
+const latestRun = new Date(res?.latestRun || Date.now()).getTime();
+
+const sites =	(
+	await db
+		.select()
+		.from(Result)
+		.where(gte(Result.runTime, new Date(latestRun - 24 * 60 * 60 * 1000)))
+		.orderBy(sql`${Result.data}->>'$.ranks.cumulative'`)
+).map((site) => ({ ...site, data: TestResult.parse(site.data) }))
 
 const randomBuildID = Math.round(Math.random() * 10e6);
-
-const getNewestKey = (obj: Record<string, { timestamp: number }>) => {
-	const sorted = Object.entries(obj).sort(([, a], [, b]) => a.timestamp - b.timestamp);
-	return sorted[sorted.length - 1]?.[0];
-}
-
-const results = await loadResults();
 ---
 <Layout>
 <div class="leaderboard-wrapper">
@@ -27,41 +35,37 @@ const results = await loadResults();
 		</tr>
 	</thead>
 	<tbody>
-	{results.map((site, index) => {
-		const newestKey = getNewestKey(site);
-		const latest = site[newestKey];
-		if (latest.error) return null;
-		const urlHash = shorthash(latest.url);
+	{sites.map(({ siteHash, data }, index) => {
+		const urlHash = shorthash(data.url);
 		const id = 'site-' + urlHash;
-		const displayURL = url => url.replace(/^https?:\/\//, '');
-		const hasRedirect = latest.requestedUrl && latest.requestedUrl !== latest.url
-		const isNew = Object.keys(site).length === 1;
-		
+		const displayURL = (url: string | undefined) => url?.replace(/^https?:\/\//, '');
+		const hasRedirect = data.requestedUrl && data.requestedUrl !== data.url
+		const isNew = false; // TODO
 		return (
 			<tr {id} class="leaderboard-list-entry">
 				<td>
 					<a href={`#${id}`}>{index + 1}</a>
 				</td>
-				<td class="leaderboard-hide-md leaderboard-trophies">{latest.lighthouse.total === 400 && '🏆'}{['🥇','🥈','🥉'][index]}{isNew && <span title="New entry">✨</span>}</td>
+				<td class="leaderboard-hide-md leaderboard-trophies">{data.lighthouse.total === 400 && '🏆'}{['🥇','🥈','🥉'][index]}{isNew && <span title="New entry">✨</span>}</td>
 				<td class="leaderboard-url">
-					<a href={latest.url}>
-						<img src={`https://v1.indieweb-avatar.11ty.dev/${encodeURIComponent(latest.url + '?bust=' + randomBuildID)}`} alt={`IndieWeb Avatar for ${displayURL(latest.url)}`} class="leaderboard-list-entry-thumbnail" loading="lazy" decoding="async" width="150" height="150">
-						<code class="url">{displayURL(latest.url)}</code>
+					<a href={data.url}>
+						<img src={`https://v1.indieweb-avatar.11ty.dev/${encodeURIComponent(data.url + '?bust=' + randomBuildID)}`} alt={`IndieWeb Avatar for ${displayURL(data.url)}`} class="leaderboard-list-entry-thumbnail" loading="lazy" decoding="async" width="150" height="150">
+						<code class="url">{displayURL(data.url)}</code>
 					</a>
-					{hasRedirect && <span class="leaderboard-redirect-warn">Redirect from <code class="url">{displayURL(latest.requestedUrl)}</code></span>}
+					{hasRedirect && <span class="leaderboard-redirect-warn">Redirect from <code class="url">{displayURL(data.requestedUrl)}</code></span>}
 				</td>
 				<td class="leaderboard-score">
 					<speedlify-score
-						class={`leaderboard-score-circles ${latest.lighthouse.total === 400 ? 'leaderboard-score-circles-400' : ''}`}
-						raw-data={JSON.stringify(latest)}
+						class={`leaderboard-score-circles ${data.lighthouse.total === 400 ? 'leaderboard-score-circles-400' : ''}`}
+						raw-data={JSON.stringify(data)}
 					></speedlify-score>
-					<span class="leaderboard-score-sum leaderboard-number">{latest.lighthouse.total === 400 ? '😍' : latest.lighthouse.total }</span>
+					<span class="leaderboard-score-sum leaderboard-number">{data.lighthouse.total === 400 ? '😍' : data.lighthouse.total }</span>
 					<td class="leaderboard-data-right"><a href={`#details-${urlHash}`} data-expand-alias data-js-only>
 						<span class="leaderboard-expand-icon"></span> Data<span class="leaderboard-hide-md"> and Graphs</span></a>
 					</td>
 				</td>
 			</tr>
-			<SiteDetails {...{site, urlHash}} />
+			<SiteDetails {siteHash} {urlHash} />
 		);
 	})}
 	</tbody>
