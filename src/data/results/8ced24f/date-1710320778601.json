@@ -1,0 +1,67 @@
+{
+  "url": "https://astrolize.fabform.io/",
+  "requestedUrl": "https://astrolize.fabform.io/",
+  "timestamp": 1710321394626,
+  "ranks": {
+    "hundos": 49,
+    "performance": 129,
+    "accessibility": 197,
+    "cumulative": 54
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1449.0750000000003,
+  "firstMeaningfulPaint": 1449.0750000000003,
+  "speedIndex": 1687.0173500009178,
+  "largestContentfulPaint": 1795.9070000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.01393133799235026,
+  "timeToInteractive": 1449.0750000000003,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 75.00900000000001,
+  "weight": {
+    "summary": "5 requests • 104 KiB",
+    "total": 106585,
+    "image": 10703,
+    "imageCount": 1,
+    "script": 1368,
+    "scriptCount": 1,
+    "document": 8788,
+    "font": 46969,
+    "fontCount": 1,
+    "stylesheet": 38757,
+    "stylesheetCount": 1,
+    "thirdParty": 1368,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 108,
+    "+weight.total": 562,
+    "-weight.document": 299,
+    "+weight.document": 362,
+    "-weight.script": 23,
+    "+weight.script": 592,
+    "-weight.image": 56,
+    "+weight.image": 544,
+    "-weight.font": 185,
+    "+weight.font": 332,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 251,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 169
+  },
+  "axe": {
+    "passes": 163,
+    "violations": 9
+  }
+}

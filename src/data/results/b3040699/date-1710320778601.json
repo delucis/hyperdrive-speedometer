@@ -1,0 +1,67 @@
+{
+  "url": "https://devexc.com/en/home/",
+  "requestedUrl": "https://devexc.com/",
+  "timestamp": 1710335219735,
+  "ranks": {
+    "hundos": 654,
+    "performance": 557,
+    "accessibility": 644,
+    "cumulative": 654
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.58,
+    "accessibility": 0.68,
+    "bestPractices": 0.83,
+    "seo": 0.83,
+    "total": 292
+  },
+  "firstContentfulPaint": 1230.663,
+  "firstMeaningfulPaint": 1642.663,
+  "speedIndex": 3126.5803890803195,
+  "largestContentfulPaint": 14437.02599999999,
+  "totalBlockingTime": 468.5,
+  "cumulativeLayoutShift": 0.004178670247395834,
+  "timeToInteractive": 6437.6630000000005,
+  "maxPotentialFirstInputDelay": 445,
+  "timeToFirstByte": 99.197,
+  "weight": {
+    "summary": "64 requests • 3,030 KiB",
+    "total": 3103185,
+    "image": 2862458,
+    "imageCount": 39,
+    "script": 97178,
+    "scriptCount": 15,
+    "document": 12100,
+    "font": 119307,
+    "fontCount": 2,
+    "stylesheet": 10300,
+    "stylesheetCount": 1,
+    "thirdParty": 2919038,
+    "thirdPartyCount": 38
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 586,
+    "+weight.total": 84,
+    "-weight.document": 383,
+    "+weight.document": 278,
+    "-weight.script": 329,
+    "+weight.script": 286,
+    "-weight.image": 549,
+    "+weight.image": 51,
+    "-weight.font": 364,
+    "+weight.font": 153,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 368,
+    "-totalBlockingTime": 310,
+    "-largestContentfulPaint": 516
+  },
+  "axe": {
+    "passes": 160,
+    "violations": 2
+  }
+}

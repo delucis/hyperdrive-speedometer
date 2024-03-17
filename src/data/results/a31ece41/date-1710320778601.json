@@ -1,0 +1,67 @@
+{
+  "url": "https://www.piyaphat.com/",
+  "requestedUrl": "https://piyaphat.com/",
+  "timestamp": 1710351550112,
+  "ranks": {
+    "hundos": 489,
+    "performance": 189,
+    "accessibility": 607,
+    "cumulative": 489
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.97,
+    "accessibility": 0.78,
+    "bestPractices": 0.83,
+    "seo": 0.93,
+    "total": 351
+  },
+  "firstContentfulPaint": 1892.4650000000001,
+  "firstMeaningfulPaint": 2042.4650000000001,
+  "speedIndex": 1892.4650000000001,
+  "largestContentfulPaint": 2267.465,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0036515299479166667,
+  "timeToInteractive": 2042.4650000000001,
+  "maxPotentialFirstInputDelay": 47,
+  "timeToFirstByte": 25.745000000000005,
+  "weight": {
+    "summary": "10 requests • 472 KiB",
+    "total": 482993,
+    "image": 378949,
+    "imageCount": 1,
+    "script": 58750,
+    "scriptCount": 3,
+    "document": 6101,
+    "font": 26194,
+    "fontCount": 3,
+    "stylesheet": 12659,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 335,
+    "+weight.total": 335,
+    "-weight.document": 188,
+    "+weight.document": 473,
+    "-weight.script": 255,
+    "+weight.script": 360,
+    "-weight.image": 371,
+    "+weight.image": 229,
+    "-weight.font": 55,
+    "+weight.font": 462,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 57,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 234
+  },
+  "axe": {
+    "passes": 209,
+    "violations": 18
+  }
+}

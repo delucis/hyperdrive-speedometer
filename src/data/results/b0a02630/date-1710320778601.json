@@ -1,0 +1,67 @@
+{
+  "url": "https://pandasuite.com/",
+  "requestedUrl": "https://pandasuite.com/",
+  "timestamp": 1710339347276,
+  "ranks": {
+    "hundos": 495,
+    "performance": 532,
+    "accessibility": 456,
+    "cumulative": 495
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.65,
+    "accessibility": 0.92,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 349
+  },
+  "firstContentfulPaint": 1754.171,
+  "firstMeaningfulPaint": 4029.0989999999993,
+  "speedIndex": 2693.5749325347288,
+  "largestContentfulPaint": 2457.2034999999996,
+  "totalBlockingTime": 1376.8189999999997,
+  "cumulativeLayoutShift": 0.02580837673611111,
+  "timeToInteractive": 8542.278500000002,
+  "maxPotentialFirstInputDelay": 446.9999999999998,
+  "timeToFirstByte": 293.39200000000005,
+  "weight": {
+    "summary": "60 requests • 921 KiB",
+    "total": 942718,
+    "image": 155783,
+    "imageCount": 23,
+    "script": 365965,
+    "scriptCount": 28,
+    "document": 42301,
+    "font": 346687,
+    "fontCount": 1,
+    "stylesheet": 28500,
+    "stylesheetCount": 3,
+    "thirdParty": 458537,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 432,
+    "+weight.total": 238,
+    "-weight.document": 577,
+    "+weight.document": 84,
+    "-weight.script": 521,
+    "+weight.script": 94,
+    "-weight.image": 250,
+    "+weight.image": 350,
+    "-weight.font": 475,
+    "+weight.font": 42,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 551,
+    "-totalBlockingTime": 429,
+    "-largestContentfulPaint": 560
+  },
+  "axe": {
+    "passes": 1265,
+    "violations": 27
+  }
+}

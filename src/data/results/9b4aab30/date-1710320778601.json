@@ -1,0 +1,67 @@
+{
+  "url": "https://disrapt.co/",
+  "requestedUrl": "https://disrapt.co/",
+  "timestamp": 1710347311288,
+  "ranks": {
+    "hundos": 500,
+    "performance": 391,
+    "accessibility": 622,
+    "cumulative": 500
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.81,
+    "accessibility": 0.75,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 348
+  },
+  "firstContentfulPaint": 1054.853,
+  "firstMeaningfulPaint": 1054.853,
+  "speedIndex": 1650.946913160891,
+  "largestContentfulPaint": 1054.853,
+  "totalBlockingTime": 642,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 5377.0555,
+  "maxPotentialFirstInputDelay": 286,
+  "timeToFirstByte": 116.48599999999999,
+  "weight": {
+    "summary": "19 requests • 331 KiB",
+    "total": 339215,
+    "image": 1369,
+    "imageCount": 3,
+    "script": 249654,
+    "scriptCount": 8,
+    "document": 5451,
+    "font": 74973,
+    "fontCount": 2,
+    "stylesheet": 6642,
+    "stylesheetCount": 3,
+    "thirdParty": 249395,
+    "thirdPartyCount": 11
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 271,
+    "+weight.total": 399,
+    "-weight.document": 152,
+    "+weight.document": 509,
+    "-weight.script": 463,
+    "+weight.script": 152,
+    "-weight.image": 15,
+    "+weight.image": 585,
+    "-weight.font": 279,
+    "+weight.font": 238,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 413,
+    "-totalBlockingTime": 347,
+    "-largestContentfulPaint": 344
+  },
+  "axe": {
+    "passes": 203,
+    "violations": 21
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://riseofmachine.com/",
+  "requestedUrl": "https://riseofmachine.com/",
+  "timestamp": 1710340020161,
+  "ranks": {
+    "hundos": 277,
+    "performance": 373,
+    "accessibility": 364,
+    "cumulative": 278
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.83,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 379
+  },
+  "firstContentfulPaint": 1098.295,
+  "firstMeaningfulPaint": 1426.295,
+  "speedIndex": 1726.692343490278,
+  "largestContentfulPaint": 1098.295,
+  "totalBlockingTime": 660,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2840.726,
+  "maxPotentialFirstInputDelay": 449,
+  "timeToFirstByte": 189.654,
+  "weight": {
+    "summary": "8 requests • 178 KiB",
+    "total": 182746,
+    "image": 2954,
+    "imageCount": 1,
+    "script": 156752,
+    "scriptCount": 4,
+    "document": 14865,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 7920,
+    "stylesheetCount": 1,
+    "thirdParty": 96933,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 169,
+    "+weight.total": 501,
+    "-weight.document": 437,
+    "+weight.document": 224,
+    "-weight.script": 399,
+    "+weight.script": 216,
+    "-weight.image": 27,
+    "+weight.image": 573,
+    "-weight.font": 1,
+    "+weight.font": 517,
+    "+weight.fontCount": 20,
+    "-timeToFirstByte": 506,
+    "-totalBlockingTime": 348,
+    "-largestContentfulPaint": 347
+  },
+  "axe": {
+    "passes": 4176,
+    "violations": 362
+  }
+}

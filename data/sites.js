@@ -58,7 +58,9 @@ module.exports = {
       'https://ark-ui.com',
       // Sites blocked 15 February 2024
       'https://www.netlify.com/',
-      'https://www.snowfox.art'
+      'https://www.snowfox.art',
+      // Sites blocked 12 March 2024 (Should we wildcard ban Netlify?)
+      'https://developers.netlify.com/',
     ]);
 
     const fetch = (await import('node-fetch')).default;

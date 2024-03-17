@@ -1,0 +1,66 @@
+{
+  "url": "https://evos.com.au/",
+  "requestedUrl": "https://evos.com.au/",
+  "timestamp": 1710323727957,
+  "ranks": {
+    "hundos": 71,
+    "performance": 12,
+    "accessibility": 331,
+    "cumulative": 81
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 397
+  },
+  "firstContentfulPaint": 1017.778,
+  "firstMeaningfulPaint": 1017.778,
+  "speedIndex": 1025.3661839432957,
+  "largestContentfulPaint": 1017.778,
+  "totalBlockingTime": 1.5,
+  "cumulativeLayoutShift": 0.004026401707664628,
+  "timeToInteractive": 1046.278,
+  "maxPotentialFirstInputDelay": 149,
+  "timeToFirstByte": 87.25399999999999,
+  "weight": {
+    "summary": "18 requests • 205 KiB",
+    "total": 210159,
+    "image": 148879,
+    "imageCount": 10,
+    "script": 3738,
+    "scriptCount": 1,
+    "document": 8611,
+    "font": 46138,
+    "fontCount": 2,
+    "stylesheet": 2150,
+    "stylesheetCount": 2,
+    "thirdParty": 643,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 187,
+    "+weight.total": 483,
+    "-weight.document": 293,
+    "+weight.document": 368,
+    "-weight.script": 55,
+    "+weight.script": 560,
+    "-weight.image": 244,
+    "+weight.image": 356,
+    "-weight.font": 169,
+    "+weight.font": 348,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 305,
+    "-totalBlockingTime": 3,
+    "-largestContentfulPaint": 18
+  },
+  "axe": {
+    "error": "Page load timed out"
+  }
+}

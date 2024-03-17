@@ -1,0 +1,67 @@
+{
+  "url": "https://izzi.ink/",
+  "requestedUrl": "https://izzi.ink/",
+  "timestamp": 1710337161787,
+  "ranks": {
+    "hundos": 215,
+    "performance": 219,
+    "accessibility": 494,
+    "cumulative": 211
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.96,
+    "accessibility": 0.89,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 385
+  },
+  "firstContentfulPaint": 2066.4829999999997,
+  "firstMeaningfulPaint": 2066.4829999999997,
+  "speedIndex": 3312.9724139927876,
+  "largestContentfulPaint": 2066.4829999999997,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0216484375,
+  "timeToInteractive": 2066.4829999999997,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 190.48200000000008,
+  "weight": {
+    "summary": "13 requests • 62 KiB",
+    "total": 63151,
+    "image": 9218,
+    "imageCount": 6,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1767,
+    "font": 47103,
+    "fontCount": 1,
+    "stylesheet": 5063,
+    "stylesheetCount": 5,
+    "thirdParty": 48450,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 50,
+    "+weight.total": 620,
+    "-weight.document": 12,
+    "+weight.document": 649,
+    "-weight.script": 1,
+    "+weight.script": 615,
+    "-weight.image": 51,
+    "+weight.image": 549,
+    "-weight.font": 190,
+    "+weight.font": 327,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 508,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 219
+  },
+  "axe": {
+    "passes": 131,
+    "violations": 7
+  }
+}

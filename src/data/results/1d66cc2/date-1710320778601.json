@@ -1,0 +1,67 @@
+{
+  "url": "https://hideoo.dev/",
+  "requestedUrl": "https://hideoo.dev/",
+  "timestamp": 1710336826593,
+  "ranks": {
+    "hundos": 36,
+    "performance": 14,
+    "accessibility": 38,
+    "cumulative": 25
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1035.278,
+  "firstMeaningfulPaint": 1035.278,
+  "speedIndex": 1035.278,
+  "largestContentfulPaint": 1035.278,
+  "totalBlockingTime": 4.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1064.778,
+  "maxPotentialFirstInputDelay": 59,
+  "timeToFirstByte": 40.78,
+  "weight": {
+    "summary": "3 requests • 12 KiB",
+    "total": 12165,
+    "image": 0,
+    "imageCount": 0,
+    "script": 1187,
+    "scriptCount": 1,
+    "document": 6610,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4368,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 8,
+    "+weight.total": 662,
+    "-weight.document": 212,
+    "+weight.document": 449,
+    "-weight.script": 17,
+    "+weight.script": 598,
+    "-weight.image": 1,
+    "+weight.image": 600,
+    "-weight.font": 1,
+    "+weight.font": 517,
+    "+weight.fontCount": 20,
+    "-timeToFirstByte": 184,
+    "-totalBlockingTime": 10,
+    "-largestContentfulPaint": 23
+  },
+  "axe": {
+    "passes": 281,
+    "violations": 0
+  }
+}

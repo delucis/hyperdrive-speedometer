@@ -1,0 +1,67 @@
+{
+  "url": "https://kareemai.com/",
+  "requestedUrl": "https://kareemai.com/",
+  "timestamp": 1710349662850,
+  "ranks": {
+    "hundos": 600,
+    "performance": 631,
+    "accessibility": 532,
+    "cumulative": 599
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.39,
+    "accessibility": 0.87,
+    "bestPractices": 1,
+    "seo": 0.96,
+    "total": 322
+  },
+  "firstContentfulPaint": 5357.296,
+  "firstMeaningfulPaint": 5663.276000000001,
+  "speedIndex": 5357.296,
+  "largestContentfulPaint": 5739.771000000001,
+  "totalBlockingTime": 859.5049999999997,
+  "cumulativeLayoutShift": 0.09810945638020835,
+  "timeToInteractive": 7245.6810000000005,
+  "maxPotentialFirstInputDelay": 882,
+  "timeToFirstByte": 79.39099999999999,
+  "weight": {
+    "summary": "28 requests • 1,443 KiB",
+    "total": 1477802,
+    "image": 661806,
+    "imageCount": 1,
+    "script": 502990,
+    "scriptCount": 15,
+    "document": 9036,
+    "font": 221663,
+    "fontCount": 4,
+    "stylesheet": 82056,
+    "stylesheetCount": 6,
+    "thirdParty": 445241,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 493,
+    "+weight.total": 177,
+    "-weight.document": 303,
+    "+weight.document": 358,
+    "-weight.script": 544,
+    "+weight.script": 71,
+    "-weight.image": 427,
+    "+weight.image": 173,
+    "-weight.font": 438,
+    "+weight.font": 79,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 263,
+    "-totalBlockingTime": 376,
+    "-largestContentfulPaint": 625
+  },
+  "axe": {
+    "passes": 386,
+    "violations": 25
+  }
+}

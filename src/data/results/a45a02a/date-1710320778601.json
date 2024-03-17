@@ -1,0 +1,67 @@
+{
+  "url": "https://www.uswitch.com/",
+  "requestedUrl": "https://www.uswitch.com/",
+  "timestamp": 1710344549835,
+  "ranks": {
+    "hundos": 378,
+    "performance": 379,
+    "accessibility": 422,
+    "cumulative": 376
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.83,
+    "accessibility": 0.94,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 369
+  },
+  "firstContentfulPaint": 2100.701,
+  "firstMeaningfulPaint": 2100.701,
+  "speedIndex": 3505.3184997939425,
+  "largestContentfulPaint": 2100.701,
+  "totalBlockingTime": 460.37449999999967,
+  "cumulativeLayoutShift": 0.06431026649475097,
+  "timeToInteractive": 3494.3625,
+  "maxPotentialFirstInputDelay": 216,
+  "timeToFirstByte": 1250.138,
+  "weight": {
+    "summary": "26 requests • 241 KiB",
+    "total": 246920,
+    "image": 22701,
+    "imageCount": 1,
+    "script": 121675,
+    "scriptCount": 9,
+    "document": 51544,
+    "font": 37109,
+    "fontCount": 1,
+    "stylesheet": 11906,
+    "stylesheetCount": 5,
+    "thirdParty": 30236,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 210,
+    "+weight.total": 460,
+    "-weight.document": 597,
+    "+weight.document": 64,
+    "-weight.script": 361,
+    "+weight.script": 254,
+    "-weight.image": 92,
+    "+weight.image": 508,
+    "-weight.font": 107,
+    "+weight.font": 410,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 640,
+    "-totalBlockingTime": 307,
+    "-largestContentfulPaint": 401
+  },
+  "axe": {
+    "passes": 1262,
+    "violations": 46
+  }
+}
