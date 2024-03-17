@@ -6,18 +6,32 @@ import SiteDetails from '../components/SiteDetails.astro';
 import Layout from '../layouts/Layout.astro';
 import { TestResult } from '../util/data-schema';
 
-const res = await db
-	.select({ latestRun: sql<string>`max(${Result.runTime})` })
-	.from(Result)
-	.get();
-const latestRun = new Date(res?.latestRun || Date.now()).getTime();
+const SiteBucket = sql`(PARTITION BY ${Result.siteHash} ORDER BY ${Result.siteHash})`;
+const ExtendedResult = db.$with('ExtendedResult').as(
+	db
+		.select({
+			siteHash: Result.siteHash,
+			runTime: Result.runTime,
+			data: Result.data,
+			latestRun: sql`unixepoch (MAX(${Result.runTime}) OVER ${SiteBucket})`
+				.mapWith(Number)
+				.as('latestRun'),
+			isNew: sql`CASE WHEN COUNT(*) OVER ${SiteBucket} IS 1 THEN 1 ELSE 0 END`
+				.mapWith(Boolean)
+				.as('isNew'),
+		})
+		.from(Result)
+);
 
 const sites = (
 	await db
+		.with(ExtendedResult)
 		.select()
-		.from(Result)
-		.where(gte(Result.runTime, new Date(latestRun - 24 * 60 * 60 * 1000)))
-		.orderBy(sql`${Result.data}->>'$.ranks.cumulative'`)
+		.from(ExtendedResult)
+		.where(
+			sql`unixepoch (${ExtendedResult.runTime}) >= (${ExtendedResult.latestRun} - 24 * 60 * 60)`
+		)
+		.orderBy(sql`${ExtendedResult.data}->>'$.ranks.cumulative'`)
 ).map((site) => ({ ...site, data: TestResult.parse(site.data) }));
 
 const randomBuildID = Math.round(Math.random() * 10e6);
@@ -37,19 +51,11 @@ const randomBuildID = Math.round(Math.random() * 10e6);
 			</thead>
 			<tbody>
 				{
-					sites.map(async ({ siteHash, data }, index) => {
+					sites.map(({ isNew, siteHash, data }, index) => {
 						const urlHash = shorthash(data.url);
 						const id = 'site-' + urlHash;
 						const displayURL = (url: string | undefined) => url?.replace(/^https?:\/\//, '');
 						const hasRedirect = data.requestedUrl && data.requestedUrl !== data.url;
-						const isNew =
-							(
-								await db
-									.select({ count: sql`count(*)` })
-									.from(Result)
-									.where(eq(Result.siteHash, siteHash))
-									.get()
-							)?.count === 1;
 						return (
 							<>
 								<tr {id} class="leaderboard-list-entry">
