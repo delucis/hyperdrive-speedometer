@@ -1,16 +1,31 @@
 ---
 import type { GetStaticPaths } from 'astro';
-import { db, Result } from 'astro:db';
+import { Result, db, desc, eq } from 'astro:db';
 import SiteDetails from '../../components/SiteDetails.astro';
 import Layout from '../../layouts/Layout.astro';
+import { TestResult } from '../../util/data-schema';
 
 export const getStaticPaths = (() =>
 	db.selectDistinct({ params: { hash: Result.siteHash } }).from(Result)) satisfies GetStaticPaths;
 
 const { hash } = Astro.params;
+
+const entries = (
+	await db
+		.select({ data: Result.data })
+		.from(Result)
+		.where(eq(Result.siteHash, hash))
+		.orderBy(desc(Result.runTime))
+		.limit(16)
+).map((site) => TestResult.parse(site.data));
+
+const { url } = entries[0];
 ---
 
-<Layout>
+<Layout
+	title={`Data for ${url}`}
+	description={`Performance data for ${url}, including Lighthouse scores, web vitals metrics, and page weight.`}
+>
 	<div class="leaderboard-wrapper">
 		<p class="back-link">← <a href="/">Return to full results</a></p>
 		<table class="leaderboard">
@@ -22,7 +37,7 @@ const { hash } = Astro.params;
 				</tr>
 			</thead>
 			<tbody>
-				<SiteDetails siteHash={hash} />
+				<SiteDetails siteHash={hash} {entries} />
 			</tbody>
 		</table>
 	</div>

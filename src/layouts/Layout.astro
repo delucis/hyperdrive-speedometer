@@ -3,8 +3,15 @@ import { screenshotUrl } from '../util/screenshotAPI';
 import 'speedlify-score/speedlify-score.css';
 import '../base.css';
 
-const title = 'Hyperdrive Speedometer 🚀';
-const description = 'Benchmarking the performance of web sites built with Astro.';
+interface Props {
+	title?: string;
+	description?: string;
+}
+
+const {
+	title = 'Hyperdrive Speedometer 🚀',
+	description = 'Benchmarking the performance of web sites built with Astro.',
+} = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const ogImageSrc = screenshotUrl(canonical);
 const ogImageAlt = `Screenshot of “${title}”`;

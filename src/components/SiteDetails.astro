@@ -1,6 +1,5 @@
 ---
-import { Result, db, desc, eq } from 'astro:db';
-import { TestResult } from '../util/data-schema';
+import { TestResult, type TestData } from '../util/data-schema';
 import LeaderboardSpeedlifyScore from './LeaderboardSpeedlifyScore.astro';
 import LeaderboardURL from './LeaderboardURL.astro';
 import LighthouseResults from './LighthouseResults.astro';
@@ -9,18 +8,10 @@ import WeightResults from './WeightResults.astro';
 
 export interface Props {
 	siteHash: string;
+	entries: TestData[];
 }
 
-const { siteHash } = Astro.props as Props;
-
-const entries = (
-	await db
-		.select({ data: Result.data })
-		.from(Result)
-		.where(eq(Result.siteHash, siteHash))
-		.orderBy(desc(Result.runTime))
-		.limit(16)
-).map((site) => TestResult.parse(site.data));
+const { entries, siteHash } = Astro.props;
 ---
 
 <tr class="leaderboard-list-entry">
