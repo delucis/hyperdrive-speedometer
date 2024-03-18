@@ -82,6 +82,9 @@ module.exports = {
 			'https://brunoalves.me/',
 			'https://www.levelshuddersfield.co.uk/',
 			'https://mocked-api.dev/',
+			// Sites blocked 18 March 2024 (these sites are broken)
+			'https://jaycedotbin.me/',
+			'https://www.joingamedev.com/blog',
 		]);
 
 		const fetch = (await import('node-fetch')).default;
