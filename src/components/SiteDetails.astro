@@ -1,16 +1,17 @@
 ---
-import { Result, db, eq, desc } from 'astro:db';
+import { Result, db, desc, eq } from 'astro:db';
+import { TestResult } from '../util/data-schema';
+import LeaderboardSpeedlifyScore from './LeaderboardSpeedlifyScore.astro';
+import LeaderboardURL from './LeaderboardURL.astro';
 import LighthouseResults from './LighthouseResults.astro';
 import WebVitalsResults from './WebVitalsResults.astro';
 import WeightResults from './WeightResults.astro';
-import { TestResult } from '../util/data-schema';
 
 export interface Props {
 	siteHash: string;
-	urlHash: string;
 }
 
-const { siteHash, urlHash } = Astro.props as Props;
+const { siteHash } = Astro.props as Props;
 
 const entries = (
 	await db
@@ -18,18 +19,21 @@ const entries = (
 		.from(Result)
 		.where(eq(Result.siteHash, siteHash))
 		.orderBy(desc(Result.runTime))
-		.limit(10)
+		.limit(16)
 ).map((site) => TestResult.parse(site.data));
 ---
 
-<tr class="leaderboard-list-entry-details">
-	<td colspan={6}>
-		<details class="leaderboard-details" id={`details-${urlHash}`}>
-			<summary>Show Data</summary>
+<tr class="leaderboard-list-entry">
+	<LeaderboardURL data={entries[0]} />
+	<LeaderboardSpeedlifyScore data={entries[0]} {siteHash} />
+</tr>
+<tr>
+	<td colspan="2">
+		<div class="leaderboard-details" id={`details-${siteHash}`}>
 			<LighthouseResults {...{ entries }} />
 			<WebVitalsResults {...{ entries }} />
 			<WeightResults {...{ entries }} />
-		</details>
+		</div>
 	</td>
 </tr>
 
@@ -57,67 +61,6 @@ const entries = (
 
 	.ct-grid.ct-grid {
 		stroke: rgba(255, 255, 255, 0.2);
-	}
-
-	a[href^='#details-'] {
-		white-space: nowrap;
-		display: inline-block;
-		text-decoration: none;
-		background-color: #fff2;
-		border-radius: 50px;
-		border: 1px solid #aaa;
-		padding: 0.5em 1em;
-		text-align: center;
-		line-height: normal;
-	}
-
-	.leaderboard-list-entry.expanded [data-expand-alias] {
-		border-color: transparent;
-	}
-
-	.js .leaderboard-list-entry-details:not(.expanded) {
-		display: none;
-	}
-
-	.js .leaderboard-details > summary {
-		border: 0;
-		clip: rect(0 0 0 0);
-		height: 1px;
-		margin: -1px;
-		overflow: hidden;
-		padding: 0;
-		position: absolute;
-		white-space: nowrap;
-		width: 1px;
-	}
-
-	.expanded {
-		background-color: #000;
-	}
-
-	.leaderboard-list-entry.expanded {
-		border-color: #fff;
-	}
-
-	.leaderboard-list-entry.expanded .leaderboard-expand-icon {
-		transform: rotate(90deg);
-	}
-
-	.leaderboard-expand-icon {
-		display: inline-block;
-		transition: 0.3s all;
-		transform-origin: center;
-		margin-right: 4px;
-	}
-
-	.leaderboard-expand-icon::before {
-		content: '';
-		display: inline-block;
-		width: 0;
-		height: 0;
-		border-top: 7px solid transparent;
-		border-bottom: 7px solid transparent;
-		border-left: 7px solid #aaa;
 	}
 
 	.results-series-a {

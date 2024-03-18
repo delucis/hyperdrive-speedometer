@@ -1,0 +1,42 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { db, Result } from 'astro:db';
+import 'speedlify-score/speedlify-score.css';
+import '../../base.css';
+import SiteDetails from '../../components/SiteDetails.astro';
+import Layout from '../../layouts/Layout.astro';
+
+export const getStaticPaths = (() =>
+	db.selectDistinct({ params: { hash: Result.siteHash } }).from(Result)) satisfies GetStaticPaths;
+
+const { hash } = Astro.params;
+---
+
+<Layout>
+	<div class="leaderboard-wrapper">
+		<p class="back-link">← <a href="/">Return to full results</a></p>
+		<table class="leaderboard">
+			<thead>
+				<tr>
+					<th>URL</th>
+					<th class="leaderboard-score">Lighthouse</th>
+				</tr>
+			</thead>
+			<tbody>
+				<SiteDetails siteHash={hash} />
+			</tbody>
+		</table>
+	</div>
+	<script>
+		import 'speedlify-score';
+	</script>
+</Layout>
+
+<style>
+	.back-link {
+		margin: 0 auto;
+		width: 100%;
+		max-width: 100rem;
+		text-align: left;
+	}
+</style>

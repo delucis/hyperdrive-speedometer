@@ -66,18 +66,6 @@ function initializeAllTables(scope: Document | Element) {
 
 initializeAllTables(document);
 
-const details = document.querySelectorAll('details');
-for (const detail of details) {
-	detail.addEventListener('toggle', function (e) {
-		const open = e.target.hasAttribute('open');
-		if (open) initializeAllTables(e.target);
-
-		const row = e.target.closest('.leaderboard-list-entry-details');
-		row.classList.toggle('expanded', open);
-		row.previousElementSibling.classList.toggle('expanded', open);
-	});
-}
-
 const expandAliases = document.querySelectorAll('[data-expand-alias]');
 for (const alias of expandAliases) {
 	alias.addEventListener(

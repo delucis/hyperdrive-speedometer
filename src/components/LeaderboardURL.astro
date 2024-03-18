@@ -1,0 +1,36 @@
+---
+import type { TestData } from '../util/data-schema';
+
+interface Props {
+	data: TestData;
+	href?: string;
+}
+
+const { data, href = data.url } = Astro.props;
+
+const displayURL = (url: string | undefined) => url?.replace(/^https?:\/\//, '');
+const hasRedirect = data.requestedUrl && data.requestedUrl !== data.url;
+const randomBuildID = Math.round(Date.now() / 60_000);
+---
+
+<td class="leaderboard-url">
+	<a {href}>
+		<img
+			src={`https://v1.indieweb-avatar.11ty.dev/${encodeURIComponent(data.url + '?bust=' + randomBuildID)}`}
+			alt={`IndieWeb Avatar for ${displayURL(data.url)}`}
+			class="leaderboard-list-entry-thumbnail"
+			loading="lazy"
+			decoding="async"
+			width="150"
+			height="150"
+		/>
+		<code class="url">{displayURL(data.url)}</code>
+	</a>
+	{
+		hasRedirect && (
+			<span class="leaderboard-redirect-warn">
+				Redirect from <code class="url">{displayURL(data.requestedUrl)}</code>
+			</span>
+		)
+	}
+</td>

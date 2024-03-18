@@ -41,9 +41,13 @@ const ogImageAlt = `Screenshot of “${title}”`;
 		</script>
 	</head>
 	<body>
-		<h1>Hyperdrive Speedometer</h1>
-		<p>Benchmarking the performance of Astro sites over time.</p>
-		<slot />
+		<header>
+			<h1>Hyperdrive Speedometer</h1>
+			<p>Benchmarking the performance of Astro sites over time.</p>
+		</header>
+		<main>
+			<slot />
+		</main>
 		<footer>
 			MIT licensed. Built with <a href="https://astro.build/">Astro</a>. Source code on <a
 				href="https://github.com/delucis/hyperdrive-speedometer">GitHub</a
@@ -51,5 +55,12 @@ const ogImageAlt = `Screenshot of “${title}”`;
 				href="https://www.zachleat.com/">@zachleat</a
 			>.
 		</footer>
+		<style>
+			body {
+				display: flex;
+				flex-direction: column;
+				gap: 5rem;
+			}
+		</style>
 	</body>
 </html>

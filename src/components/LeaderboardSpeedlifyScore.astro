@@ -1,0 +1,19 @@
+---
+import type { TestData } from '../util/data-schema';
+
+interface Props {
+	data: TestData;
+	siteHash: string;
+}
+
+const { data, siteHash } = Astro.props;
+---
+
+<td class="leaderboard-score">
+	<speedlify-score
+		class={`leaderboard-score-circles ${data.lighthouse.total === 400 ? 'leaderboard-score-circles-400' : ''}`}
+		raw-data={JSON.stringify(data)}></speedlify-score>
+	<span class="leaderboard-score-sum leaderboard-number">
+		{data.lighthouse.total === 400 ? '😍' : data.lighthouse.total}
+	</span>
+</td>
