@@ -23,22 +23,22 @@ export default async function seed() {
 		const runTimeString = filename.replace(/(^date-|\.json$)/g, '');
 		const runTime = new Date(Number(runTimeString));
 		const result = parseWithFriendlyErrors(TestResultOrError, content);
-		if (result.success) {
-			if (!('error' in result.data)) {
-				await db.insert(Result).values({ siteHash, runTime, data: result.data });
-				insertions++;
-			}
-		} else if (result.error) {
+		if (result.success && !('error' in result.data)) {
+			await db.insert(Result).values({ siteHash, runTime, data: result.data });
+			insertions++;
+		} else {
+			const reasonSummary = !result.success
+				? result.error.split('\n').slice(0, 2).join('\n')
+				: 'error' in result.data
+					? result.data.error
+					: 'Unknown error.';
 			exclusions++;
 			const runMonth =
 				new Date(Number(runTime)).getFullYear() * 100 + (new Date(Number(runTime)).getMonth() + 1);
 			months[runMonth] ||= [];
 			months[runMonth].push(file);
-			const reasonSummary = result.error.split('\n').slice(0, 2).join('\n');
 			reasons[reasonSummary] ||= [];
 			reasons[reasonSummary].push(file);
-		} else {
-			console.error(red('Something unknown went wrong'), result);
 		}
 	}
 

@@ -16,7 +16,7 @@ type TypeOrLiteralErrByPathEntry = {
 export function parseWithFriendlyErrors<T extends z.Schema>(
 	schema: T,
 	input: z.input<T>
-): z.SafeParseSuccess<T> | { success: false; error: string } {
+): z.SafeParseSuccess<z.output<T>> | { success: false; error: string } {
 	const parsedConfig = schema.safeParse(input, { errorMap });
 	if (!parsedConfig.success) {
 		return { success: false, error: parsedConfig.error.issues.map((i) => i.message).join('\n') };
