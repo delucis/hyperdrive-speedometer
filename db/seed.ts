@@ -14,8 +14,9 @@ export default async function seed() {
 
 	let exclusions = 0;
 	let insertions = 0;
-	let months: Record<string, string[]> = {};
-	let reasons: Record<string, string[]> = {};
+	const months: Record<string, string[]> = {};
+	const reasons: Record<string, string[]> = {};
+	const siteErrorMonths: Record<string, Date[]> = {};
 
 	for (const file of files) {
 		const [_dot, _src, _data, _results, siteHash, filename] = file.split('/');
@@ -39,10 +40,14 @@ export default async function seed() {
 			months[runMonth].push(file);
 			reasons[reasonSummary] ||= [];
 			reasons[reasonSummary].push(file);
+			if (content.url) {
+				siteErrorMonths[content.url] ||= [];
+				siteErrorMonths[content.url].push(runTime);
+			}
 		}
 	}
 
-	printExclusionsReport({ insertions, exclusions, months, reasons });
+	printExclusionsReport({ insertions, exclusions, months, reasons, siteErrorMonths });
 
 	const MaxTime = db
 		.$with('MaxTime')
@@ -106,11 +111,13 @@ function printExclusionsReport({
 	exclusions,
 	months,
 	reasons,
+	siteErrorMonths,
 }: {
 	insertions: number;
 	exclusions: number;
 	months: Record<string, string[]>;
 	reasons: Record<string, string[]>;
+	siteErrorMonths: Record<string, Date[]>;
 }) {
 	console.log(bold('\nInserted data from ' + blue(`${insertions} files`)));
 	console.log(bold('Excluded ' + red(`${exclusions} files\n`)));
@@ -141,5 +148,23 @@ function printExclusionsReport({
 			if (files.length > displayedFileCount)
 				console.log(dim(`\t+ ${files.length - displayedFileCount} more items`));
 		});
+	console.log();
+
+	const threeMonthsAgo = Date.now() - 1000 * 60 * 60 * 24 * 31 * 3;
+	const problematicUrls = Object.entries(siteErrorMonths)
+		.filter(
+			([, dates]) =>
+				dates.length > 2 &&
+				// Check if the third most recent month was within the last three months:
+				(dates
+					.sort((a, b) => a.getTime() - b.getTime())
+					.at(-3)
+					?.getTime() || 0) > threeMonthsAgo
+		)
+		.map(([url]) => url);
+	console.log(heading('Problematic sites:'));
+	console.log();
+	console.log(problematicUrls.length, 'sites errored for each of the last 3 months:');
+	console.log(problematicUrls.map((url) => '\t' + dim(url)).join('\n'));
 	console.log();
 }
