@@ -36,6 +36,17 @@ const randomBuildID = Math.round(Date.now() / 60_000);
 		)
 	}
 </td>
+<td class="leaderboard-hide-md">
+	<img
+		src={`https://v1.builtwith.11ty.dev/${encodeURIComponent(data.url)}/image/host/`}
+		width="60"
+		height="60"
+		alt="Hosting avatar for this site"
+		class="leaderboard-list-entry-thumbnail small"
+		loading="lazy"
+		decoding="async"
+	/>
+</td>
 
 <style>
 	.leaderboard-url {
@@ -55,14 +66,17 @@ const randomBuildID = Math.round(Date.now() / 60_000);
 	}
 
 	.leaderboard-list-entry-thumbnail {
-		width: 1.5em;
-		height: 1.5em;
+		width: 2em;
+		height: 2em;
 		margin-right: 0.5em;
-		padding: 0.25em;
 		vertical-align: middle;
 		border: none;
 		border-radius: 0.2em;
-		background-color: hsla(290, 100%, 85%, 0.36);
+	}
+	.leaderboard-list-entry-thumbnail.small {
+		width: 1.5em;
+		height: 1.5em;
+		font-size: 0.8125em;
 	}
 
 	.leaderboard-redirect-warn {
