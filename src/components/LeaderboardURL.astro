@@ -1,5 +1,6 @@
 ---
 import type { TestData } from '../util/data-schema';
+import SideQuests from './SideQuests.astro';
 
 interface Props {
 	data: TestData;
@@ -26,6 +27,7 @@ const randomBuildID = Math.round(Date.now() / 60_000);
 		/>
 		<code class="url">{displayURL(data.url)}</code>
 	</a>
+	<SideQuests {data} />
 	{
 		hasRedirect && (
 			<span class="leaderboard-redirect-warn">
@@ -40,7 +42,8 @@ const randomBuildID = Math.round(Date.now() / 60_000);
 		width: 100%;
 	}
 	.leaderboard-url a[href] {
-		display: flex;
+		display: inline-flex;
+		vertical-align: middle;
 	}
 	.url {
 		word-break: break-word;
