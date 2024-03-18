@@ -61,6 +61,27 @@ module.exports = {
 			'https://www.snowfox.art',
 			// Sites blocked 12 March 2024 (Should we wildcard ban Netlify?)
 			'https://developers.netlify.com/',
+			// Sites blocked 18 March 2024 (these sites failed for each of the past 3 months)
+			'https://championsheineken.co/',
+			'https://limpbizkit.com/',
+			'https://trtcontracting.ca/',
+			'https://balbas.io/',
+			'https://www.cypress.io/',
+			'https://up12.vercel.app/',
+			'https://top3nftmarketplaces.org/',
+			'https://hamza127.vercel.app/',
+			'https://pizzabillionaire.com/',
+			'https://indatech.my.id/',
+			'https://sentralbisnisdigital.co.id/',
+			'https://ayanavakarmakar.software/',
+			'https://astro.rishi.app/',
+			'https://windbasics.com/',
+			'https://www.undefinedtea.dev/',
+			'https://victoria.mossaway.ca/',
+			'https://blazorspark.com/',
+			'https://brunoalves.me/',
+			'https://www.levelshuddersfield.co.uk/',
+			'https://mocked-api.dev/',
 		]);
 
 		const fetch = (await import('node-fetch')).default;
