@@ -35,55 +35,6 @@
 	border-top: 1px dotted rgba(82, 111, 255, 0.5);
 }
 
-.leaderboard-list-entry-thumbnail {
-	width: 1.5em;
-	height: 1.5em;
-	margin-right: 0.5em;
-	padding: 0.25em;
-	vertical-align: middle;
-	border: none;
-	border-radius: 0.2em;
-	background-color: hsla(290, 100%, 85%, 0.36);
-}
-
-.leaderboard-url {
-	width: 100%;
-}
-
-.leaderboard-url a[href] {
-	display: flex;
-}
-
-.url {
-	word-break: break-word;
-}
-
-@media (min-width: 37.5em) {
-	.url {
-		font-size: 1.25em;
-	}
-}
-
-.leaderboard-redirect-error,
-.leaderboard-redirect-warn {
-	text-transform: uppercase;
-	font-size: 0.75em;
-	font-weight: 400;
-	margin-left: 1rem;
-}
-
-.leaderboard-redirect-warn {
-	color: hsl(58, 100%, 71%);
-}
-
-.leaderboard-redirect-warn::before {
-	content: '⚠️ ';
-}
-
-.leaderboard-redirect-warn code {
-	text-transform: none;
-}
-
 a[href^='#'] {
 	text-decoration: none;
 }
