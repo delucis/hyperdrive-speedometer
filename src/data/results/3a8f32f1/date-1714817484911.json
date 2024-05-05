@@ -1,0 +1,67 @@
+{
+  "url": "https://cantinho-do-bloguinho.vercel.app/",
+  "requestedUrl": "https://cantinho-do-bloguinho.vercel.app/",
+  "timestamp": 1714832625723,
+  "ranks": {
+    "hundos": 53,
+    "performance": 108,
+    "accessibility": 222,
+    "cumulative": 55
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.97,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 397
+  },
+  "firstContentfulPaint": 1674.4429999999998,
+  "firstMeaningfulPaint": 2440.008,
+  "speedIndex": 1674.4429999999998,
+  "largestContentfulPaint": 2440.008,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0034964953080049623,
+  "timeToInteractive": 2440.008,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 21.61699999999999,
+  "weight": {
+    "summary": "15 requests • 86 KiB",
+    "total": 88042,
+    "image": 0,
+    "imageCount": 0,
+    "script": 35000,
+    "scriptCount": 5,
+    "document": 5874,
+    "font": 39084,
+    "fontCount": 3,
+    "stylesheet": 7885,
+    "stylesheetCount": 5,
+    "thirdParty": 41177,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 92,
+    "+weight.total": 623,
+    "-weight.document": 184,
+    "+weight.document": 526,
+    "-weight.script": 210,
+    "+weight.script": 448,
+    "-weight.image": 1,
+    "+weight.image": 643,
+    "-weight.font": 145,
+    "+weight.font": 399,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 42,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 213
+  },
+  "axe": {
+    "passes": 109,
+    "violations": 15
+  }
+}

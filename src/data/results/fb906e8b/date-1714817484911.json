@@ -1,0 +1,67 @@
+{
+  "url": "https://maryoku-ui.deno.dev/",
+  "requestedUrl": "https://maryoku-ui.deno.dev/",
+  "timestamp": 1714823466188,
+  "ranks": {
+    "hundos": 463,
+    "performance": 378,
+    "accessibility": 631,
+    "cumulative": 464
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.65,
+    "accessibility": 0.8,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 337
+  },
+  "firstContentfulPaint": 1990.7809999999997,
+  "firstMeaningfulPaint": 1990.7809999999997,
+  "speedIndex": 4522.3151819944,
+  "largestContentfulPaint": 5588.751,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.3632584824855651,
+  "timeToInteractive": 1995.7565,
+  "maxPotentialFirstInputDelay": 66,
+  "timeToFirstByte": 507.695,
+  "weight": {
+    "summary": "23 requests • 812 KiB",
+    "total": 831570,
+    "image": 342418,
+    "imageCount": 4,
+    "script": 109986,
+    "scriptCount": 14,
+    "document": 10359,
+    "font": 346686,
+    "fontCount": 1,
+    "stylesheet": 22121,
+    "stylesheetCount": 3,
+    "thirdParty": 349132,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 439,
+    "+weight.total": 276,
+    "-weight.document": 360,
+    "+weight.document": 350,
+    "-weight.script": 357,
+    "+weight.script": 301,
+    "-weight.image": 376,
+    "+weight.image": 267,
+    "-weight.font": 502,
+    "+weight.font": 42,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 646,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 340
+  },
+  "axe": {
+    "passes": 119,
+    "violations": 7
+  }
+}

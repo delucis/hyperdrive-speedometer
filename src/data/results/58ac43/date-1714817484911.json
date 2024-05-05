@@ -1,0 +1,67 @@
+{
+  "url": "https://pastanini.com/",
+  "requestedUrl": "https://pastanini.com/",
+  "timestamp": 1714841414375,
+  "ranks": {
+    "hundos": 340,
+    "performance": 456,
+    "accessibility": 138,
+    "cumulative": 336
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.55,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 355
+  },
+  "firstContentfulPaint": 1340.259,
+  "firstMeaningfulPaint": 2096.259,
+  "speedIndex": 4258.046328027265,
+  "largestContentfulPaint": 3033.259,
+  "totalBlockingTime": 5483,
+  "cumulativeLayoutShift": 0.015958275265163847,
+  "timeToInteractive": 9269.759,
+  "maxPotentialFirstInputDelay": 762,
+  "timeToFirstByte": 27.201999999999998,
+  "weight": {
+    "summary": "29 requests • 1,062 KiB",
+    "total": 1087756,
+    "image": 280542,
+    "imageCount": 5,
+    "script": 86733,
+    "scriptCount": 16,
+    "document": 73600,
+    "font": 67096,
+    "fontCount": 3,
+    "stylesheet": 18903,
+    "stylesheetCount": 3,
+    "thirdParty": 567504,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 477,
+    "+weight.total": 238,
+    "-weight.document": 668,
+    "+weight.document": 42,
+    "-weight.script": 319,
+    "+weight.script": 339,
+    "-weight.image": 352,
+    "+weight.image": 291,
+    "-weight.font": 275,
+    "+weight.font": 269,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 94,
+    "-totalBlockingTime": 469,
+    "-largestContentfulPaint": 526
+  },
+  "axe": {
+    "passes": 672,
+    "violations": 2
+  }
+}

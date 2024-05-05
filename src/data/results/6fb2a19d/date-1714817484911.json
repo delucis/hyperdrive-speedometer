@@ -1,0 +1,67 @@
+{
+  "url": "https://www.newwestern.com/",
+  "requestedUrl": "https://www.newwestern.com/",
+  "timestamp": 1714853624075,
+  "ranks": {
+    "hundos": 641,
+    "performance": 554,
+    "accessibility": 604,
+    "cumulative": 643
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.42,
+    "accessibility": 0.84,
+    "bestPractices": 1,
+    "seo": 0.79,
+    "total": 305
+  },
+  "firstContentfulPaint": 1138.502,
+  "firstMeaningfulPaint": 2031.8619999999999,
+  "speedIndex": 2958.7504668239903,
+  "largestContentfulPaint": 5452.421999999997,
+  "totalBlockingTime": 2857.082499999999,
+  "cumulativeLayoutShift": 0.004576443036397299,
+  "timeToInteractive": 11423.464499999998,
+  "maxPotentialFirstInputDelay": 631.9999999999995,
+  "timeToFirstByte": 364.986,
+  "weight": {
+    "summary": "125 requests • 3,020 KiB",
+    "total": 3092587,
+    "image": 394193,
+    "imageCount": 22,
+    "script": 1180707,
+    "scriptCount": 43,
+    "document": 34926,
+    "font": 200385,
+    "fontCount": 3,
+    "stylesheet": 80254,
+    "stylesheetCount": 37,
+    "thirdParty": 511889,
+    "thirdPartyCount": 38
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 616,
+    "+weight.total": 99,
+    "-weight.document": 608,
+    "+weight.document": 102,
+    "-weight.script": 639,
+    "+weight.script": 19,
+    "-weight.image": 400,
+    "+weight.image": 243,
+    "-weight.font": 454,
+    "+weight.font": 90,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 615,
+    "-totalBlockingTime": 396,
+    "-largestContentfulPaint": 616
+  },
+  "axe": {
+    "passes": 1486,
+    "violations": 61
+  }
+}

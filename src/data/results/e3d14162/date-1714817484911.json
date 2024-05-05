@@ -1,0 +1,67 @@
+{
+  "url": "https://calpa.me/",
+  "requestedUrl": "https://calpa.me/",
+  "timestamp": 1714832569288,
+  "ranks": {
+    "hundos": 599,
+    "performance": 597,
+    "accessibility": 615,
+    "cumulative": 600
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.36,
+    "accessibility": 0.82,
+    "bestPractices": 1,
+    "seo": 0.98,
+    "total": 316
+  },
+  "firstContentfulPaint": 2215.337,
+  "firstMeaningfulPaint": 4485.823,
+  "speedIndex": 4992.744702445185,
+  "largestContentfulPaint": 10575.823,
+  "totalBlockingTime": 573.5759550323487,
+  "cumulativeLayoutShift": 0.9475303819444444,
+  "timeToInteractive": 6004.405910064697,
+  "maxPotentialFirstInputDelay": 259,
+  "timeToFirstByte": 387.4100000000001,
+  "weight": {
+    "summary": "94 requests • 1,437 KiB",
+    "total": 1471710,
+    "image": 172770,
+    "imageCount": 15,
+    "script": 319163,
+    "scriptCount": 51,
+    "document": 11654,
+    "font": 834484,
+    "fontCount": 13,
+    "stylesheet": 131905,
+    "stylesheetCount": 7,
+    "thirdParty": 1378266,
+    "thirdPartyCount": 80
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 520,
+    "+weight.total": 195,
+    "-weight.document": 397,
+    "+weight.document": 313,
+    "-weight.script": 515,
+    "+weight.script": 143,
+    "-weight.image": 283,
+    "+weight.image": 360,
+    "-weight.font": 533,
+    "+weight.font": 11,
+    "+weight.fontCount": 6,
+    "-timeToFirstByte": 623,
+    "-totalBlockingTime": 218,
+    "-largestContentfulPaint": 360
+  },
+  "axe": {
+    "passes": 335,
+    "violations": 30
+  }
+}

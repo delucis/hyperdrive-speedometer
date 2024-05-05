@@ -1,0 +1,66 @@
+{
+  "url": "https://www.jarvisbitz.com/",
+  "requestedUrl": "https://www.jarvisbitz.com/",
+  "timestamp": 1714885585652,
+  "ranks": {
+    "hundos": 587,
+    "performance": 675,
+    "accessibility": 356,
+    "cumulative": 585
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.22,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 0.99,
+    "total": 318
+  },
+  "firstContentfulPaint": 3670.941,
+  "firstMeaningfulPaint": 4890.2875,
+  "speedIndex": 16308.97834978878,
+  "largestContentfulPaint": 5692.634,
+  "totalBlockingTime": 15174.499999999998,
+  "cumulativeLayoutShift": 0.054959082285563156,
+  "timeToInteractive": 25023.134,
+  "maxPotentialFirstInputDelay": 1522,
+  "timeToFirstByte": 8.603999999999985,
+  "weight": {
+    "summary": "199 requests • 3,002 KiB",
+    "total": 3074396,
+    "image": 2654031,
+    "imageCount": 165,
+    "script": 185793,
+    "scriptCount": 25,
+    "document": 119960,
+    "font": 56046,
+    "fontCount": 4,
+    "stylesheet": 37611,
+    "stylesheetCount": 1,
+    "thirdParty": 1884323,
+    "thirdPartyCount": 57
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 615,
+    "+weight.total": 100,
+    "-weight.document": 691,
+    "+weight.document": 19,
+    "-weight.script": 437,
+    "+weight.script": 221,
+    "-weight.image": 574,
+    "+weight.image": 69,
+    "-weight.font": 229,
+    "+weight.font": 315,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 22,
+    "-totalBlockingTime": 555,
+    "-largestContentfulPaint": 620
+  },
+  "axe": {
+    "error": "Axe timed out"
+  }
+}

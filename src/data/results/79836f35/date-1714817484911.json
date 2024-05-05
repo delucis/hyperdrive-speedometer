@@ -1,0 +1,67 @@
+{
+  "url": "https://www.vbridge.eu/",
+  "requestedUrl": "https://www.vbridge.eu/",
+  "timestamp": 1714855321398,
+  "ranks": {
+    "hundos": 670,
+    "performance": 702,
+    "accessibility": 442,
+    "cumulative": 670
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.17,
+    "accessibility": 0.94,
+    "bestPractices": 0.92,
+    "seo": 0.93,
+    "total": 296
+  },
+  "firstContentfulPaint": 6130.538,
+  "firstMeaningfulPaint": 6728.508,
+  "speedIndex": 12409.964065076801,
+  "largestContentfulPaint": 9288.403,
+  "totalBlockingTime": 4407.6089999999995,
+  "cumulativeLayoutShift": 0.036258087158203126,
+  "timeToInteractive": 15818.646999999999,
+  "maxPotentialFirstInputDelay": 1618,
+  "timeToFirstByte": 610.6690000000001,
+  "weight": {
+    "summary": "35 requests • 1,997 KiB",
+    "total": 2044697,
+    "image": 357875,
+    "imageCount": 11,
+    "script": 1140042,
+    "scriptCount": 7,
+    "document": 9758,
+    "font": 182344,
+    "fontCount": 6,
+    "stylesheet": 186157,
+    "stylesheetCount": 5,
+    "thirdParty": 684038,
+    "thirdPartyCount": 14
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 570,
+    "+weight.total": 145,
+    "-weight.document": 346,
+    "+weight.document": 364,
+    "-weight.script": 635,
+    "+weight.script": 23,
+    "-weight.image": 385,
+    "+weight.image": 258,
+    "-weight.font": 443,
+    "+weight.font": 101,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 656,
+    "-totalBlockingTime": 445,
+    "-largestContentfulPaint": 670
+  },
+  "axe": {
+    "passes": 439,
+    "violations": 14
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://hongvin.me/",
+  "requestedUrl": "https://hongvin.me/",
+  "timestamp": 1714821955556,
+  "ranks": {
+    "hundos": 73,
+    "performance": 146,
+    "accessibility": 153,
+    "cumulative": 74
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.93,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 393
+  },
+  "firstContentfulPaint": 1357.1220000000003,
+  "firstMeaningfulPaint": 1357.1220000000003,
+  "speedIndex": 1537.828019999725,
+  "largestContentfulPaint": 1616.0980000000002,
+  "totalBlockingTime": 96,
+  "cumulativeLayoutShift": 0.20043624369303387,
+  "timeToInteractive": 3123.3780000000006,
+  "maxPotentialFirstInputDelay": 98,
+  "timeToFirstByte": 25.77600000000001,
+  "weight": {
+    "summary": "13 requests • 248 KiB",
+    "total": 253704,
+    "image": 0,
+    "imageCount": 0,
+    "script": 14293,
+    "scriptCount": 3,
+    "document": 3195,
+    "font": 227412,
+    "fontCount": 1,
+    "stylesheet": 5018,
+    "stylesheetCount": 3,
+    "thirdParty": 9312,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 222,
+    "+weight.total": 493,
+    "-weight.document": 50,
+    "+weight.document": 660,
+    "-weight.script": 146,
+    "+weight.script": 512,
+    "-weight.image": 1,
+    "+weight.image": 643,
+    "-weight.font": 463,
+    "+weight.font": 81,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 63,
+    "-totalBlockingTime": 73,
+    "-largestContentfulPaint": 92
+  },
+  "axe": {
+    "passes": 113,
+    "violations": 2
+  }
+}

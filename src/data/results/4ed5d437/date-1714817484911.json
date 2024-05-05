@@ -1,0 +1,67 @@
+{
+  "url": "https://www.sebaslopez.com/lander",
+  "requestedUrl": "https://www.sebaslopez.com/",
+  "timestamp": 1714887518603,
+  "ranks": {
+    "hundos": 696,
+    "performance": 658,
+    "accessibility": 571,
+    "cumulative": 696
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.24,
+    "accessibility": 0.86,
+    "bestPractices": 1,
+    "seo": 0.75,
+    "total": 285
+  },
+  "firstContentfulPaint": 2757.1039999999994,
+  "firstMeaningfulPaint": 3262.4154999999996,
+  "speedIndex": 7166.411190180026,
+  "largestContentfulPaint": 6485.927,
+  "totalBlockingTime": 4432.708500000001,
+  "cumulativeLayoutShift": 0.18425865173339842,
+  "timeToInteractive": 9366.011999999999,
+  "maxPotentialFirstInputDelay": 2120,
+  "timeToFirstByte": 17.975,
+  "weight": {
+    "summary": "23 requests • 348 KiB",
+    "total": 356648,
+    "image": 2912,
+    "imageCount": 6,
+    "script": 345441,
+    "scriptCount": 5,
+    "document": 4153,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1144,
+    "stylesheetCount": 1,
+    "thirdParty": 355427,
+    "thirdPartyCount": 21
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 285,
+    "+weight.total": 430,
+    "-weight.document": 87,
+    "+weight.document": 623,
+    "-weight.script": 530,
+    "+weight.script": 128,
+    "-weight.image": 27,
+    "+weight.image": 616,
+    "-weight.font": 1,
+    "+weight.font": 544,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 34,
+    "-totalBlockingTime": 446,
+    "-largestContentfulPaint": 638
+  },
+  "axe": {
+    "passes": 123,
+    "violations": 11
+  }
+}

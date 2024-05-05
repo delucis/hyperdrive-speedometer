@@ -1,0 +1,67 @@
+{
+  "url": "https://gotomi.info/",
+  "requestedUrl": "https://gotomi.info/",
+  "timestamp": 1714835331551,
+  "ranks": {
+    "hundos": 124,
+    "performance": 56,
+    "accessibility": 393,
+    "cumulative": 125
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.99,
+    "accessibility": 0.95,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 386
+  },
+  "firstContentfulPaint": 1046.8519999999999,
+  "firstMeaningfulPaint": 1046.8519999999999,
+  "speedIndex": 1477.708001144756,
+  "largestContentfulPaint": 1081.8519999999999,
+  "totalBlockingTime": 101,
+  "cumulativeLayoutShift": 0.021807386610243052,
+  "timeToInteractive": 1333.3519999999999,
+  "maxPotentialFirstInputDelay": 187.9999999999999,
+  "timeToFirstByte": 26.394000000000005,
+  "weight": {
+    "summary": "24 requests • 577 KiB",
+    "total": 591273,
+    "image": 458496,
+    "imageCount": 19,
+    "script": 7239,
+    "scriptCount": 3,
+    "document": 7524,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 386,
+    "+weight.total": 329,
+    "-weight.document": 267,
+    "+weight.document": 443,
+    "-weight.script": 97,
+    "+weight.script": 561,
+    "-weight.image": 417,
+    "+weight.image": 226,
+    "-weight.font": 1,
+    "+weight.font": 544,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 78,
+    "-totalBlockingTime": 78,
+    "-largestContentfulPaint": 23
+  },
+  "axe": {
+    "passes": 250,
+    "violations": 3
+  }
+}

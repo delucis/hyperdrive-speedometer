@@ -61,6 +61,11 @@ module.exports = {
       'https://www.snowfox.art',
       // Sites blocked 12 March 2024 (Should we wildcard ban Netlify?)
       'https://developers.netlify.com/',
+      // Sites blocked 5 May 2024
+      'https://joshuastuebner.com/',
+      'https://sapegin.me/',
+      'https://idea-arca.vercel.app/',
+
     ]);
 
     const fetch = (await import('node-fetch')).default;

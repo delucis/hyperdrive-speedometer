@@ -1,0 +1,67 @@
+{
+  "url": "https://qc.neogage.com/",
+  "requestedUrl": "https://qc.neogage.com/",
+  "timestamp": 1714875402585,
+  "ranks": {
+    "hundos": 570,
+    "performance": 591,
+    "accessibility": 482,
+    "cumulative": 567
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.37,
+    "accessibility": 0.92,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 321
+  },
+  "firstContentfulPaint": 1272.872,
+  "firstMeaningfulPaint": 1393.372,
+  "speedIndex": 5105.734029827452,
+  "largestContentfulPaint": 7047.871999999999,
+  "totalBlockingTime": 3922,
+  "cumulativeLayoutShift": 0.000430419921875,
+  "timeToInteractive": 8156.871999999999,
+  "maxPotentialFirstInputDelay": 1117.0000000000002,
+  "timeToFirstByte": 748.26,
+  "weight": {
+    "summary": "28 requests • 1,181 KiB",
+    "total": 1208857,
+    "image": 1094341,
+    "imageCount": 15,
+    "script": 45359,
+    "scriptCount": 9,
+    "document": 9655,
+    "font": 50242,
+    "fontCount": 2,
+    "stylesheet": 9260,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 491,
+    "+weight.total": 224,
+    "-weight.document": 342,
+    "+weight.document": 368,
+    "-weight.script": 227,
+    "+weight.script": 431,
+    "-weight.image": 506,
+    "+weight.image": 137,
+    "-weight.font": 212,
+    "+weight.font": 332,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 663,
+    "-totalBlockingTime": 431,
+    "-largestContentfulPaint": 646
+  },
+  "axe": {
+    "passes": 966,
+    "violations": 14
+  }
+}

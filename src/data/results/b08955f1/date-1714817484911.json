@@ -1,0 +1,67 @@
+{
+  "url": "https://www.flurium.com/",
+  "requestedUrl": "https://flurium.com/",
+  "timestamp": 1714821182162,
+  "ranks": {
+    "hundos": 62,
+    "performance": 128,
+    "accessibility": 118,
+    "cumulative": 62
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.96,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 1839.581,
+  "firstMeaningfulPaint": 1839.581,
+  "speedIndex": 1839.581,
+  "largestContentfulPaint": 2405.411,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.058389919704861105,
+  "timeToInteractive": 1839.581,
+  "maxPotentialFirstInputDelay": 40,
+  "timeToFirstByte": 26.980000000000004,
+  "weight": {
+    "summary": "12 requests • 30 KiB",
+    "total": 30968,
+    "image": 9447,
+    "imageCount": 4,
+    "script": 3208,
+    "scriptCount": 2,
+    "document": 4741,
+    "font": 8053,
+    "fontCount": 1,
+    "stylesheet": 4639,
+    "stylesheetCount": 1,
+    "thirdParty": 2571,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 20,
+    "+weight.total": 695,
+    "-weight.document": 123,
+    "+weight.document": 587,
+    "-weight.script": 46,
+    "+weight.script": 612,
+    "-weight.image": 59,
+    "+weight.image": 584,
+    "-weight.font": 2,
+    "+weight.font": 542,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 89,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 204
+  },
+  "axe": {
+    "passes": 256,
+    "violations": 1
+  }
+}

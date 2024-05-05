@@ -1,0 +1,67 @@
+{
+  "url": "https://www.balbas.io/",
+  "requestedUrl": "https://balbas.io/",
+  "timestamp": 1714831914671,
+  "ranks": {
+    "hundos": 226,
+    "performance": 205,
+    "accessibility": 549,
+    "cumulative": 226
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.87,
+    "accessibility": 0.88,
+    "bestPractices": 1,
+    "seo": 0.97,
+    "total": 372
+  },
+  "firstContentfulPaint": 1856.69,
+  "firstMeaningfulPaint": 1902.69,
+  "speedIndex": 5331.808520803703,
+  "largestContentfulPaint": 1902.69,
+  "totalBlockingTime": 61,
+  "cumulativeLayoutShift": 0.24266493055555557,
+  "timeToInteractive": 1992.69,
+  "maxPotentialFirstInputDelay": 211,
+  "timeToFirstByte": 2264.346,
+  "weight": {
+    "summary": "16 requests • 91 KiB",
+    "total": 92907,
+    "image": 7007,
+    "imageCount": 7,
+    "script": 69481,
+    "scriptCount": 6,
+    "document": 8477,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 7610,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 100,
+    "+weight.total": 615,
+    "-weight.document": 298,
+    "+weight.document": 412,
+    "-weight.script": 290,
+    "+weight.script": 368,
+    "-weight.image": 51,
+    "+weight.image": 592,
+    "-weight.font": 1,
+    "+weight.font": 544,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 705,
+    "-totalBlockingTime": 57,
+    "-largestContentfulPaint": 159
+  },
+  "axe": {
+    "passes": 294,
+    "violations": 21
+  }
+}
