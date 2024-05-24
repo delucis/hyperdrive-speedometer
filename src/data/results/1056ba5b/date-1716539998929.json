@@ -1,0 +1,66 @@
+{
+  "url": "https://happyplates.com/",
+  "requestedUrl": "https://happyplates.com/",
+  "timestamp": 1716558084430,
+  "ranks": {
+    "hundos": 694,
+    "performance": 691,
+    "accessibility": 678,
+    "cumulative": 693
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.39,
+    "accessibility": 0.79,
+    "bestPractices": 1,
+    "seo": 0.91,
+    "total": 309
+  },
+  "firstContentfulPaint": 2102.945,
+  "firstMeaningfulPaint": 3814.347,
+  "speedIndex": 7939.182613553174,
+  "largestContentfulPaint": 3892.138,
+  "totalBlockingTime": 4122.500000000002,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 15447.119000000002,
+  "maxPotentialFirstInputDelay": 671.0000000000018,
+  "timeToFirstByte": 1653.703,
+  "weight": {
+    "summary": "153 requests • 1,815 KiB",
+    "total": 1858737,
+    "image": 313572,
+    "imageCount": 19,
+    "script": 1159355,
+    "scriptCount": 100,
+    "document": 107668,
+    "font": 220041,
+    "fontCount": 7,
+    "stylesheet": 30815,
+    "stylesheetCount": 2,
+    "thirdParty": 867090,
+    "thirdPartyCount": 41
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 575,
+    "+weight.total": 163,
+    "-weight.document": 705,
+    "+weight.document": 27,
+    "-weight.script": 657,
+    "+weight.script": 21,
+    "-weight.image": 371,
+    "+weight.image": 293,
+    "-weight.font": 464,
+    "+weight.font": 89,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 716,
+    "-totalBlockingTime": 518,
+    "-largestContentfulPaint": 607
+  },
+  "axe": {
+    "error": "Page load timed out"
+  }
+}

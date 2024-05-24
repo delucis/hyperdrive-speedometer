@@ -1,0 +1,67 @@
+{
+  "url": "https://www.josemacruz.dev/",
+  "requestedUrl": "https://josemacruz.dev/",
+  "timestamp": 1716572032090,
+  "ranks": {
+    "hundos": 265,
+    "performance": 245,
+    "accessibility": 537,
+    "cumulative": 262
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.96,
+    "accessibility": 0.9,
+    "bestPractices": 1,
+    "seo": 0.98,
+    "total": 384
+  },
+  "firstContentfulPaint": 1702.5510000000004,
+  "firstMeaningfulPaint": 1702.5510000000004,
+  "speedIndex": 2817.4999153321087,
+  "largestContentfulPaint": 1702.5510000000004,
+  "totalBlockingTime": 50.95499999999993,
+  "cumulativeLayoutShift": 0.12537480799357095,
+  "timeToInteractive": 1803.5060000000003,
+  "maxPotentialFirstInputDelay": 108,
+  "timeToFirstByte": 862.116,
+  "weight": {
+    "summary": "6 requests • 80 KiB",
+    "total": 81510,
+    "image": 6896,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 8016,
+    "font": 63332,
+    "fontCount": 2,
+    "stylesheet": 2921,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 78,
+    "+weight.total": 660,
+    "-weight.document": 289,
+    "+weight.document": 443,
+    "-weight.script": 1,
+    "+weight.script": 678,
+    "-weight.image": 52,
+    "+weight.image": 612,
+    "-weight.font": 256,
+    "+weight.font": 297,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 694,
+    "-totalBlockingTime": 70,
+    "-largestContentfulPaint": 174
+  },
+  "axe": {
+    "passes": 258,
+    "violations": 11
+  }
+}

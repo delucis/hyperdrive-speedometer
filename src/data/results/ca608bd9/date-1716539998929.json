@@ -1,0 +1,67 @@
+{
+  "url": "https://freeworld.org/",
+  "requestedUrl": "https://freeworld.org/",
+  "timestamp": 1716570708505,
+  "ranks": {
+    "hundos": 387,
+    "performance": 411,
+    "accessibility": 281,
+    "cumulative": 389
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.84,
+    "accessibility": 0.98,
+    "bestPractices": 0.92,
+    "seo": 0.98,
+    "total": 372
+  },
+  "firstContentfulPaint": 1197.5169999999998,
+  "firstMeaningfulPaint": 1197.5169999999998,
+  "speedIndex": 1740.1840868415134,
+  "largestContentfulPaint": 2359.7475000000004,
+  "totalBlockingTime": 443.50000000000006,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 5187.491,
+  "maxPotentialFirstInputDelay": 241,
+  "timeToFirstByte": 19.275000000000006,
+  "weight": {
+    "summary": "28 requests • 429 KiB",
+    "total": 438871,
+    "image": 119533,
+    "imageCount": 6,
+    "script": 264514,
+    "scriptCount": 14,
+    "document": 7929,
+    "font": 35967,
+    "fontCount": 1,
+    "stylesheet": 9266,
+    "stylesheetCount": 3,
+    "thirdParty": 358580,
+    "thirdPartyCount": 17
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 329,
+    "+weight.total": 409,
+    "-weight.document": 285,
+    "+weight.document": 447,
+    "-weight.script": 495,
+    "+weight.script": 183,
+    "-weight.image": 237,
+    "+weight.image": 427,
+    "-weight.font": 116,
+    "+weight.font": 437,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 41,
+    "-totalBlockingTime": 314,
+    "-largestContentfulPaint": 514
+  },
+  "axe": {
+    "passes": 353,
+    "violations": 5
+  }
+}

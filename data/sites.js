@@ -65,7 +65,10 @@ module.exports = {
       'https://joshuastuebner.com/',
       'https://sapegin.me/',
       'https://idea-arca.vercel.app/',
-
+      // Sites blocked 23 May 2024
+      'https://tacohuaco.co',
+      'https://jblaha.art/',
+      'https://akashrajpurohit.com/?ref=astro-showcase'
     ]);
 
     const fetch = (await import('node-fetch')).default;

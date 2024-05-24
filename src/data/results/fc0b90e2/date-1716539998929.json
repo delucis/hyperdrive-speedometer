@@ -1,0 +1,66 @@
+{
+  "url": "http://ww25.joingamedev.com/blog?subid1=20240524-2205-32a8-a56a-497cc1b2e69c",
+  "requestedUrl": "https://www.joingamedev.com/blog",
+  "timestamp": 1716552384737,
+  "ranks": {
+    "hundos": 596,
+    "performance": 553,
+    "accessibility": 610,
+    "cumulative": 599
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.68,
+    "accessibility": 0.86,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 338
+  },
+  "firstContentfulPaint": 4746.762,
+  "firstMeaningfulPaint": 4839.262,
+  "speedIndex": 4746.762,
+  "largestContentfulPaint": 4914.261999999999,
+  "totalBlockingTime": 7.5,
+  "cumulativeLayoutShift": 0.03349609375,
+  "timeToInteractive": 4899.4565,
+  "maxPotentialFirstInputDelay": 65,
+  "timeToFirstByte": 121.48200000000003,
+  "weight": {
+    "summary": "15 requests • 207 KiB",
+    "total": 211823,
+    "image": 1124,
+    "imageCount": 4,
+    "script": 198707,
+    "scriptCount": 5,
+    "document": 5744,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 154121,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 196,
+    "+weight.total": 542,
+    "-weight.document": 179,
+    "+weight.document": 553,
+    "-weight.script": 458,
+    "+weight.script": 220,
+    "-weight.image": 15,
+    "+weight.image": 649,
+    "-weight.font": 1,
+    "+weight.font": 553,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 466,
+    "-totalBlockingTime": 14,
+    "-largestContentfulPaint": 362
+  },
+  "axe": {
+    "error": "Page load timed out"
+  }
+}

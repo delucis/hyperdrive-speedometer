@@ -1,0 +1,67 @@
+{
+  "url": "https://roxi.tv/",
+  "requestedUrl": "https://roxi.tv/",
+  "timestamp": 1716575043904,
+  "ranks": {
+    "hundos": 733,
+    "performance": 709,
+    "accessibility": 706,
+    "cumulative": 733
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.33,
+    "accessibility": 0.73,
+    "bestPractices": 0.92,
+    "seo": 0.77,
+    "total": 275
+  },
+  "firstContentfulPaint": 2792.4425,
+  "firstMeaningfulPaint": 3179.4974999999995,
+  "speedIndex": 5362.940113903189,
+  "largestContentfulPaint": 8202.48,
+  "totalBlockingTime": 1398.2105000000006,
+  "cumulativeLayoutShift": 0.0018310546874999998,
+  "timeToInteractive": 14334.903798339848,
+  "maxPotentialFirstInputDelay": 335,
+  "timeToFirstByte": 314.37,
+  "weight": {
+    "summary": "109 requests • 2,795 KiB",
+    "total": 2861917,
+    "image": 1633542,
+    "imageCount": 16,
+    "script": 1039999,
+    "scriptCount": 71,
+    "document": 85907,
+    "font": 78342,
+    "fontCount": 3,
+    "stylesheet": 20246,
+    "stylesheetCount": 2,
+    "thirdParty": 595528,
+    "thirdPartyCount": 38
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 632,
+    "+weight.total": 106,
+    "-weight.document": 693,
+    "+weight.document": 39,
+    "-weight.script": 649,
+    "+weight.script": 29,
+    "-weight.image": 558,
+    "+weight.image": 106,
+    "-weight.font": 303,
+    "+weight.font": 250,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 607,
+    "-totalBlockingTime": 454,
+    "-largestContentfulPaint": 699
+  },
+  "axe": {
+    "passes": 615,
+    "violations": 32
+  }
+}

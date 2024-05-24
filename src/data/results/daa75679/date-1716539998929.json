@@ -1,0 +1,67 @@
+{
+  "url": "https://design.eva.town/",
+  "requestedUrl": "https://design.eva.town/",
+  "timestamp": 1716556304157,
+  "ranks": {
+    "hundos": 44,
+    "performance": 5,
+    "accessibility": 251,
+    "cumulative": 44
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 925.88,
+  "firstMeaningfulPaint": 925.88,
+  "speedIndex": 925.88,
+  "largestContentfulPaint": 925.88,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 925.88,
+  "maxPotentialFirstInputDelay": 44,
+  "timeToFirstByte": 25.24799999999999,
+  "weight": {
+    "summary": "1 request • 4 KiB",
+    "total": 3776,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 3776,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 2,
+    "+weight.total": 736,
+    "-weight.document": 67,
+    "+weight.document": 665,
+    "-weight.script": 1,
+    "+weight.script": 678,
+    "-weight.image": 1,
+    "+weight.image": 664,
+    "-weight.font": 1,
+    "+weight.font": 553,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 65,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 5
+  },
+  "axe": {
+    "passes": 736,
+    "violations": 44
+  }
+}

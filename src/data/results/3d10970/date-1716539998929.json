@@ -1,0 +1,67 @@
+{
+  "url": "https://nordvpn.org/",
+  "requestedUrl": "https://nordvpn.org/",
+  "timestamp": 1716573527754,
+  "ranks": {
+    "hundos": 616,
+    "performance": 629,
+    "accessibility": 410,
+    "cumulative": 615
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.55,
+    "accessibility": 0.96,
+    "bestPractices": 0.83,
+    "seo": 0.99,
+    "total": 333
+  },
+  "firstContentfulPaint": 1485.256,
+  "firstMeaningfulPaint": 1570.121,
+  "speedIndex": 2416.325351965769,
+  "largestContentfulPaint": 2579.5755,
+  "totalBlockingTime": 2020.7299999999996,
+  "cumulativeLayoutShift": 0.2396229926215278,
+  "timeToInteractive": 8801.933,
+  "maxPotentialFirstInputDelay": 540,
+  "timeToFirstByte": 21.351,
+  "weight": {
+    "summary": "48 requests • 929 KiB",
+    "total": 950876,
+    "image": 152349,
+    "imageCount": 14,
+    "script": 619018,
+    "scriptCount": 20,
+    "document": 51429,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 18073,
+    "stylesheetCount": 1,
+    "thirdParty": 824840,
+    "thirdPartyCount": 35
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 472,
+    "+weight.total": 266,
+    "-weight.document": 655,
+    "+weight.document": 77,
+    "-weight.script": 613,
+    "+weight.script": 65,
+    "-weight.image": 266,
+    "+weight.image": 398,
+    "-weight.font": 1,
+    "+weight.font": 553,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 45,
+    "-totalBlockingTime": 484,
+    "-largestContentfulPaint": 533
+  },
+  "axe": {
+    "passes": 1273,
+    "violations": 19
+  }
+}

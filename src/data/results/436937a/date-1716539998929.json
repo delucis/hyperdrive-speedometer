@@ -1,0 +1,67 @@
+{
+  "url": "https://kjelsrud.dev/",
+  "requestedUrl": "https://kjelsrud.dev/",
+  "timestamp": 1716559062688,
+  "ranks": {
+    "hundos": 32,
+    "performance": 99,
+    "accessibility": 163,
+    "cumulative": 35
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 840,
+  "firstMeaningfulPaint": 894,
+  "speedIndex": 1794.6044401651236,
+  "largestContentfulPaint": 894,
+  "totalBlockingTime": 29,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 953,
+  "maxPotentialFirstInputDelay": 108,
+  "timeToFirstByte": 169.226,
+  "weight": {
+    "summary": "7 requests • 52 KiB",
+    "total": 52779,
+    "image": 46515,
+    "imageCount": 5,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 3752,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2512,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 41,
+    "+weight.total": 697,
+    "-weight.document": 65,
+    "+weight.document": 667,
+    "-weight.script": 1,
+    "+weight.script": 678,
+    "-weight.image": 151,
+    "+weight.image": 513,
+    "-weight.font": 1,
+    "+weight.font": 553,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 521,
+    "-totalBlockingTime": 46,
+    "-largestContentfulPaint": 2
+  },
+  "axe": {
+    "passes": 124,
+    "violations": 2
+  }
+}

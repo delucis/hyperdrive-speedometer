@@ -1,0 +1,67 @@
+{
+  "url": "https://prosfy.com/",
+  "requestedUrl": "https://prosfy.com/",
+  "timestamp": 1716561126090,
+  "ranks": {
+    "hundos": 275,
+    "performance": 234,
+    "accessibility": 517,
+    "cumulative": 275
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.96,
+    "accessibility": 0.91,
+    "bestPractices": 1,
+    "seo": 0.95,
+    "total": 382
+  },
+  "firstContentfulPaint": 1113.6390000000001,
+  "firstMeaningfulPaint": 1188.6390000000001,
+  "speedIndex": 1235.0928379992306,
+  "largestContentfulPaint": 2616.011,
+  "totalBlockingTime": 89.5,
+  "cumulativeLayoutShift": 0.00241937255859375,
+  "timeToInteractive": 2508.0060000000003,
+  "maxPotentialFirstInputDelay": 123,
+  "timeToFirstByte": 108.46300000000002,
+  "weight": {
+    "summary": "23 requests • 202 KiB",
+    "total": 206426,
+    "image": 102312,
+    "imageCount": 11,
+    "script": 84153,
+    "scriptCount": 6,
+    "document": 6682,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 13242,
+    "stylesheetCount": 2,
+    "thirdParty": 73695,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 192,
+    "+weight.total": 546,
+    "-weight.document": 226,
+    "+weight.document": 506,
+    "-weight.script": 320,
+    "+weight.script": 358,
+    "-weight.image": 223,
+    "+weight.image": 441,
+    "-weight.font": 1,
+    "+weight.font": 553,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 455,
+    "-totalBlockingTime": 107,
+    "-largestContentfulPaint": 292
+  },
+  "axe": {
+    "passes": 265,
+    "violations": 3
+  }
+}
