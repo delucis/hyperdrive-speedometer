@@ -1,0 +1,67 @@
+{
+  "url": "https://scientific.place/",
+  "requestedUrl": "https://scientific.place/",
+  "timestamp": 1716650076751,
+  "ranks": {
+    "hundos": 527,
+    "performance": 534,
+    "accessibility": 149,
+    "cumulative": 526
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.79,
+    "accessibility": 1,
+    "bestPractices": 0.78,
+    "seo": 1,
+    "total": 357
+  },
+  "firstContentfulPaint": 918.977,
+  "firstMeaningfulPaint": 918.977,
+  "speedIndex": 5380.483965958375,
+  "largestContentfulPaint": 1752.3654999999997,
+  "totalBlockingTime": 489,
+  "cumulativeLayoutShift": 0.12048488224903883,
+  "timeToInteractive": 9698.682999999997,
+  "maxPotentialFirstInputDelay": 219,
+  "timeToFirstByte": 219.69899999999998,
+  "weight": {
+    "summary": "105 requests • 1.2 MiB",
+    "total": 1236579,
+    "image": 412801,
+    "imageCount": 55,
+    "script": 512012,
+    "scriptCount": 24,
+    "document": 193552,
+    "font": 97678,
+    "fontCount": 3,
+    "stylesheet": 6527,
+    "stylesheetCount": 3,
+    "thirdParty": 1158341,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 498,
+    "+weight.total": 236,
+    "-weight.document": 712,
+    "+weight.document": 11,
+    "-weight.script": 589,
+    "+weight.script": 82,
+    "-weight.image": 402,
+    "+weight.image": 258,
+    "-weight.font": 355,
+    "+weight.font": 208,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 555,
+    "-totalBlockingTime": 291,
+    "-largestContentfulPaint": 227
+  },
+  "axe": {
+    "passes": 179,
+    "violations": 1
+  }
+}

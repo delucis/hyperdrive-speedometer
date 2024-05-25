@@ -1,0 +1,67 @@
+{
+  "url": "https://historychallenge.club/en/play",
+  "requestedUrl": "https://historychallenge.club/",
+  "timestamp": 1716656415997,
+  "ranks": {
+    "hundos": 398,
+    "performance": 342,
+    "accessibility": 369,
+    "cumulative": 386
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.94,
+    "accessibility": 0.94,
+    "bestPractices": 0.96,
+    "seo": 0.91,
+    "total": 375
+  },
+  "firstContentfulPaint": 1320.9615,
+  "firstMeaningfulPaint": 2001.9615,
+  "speedIndex": 5435.488566434373,
+  "largestContentfulPaint": 2226.9615,
+  "totalBlockingTime": 11.5,
+  "cumulativeLayoutShift": 0.0005391803956480286,
+  "timeToInteractive": 2329.9615,
+  "maxPotentialFirstInputDelay": 73,
+  "timeToFirstByte": 2211.49,
+  "weight": {
+    "summary": "30 requests • 214.2 KiB",
+    "total": 219307,
+    "image": 0,
+    "imageCount": 0,
+    "script": 51902,
+    "scriptCount": 12,
+    "document": 10183,
+    "font": 149535,
+    "fontCount": 7,
+    "stylesheet": 7687,
+    "stylesheetCount": 7,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 187,
+    "+weight.total": 547,
+    "-weight.document": 354,
+    "+weight.document": 369,
+    "-weight.script": 246,
+    "+weight.script": 425,
+    "-weight.image": 1,
+    "+weight.image": 660,
+    "-weight.font": 420,
+    "+weight.font": 143,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 721,
+    "-totalBlockingTime": 21,
+    "-largestContentfulPaint": 333
+  },
+  "axe": {
+    "passes": 264,
+    "violations": 1
+  }
+}

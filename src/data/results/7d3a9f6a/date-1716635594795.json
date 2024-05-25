@@ -1,0 +1,67 @@
+{
+  "url": "https://sebbo.io/",
+  "requestedUrl": "https://sebbo.io/",
+  "timestamp": 1716650119691,
+  "ranks": {
+    "hundos": 51,
+    "performance": 120,
+    "accessibility": 104,
+    "cumulative": 34
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 970.03,
+  "firstMeaningfulPaint": 970.03,
+  "speedIndex": 1686.752567998171,
+  "largestContentfulPaint": 1688.194,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 970.03,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 141.89599999999996,
+  "weight": {
+    "summary": "11 requests • 25.2 KiB",
+    "total": 25783,
+    "image": 11500,
+    "imageCount": 6,
+    "script": 7264,
+    "scriptCount": 3,
+    "document": 2159,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4860,
+    "stylesheetCount": 1,
+    "thirdParty": 1305,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 17,
+    "+weight.total": 717,
+    "-weight.document": 24,
+    "+weight.document": 699,
+    "-weight.script": 98,
+    "+weight.script": 573,
+    "-weight.image": 65,
+    "+weight.image": 595,
+    "-weight.font": 1,
+    "+weight.font": 563,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 457,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 202
+  },
+  "axe": {
+    "passes": 104,
+    "violations": 0
+  }
+}

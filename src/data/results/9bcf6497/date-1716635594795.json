@@ -1,0 +1,67 @@
+{
+  "url": "https://www.eviocam.com/",
+  "requestedUrl": "https://www.eviocam.com/",
+  "timestamp": 1716660901955,
+  "ranks": {
+    "hundos": 601,
+    "performance": 627,
+    "accessibility": 609,
+    "cumulative": 606
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.67,
+    "accessibility": 0.84,
+    "bestPractices": 0.96,
+    "seo": 0.95,
+    "total": 342
+  },
+  "firstContentfulPaint": 3039.8430000000003,
+  "firstMeaningfulPaint": 3039.8430000000003,
+  "speedIndex": 4083.7503666758107,
+  "largestContentfulPaint": 20439.239999999998,
+  "totalBlockingTime": 127.5,
+  "cumulativeLayoutShift": 0.005878075914210906,
+  "timeToInteractive": 9860.724,
+  "maxPotentialFirstInputDelay": 188,
+  "timeToFirstByte": 139.86699999999996,
+  "weight": {
+    "summary": "55 requests • 6.8 MiB",
+    "total": 7172668,
+    "image": 6196859,
+    "imageCount": 9,
+    "script": 627533,
+    "scriptCount": 18,
+    "document": 66163,
+    "font": 204551,
+    "fontCount": 5,
+    "stylesheet": 29203,
+    "stylesheetCount": 17,
+    "thirdParty": 922291,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 685,
+    "+weight.total": 49,
+    "-weight.document": 673,
+    "+weight.document": 50,
+    "-weight.script": 607,
+    "+weight.script": 64,
+    "-weight.image": 629,
+    "+weight.image": 31,
+    "-weight.font": 468,
+    "+weight.font": 95,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 448,
+    "-totalBlockingTime": 158,
+    "-largestContentfulPaint": 715
+  },
+  "axe": {
+    "passes": 352,
+    "violations": 15
+  }
+}

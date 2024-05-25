@@ -1,0 +1,67 @@
+{
+  "url": "https://creatures.dev/",
+  "requestedUrl": "https://creatures.dev/",
+  "timestamp": 1716637025176,
+  "ranks": {
+    "hundos": 715,
+    "performance": 679,
+    "accessibility": 624,
+    "cumulative": 715
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.57,
+    "accessibility": 0.83,
+    "bestPractices": 0.59,
+    "seo": 1,
+    "total": 299
+  },
+  "firstContentfulPaint": 1851.088268851412,
+  "firstMeaningfulPaint": 1851.088268851412,
+  "speedIndex": 7409.817268516009,
+  "largestContentfulPaint": 5901.516030186111,
+  "totalBlockingTime": 500,
+  "cumulativeLayoutShift": 0.0027349261872415846,
+  "timeToInteractive": 13316.93645807504,
+  "maxPotentialFirstInputDelay": 258,
+  "timeToFirstByte": 47.291,
+  "weight": {
+    "summary": "63 requests • 4.0 MiB",
+    "total": 4223313,
+    "image": 2103655,
+    "imageCount": 15,
+    "script": 603545,
+    "scriptCount": 18,
+    "document": 24345,
+    "font": 760830,
+    "fontCount": 8,
+    "stylesheet": 28036,
+    "stylesheetCount": 6,
+    "thirdParty": 2088713,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 651,
+    "+weight.total": 83,
+    "-weight.document": 572,
+    "+weight.document": 151,
+    "-weight.script": 605,
+    "+weight.script": 66,
+    "-weight.image": 572,
+    "+weight.image": 88,
+    "-weight.font": 546,
+    "+weight.font": 17,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 191,
+    "-totalBlockingTime": 294,
+    "-largestContentfulPaint": 631
+  },
+  "axe": {
+    "passes": 303,
+    "violations": 16
+  }
+}

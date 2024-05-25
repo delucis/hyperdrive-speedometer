@@ -1,0 +1,67 @@
+{
+  "url": "https://tiyalo.com/listings",
+  "requestedUrl": "https://tiyalo.com/",
+  "timestamp": 1716642123445,
+  "ranks": {
+    "hundos": 504,
+    "performance": 420,
+    "accessibility": 670,
+    "cumulative": 503
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.9,
+    "accessibility": 0.78,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 360
+  },
+  "firstContentfulPaint": 2278.426,
+  "firstMeaningfulPaint": 2278.426,
+  "speedIndex": 4682.615046576518,
+  "largestContentfulPaint": 2728.426,
+  "totalBlockingTime": 113,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2996.426,
+  "maxPotentialFirstInputDelay": 240,
+  "timeToFirstByte": 119.858,
+  "weight": {
+    "summary": "38 requests • 25.9 MiB",
+    "total": 27170589,
+    "image": 26960273,
+    "imageCount": 8,
+    "script": 75806,
+    "scriptCount": 20,
+    "document": 9589,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 120890,
+    "stylesheetCount": 3,
+    "thirdParty": 26909081,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 728,
+    "+weight.total": 6,
+    "-weight.document": 339,
+    "+weight.document": 384,
+    "-weight.script": 296,
+    "+weight.script": 375,
+    "-weight.image": 657,
+    "+weight.image": 3,
+    "-weight.font": 1,
+    "+weight.font": 563,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 374,
+    "-totalBlockingTime": 147,
+    "-largestContentfulPaint": 405
+  },
+  "axe": {
+    "passes": 348,
+    "violations": 17
+  }
+}

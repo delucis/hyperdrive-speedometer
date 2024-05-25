@@ -1,0 +1,67 @@
+{
+  "url": "https://finaristo.com/",
+  "requestedUrl": "https://finaristo.com/",
+  "timestamp": 1716637958316,
+  "ranks": {
+    "hundos": 388,
+    "performance": 462,
+    "accessibility": 532,
+    "cumulative": 394
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.86,
+    "accessibility": 0.89,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 375
+  },
+  "firstContentfulPaint": 1951.2359999999999,
+  "firstMeaningfulPaint": 2031.8519999999999,
+  "speedIndex": 2084.8054292369416,
+  "largestContentfulPaint": 3927.1165,
+  "totalBlockingTime": 66,
+  "cumulativeLayoutShift": 0.0012495861188021417,
+  "timeToInteractive": 3276.629,
+  "maxPotentialFirstInputDelay": 102,
+  "timeToFirstByte": 32.16999999999999,
+  "weight": {
+    "summary": "12 requests • 422.4 KiB",
+    "total": 432541,
+    "image": 1356,
+    "imageCount": 2,
+    "script": 291457,
+    "scriptCount": 3,
+    "document": 7856,
+    "font": 47059,
+    "fontCount": 1,
+    "stylesheet": 15319,
+    "stylesheetCount": 1,
+    "thirdParty": 149262,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 304,
+    "+weight.total": 430,
+    "-weight.document": 279,
+    "+weight.document": 444,
+    "-weight.script": 501,
+    "+weight.script": 170,
+    "-weight.image": 20,
+    "+weight.image": 640,
+    "-weight.font": 197,
+    "+weight.font": 366,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 72,
+    "-totalBlockingTime": 98,
+    "-largestContentfulPaint": 544
+  },
+  "axe": {
+    "passes": 434,
+    "violations": 14
+  }
+}

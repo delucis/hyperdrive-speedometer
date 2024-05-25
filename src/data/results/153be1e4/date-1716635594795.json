@@ -1,0 +1,67 @@
+{
+  "url": "https://agniacare.vercel.app/",
+  "requestedUrl": "https://agniacare.vercel.app/",
+  "timestamp": 1716653450061,
+  "ranks": {
+    "hundos": 11,
+    "performance": 28,
+    "accessibility": 78,
+    "cumulative": 7
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1008.41,
+  "firstMeaningfulPaint": 1008.41,
+  "speedIndex": 1008.41,
+  "largestContentfulPaint": 1008.41,
+  "totalBlockingTime": 39,
+  "cumulativeLayoutShift": 0.0006313832536940288,
+  "timeToInteractive": 1158.4099999999999,
+  "maxPotentialFirstInputDelay": 89,
+  "timeToFirstByte": 55.80199999999999,
+  "weight": {
+    "summary": "19 requests • 163.8 KiB",
+    "total": 167732,
+    "image": 13291,
+    "imageCount": 1,
+    "script": 108304,
+    "scriptCount": 14,
+    "document": 6433,
+    "font": 33268,
+    "fontCount": 1,
+    "stylesheet": 5474,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 146,
+    "+weight.total": 588,
+    "-weight.document": 204,
+    "+weight.document": 519,
+    "-weight.script": 356,
+    "+weight.script": 315,
+    "-weight.image": 70,
+    "+weight.image": 590,
+    "-weight.font": 105,
+    "+weight.font": 458,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 234,
+    "-totalBlockingTime": 66,
+    "-largestContentfulPaint": 38
+  },
+  "axe": {
+    "passes": 196,
+    "violations": 0
+  }
+}

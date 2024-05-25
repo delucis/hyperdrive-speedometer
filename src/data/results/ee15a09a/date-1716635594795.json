@@ -1,0 +1,67 @@
+{
+  "url": "https://www.mujs.dev/",
+  "requestedUrl": "https://mujs.dev/",
+  "timestamp": 1716648848322,
+  "ranks": {
+    "hundos": 665,
+    "performance": 673,
+    "accessibility": 699,
+    "cumulative": 665
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.58,
+    "accessibility": 0.73,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 323
+  },
+  "firstContentfulPaint": 2925.1530000000002,
+  "firstMeaningfulPaint": 2925.1530000000002,
+  "speedIndex": 4102.0943741108695,
+  "largestContentfulPaint": 5322.827,
+  "totalBlockingTime": 604,
+  "cumulativeLayoutShift": 0.02440212728136075,
+  "timeToInteractive": 3645.1530000000002,
+  "maxPotentialFirstInputDelay": 648,
+  "timeToFirstByte": 194.835,
+  "weight": {
+    "summary": "20 requests • 1.6 MiB",
+    "total": 1635145,
+    "image": 1236815,
+    "imageCount": 6,
+    "script": 34555,
+    "scriptCount": 2,
+    "document": 5648,
+    "font": 322625,
+    "fontCount": 4,
+    "stylesheet": 5526,
+    "stylesheetCount": 2,
+    "thirdParty": 358309,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 548,
+    "+weight.total": 186,
+    "-weight.document": 173,
+    "+weight.document": 550,
+    "-weight.script": 211,
+    "+weight.script": 460,
+    "-weight.image": 528,
+    "+weight.image": 132,
+    "-weight.font": 510,
+    "+weight.font": 53,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 541,
+    "-totalBlockingTime": 309,
+    "-largestContentfulPaint": 613
+  },
+  "axe": {
+    "passes": 309,
+    "violations": 18
+  }
+}

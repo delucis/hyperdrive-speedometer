@@ -1,0 +1,67 @@
+{
+  "url": "https://france.scc.com/",
+  "requestedUrl": "https://france.scc.com/",
+  "timestamp": 1716647054840,
+  "ranks": {
+    "hundos": 703,
+    "performance": 652,
+    "accessibility": 724,
+    "cumulative": 703
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.64,
+    "accessibility": 0.64,
+    "bestPractices": 0.96,
+    "seo": 0.83,
+    "total": 307
+  },
+  "firstContentfulPaint": 3803.8940000000002,
+  "firstMeaningfulPaint": 3891.2909999999997,
+  "speedIndex": 7008.119344963368,
+  "largestContentfulPaint": 5901.421999999999,
+  "totalBlockingTime": 107,
+  "cumulativeLayoutShift": 0.0021685335776434355,
+  "timeToInteractive": 6587.200999999999,
+  "maxPotentialFirstInputDelay": 124,
+  "timeToFirstByte": 25.33499999999998,
+  "weight": {
+    "summary": "93 requests • 1.0 MiB",
+    "total": 1055931,
+    "image": 336165,
+    "imageCount": 39,
+    "script": 251704,
+    "scriptCount": 39,
+    "document": 257473,
+    "font": 142284,
+    "fontCount": 2,
+    "stylesheet": 25751,
+    "stylesheetCount": 9,
+    "thirdParty": 290841,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 474,
+    "+weight.total": 260,
+    "-weight.document": 717,
+    "+weight.document": 6,
+    "-weight.script": 480,
+    "+weight.script": 191,
+    "-weight.image": 364,
+    "+weight.image": 296,
+    "-weight.font": 416,
+    "+weight.font": 147,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 25,
+    "-totalBlockingTime": 142,
+    "-largestContentfulPaint": 630
+  },
+  "axe": {
+    "passes": 1863,
+    "violations": 21
+  }
+}

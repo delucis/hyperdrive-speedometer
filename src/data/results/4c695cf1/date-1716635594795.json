@@ -1,0 +1,67 @@
+{
+  "url": "https://phonerand.com/",
+  "requestedUrl": "https://phonerand.com/",
+  "timestamp": 1716640547313,
+  "ranks": {
+    "hundos": 697,
+    "performance": 621,
+    "accessibility": 536,
+    "cumulative": 697
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.68,
+    "accessibility": 0.89,
+    "bestPractices": 0.52,
+    "seo": 1,
+    "total": 309
+  },
+  "firstContentfulPaint": 1353.586,
+  "firstMeaningfulPaint": 1353.586,
+  "speedIndex": 4762.380240891261,
+  "largestContentfulPaint": 1503.086,
+  "totalBlockingTime": 1796.5285442886357,
+  "cumulativeLayoutShift": 0.08098579286023927,
+  "timeToInteractive": 9876.091288139343,
+  "maxPotentialFirstInputDelay": 1268,
+  "timeToFirstByte": 123.72300000000001,
+  "weight": {
+    "summary": "89 requests • 1.2 MiB",
+    "total": 1239350,
+    "image": 21374,
+    "imageCount": 10,
+    "script": 525746,
+    "scriptCount": 20,
+    "document": 33728,
+    "font": 451137,
+    "fontCount": 2,
+    "stylesheet": 86006,
+    "stylesheetCount": 6,
+    "thirdParty": 467961,
+    "thirdPartyCount": 11
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 500,
+    "+weight.total": 234,
+    "-weight.document": 617,
+    "+weight.document": 106,
+    "-weight.script": 590,
+    "+weight.script": 81,
+    "-weight.image": 92,
+    "+weight.image": 568,
+    "-weight.font": 529,
+    "+weight.font": 34,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 381,
+    "-totalBlockingTime": 349,
+    "-largestContentfulPaint": 163
+  },
+  "axe": {
+    "passes": 1426,
+    "violations": 18
+  }
+}

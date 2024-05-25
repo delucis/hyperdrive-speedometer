@@ -1,0 +1,67 @@
+{
+  "url": "https://plain-pomodoro.netlify.app/",
+  "requestedUrl": "https://plain-pomodoro.netlify.app/",
+  "timestamp": 1716640564114,
+  "ranks": {
+    "hundos": 52,
+    "performance": 135,
+    "accessibility": 118,
+    "cumulative": 35
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1123.524,
+  "firstMeaningfulPaint": 1123.524,
+  "speedIndex": 1953.3495159973263,
+  "largestContentfulPaint": 1123.524,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1123.524,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 658.5409999999999,
+  "weight": {
+    "summary": "5 requests • 30.3 KiB",
+    "total": 31058,
+    "image": 0,
+    "imageCount": 0,
+    "script": 26532,
+    "scriptCount": 3,
+    "document": 2711,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1815,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 22,
+    "+weight.total": 712,
+    "-weight.document": 38,
+    "+weight.document": 685,
+    "-weight.script": 195,
+    "+weight.script": 476,
+    "-weight.image": 1,
+    "+weight.image": 660,
+    "-weight.font": 1,
+    "+weight.font": 563,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 662,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 77
+  },
+  "axe": {
+    "passes": 41,
+    "violations": 0
+  }
+}

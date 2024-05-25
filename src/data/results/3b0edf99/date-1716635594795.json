@@ -1,0 +1,66 @@
+{
+  "url": "https://talale.it/",
+  "requestedUrl": "https://talale.it/",
+  "timestamp": 1716650635521,
+  "ranks": {
+    "hundos": 704,
+    "performance": 689,
+    "accessibility": 604,
+    "cumulative": 704
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.54,
+    "accessibility": 0.85,
+    "bestPractices": 0.74,
+    "seo": 0.92,
+    "total": 305
+  },
+  "firstContentfulPaint": 1666.5769999999998,
+  "firstMeaningfulPaint": 2130.9105000000004,
+  "speedIndex": 4819.3427471028845,
+  "largestContentfulPaint": 10047.2145,
+  "totalBlockingTime": 678,
+  "cumulativeLayoutShift": 0.0026335802663523273,
+  "timeToInteractive": 8369.741,
+  "maxPotentialFirstInputDelay": 404,
+  "timeToFirstByte": 27.76800000000003,
+  "weight": {
+    "summary": "79 requests • 1.6 MiB",
+    "total": 1630117,
+    "image": 694608,
+    "imageCount": 19,
+    "script": 687142,
+    "scriptCount": 37,
+    "document": 12977,
+    "font": 9862,
+    "fontCount": 1,
+    "stylesheet": 88584,
+    "stylesheetCount": 9,
+    "thirdParty": 663963,
+    "thirdPartyCount": 10
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 547,
+    "+weight.total": 187,
+    "-weight.document": 433,
+    "+weight.document": 290,
+    "-weight.script": 617,
+    "+weight.script": 54,
+    "-weight.image": 462,
+    "+weight.image": 198,
+    "-weight.font": 7,
+    "+weight.font": 556,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 49,
+    "-totalBlockingTime": 315,
+    "-largestContentfulPaint": 687
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

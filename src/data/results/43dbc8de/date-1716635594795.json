@@ -1,0 +1,66 @@
+{
+  "url": "https://www.911dcs.net/",
+  "requestedUrl": "https://www.911dcs.net/",
+  "timestamp": 1716651613512,
+  "ranks": {
+    "hundos": 626,
+    "performance": 535,
+    "accessibility": 461,
+    "cumulative": 628
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.79,
+    "accessibility": 0.92,
+    "bestPractices": 0.74,
+    "seo": 0.92,
+    "total": 337
+  },
+  "firstContentfulPaint": 1707.071,
+  "firstMeaningfulPaint": 1707.071,
+  "speedIndex": 6127.826022582239,
+  "largestContentfulPaint": 1707.0710000000001,
+  "totalBlockingTime": 552,
+  "cumulativeLayoutShift": 0.03478442529405946,
+  "timeToInteractive": 11407.099999999999,
+  "maxPotentialFirstInputDelay": 227,
+  "timeToFirstByte": 168.182,
+  "weight": {
+    "summary": "60 requests • 2.3 MiB",
+    "total": 2431838,
+    "image": 33390,
+    "imageCount": 8,
+    "script": 1238026,
+    "scriptCount": 15,
+    "document": 52110,
+    "font": 37507,
+    "fontCount": 3,
+    "stylesheet": 51889,
+    "stylesheetCount": 4,
+    "thirdParty": 2398138,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 595,
+    "+weight.total": 139,
+    "-weight.document": 654,
+    "+weight.document": 69,
+    "-weight.script": 650,
+    "+weight.script": 21,
+    "-weight.image": 122,
+    "+weight.image": 538,
+    "-weight.font": 123,
+    "+weight.font": 440,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 513,
+    "-totalBlockingTime": 300,
+    "-largestContentfulPaint": 206
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

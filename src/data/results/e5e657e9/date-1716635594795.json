@@ -1,0 +1,67 @@
+{
+  "url": "https://blacksof.com/",
+  "requestedUrl": "https://blacksof.com/",
+  "timestamp": 1716636306958,
+  "ranks": {
+    "hundos": 717,
+    "performance": 726,
+    "accessibility": 613,
+    "cumulative": 717
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.35,
+    "accessibility": 0.84,
+    "bestPractices": 0.78,
+    "seo": 1,
+    "total": 297
+  },
+  "firstContentfulPaint": 5123.496499999999,
+  "firstMeaningfulPaint": 5198.4965,
+  "speedIndex": 8082.58424419485,
+  "largestContentfulPaint": 9825.677,
+  "totalBlockingTime": 1115.4669999999996,
+  "cumulativeLayoutShift": 0.001100728329137837,
+  "timeToInteractive": 10862.181999999997,
+  "maxPotentialFirstInputDelay": 735.9999999999991,
+  "timeToFirstByte": 170.853,
+  "weight": {
+    "summary": "69 requests • 6.5 MiB",
+    "total": 6822289,
+    "image": 348121,
+    "imageCount": 9,
+    "script": 568861,
+    "scriptCount": 18,
+    "document": 8136,
+    "font": 100394,
+    "fontCount": 4,
+    "stylesheet": 23963,
+    "stylesheetCount": 8,
+    "thirdParty": 485429,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 679,
+    "+weight.total": 55,
+    "-weight.document": 289,
+    "+weight.document": 434,
+    "-weight.script": 600,
+    "+weight.script": 71,
+    "-weight.image": 372,
+    "+weight.image": 288,
+    "-weight.font": 359,
+    "+weight.font": 204,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 517,
+    "-totalBlockingTime": 341,
+    "-largestContentfulPaint": 683
+  },
+  "axe": {
+    "passes": 2753,
+    "violations": 33
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://captable.inc/",
+  "requestedUrl": "https://dub.sh/cap-new-astro",
+  "timestamp": 1716646425899,
+  "ranks": {
+    "hundos": 509,
+    "performance": 585,
+    "accessibility": 419,
+    "cumulative": 509
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.73,
+    "accessibility": 0.93,
+    "bestPractices": 0.93,
+    "seo": 1,
+    "total": 359
+  },
+  "firstContentfulPaint": 3078.3624999999993,
+  "firstMeaningfulPaint": 3078.3624999999993,
+  "speedIndex": 3096.3617779971773,
+  "largestContentfulPaint": 5795.254999999999,
+  "totalBlockingTime": 57,
+  "cumulativeLayoutShift": 0.029825359397844364,
+  "timeToInteractive": 5217.472499999999,
+  "maxPotentialFirstInputDelay": 102,
+  "timeToFirstByte": 78.49500000000002,
+  "weight": {
+    "summary": "32 requests • 686.2 KiB",
+    "total": 702632,
+    "image": 261491,
+    "imageCount": 6,
+    "script": 324990,
+    "scriptCount": 16,
+    "document": 11700,
+    "font": 92637,
+    "fontCount": 3,
+    "stylesheet": 10860,
+    "stylesheetCount": 1,
+    "thirdParty": 132411,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 410,
+    "+weight.total": 324,
+    "-weight.document": 402,
+    "+weight.document": 321,
+    "-weight.script": 525,
+    "+weight.script": 146,
+    "-weight.image": 332,
+    "+weight.image": 328,
+    "-weight.font": 348,
+    "+weight.font": 215,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 292,
+    "-totalBlockingTime": 89,
+    "-largestContentfulPaint": 625
+  },
+  "axe": {
+    "passes": 314,
+    "violations": 19
+  }
+}

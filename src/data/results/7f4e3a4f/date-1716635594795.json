@@ -1,0 +1,67 @@
+{
+  "url": "https://evenbloom.com/",
+  "requestedUrl": "https://evenbloom.com/",
+  "timestamp": 1716655490472,
+  "ranks": {
+    "hundos": 329,
+    "performance": 467,
+    "accessibility": 322,
+    "cumulative": 328
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.86,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 381
+  },
+  "firstContentfulPaint": 2243.0255,
+  "firstMeaningfulPaint": 2317.5255,
+  "speedIndex": 3353.7160635095997,
+  "largestContentfulPaint": 3436.2185000000004,
+  "totalBlockingTime": 151,
+  "cumulativeLayoutShift": 0.010016270792497664,
+  "timeToInteractive": 4397.473500000001,
+  "maxPotentialFirstInputDelay": 154,
+  "timeToFirstByte": 275.44500000000005,
+  "weight": {
+    "summary": "39 requests • 608.5 KiB",
+    "total": 623061,
+    "image": 279835,
+    "imageCount": 20,
+    "script": 161976,
+    "scriptCount": 9,
+    "document": 8478,
+    "font": 58208,
+    "fontCount": 2,
+    "stylesheet": 10766,
+    "stylesheetCount": 3,
+    "thirdParty": 314628,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 389,
+    "+weight.total": 345,
+    "-weight.document": 298,
+    "+weight.document": 425,
+    "-weight.script": 418,
+    "+weight.script": 253,
+    "-weight.image": 345,
+    "+weight.image": 315,
+    "-weight.font": 243,
+    "+weight.font": 320,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 577,
+    "-totalBlockingTime": 178,
+    "-largestContentfulPaint": 502
+  },
+  "axe": {
+    "passes": 636,
+    "violations": 4
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://lucidmotors.com/de-de",
+  "requestedUrl": "https://www.lucidmotors.com/",
+  "timestamp": 1716661297170,
+  "ranks": {
+    "hundos": 559,
+    "performance": 677,
+    "accessibility": 281,
+    "cumulative": 552
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.58,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 354
+  },
+  "firstContentfulPaint": 4396.870500000001,
+  "firstMeaningfulPaint": 4787.638482025147,
+  "speedIndex": 7770.1573586452605,
+  "largestContentfulPaint": 16264.497982025146,
+  "totalBlockingTime": 100,
+  "cumulativeLayoutShift": 0.01599333558728476,
+  "timeToInteractive": 15991.682982025144,
+  "maxPotentialFirstInputDelay": 284,
+  "timeToFirstByte": 985.8789999999999,
+  "weight": {
+    "summary": "193 requests • 14.6 MiB",
+    "total": 15339303,
+    "image": 5092663,
+    "imageCount": 61,
+    "script": 560970,
+    "scriptCount": 86,
+    "document": 60529,
+    "font": 427426,
+    "fontCount": 8,
+    "stylesheet": 38682,
+    "stylesheetCount": 12,
+    "thirdParty": 447589,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 718,
+    "+weight.total": 16,
+    "-weight.document": 668,
+    "+weight.document": 55,
+    "-weight.script": 599,
+    "+weight.script": 72,
+    "-weight.image": 621,
+    "+weight.image": 39,
+    "-weight.font": 528,
+    "+weight.font": 35,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 689,
+    "-totalBlockingTime": 136,
+    "-largestContentfulPaint": 711
+  },
+  "axe": {
+    "passes": 1080,
+    "violations": 2
+  }
+}

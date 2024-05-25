@@ -1,0 +1,66 @@
+{
+  "url": "https://www.futuresuper.com.au/",
+  "requestedUrl": "https://www.futuresuper.com.au/",
+  "timestamp": 1716661022179,
+  "ranks": {
+    "hundos": 684,
+    "performance": 665,
+    "accessibility": 579,
+    "cumulative": 685
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.62,
+    "accessibility": 0.87,
+    "bestPractices": 0.74,
+    "seo": 0.92,
+    "total": 315
+  },
+  "firstContentfulPaint": 1974.8705,
+  "firstMeaningfulPaint": 1974.8705,
+  "speedIndex": 18650.49732214401,
+  "largestContentfulPaint": 7715.369999999998,
+  "totalBlockingTime": 172.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 9270.113500000003,
+  "maxPotentialFirstInputDelay": 122,
+  "timeToFirstByte": 27.037999999999954,
+  "weight": {
+    "summary": "104 requests • 5.4 MiB",
+    "total": 5611765,
+    "image": 875744,
+    "imageCount": 21,
+    "script": 537135,
+    "scriptCount": 46,
+    "document": 81766,
+    "font": 162458,
+    "fontCount": 3,
+    "stylesheet": 8479,
+    "stylesheetCount": 10,
+    "thirdParty": 706377,
+    "thirdPartyCount": 16
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 667,
+    "+weight.total": 67,
+    "-weight.document": 684,
+    "+weight.document": 39,
+    "-weight.script": 595,
+    "+weight.script": 76,
+    "-weight.image": 494,
+    "+weight.image": 166,
+    "-weight.font": 430,
+    "+weight.font": 133,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 43,
+    "-totalBlockingTime": 190,
+    "-largestContentfulPaint": 661
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}
