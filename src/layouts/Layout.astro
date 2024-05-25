@@ -1,8 +1,17 @@
 ---
-import { screenshotUrl } from "../util/screenshotAPI";
+import { screenshotUrl } from '../util/screenshotAPI';
+import 'speedlify-score/speedlify-score.css';
+import '../base.css';
 
-const title = 'Hyperdrive Speedometer 🚀'
-const description = 'Benchmarking the performance of web sites built with Astro.';
+interface Props {
+	title?: string;
+	description?: string;
+}
+
+const {
+	title = 'Hyperdrive Speedometer 🚀',
+	description = 'Benchmarking the performance of web sites built with Astro.',
+} = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const ogImageSrc = screenshotUrl(canonical);
 const ogImageAlt = `Screenshot of “${title}”`;
@@ -11,39 +20,57 @@ const ogImageAlt = `Screenshot of “${title}”`;
 <!doctype html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>{title}</title>
-		<link rel="canonical" href={canonical}>
-		<meta name="description" content={description}>
-		<link rel="stylesheet" href="/style.css">
+		<link rel="canonical" href={canonical} />
+		<meta name="description" content={description} />
+		<link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml" />
+		<meta name="generator" content={Astro.generator} />
 
 		<!-- Facebook Meta Tags -->
-		<meta property="og:url" content={canonical}>
-		<meta property="og:type" content="website">
-		<meta property="og:title" content={title}>
-		<meta property="og:description" content={description}>
-		<meta property="og:image" content={ogImageSrc}>
+		<meta property="og:url" content={canonical} />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:image" content={ogImageSrc} />
 		<meta property="og:image:alt" content={ogImageAlt} />
 
 		<!-- Twitter Meta Tags -->
-		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:site" content="swithinbank" />
-		<meta property="twitter:domain" content={Astro.site.hostname}>
-		<meta property="twitter:url" content={canonical}>
-		<meta name="twitter:title" content={title}>
-		<meta name="twitter:description" content={description}>
-		<meta name="twitter:image" content={ogImageSrc}>
+		<meta property="twitter:domain" content={Astro.site.hostname} />
+		<meta property="twitter:url" content={canonical} />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={ogImageSrc} />
 		<meta name="twitter:image:alt" content={ogImageAlt} />
 
-		<script is:inline>document.documentElement.classList.add("js");</script>
+		<script is:inline>
+			document.documentElement.classList.add('js');
+		</script>
 	</head>
 	<body>
-		<h1>Hyperdrive Speedometer</h1>
-    <p>Benchmarking the performance of Astro sites over time.</p>
-		<slot />
+		<header>
+			<h1>Hyperdrive Speedometer</h1>
+			<p>Benchmarking the performance of Astro sites over time.</p>
+		</header>
+		<main>
+			<slot />
+		</main>
 		<footer>
-			MIT licensed. Built with <a href="https://astro.build/">Astro</a>. Source code on <a href="https://github.com/delucis/hyperdrive-speedometer">GitHub</a>. Based on <a href="https://github.com/zachleat/speedlify/">Speedlify</a> by <a href="https://www.zachleat.com/">@zachleat</a>.
+			MIT licensed. Built with <a href="https://astro.build/">Astro</a>. Source code on <a
+				href="https://github.com/delucis/hyperdrive-speedometer">GitHub</a
+			>. Based on <a href="https://github.com/zachleat/speedlify/">Speedlify</a> by <a
+				href="https://www.zachleat.com/">@zachleat</a
+			>.
 		</footer>
+		<style>
+			body {
+				display: flex;
+				flex-direction: column;
+				gap: 5rem;
+			}
+		</style>
 	</body>
 </html>

@@ -1,0 +1,97 @@
+---
+import type { TestData } from '../util/data-schema';
+import SideQuests from './SideQuests.astro';
+
+interface Props {
+	data: TestData;
+	href?: string;
+}
+
+const { data, href = data.url } = Astro.props;
+
+const displayURL = (url: string | undefined) => url?.replace(/^https?:\/\//, '');
+const hasRedirect = data.requestedUrl && data.requestedUrl !== data.url;
+const randomBuildID = Math.round(Date.now() / 60_000);
+---
+
+<td class="leaderboard-url">
+	<a {href}>
+		<img
+			src={`https://v1.indieweb-avatar.11ty.dev/${encodeURIComponent(data.url + '?bust=' + randomBuildID)}`}
+			alt={`IndieWeb Avatar for ${displayURL(data.url)}`}
+			class="leaderboard-list-entry-thumbnail"
+			loading="lazy"
+			decoding="async"
+			width="150"
+			height="150"
+		/>
+		<code class="url">{displayURL(data.url)}</code>
+	</a>
+	<SideQuests {data} />
+	{
+		hasRedirect && (
+			<span class="leaderboard-redirect-warn">
+				Redirect from <code class="url">{displayURL(data.requestedUrl)}</code>
+			</span>
+		)
+	}
+</td>
+<td class="leaderboard-hide-md">
+	<img
+		src={`https://v1.builtwith.11ty.dev/${encodeURIComponent(data.url)}/image/host/`}
+		width="60"
+		height="60"
+		alt="Hosting avatar for this site"
+		class="leaderboard-list-entry-thumbnail small"
+		loading="lazy"
+		decoding="async"
+	/>
+</td>
+
+<style>
+	.leaderboard-url {
+		width: 100%;
+	}
+	.leaderboard-url a[href] {
+		display: inline-flex;
+		vertical-align: middle;
+	}
+	.url {
+		word-break: break-word;
+	}
+	@media (min-width: 37.5em) {
+		.url {
+			font-size: 1.25em;
+		}
+	}
+
+	.leaderboard-list-entry-thumbnail {
+		width: 2em;
+		height: 2em;
+		margin-right: 0.5em;
+		vertical-align: middle;
+		border: none;
+		border-radius: 0.2em;
+	}
+	.leaderboard-list-entry-thumbnail.small {
+		width: 1.5em;
+		height: 1.5em;
+		font-size: 0.8125em;
+	}
+
+	.leaderboard-redirect-warn {
+		text-transform: uppercase;
+		font-size: 0.75em;
+		font-weight: 400;
+		margin-left: 1rem;
+	}
+	.leaderboard-redirect-warn {
+		color: hsl(58, 100%, 71%);
+	}
+	.leaderboard-redirect-warn::before {
+		content: '⚠️ ';
+	}
+	.leaderboard-redirect-warn code {
+		text-transform: none;
+	}
+</style>

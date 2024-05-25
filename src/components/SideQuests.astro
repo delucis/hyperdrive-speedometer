@@ -1,0 +1,67 @@
+---
+import type { TestData } from '../util/data-schema';
+
+interface Props {
+	data: TestData;
+}
+
+const { data } = Astro.props;
+const getMedal = (rank: number) => ['🥇', '🥈', '🥉'][rank - 1];
+---
+
+{
+	data.sidequests && data.sidequests['-weight.total'] < 4 && (
+		<span class="sidequest-badge" title="Least Total Page Weight">
+			⬇ Weight {getMedal(data.sidequests['-weight.total'])}
+		</span>
+	)
+}
+{
+	data.weight.script === 0 ? (
+		<span class="sidequest-badge" title="Zero JavaScript Weight">
+			0 JS ⚡️
+		</span>
+	) : (
+		data.sidequests &&
+		data.sidequests['-weight.script'] < 4 && (
+			<span class="sidequest-badge" title="Least Total JavaScript Weight">
+				⬇ JS {getMedal(data.sidequests['-weight.script'])}
+			</span>
+		)
+	)
+}
+{
+	data.sidequests && data.sidequests['-timeToFirstByte'] < 4 && (
+		<span class="sidequest-badge" title="Fastest Time to First Byte">
+			⬇ TTFB {getMedal(data.sidequests['-timeToFirstByte'])}
+		</span>
+	)
+}
+{
+	data.sidequests && data.sidequests['-largestContentfulPaint'] < 4 && (
+		<span class="sidequest-badge" title="Smallest Largest Contentful Paint Time">
+			⬇ LCP {getMedal(data.sidequests['-largestContentfulPaint'])}
+		</span>
+	)
+}
+{
+	data.sidequests && data.sidequests['+weight.font'] < 4 && (
+		<span class="sidequest-badge" title="Most Web Fonts (by file count)">
+			⬆ Web fonts {getMedal(data.sidequests['+weight.font'])}
+		</span>
+	)
+}
+
+<style>
+
+	.sidequest-badge {
+		margin-left: 0.5em;
+		font-size: 0.6666666666667em;
+		background-color: #000000;
+		border-radius: 0.2142857142857em;
+		padding: 0.1428571428571em 0.2857142857143em;
+		text-transform: uppercase;
+		letter-spacing: -0.3px;
+		white-space: nowrap;
+	}
+</style>

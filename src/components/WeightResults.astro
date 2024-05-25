@@ -1,57 +1,63 @@
 ---
-import type { TestData } from "../util/data-schema";
-import { displayDate } from "../util/formatters";
-import WeightCell from "./WeightCell.astro";
+import type { TestData } from '../util/data-schema';
+import { displayDate } from '../util/formatters';
+import WeightCell from './WeightCell.astro';
 
 export interface Props {
-  entries: TestData[];
+	entries: TestData[];
 }
 
 const { entries } = Astro.props as Props;
 ---
 
 <div class="layout color--weight">
-  <div class="tablewrap">
-    <table data-make-chart class="results">
-      <thead>
-        <tr>
-          <th rowspan={2} class="results-date">Date</th>
-          <th colspan={7}>Weight</th>
-        </tr>
-        <tr>
-          <th class="results-series-a">Total</th>
-          <th class="results-series-b">HTML</th>
-          <th class="results-series-c"><abbr title="Cascading Style Sheets">CSS</abbr></th>
-          <th class="results-series-d"><abbr title="JavaScript">JS</abbr></th>
-          <th class="results-series-e">Images</th>
-          <th class="results-series-f">Fonts</th>
-          <th>Third Party</th>
-        </tr>
-      </thead>
-      <tbody>
-        {entries.map(entry => <tr>
-          <td><code class="date">{displayDate(entry.timestamp)}</code></td>
-          <WeightCell size={entry.weight.total} />
-          <WeightCell size={entry.weight.document} />
-          <WeightCell size={entry.weight.stylesheet} count={entry.weight.stylesheetCount} />
-          <WeightCell size={entry.weight.script} count={entry.weight.scriptCount} />
-          <WeightCell size={entry.weight.image} count={entry.weight.imageCount} />
-          <WeightCell size={entry.weight.font} count={entry.weight.fontCount} />
-          <WeightCell size={entry.weight.thirdParty} count={entry.weight.thirdPartyCount} />
-        </tr>)}
-      </tbody>
-    </table>
-  </div>
-  <div data-js-only class="ct-chart ct-double-octave"></div>
+	<div class="tablewrap">
+		<table data-make-chart class="results">
+			<thead>
+				<tr>
+					<th rowspan={2} class="results-date">Date</th>
+					<th colspan={7}>Weight</th>
+				</tr>
+				<tr>
+					<th class="results-series-a">Total</th>
+					<th class="results-series-b">HTML</th>
+					<th class="results-series-c"><abbr title="Cascading Style Sheets">CSS</abbr></th>
+					<th class="results-series-d"><abbr title="JavaScript">JS</abbr></th>
+					<th class="results-series-e">Images</th>
+					<th class="results-series-f">Fonts</th>
+					<th>Third Party</th>
+				</tr>
+			</thead>
+			<tbody>
+				{
+					entries.map((entry) => (
+						<tr>
+							<td>
+								<code class="date">{displayDate(entry.timestamp)}</code>
+							</td>
+							<WeightCell size={entry.weight.total} />
+							<WeightCell size={entry.weight.document} />
+							<WeightCell size={entry.weight.stylesheet} count={entry.weight.stylesheetCount} />
+							<WeightCell size={entry.weight.script} count={entry.weight.scriptCount} />
+							<WeightCell size={entry.weight.image} count={entry.weight.imageCount} />
+							<WeightCell size={entry.weight.font} count={entry.weight.fontCount} />
+							<WeightCell size={entry.weight.thirdParty} count={entry.weight.thirdPartyCount} />
+						</tr>
+					))
+				}
+			</tbody>
+		</table>
+	</div>
+	<div data-js-only class="ct-chart ct-double-octave"></div>
 </div>
 
 <style>
-  .color--weight {
-    --speedlify-color-1: #5100ff;
-    --speedlify-color-2: #de00c3;
-    --speedlify-color-3: #ff0085;
-    --speedlify-color-4: #ff004f;
-    --speedlify-color-5: #ff6c22;
-    --speedlify-color-6: #ffa600;
-  }
+	.color--weight {
+		--speedlify-color-1: #5100ff;
+		--speedlify-color-2: #de00c3;
+		--speedlify-color-3: #ff0085;
+		--speedlify-color-4: #ff004f;
+		--speedlify-color-5: #ff6c22;
+		--speedlify-color-6: #ffa600;
+	}
 </style>

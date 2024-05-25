@@ -71,20 +71,18 @@ module.exports = {
       'https://akashrajpurohit.com/?ref=astro-showcase'
     ]);
 
-    const fetch = (await import('node-fetch')).default;
+		const fetch = (await import('node-fetch')).default;
 
-    /** @type {string[]} */
-    const urls = await fetch('https://astro.build/api/showcase.json')
-      .then((res) => res.json())
-      .then((json) =>
-        json.map((site) => site.url).filter((url) => !blocklist.has(url))
-      );
+		/** @type {string[]} */
+		const urls = await fetch('https://astro.build/api/showcase.json')
+			.then((res) => res.json())
+			.then((json) => json.map((site) => site.url).filter((url) => !blocklist.has(url)));
 
-    return {
-      name: 'Showcase',
-      description: 'Sites from the Astro showcase',
-      options: { frequency: 1380 },
-      urls,
-    };
-  },
+		return {
+			name: 'Showcase',
+			description: 'Sites from the Astro showcase',
+			options: { frequency: 1380 },
+			urls,
+		};
+	},
 };

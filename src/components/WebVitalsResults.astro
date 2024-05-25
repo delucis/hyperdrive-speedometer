@@ -1,101 +1,141 @@
 ---
-import type { TestData } from "../util/data-schema";
-import { displayDate, displayTime, showDigits } from "../util/formatters";
+import type { TestData } from '../util/data-schema';
+import { displayDate, displayTime, showDigits } from '../util/formatters';
 
 export interface Props {
-  entries: TestData[];
+	entries: TestData[];
 }
 
 const { entries } = Astro.props as Props;
 
 const lighthouseMaximums = {
-  average: { fcp: 4000, si: 5800, lcp: 4000, tti: 7300, tbt: 600, cls: 0.25 },
-  good: { fcp: 2336, si: 3387, lcp: 2500, tti: 3875, tbt: 287, cls: 0.1 },
+	average: { fcp: 4000, si: 5800, lcp: 4000, tti: 7300, tbt: 600, cls: 0.25 },
+	good: { fcp: 2336, si: 3387, lcp: 2500, tti: 3875, tbt: 287, cls: 0.1 },
 };
 ---
 
 <div class="layout color--vitals">
-  <div class="tablewrap">
-    <table data-make-chart class="results">
-      <thead>
-        <tr>
-          <th rowspan={2} class="results-date">Date</th>
-          <th colspan={8}>Core Web Vitals</th>
-          <th colspan={6}>Web Vitals</th>
-        </tr>
-        <tr>
-          <th class="results-series-a" colspan={2}><abbr title="Largest Contentful Paint">LCP</abbr></th>
-          <th class="results-series-b" colspan={2}>Max <span class="leaderboard-hide-sm">Potential </span><abbr
-              title="First Input Delay">FID</abbr></th>
-          <th class="results-series-c" colspan={2}><abbr title="Total Blocking Time">TBT</abbr></th>
-          <th colspan={2}><abbr title="Cumulative Layout Shift">CLS</abbr></th>
-          <th class="results-series-d" colspan={2}><abbr title="First Contentful Paint">FCP</abbr></th>
-          <th class="results-series-e" colspan={2}><abbr title="Speed Index">SI</abbr></th>
-          <th class="results-series-f" colspan={2}><abbr title="Time to Interactive">TTI</abbr></th>
-        </tr>
-      </thead>
-      <tbody>
-        {entries.map(entry => <tr>
-          <td><code class="date">{displayDate(entry.timestamp)}</code></td>
-          <td class="results-bool">{
-            entry.largestContentfulPaint > lighthouseMaximums.average.lcp
-            ? <span class="leaderboard-hide-sm">🚫</span>
-            : entry.largestContentfulPaint > lighthouseMaximums.good.lcp
-            && <span class="leaderboard-hide-sm">⚠️</span>
-            }</td>
-          <td data-numeric-value={entry.largestContentfulPaint}>{displayTime(entry.largestContentfulPaint)}</td>
-          <td class="results-bool"></td>
-          <td data-numeric-value={entry.maxPotentialFirstInputDelay}>
-            {displayTime(entry.maxPotentialFirstInputDelay)}</td>
-          <td class="results-bool">{
-            entry.totalBlockingTime > lighthouseMaximums.average.tbt
-            ? <span class="leaderboard-hide-sm">🚫</span>
-            : entry.totalBlockingTime > lighthouseMaximums.good.tbt
-            && <span class="leaderboard-hide-sm">⚠️</span>
-            }</td>
-          <td data-numeric-value={entry.totalBlockingTime}>{displayTime(entry.totalBlockingTime)}</td>
-          <td class="results-bool">{
-            entry.cumulativeLayoutShift > lighthouseMaximums.average.cls
-            ? <span class="leaderboard-hide-sm">🚫</span>
-            : entry.cumulativeLayoutShift > lighthouseMaximums.good.cls
-            && <span class="leaderboard-hide-sm">⚠️</span>
-            }</td>
-          <td>{showDigits(entry.cumulativeLayoutShift, 2)}</td>
-          <td class="results-bool">{
-            entry.firstContentfulPaint > lighthouseMaximums.average.fcp
-            ? <span class="leaderboard-hide-sm">🚫</span>
-            : entry.firstContentfulPaint > lighthouseMaximums.good.fcp
-            && <span class="leaderboard-hide-sm">⚠️</span>
-            }</td>
-          <td data-numeric-value={entry.firstContentfulPaint}>{displayTime(entry.firstContentfulPaint)}</td>
-          <td class="results-bool">{
-            entry.speedIndex > lighthouseMaximums.average.si
-            ? <span class="leaderboard-hide-sm">🚫</span>
-            : entry.speedIndex > lighthouseMaximums.good.si
-            && <span class="leaderboard-hide-sm">⚠️</span>
-            }</td>
-          <td data-numeric-value={entry.speedIndex}>{displayTime(entry.speedIndex)}</td>
-          <td class="results-bool">{
-            entry.timeToInteractive > lighthouseMaximums.average.tti
-            ? <span class="leaderboard-hide-sm">🚫</span>
-            : entry.timeToInteractive > lighthouseMaximums.good.tti
-            && <span class="leaderboard-hide-sm">⚠️</span>
-            }</td>
-          <td data-numeric-value={entry.timeToInteractive}>{displayTime(entry.timeToInteractive)}</td>
-        </tr>)}
-      </tbody>
-    </table>
-  </div>
-  <div data-js-only class="ct-chart ct-double-octave"></div>
+	<div class="tablewrap">
+		<table data-make-chart class="results">
+			<thead>
+				<tr>
+					<th rowspan={2} class="results-date">Date</th>
+					<th colspan={8}>Core Web Vitals</th>
+					<th colspan={6}>Web Vitals</th>
+				</tr>
+				<tr>
+					<th class="results-series-a" colspan={2}
+						><abbr title="Largest Contentful Paint">LCP</abbr></th
+					>
+					<th class="results-series-b" colspan={2}
+						>Max <span class="leaderboard-hide-sm">Potential </span><abbr title="First Input Delay"
+							>FID</abbr
+						></th
+					>
+					<th class="results-series-c" colspan={2}><abbr title="Total Blocking Time">TBT</abbr></th>
+					<th colspan={2}><abbr title="Cumulative Layout Shift">CLS</abbr></th>
+					<th class="results-series-d" colspan={2}
+						><abbr title="First Contentful Paint">FCP</abbr></th
+					>
+					<th class="results-series-e" colspan={2}><abbr title="Speed Index">SI</abbr></th>
+					<th class="results-series-f" colspan={2}><abbr title="Time to Interactive">TTI</abbr></th>
+				</tr>
+			</thead>
+			<tbody>
+				{
+					entries.map((entry) => (
+						<tr>
+							<td>
+								<code class="date">{displayDate(entry.timestamp)}</code>
+							</td>
+							<td class="results-bool">
+								{entry.largestContentfulPaint > lighthouseMaximums.average.lcp ? (
+									<span class="leaderboard-hide-sm">🚫</span>
+								) : (
+									entry.largestContentfulPaint > lighthouseMaximums.good.lcp && (
+										<span class="leaderboard-hide-sm">⚠️</span>
+									)
+								)}
+							</td>
+							<td data-numeric-value={entry.largestContentfulPaint}>
+								{displayTime(entry.largestContentfulPaint)}
+							</td>
+							<td class="results-bool" />
+							<td data-numeric-value={entry.maxPotentialFirstInputDelay}>
+								{displayTime(entry.maxPotentialFirstInputDelay)}
+							</td>
+							<td class="results-bool">
+								{entry.totalBlockingTime > lighthouseMaximums.average.tbt ? (
+									<span class="leaderboard-hide-sm">🚫</span>
+								) : (
+									entry.totalBlockingTime > lighthouseMaximums.good.tbt && (
+										<span class="leaderboard-hide-sm">⚠️</span>
+									)
+								)}
+							</td>
+							<td data-numeric-value={entry.totalBlockingTime}>
+								{displayTime(entry.totalBlockingTime)}
+							</td>
+							<td class="results-bool">
+								{entry.cumulativeLayoutShift > lighthouseMaximums.average.cls ? (
+									<span class="leaderboard-hide-sm">🚫</span>
+								) : (
+									entry.cumulativeLayoutShift > lighthouseMaximums.good.cls && (
+										<span class="leaderboard-hide-sm">⚠️</span>
+									)
+								)}
+							</td>
+							<td>{showDigits(entry.cumulativeLayoutShift, 2)}</td>
+							<td class="results-bool">
+								{entry.firstContentfulPaint > lighthouseMaximums.average.fcp ? (
+									<span class="leaderboard-hide-sm">🚫</span>
+								) : (
+									entry.firstContentfulPaint > lighthouseMaximums.good.fcp && (
+										<span class="leaderboard-hide-sm">⚠️</span>
+									)
+								)}
+							</td>
+							<td data-numeric-value={entry.firstContentfulPaint}>
+								{displayTime(entry.firstContentfulPaint)}
+							</td>
+							<td class="results-bool">
+								{entry.speedIndex > lighthouseMaximums.average.si ? (
+									<span class="leaderboard-hide-sm">🚫</span>
+								) : (
+									entry.speedIndex > lighthouseMaximums.good.si && (
+										<span class="leaderboard-hide-sm">⚠️</span>
+									)
+								)}
+							</td>
+							<td data-numeric-value={entry.speedIndex}>{displayTime(entry.speedIndex)}</td>
+							<td class="results-bool">
+								{entry.timeToInteractive > lighthouseMaximums.average.tti ? (
+									<span class="leaderboard-hide-sm">🚫</span>
+								) : (
+									entry.timeToInteractive > lighthouseMaximums.good.tti && (
+										<span class="leaderboard-hide-sm">⚠️</span>
+									)
+								)}
+							</td>
+							<td data-numeric-value={entry.timeToInteractive}>
+								{displayTime(entry.timeToInteractive)}
+							</td>
+						</tr>
+					))
+				}
+			</tbody>
+		</table>
+	</div>
+	<div data-js-only class="ct-chart ct-double-octave"></div>
 </div>
 
 <style>
-  .color--vitals {
-    --speedlify-color-1: #374c80;
-    --speedlify-color-2: #7a5195;
-    --speedlify-color-3: #bc5090;
-    --speedlify-color-4: #ef5675;
-    --speedlify-color-5: #ff764a;
-    --speedlify-color-6: #ffa600;
-  }
+	.color--vitals {
+		--speedlify-color-1: #374c80;
+		--speedlify-color-2: #7a5195;
+		--speedlify-color-3: #bc5090;
+		--speedlify-color-4: #ef5675;
+		--speedlify-color-5: #ff764a;
+		--speedlify-color-6: #ffa600;
+	}
 </style>
