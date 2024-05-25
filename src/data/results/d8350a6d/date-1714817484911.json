@@ -1,0 +1,67 @@
+{
+  "url": "https://coachbit.com/",
+  "requestedUrl": "https://coachbit.com/",
+  "timestamp": 1714860591215,
+  "ranks": {
+    "hundos": 172,
+    "performance": 196,
+    "accessibility": 235,
+    "cumulative": 175
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.88,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 380
+  },
+  "firstContentfulPaint": 1187.681,
+  "firstMeaningfulPaint": 1230.181,
+  "speedIndex": 1697.5951031854518,
+  "largestContentfulPaint": 2039.681,
+  "totalBlockingTime": 441.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2635.181,
+  "maxPotentialFirstInputDelay": 349,
+  "timeToFirstByte": 25.11700000000002,
+  "weight": {
+    "summary": "27 requests • 298 KiB",
+    "total": 304942,
+    "image": 107954,
+    "imageCount": 6,
+    "script": 22426,
+    "scriptCount": 12,
+    "document": 28204,
+    "font": 131856,
+    "fontCount": 3,
+    "stylesheet": 12543,
+    "stylesheetCount": 1,
+    "thirdParty": 563,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 258,
+    "+weight.total": 457,
+    "-weight.document": 581,
+    "+weight.document": 129,
+    "-weight.script": 173,
+    "+weight.script": 485,
+    "-weight.image": 232,
+    "+weight.image": 411,
+    "-weight.font": 397,
+    "+weight.font": 147,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 55,
+    "-totalBlockingTime": 191,
+    "-largestContentfulPaint": 171
+  },
+  "axe": {
+    "passes": 937,
+    "violations": 65
+  }
+}

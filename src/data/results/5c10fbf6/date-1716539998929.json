@@ -1,0 +1,67 @@
+{
+  "url": "https://lyneva.netlify.app/",
+  "requestedUrl": "https://lyneva.netlify.app/",
+  "timestamp": 1716580172241,
+  "ranks": {
+    "hundos": 104,
+    "performance": 249,
+    "accessibility": 189,
+    "cumulative": 101
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.96,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 1907.309,
+  "firstMeaningfulPaint": 1907.309,
+  "speedIndex": 3887.6684571651795,
+  "largestContentfulPaint": 2034.5700000000002,
+  "totalBlockingTime": 25.5,
+  "cumulativeLayoutShift": 0.0028670052422417533,
+  "timeToInteractive": 2135.57,
+  "maxPotentialFirstInputDelay": 101,
+  "timeToFirstByte": 408.878,
+  "weight": {
+    "summary": "40 requests • 323 KiB",
+    "total": 330473,
+    "image": 213503,
+    "imageCount": 30,
+    "script": 42267,
+    "scriptCount": 1,
+    "document": 8628,
+    "font": 59853,
+    "fontCount": 4,
+    "stylesheet": 5820,
+    "stylesheetCount": 3,
+    "thirdParty": 62022,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 278,
+    "+weight.total": 460,
+    "-weight.document": 308,
+    "+weight.document": 424,
+    "-weight.script": 231,
+    "+weight.script": 447,
+    "-weight.image": 312,
+    "+weight.image": 352,
+    "-weight.font": 242,
+    "+weight.font": 311,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 638,
+    "-totalBlockingTime": 42,
+    "-largestContentfulPaint": 240
+  },
+  "axe": {
+    "passes": 371,
+    "violations": 4
+  }
+}

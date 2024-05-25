@@ -1,0 +1,67 @@
+{
+  "url": "https://www.contenda.co/",
+  "requestedUrl": "https://contenda.co/",
+  "timestamp": 1714819529028,
+  "ranks": {
+    "hundos": 392,
+    "performance": 408,
+    "accessibility": 445,
+    "cumulative": 399
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.61,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 348
+  },
+  "firstContentfulPaint": 3810.177,
+  "firstMeaningfulPaint": 4260.177000000001,
+  "speedIndex": 4761.401581225475,
+  "largestContentfulPaint": 7199.8904999999995,
+  "totalBlockingTime": 22,
+  "cumulativeLayoutShift": 0.025440216064453125,
+  "timeToInteractive": 7369.8904999999995,
+  "maxPotentialFirstInputDelay": 70,
+  "timeToFirstByte": 17.611000000000004,
+  "weight": {
+    "summary": "45 requests • 3,108 KiB",
+    "total": 3182754,
+    "image": 2774626,
+    "imageCount": 13,
+    "script": 270870,
+    "scriptCount": 20,
+    "document": 22360,
+    "font": 112804,
+    "fontCount": 6,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 3160053,
+    "thirdPartyCount": 43
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 618,
+    "+weight.total": 97,
+    "-weight.document": 546,
+    "+weight.document": 164,
+    "-weight.script": 486,
+    "+weight.script": 172,
+    "-weight.image": 578,
+    "+weight.image": 65,
+    "-weight.font": 369,
+    "+weight.font": 175,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 33,
+    "-totalBlockingTime": 28,
+    "-largestContentfulPaint": 351
+  },
+  "axe": {
+    "passes": 342,
+    "violations": 21
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://beesvpn.com/",
+  "requestedUrl": "https://beesvpn.com/",
+  "timestamp": 1714818403100,
+  "ranks": {
+    "hundos": 12,
+    "performance": 13,
+    "accessibility": 188,
+    "cumulative": 23
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 998.9689999999999,
+  "firstMeaningfulPaint": 1024.969,
+  "speedIndex": 1105.2276333031264,
+  "largestContentfulPaint": 1752.381,
+  "totalBlockingTime": 10.000000000000057,
+  "cumulativeLayoutShift": 0.0024404525756835938,
+  "timeToInteractive": 1033.969,
+  "maxPotentialFirstInputDelay": 160.0000000000001,
+  "timeToFirstByte": 75.39499999999998,
+  "weight": {
+    "summary": "5 requests • 63 KiB",
+    "total": 64996,
+    "image": 55558,
+    "imageCount": 3,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 3612,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 5826,
+    "stylesheetCount": 1,
+    "thirdParty": 28177,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 53,
+    "+weight.total": 662,
+    "-weight.document": 63,
+    "+weight.document": 647,
+    "-weight.script": 1,
+    "+weight.script": 658,
+    "-weight.image": 170,
+    "+weight.image": 473,
+    "-weight.font": 1,
+    "+weight.font": 544,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 306,
+    "-totalBlockingTime": 15,
+    "-largestContentfulPaint": 125
+  },
+  "axe": {
+    "passes": 162,
+    "violations": 5
+  }
+}

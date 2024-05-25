@@ -1,0 +1,67 @@
+{
+  "url": "https://arikko.dev/",
+  "requestedUrl": "https://arikko.dev/",
+  "timestamp": 1716540620280,
+  "ranks": {
+    "hundos": 206,
+    "performance": 322,
+    "accessibility": 164,
+    "cumulative": 202
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.91,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.97,
+    "total": 388
+  },
+  "firstContentfulPaint": 1045.453,
+  "firstMeaningfulPaint": 1045.453,
+  "speedIndex": 1453.9047051141729,
+  "largestContentfulPaint": 1045.453,
+  "totalBlockingTime": 359,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3025.487,
+  "maxPotentialFirstInputDelay": 226,
+  "timeToFirstByte": 95.061,
+  "weight": {
+    "summary": "12 requests • 127 KiB",
+    "total": 130291,
+    "image": 240,
+    "imageCount": 2,
+    "script": 120187,
+    "scriptCount": 5,
+    "document": 3900,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 5676,
+    "stylesheetCount": 1,
+    "thirdParty": 119686,
+    "thirdPartyCount": 9
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 138,
+    "+weight.total": 600,
+    "-weight.document": 72,
+    "+weight.document": 660,
+    "-weight.script": 384,
+    "+weight.script": 294,
+    "-weight.image": 7,
+    "+weight.image": 657,
+    "-weight.font": 1,
+    "+weight.font": 553,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 415,
+    "-totalBlockingTime": 278,
+    "-largestContentfulPaint": 390
+  },
+  "axe": {
+    "passes": 120,
+    "violations": 2
+  }
+}

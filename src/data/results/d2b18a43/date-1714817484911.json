@@ -1,0 +1,66 @@
+{
+  "url": "https://dayofthedead.holiday/",
+  "requestedUrl": "https://dayofthedead.holiday/",
+  "timestamp": 1714819944716,
+  "ranks": {
+    "hundos": 644,
+    "performance": 655,
+    "accessibility": 353,
+    "cumulative": 644
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.25,
+    "accessibility": 0.97,
+    "bestPractices": 0.83,
+    "seo": 1,
+    "total": 305
+  },
+  "firstContentfulPaint": 1254.3890000000001,
+  "firstMeaningfulPaint": 1254.3890000000001,
+  "speedIndex": 13086.85921458705,
+  "largestContentfulPaint": 10783.688500000002,
+  "totalBlockingTime": 18960.000000000022,
+  "cumulativeLayoutShift": 0.063232421875,
+  "timeToInteractive": 41692.254000000015,
+  "maxPotentialFirstInputDelay": 1163,
+  "timeToFirstByte": 57.28899999999999,
+  "weight": {
+    "summary": "1,027 requests • 2,939 KiB",
+    "total": 3009282,
+    "image": 541135,
+    "imageCount": 293,
+    "script": 1789813,
+    "scriptCount": 108,
+    "document": 180586,
+    "font": 119882,
+    "fontCount": 2,
+    "stylesheet": 6049,
+    "stylesheetCount": 3,
+    "thirdParty": 2380281,
+    "thirdPartyCount": 1006
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 613,
+    "+weight.total": 102,
+    "-weight.document": 698,
+    "+weight.document": 12,
+    "-weight.script": 654,
+    "+weight.script": 4,
+    "-weight.image": 439,
+    "+weight.image": 204,
+    "-weight.font": 383,
+    "+weight.font": 161,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 244,
+    "-totalBlockingTime": 567,
+    "-largestContentfulPaint": 679
+  },
+  "axe": {
+    "error": "Page load timed out"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://aso.dev/",
+  "requestedUrl": "https://aso.dev/",
+  "timestamp": 1714818118145,
+  "ranks": {
+    "hundos": 190,
+    "performance": 216,
+    "accessibility": 433,
+    "cumulative": 190
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.86,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 0.97,
+    "total": 377
+  },
+  "firstContentfulPaint": 1641.358,
+  "firstMeaningfulPaint": 1696.858,
+  "speedIndex": 3258.3949013304627,
+  "largestContentfulPaint": 3638.95,
+  "totalBlockingTime": 159.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3342.977,
+  "maxPotentialFirstInputDelay": 183,
+  "timeToFirstByte": 561.407,
+  "weight": {
+    "summary": "15 requests • 280 KiB",
+    "total": 286476,
+    "image": 129667,
+    "imageCount": 3,
+    "script": 129288,
+    "scriptCount": 8,
+    "document": 11272,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 15830,
+    "stylesheetCount": 1,
+    "thirdParty": 100079,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 244,
+    "+weight.total": 471,
+    "-weight.document": 386,
+    "+weight.document": 324,
+    "-weight.script": 385,
+    "+weight.script": 273,
+    "-weight.image": 246,
+    "+weight.image": 397,
+    "-weight.font": 1,
+    "+weight.font": 544,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 653,
+    "-totalBlockingTime": 100,
+    "-largestContentfulPaint": 286
+  },
+  "axe": {
+    "passes": 492,
+    "violations": 9
+  }
+}

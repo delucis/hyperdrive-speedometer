@@ -1,0 +1,66 @@
+{
+  "url": "https://dayofthedead.holiday/",
+  "requestedUrl": "https://dayofthedead.holiday/",
+  "timestamp": 1716556156356,
+  "ranks": {
+    "hundos": 705,
+    "performance": 727,
+    "accessibility": 381,
+    "cumulative": 704
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.25,
+    "accessibility": 0.97,
+    "bestPractices": 0.83,
+    "seo": 1,
+    "total": 305
+  },
+  "firstContentfulPaint": 1324.009,
+  "firstMeaningfulPaint": 1324.009,
+  "speedIndex": 12094.873610721159,
+  "largestContentfulPaint": 8647.121000000001,
+  "totalBlockingTime": 11545.628999999992,
+  "cumulativeLayoutShift": 0.063232421875,
+  "timeToInteractive": 39670.66150000002,
+  "maxPotentialFirstInputDelay": 860.0000000000036,
+  "timeToFirstByte": 47.30599999999998,
+  "weight": {
+    "summary": "1,036 requests • 3,128 KiB",
+    "total": 3202573,
+    "image": 556161,
+    "imageCount": 297,
+    "script": 1891007,
+    "scriptCount": 109,
+    "document": 189909,
+    "font": 154106,
+    "fontCount": 5,
+    "stylesheet": 6759,
+    "stylesheetCount": 4,
+    "thirdParty": 2573675,
+    "thirdPartyCount": 1015
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 641,
+    "+weight.total": 97,
+    "-weight.document": 721,
+    "+weight.document": 11,
+    "-weight.script": 675,
+    "+weight.script": 3,
+    "-weight.image": 450,
+    "+weight.image": 214,
+    "-weight.font": 420,
+    "+weight.font": 133,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 235,
+    "-totalBlockingTime": 529,
+    "-largestContentfulPaint": 704
+  },
+  "axe": {
+    "error": "Page load timed out"
+  }
+}

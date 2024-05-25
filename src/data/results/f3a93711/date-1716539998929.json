@@ -1,0 +1,67 @@
+{
+  "url": "https://flag.london/",
+  "requestedUrl": "https://flag.london/",
+  "timestamp": 1716543769727,
+  "ranks": {
+    "hundos": 353,
+    "performance": 474,
+    "accessibility": 146,
+    "cumulative": 346
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.78,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.98,
+    "total": 376
+  },
+  "firstContentfulPaint": 2575.7919999999995,
+  "firstMeaningfulPaint": 2575.7919999999995,
+  "speedIndex": 4215.040340000404,
+  "largestContentfulPaint": 2575.7919999999995,
+  "totalBlockingTime": 95.5,
+  "cumulativeLayoutShift": 0.340173492219713,
+  "timeToInteractive": 4759.774500000001,
+  "maxPotentialFirstInputDelay": 234,
+  "timeToFirstByte": 794.9830000000001,
+  "weight": {
+    "summary": "58 requests • 1,228 KiB",
+    "total": 1257369,
+    "image": 489898,
+    "imageCount": 38,
+    "script": 102319,
+    "scriptCount": 9,
+    "document": 13999,
+    "font": 12850,
+    "fontCount": 1,
+    "stylesheet": 4969,
+    "stylesheetCount": 3,
+    "thirdParty": 100287,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 516,
+    "+weight.total": 222,
+    "-weight.document": 459,
+    "+weight.document": 273,
+    "-weight.script": 353,
+    "+weight.script": 325,
+    "-weight.image": 437,
+    "+weight.image": 227,
+    "-weight.font": 7,
+    "+weight.font": 546,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 691,
+    "-totalBlockingTime": 110,
+    "-largestContentfulPaint": 287
+  },
+  "axe": {
+    "passes": 813,
+    "violations": 2
+  }
+}

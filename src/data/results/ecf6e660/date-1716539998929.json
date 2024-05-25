@@ -1,0 +1,67 @@
+{
+  "url": "https://lore.com/",
+  "requestedUrl": "https://lore.com/",
+  "timestamp": 1716559466184,
+  "ranks": {
+    "hundos": 720,
+    "performance": 710,
+    "accessibility": 576,
+    "cumulative": 720
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.33,
+    "accessibility": 0.88,
+    "bestPractices": 0.92,
+    "seo": 0.81,
+    "total": 294
+  },
+  "firstContentfulPaint": 1756.9225,
+  "firstMeaningfulPaint": 2671.529,
+  "speedIndex": 5554.660025682431,
+  "largestContentfulPaint": 36100.00199999999,
+  "totalBlockingTime": 1776.5795000000005,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 25810.329262939456,
+  "maxPotentialFirstInputDelay": 322,
+  "timeToFirstByte": 202.125,
+  "weight": {
+    "summary": "108 requests • 8,582 KiB",
+    "total": 8787764,
+    "image": 7393690,
+    "imageCount": 19,
+    "script": 805343,
+    "scriptCount": 35,
+    "document": 111215,
+    "font": 48302,
+    "fontCount": 4,
+    "stylesheet": 33111,
+    "stylesheetCount": 12,
+    "thirdParty": 2752834,
+    "thirdPartyCount": 88
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 710,
+    "+weight.total": 28,
+    "-weight.document": 708,
+    "+weight.document": 24,
+    "-weight.script": 634,
+    "+weight.script": 44,
+    "-weight.image": 640,
+    "+weight.image": 24,
+    "-weight.font": 206,
+    "+weight.font": 347,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 561,
+    "-totalBlockingTime": 474,
+    "-largestContentfulPaint": 734
+  },
+  "axe": {
+    "passes": 835,
+    "violations": 18
+  }
+}

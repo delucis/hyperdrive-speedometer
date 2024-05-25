@@ -1,0 +1,67 @@
+{
+  "url": "https://blog.stackblitz.com/",
+  "requestedUrl": "https://blog.stackblitz.com/",
+  "timestamp": 1716568061698,
+  "ranks": {
+    "hundos": 652,
+    "performance": 613,
+    "accessibility": 711,
+    "cumulative": 668
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.58,
+    "accessibility": 0.71,
+    "bestPractices": 1,
+    "seo": 0.91,
+    "total": 324
+  },
+  "firstContentfulPaint": 1001.33,
+  "firstMeaningfulPaint": 1613.578,
+  "speedIndex": 1653.233686342617,
+  "largestContentfulPaint": 4849.745999999999,
+  "totalBlockingTime": 1004.3049999999998,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 5376.982,
+  "maxPotentialFirstInputDelay": 475,
+  "timeToFirstByte": 25.248999999999995,
+  "weight": {
+    "summary": "46 requests • 1,828 KiB",
+    "total": 1871871,
+    "image": 1415221,
+    "imageCount": 23,
+    "script": 359095,
+    "scriptCount": 10,
+    "document": 5882,
+    "font": 82525,
+    "fontCount": 4,
+    "stylesheet": 8874,
+    "stylesheetCount": 6,
+    "thirdParty": 311597,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 577,
+    "+weight.total": 161,
+    "-weight.document": 183,
+    "+weight.document": 549,
+    "-weight.script": 552,
+    "+weight.script": 126,
+    "-weight.image": 547,
+    "+weight.image": 117,
+    "-weight.font": 320,
+    "+weight.font": 233,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 66,
+    "-totalBlockingTime": 414,
+    "-largestContentfulPaint": 645
+  },
+  "axe": {
+    "passes": 387,
+    "violations": 34
+  }
+}

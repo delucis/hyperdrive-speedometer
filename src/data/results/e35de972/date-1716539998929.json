@@ -1,0 +1,67 @@
+{
+  "url": "https://grafoma.se/",
+  "requestedUrl": "https://grafoma.se/",
+  "timestamp": 1716544330513,
+  "ranks": {
+    "hundos": 208,
+    "performance": 248,
+    "accessibility": 187,
+    "cumulative": 203
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.96,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 388
+  },
+  "firstContentfulPaint": 1133.9850000000001,
+  "firstMeaningfulPaint": 1255.4850000000001,
+  "speedIndex": 3525.8882350877866,
+  "largestContentfulPaint": 1255.4850000000001,
+  "totalBlockingTime": 172.5,
+  "cumulativeLayoutShift": 0.0011160742441813152,
+  "timeToInteractive": 1456.4850000000001,
+  "maxPotentialFirstInputDelay": 168,
+  "timeToFirstByte": 173.31999999999994,
+  "weight": {
+    "summary": "9 requests • 274 KiB",
+    "total": 280928,
+    "image": 24542,
+    "imageCount": 1,
+    "script": 3953,
+    "scriptCount": 2,
+    "document": 26882,
+    "font": 38180,
+    "fontCount": 1,
+    "stylesheet": 7131,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 244,
+    "+weight.total": 494,
+    "-weight.document": 582,
+    "+weight.document": 150,
+    "-weight.script": 56,
+    "+weight.script": 622,
+    "-weight.image": 103,
+    "+weight.image": 561,
+    "-weight.font": 133,
+    "+weight.font": 420,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 529,
+    "-totalBlockingTime": 169,
+    "-largestContentfulPaint": 77
+  },
+  "axe": {
+    "passes": 549,
+    "violations": 4
+  }
+}

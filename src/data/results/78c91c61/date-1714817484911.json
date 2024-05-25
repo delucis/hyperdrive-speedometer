@@ -1,0 +1,67 @@
+{
+  "url": "https://app.malachidaily.com/",
+  "requestedUrl": "https://app.malachidaily.com/",
+  "timestamp": 1714831591399,
+  "ranks": {
+    "hundos": 632,
+    "performance": 546,
+    "accessibility": 574,
+    "cumulative": 637
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.44,
+    "accessibility": 0.86,
+    "bestPractices": 0.83,
+    "seo": 0.93,
+    "total": 307
+  },
+  "firstContentfulPaint": 2073.807,
+  "firstMeaningfulPaint": 2301.719,
+  "speedIndex": 9835.364132340133,
+  "largestContentfulPaint": 2837.291,
+  "totalBlockingTime": 2571.9450000000006,
+  "cumulativeLayoutShift": 0.24718832058376738,
+  "timeToInteractive": 6721.428,
+  "maxPotentialFirstInputDelay": 700,
+  "timeToFirstByte": 3127.939,
+  "weight": {
+    "summary": "36 requests • 802 KiB",
+    "total": 821272,
+    "image": 66124,
+    "imageCount": 4,
+    "script": 507358,
+    "scriptCount": 14,
+    "document": 67183,
+    "font": 16425,
+    "fontCount": 1,
+    "stylesheet": 16133,
+    "stylesheetCount": 5,
+    "thirdParty": 633744,
+    "thirdPartyCount": 24
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 438,
+    "+weight.total": 277,
+    "-weight.document": 659,
+    "+weight.document": 51,
+    "-weight.script": 569,
+    "+weight.script": 89,
+    "-weight.image": 188,
+    "+weight.image": 455,
+    "-weight.font": 24,
+    "+weight.font": 520,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 712,
+    "-totalBlockingTime": 382,
+    "-largestContentfulPaint": 510
+  },
+  "axe": {
+    "passes": 529,
+    "violations": 19
+  }
+}

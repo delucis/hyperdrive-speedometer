@@ -1,0 +1,67 @@
+{
+  "url": "https://tali-tails.com/",
+  "requestedUrl": "https://tali-tails.com/",
+  "timestamp": 1716549610550,
+  "ranks": {
+    "hundos": 200,
+    "performance": 335,
+    "accessibility": 285,
+    "cumulative": 204
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.9,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 388
+  },
+  "firstContentfulPaint": 1142.292,
+  "firstMeaningfulPaint": 1166.292,
+  "speedIndex": 1142.292,
+  "largestContentfulPaint": 1289.292,
+  "totalBlockingTime": 111.5,
+  "cumulativeLayoutShift": 0.29441619873046876,
+  "timeToInteractive": 1506.792,
+  "maxPotentialFirstInputDelay": 138,
+  "timeToFirstByte": 30.183999999999997,
+  "weight": {
+    "summary": "30 requests • 561 KiB",
+    "total": 574085,
+    "image": 415773,
+    "imageCount": 9,
+    "script": 98688,
+    "scriptCount": 15,
+    "document": 26921,
+    "font": 16972,
+    "fontCount": 2,
+    "stylesheet": 15543,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 387,
+    "+weight.total": 351,
+    "-weight.document": 584,
+    "+weight.document": 148,
+    "-weight.script": 341,
+    "+weight.script": 337,
+    "-weight.image": 415,
+    "+weight.image": 249,
+    "-weight.font": 27,
+    "+weight.font": 526,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 157,
+    "-totalBlockingTime": 127,
+    "-largestContentfulPaint": 86
+  },
+  "axe": {
+    "passes": 1186,
+    "violations": 6
+  }
+}

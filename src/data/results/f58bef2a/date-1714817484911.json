@@ -1,0 +1,67 @@
+{
+  "url": "https://www.saturn9.eu/",
+  "requestedUrl": "https://www.saturn9.eu/",
+  "timestamp": 1714887379169,
+  "ranks": {
+    "hundos": 569,
+    "performance": 615,
+    "accessibility": 373,
+    "cumulative": 564
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.33,
+    "accessibility": 0.96,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 321
+  },
+  "firstContentfulPaint": 2071.9105,
+  "firstMeaningfulPaint": 2118.2,
+  "speedIndex": 5366.779136456909,
+  "largestContentfulPaint": 4334.9130000000005,
+  "totalBlockingTime": 3271.2895000000008,
+  "cumulativeLayoutShift": 0.4111688105265299,
+  "timeToInteractive": 7115.763000000001,
+  "maxPotentialFirstInputDelay": 567,
+  "timeToFirstByte": 90.57999999999998,
+  "weight": {
+    "summary": "30 requests • 751 KiB",
+    "total": 769103,
+    "image": 598541,
+    "imageCount": 8,
+    "script": 84881,
+    "scriptCount": 13,
+    "document": 7063,
+    "font": 62480,
+    "fontCount": 2,
+    "stylesheet": 15311,
+    "stylesheetCount": 5,
+    "thirdParty": 630680,
+    "thirdPartyCount": 19
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 428,
+    "+weight.total": 287,
+    "-weight.document": 242,
+    "+weight.document": 468,
+    "-weight.script": 315,
+    "+weight.script": 343,
+    "-weight.image": 447,
+    "+weight.image": 196,
+    "-weight.font": 253,
+    "+weight.font": 291,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 395,
+    "-totalBlockingTime": 412,
+    "-largestContentfulPaint": 594
+  },
+  "axe": {
+    "passes": 259,
+    "violations": 6
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://webapp.predipie.com/login",
+  "requestedUrl": "https://webapp.predipie.com/",
+  "timestamp": 1716550898328,
+  "ranks": {
+    "hundos": 636,
+    "performance": 636,
+    "accessibility": 371,
+    "cumulative": 638
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.55,
+    "accessibility": 0.97,
+    "bestPractices": 0.83,
+    "seo": 0.92,
+    "total": 327
+  },
+  "firstContentfulPaint": 1409.8629999999998,
+  "firstMeaningfulPaint": 1409.8629999999998,
+  "speedIndex": 4257.721964237904,
+  "largestContentfulPaint": 4757.708,
+  "totalBlockingTime": 675.2180000000001,
+  "cumulativeLayoutShift": 0.17218585883246526,
+  "timeToInteractive": 5715.721,
+  "maxPotentialFirstInputDelay": 244,
+  "timeToFirstByte": 192.699,
+  "weight": {
+    "summary": "42 requests • 506 KiB",
+    "total": 517777,
+    "image": 6842,
+    "imageCount": 6,
+    "script": 356650,
+    "scriptCount": 27,
+    "document": 7812,
+    "font": 132840,
+    "fontCount": 3,
+    "stylesheet": 12796,
+    "stylesheetCount": 1,
+    "thirdParty": 233618,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 364,
+    "+weight.total": 374,
+    "-weight.document": 281,
+    "+weight.document": 451,
+    "-weight.script": 549,
+    "+weight.script": 129,
+    "-weight.image": 51,
+    "+weight.image": 613,
+    "-weight.font": 403,
+    "+weight.font": 150,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 552,
+    "-totalBlockingTime": 365,
+    "-largestContentfulPaint": 639
+  },
+  "axe": {
+    "passes": 223,
+    "violations": 22
+  }
+}

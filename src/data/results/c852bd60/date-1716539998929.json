@@ -1,0 +1,67 @@
+{
+  "url": "https://www.eventos.wiki/",
+  "requestedUrl": "https://eventos.wiki/",
+  "timestamp": 1716570048606,
+  "ranks": {
+    "hundos": 197,
+    "performance": 221,
+    "accessibility": 347,
+    "cumulative": 197
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.97,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 0.95,
+    "total": 389
+  },
+  "firstContentfulPaint": 1880.8000000000002,
+  "firstMeaningfulPaint": 1915.3000000000002,
+  "speedIndex": 1956.388222536886,
+  "largestContentfulPaint": 1915.3000000000002,
+  "totalBlockingTime": 120.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2141.3,
+  "maxPotentialFirstInputDelay": 161,
+  "timeToFirstByte": 174.887,
+  "weight": {
+    "summary": "23 requests • 559 KiB",
+    "total": 572476,
+    "image": 491968,
+    "imageCount": 11,
+    "script": 60104,
+    "scriptCount": 8,
+    "document": 14965,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4878,
+    "stylesheetCount": 1,
+    "thirdParty": 471664,
+    "thirdPartyCount": 10
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 386,
+    "+weight.total": 352,
+    "-weight.document": 484,
+    "+weight.document": 248,
+    "-weight.script": 274,
+    "+weight.script": 404,
+    "-weight.image": 438,
+    "+weight.image": 226,
+    "-weight.font": 1,
+    "+weight.font": 553,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 534,
+    "-totalBlockingTime": 135,
+    "-largestContentfulPaint": 216
+  },
+  "axe": {
+    "passes": 735,
+    "violations": 8
+  }
+}

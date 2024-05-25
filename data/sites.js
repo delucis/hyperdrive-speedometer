@@ -85,6 +85,14 @@ module.exports = {
 			// Sites blocked 18 March 2024 (these sites are broken)
 			'https://jaycedotbin.me/',
 			'https://www.joingamedev.com/blog',
+			// Sites blocked 5 May 2024
+			'https://joshuastuebner.com/',
+			'https://sapegin.me/',
+			'https://idea-arca.vercel.app/',
+			// Sites blocked 23 May 2024
+			'https://tacohuaco.co',
+			'https://jblaha.art/',
+			'https://akashrajpurohit.com/?ref=astro-showcase',
 		]);
 
 		const fetch = (await import('node-fetch')).default;

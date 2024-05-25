@@ -1,0 +1,66 @@
+{
+  "url": "https://flaremingo.com/",
+  "requestedUrl": "https://flaremingo.com/",
+  "timestamp": 1714834808466,
+  "ranks": {
+    "hundos": 365,
+    "performance": 127,
+    "accessibility": 683,
+    "cumulative": 372
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.96,
+    "accessibility": 0.73,
+    "bestPractices": 1,
+    "seo": 0.82,
+    "total": 351
+  },
+  "firstContentfulPaint": 1046.587,
+  "firstMeaningfulPaint": 1046.587,
+  "speedIndex": 1835.0738033269436,
+  "largestContentfulPaint": 1716.924,
+  "totalBlockingTime": 221,
+  "cumulativeLayoutShift": 0.0008711166381835937,
+  "timeToInteractive": 1769.562,
+  "maxPotentialFirstInputDelay": 208,
+  "timeToFirstByte": 88.33700000000002,
+  "weight": {
+    "summary": "22 requests • 263 KiB",
+    "total": 269515,
+    "image": 158485,
+    "imageCount": 1,
+    "script": 55225,
+    "scriptCount": 12,
+    "document": 11692,
+    "font": 35815,
+    "fontCount": 1,
+    "stylesheet": 7511,
+    "stylesheetCount": 4,
+    "thirdParty": 11005,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 231,
+    "+weight.total": 484,
+    "-weight.document": 399,
+    "+weight.document": 311,
+    "-weight.script": 256,
+    "+weight.script": 402,
+    "-weight.image": 272,
+    "+weight.image": 371,
+    "-weight.font": 114,
+    "+weight.font": 430,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 383,
+    "-totalBlockingTime": 117,
+    "-largestContentfulPaint": 116
+  },
+  "axe": {
+    "error": "Page load timed out"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://eltana.com/",
+  "requestedUrl": "https://eltana.com/",
+  "timestamp": 1716569875848,
+  "ranks": {
+    "hundos": 681,
+    "performance": 712,
+    "accessibility": 634,
+    "cumulative": 680
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.33,
+    "accessibility": 0.83,
+    "bestPractices": 1,
+    "seo": 0.98,
+    "total": 314
+  },
+  "firstContentfulPaint": 1865.703,
+  "firstMeaningfulPaint": 2797.437,
+  "speedIndex": 8081.9641785337935,
+  "largestContentfulPaint": 5367.08,
+  "totalBlockingTime": 2258,
+  "cumulativeLayoutShift": 0.030644531249999996,
+  "timeToInteractive": 17638.634751350404,
+  "maxPotentialFirstInputDelay": 878,
+  "timeToFirstByte": 329.44399999999996,
+  "weight": {
+    "summary": "55 requests • 2,771 KiB",
+    "total": 2837794,
+    "image": 1276702,
+    "imageCount": 10,
+    "script": 1430652,
+    "scriptCount": 22,
+    "document": 40990,
+    "font": 38755,
+    "fontCount": 2,
+    "stylesheet": 26886,
+    "stylesheetCount": 6,
+    "thirdParty": 1586536,
+    "thirdPartyCount": 30
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 631,
+    "+weight.total": 107,
+    "-weight.document": 632,
+    "+weight.document": 100,
+    "-weight.script": 666,
+    "+weight.script": 12,
+    "-weight.image": 542,
+    "+weight.image": 122,
+    "-weight.font": 140,
+    "+weight.font": 413,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 613,
+    "-totalBlockingTime": 492,
+    "-largestContentfulPaint": 660
+  },
+  "axe": {
+    "passes": 66,
+    "violations": 5
+  }
+}

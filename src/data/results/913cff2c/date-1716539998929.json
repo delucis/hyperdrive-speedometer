@@ -1,0 +1,66 @@
+{
+  "url": "https://use-kfc.deno.dev/",
+  "requestedUrl": "https://use-kfc.deno.dev/",
+  "timestamp": 1716563774722,
+  "ranks": {
+    "hundos": 656,
+    "performance": 651,
+    "accessibility": 644,
+    "cumulative": 655
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.5,
+    "accessibility": 0.82,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 324
+  },
+  "firstContentfulPaint": 1372.031,
+  "firstMeaningfulPaint": 1372.031,
+  "speedIndex": 12433.769826776193,
+  "largestContentfulPaint": 1447.1035,
+  "totalBlockingTime": 164868.7825,
+  "cumulativeLayoutShift": 0.0006770833333333334,
+  "timeToInteractive": 176877.5535,
+  "maxPotentialFirstInputDelay": 1442,
+  "timeToFirstByte": 312.9390000000001,
+  "weight": {
+    "summary": "15 requests • 739 KiB",
+    "total": 756657,
+    "image": 392759,
+    "imageCount": 6,
+    "script": 354743,
+    "scriptCount": 7,
+    "document": 4764,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4391,
+    "stylesheetCount": 1,
+    "thirdParty": 8901,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 439,
+    "+weight.total": 299,
+    "-weight.document": 124,
+    "+weight.document": 608,
+    "-weight.script": 548,
+    "+weight.script": 130,
+    "-weight.image": 407,
+    "+weight.image": 257,
+    "-weight.font": 1,
+    "+weight.font": 553,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 606,
+    "-totalBlockingTime": 532,
+    "-largestContentfulPaint": 421
+  },
+  "axe": {
+    "error": "Page load timed out"
+  }
+}

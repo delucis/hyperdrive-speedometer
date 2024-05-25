@@ -1,0 +1,67 @@
+{
+  "url": "https://deeprobin.de/",
+  "requestedUrl": "https://deeprobin.de/",
+  "timestamp": 1716569394418,
+  "ranks": {
+    "hundos": 347,
+    "performance": 394,
+    "accessibility": 283,
+    "cumulative": 348
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.86,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 376
+  },
+  "firstContentfulPaint": 1456.49,
+  "firstMeaningfulPaint": 1456.49,
+  "speedIndex": 2065.9368791770917,
+  "largestContentfulPaint": 2185.33,
+  "totalBlockingTime": 77.596,
+  "cumulativeLayoutShift": 0.43574852159288197,
+  "timeToInteractive": 2796.2339999999995,
+  "maxPotentialFirstInputDelay": 139,
+  "timeToFirstByte": 10.452999999999975,
+  "weight": {
+    "summary": "26 requests • 252 KiB",
+    "total": 258070,
+    "image": 109774,
+    "imageCount": 6,
+    "script": 87861,
+    "scriptCount": 10,
+    "document": 17027,
+    "font": 28621,
+    "fontCount": 2,
+    "stylesheet": 13623,
+    "stylesheetCount": 3,
+    "thirdParty": 1164,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 231,
+    "+weight.total": 507,
+    "-weight.document": 512,
+    "+weight.document": 220,
+    "-weight.script": 329,
+    "+weight.script": 349,
+    "-weight.image": 229,
+    "+weight.image": 435,
+    "-weight.font": 74,
+    "+weight.font": 479,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 20,
+    "-totalBlockingTime": 95,
+    "-largestContentfulPaint": 249
+  },
+  "axe": {
+    "passes": 184,
+    "violations": 5
+  }
+}

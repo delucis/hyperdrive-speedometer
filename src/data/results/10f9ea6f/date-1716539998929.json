@@ -1,0 +1,67 @@
+{
+  "url": "https://www.sofahq.com/",
+  "requestedUrl": "https://www.sofahq.com/",
+  "timestamp": 1716566290517,
+  "ranks": {
+    "hundos": 312,
+    "performance": 370,
+    "accessibility": 290,
+    "cumulative": 321
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.88,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 379
+  },
+  "firstContentfulPaint": 2571.2019999999998,
+  "firstMeaningfulPaint": 2571.2019999999998,
+  "speedIndex": 2571.2019999999998,
+  "largestContentfulPaint": 3322.4610000000002,
+  "totalBlockingTime": 4,
+  "cumulativeLayoutShift": 0.01578807830810547,
+  "timeToInteractive": 2840.8895,
+  "maxPotentialFirstInputDelay": 58,
+  "timeToFirstByte": 36.89599999999999,
+  "weight": {
+    "summary": "36 requests • 3,942 KiB",
+    "total": 4036812,
+    "image": 3794305,
+    "imageCount": 17,
+    "script": 91624,
+    "scriptCount": 9,
+    "document": 46696,
+    "font": 72988,
+    "fontCount": 2,
+    "stylesheet": 30101,
+    "stylesheetCount": 5,
+    "thirdParty": 673918,
+    "thirdPartyCount": 15
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 655,
+    "+weight.total": 83,
+    "-weight.document": 645,
+    "+weight.document": 87,
+    "-weight.script": 331,
+    "+weight.script": 347,
+    "-weight.image": 612,
+    "+weight.image": 52,
+    "-weight.font": 286,
+    "+weight.font": 267,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 200,
+    "-totalBlockingTime": 7,
+    "-largestContentfulPaint": 327
+  },
+  "axe": {
+    "passes": 917,
+    "violations": 9
+  }
+}

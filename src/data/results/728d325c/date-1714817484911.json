@@ -1,0 +1,67 @@
+{
+  "url": "https://delights.flayks.com/",
+  "requestedUrl": "https://delights.flayks.com/",
+  "timestamp": 1714820050041,
+  "ranks": {
+    "hundos": 123,
+    "performance": 151,
+    "accessibility": 468,
+    "cumulative": 122
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.93,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 386
+  },
+  "firstContentfulPaint": 1256.219,
+  "firstMeaningfulPaint": 1434.719,
+  "speedIndex": 3094.3048776550067,
+  "largestContentfulPaint": 1646.219,
+  "totalBlockingTime": 268,
+  "cumulativeLayoutShift": 0.0001369594997829861,
+  "timeToInteractive": 3004.220926422119,
+  "maxPotentialFirstInputDelay": 248,
+  "timeToFirstByte": 727.694,
+  "weight": {
+    "summary": "23 requests • 572 KiB",
+    "total": 585872,
+    "image": 69044,
+    "imageCount": 8,
+    "script": 43934,
+    "scriptCount": 9,
+    "document": 33169,
+    "font": 64466,
+    "fontCount": 3,
+    "stylesheet": 8170,
+    "stylesheetCount": 1,
+    "thirdParty": 69044,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 385,
+    "+weight.total": 330,
+    "-weight.document": 604,
+    "+weight.document": 106,
+    "-weight.script": 225,
+    "+weight.script": 433,
+    "-weight.image": 193,
+    "+weight.image": 450,
+    "-weight.font": 265,
+    "+weight.font": 279,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 662,
+    "-totalBlockingTime": 138,
+    "-largestContentfulPaint": 97
+  },
+  "axe": {
+    "passes": 1059,
+    "violations": 116
+  }
+}

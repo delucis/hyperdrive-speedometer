@@ -1,0 +1,67 @@
+{
+  "url": "https://yoonhou.com/",
+  "requestedUrl": "https://yoonhou.com/",
+  "timestamp": 1714830973497,
+  "ranks": {
+    "hundos": 117,
+    "performance": 84,
+    "accessibility": 340,
+    "cumulative": 120
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.98,
+    "accessibility": 0.97,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 387
+  },
+  "firstContentfulPaint": 1222.4320000000002,
+  "firstMeaningfulPaint": 1222.4320000000002,
+  "speedIndex": 1503.4683975653256,
+  "largestContentfulPaint": 1222.4320000000002,
+  "totalBlockingTime": 23,
+  "cumulativeLayoutShift": 0.10712731175634778,
+  "timeToInteractive": 1824.8990000000001,
+  "maxPotentialFirstInputDelay": 73,
+  "timeToFirstByte": 42.828,
+  "weight": {
+    "summary": "13 requests • 342 KiB",
+    "total": 349875,
+    "image": 295470,
+    "imageCount": 3,
+    "script": 3933,
+    "scriptCount": 3,
+    "document": 10756,
+    "font": 34954,
+    "fontCount": 2,
+    "stylesheet": 4762,
+    "stylesheetCount": 2,
+    "thirdParty": 2030,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 279,
+    "+weight.total": 436,
+    "-weight.document": 367,
+    "+weight.document": 343,
+    "-weight.script": 54,
+    "+weight.script": 604,
+    "-weight.image": 361,
+    "+weight.image": 282,
+    "-weight.font": 110,
+    "+weight.font": 434,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 215,
+    "-totalBlockingTime": 29,
+    "-largestContentfulPaint": 43
+  },
+  "axe": {
+    "passes": 520,
+    "violations": 17
+  }
+}
