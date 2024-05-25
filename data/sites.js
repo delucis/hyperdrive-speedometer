@@ -93,6 +93,15 @@ module.exports = {
 			'https://tacohuaco.co',
 			'https://jblaha.art/',
 			'https://akashrajpurohit.com/?ref=astro-showcase',
+			// Sites blocked 25 May 2024
+			'https://www.carvimage.com/',
+			'https://monomod.studio/',
+			'https://mutanuq.trueberryless.org/',
+			'https://elemkits.com/',
+			'https://csusb.dev/',
+			'https://ask.foolishdev.com/',
+			'https://www.atd2023.com/',
+			'https://www.unlace.net/',
 		]);
 
 		const fetch = (await import('node-fetch')).default;
