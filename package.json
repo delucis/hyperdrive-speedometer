@@ -18,18 +18,11 @@
     "byte-size": "^8.1.0",
     "chartist": "^0.11",
     "fast-glob": "^3.2.12",
-    "lighthouse": "9.6.8",
-    "performance-leaderboard": "^9.6.3",
+    "performance-leaderboard": "^11.6.1",
     "prettier": "^3.2.5",
     "prettier-plugin-astro": "^0.13.0",
     "short-hash": "^1.0.0",
     "speedlify-score": "^2.0.2"
   },
-  "packageManager": "pnpm@9.0.6",
-  "pnpm": {
-    "patchedDependencies": {
-      "lighthouse@9.6.8": "patches/lighthouse@9.6.8.patch",
-      "performance-leaderboard@9.6.3": "patches/performance-leaderboard@9.6.3.patch"
-    }
-  }
+  "packageManager": "pnpm@9.0.6"
 }
