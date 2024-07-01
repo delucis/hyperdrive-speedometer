@@ -102,10 +102,25 @@ module.exports = {
 			'https://ask.foolishdev.com/',
 			'https://www.atd2023.com/',
 			'https://www.unlace.net/',
-                        // Sites blocked 29 June 2024
-                        'https://okikio.dev/',
-                        'https://pooya.blog/',
-                        'https://adrianub.dev/'
+			// Sites blocked 29 June 2024
+			'https://okikio.dev/',
+			'https://pooya.blog/',
+			'https://adrianub.dev/',
+			// Sites blocked 1 July 2024
+			'https://academic-project-astro-template.vercel.app/',
+			'https://as-next.web.app/',
+			'https://bobalazek.com/',
+			'https://dracarys.robertborghesi.is/',
+			'https://wishwork.org/',
+			'https://www.blackspike.com/',
+			'https://happyplates.com/',
+			'https://www.porsche.com/',
+			'https://www.futuresuper.com.au/',
+			'https://fitwomensweekly.com/',
+			'https://evos.com.au/',
+			'https://www.ada.cx/',
+			'https://design-buddy.netlify.app/',
+			'https://www.dadsworksheets.com/',
 		]);
 
 		const fetch = (await import('node-fetch')).default;
