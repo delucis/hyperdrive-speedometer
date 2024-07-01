@@ -1,0 +1,67 @@
+{
+  "url": "https://straffesites.com/en",
+  "requestedUrl": "https://straffesites.com/en",
+  "timestamp": 1719809811678,
+  "ranks": {
+    "hundos": 92,
+    "performance": 228,
+    "accessibility": 131,
+    "cumulative": 91
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 1115.203,
+  "firstMeaningfulPaint": 1115.203,
+  "speedIndex": 1115.203,
+  "largestContentfulPaint": 1242.451,
+  "totalBlockingTime": 139,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1337.703,
+  "maxPotentialFirstInputDelay": 255,
+  "timeToFirstByte": 50.014999999999986,
+  "weight": {
+    "summary": "8 requests • 123.9 KiB",
+    "total": 126920,
+    "image": 57499,
+    "imageCount": 5,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 31025,
+    "font": 38199,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 57696,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 141,
+    "+weight.total": 701,
+    "-weight.document": 698,
+    "+weight.document": 132,
+    "-weight.script": 1,
+    "+weight.script": 776,
+    "-weight.image": 199,
+    "+weight.image": 559,
+    "-weight.font": 153,
+    "+weight.font": 480,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 417,
+    "-totalBlockingTime": 192,
+    "-largestContentfulPaint": 554
+  },
+  "axe": {
+    "passes": 932,
+    "violations": 1
+  }
+}

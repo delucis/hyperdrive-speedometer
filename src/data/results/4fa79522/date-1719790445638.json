@@ -1,0 +1,67 @@
+{
+  "url": "https://cocometic.com/",
+  "requestedUrl": "https://cocometic.com/",
+  "timestamp": 1719803996102,
+  "ranks": {
+    "hundos": 798,
+    "performance": 755,
+    "accessibility": 489,
+    "cumulative": 798
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.51,
+    "accessibility": 0.93,
+    "bestPractices": 0.74,
+    "seo": 0.85,
+    "total": 303
+  },
+  "firstContentfulPaint": 1669.1684999999998,
+  "firstMeaningfulPaint": 2931.1135,
+  "speedIndex": 5174.38513255183,
+  "largestContentfulPaint": 5631.1134999999995,
+  "totalBlockingTime": 1178,
+  "cumulativeLayoutShift": 0.0005692118443480027,
+  "timeToInteractive": 14417.054279999998,
+  "maxPotentialFirstInputDelay": 811,
+  "timeToFirstByte": 2.693000000000012,
+  "weight": {
+    "summary": "56 requests • 1.8 MiB",
+    "total": 1934994,
+    "image": 519453,
+    "imageCount": 20,
+    "script": 804767,
+    "scriptCount": 14,
+    "document": 16525,
+    "font": 305237,
+    "fontCount": 4,
+    "stylesheet": 285442,
+    "stylesheetCount": 8,
+    "thirdParty": 1067781,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 661,
+    "+weight.total": 181,
+    "-weight.document": 572,
+    "+weight.document": 258,
+    "-weight.script": 723,
+    "+weight.script": 53,
+    "-weight.image": 495,
+    "+weight.image": 263,
+    "-weight.font": 560,
+    "+weight.font": 73,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 25,
+    "-totalBlockingTime": 467,
+    "-largestContentfulPaint": 766
+  },
+  "axe": {
+    "passes": 944,
+    "violations": 35
+  }
+}

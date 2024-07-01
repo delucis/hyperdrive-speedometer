@@ -1,0 +1,67 @@
+{
+  "url": "https://www.oro.bank/",
+  "requestedUrl": "https://oro.bank/",
+  "timestamp": 1719796714441,
+  "ranks": {
+    "hundos": 606,
+    "performance": 474,
+    "accessibility": 376,
+    "cumulative": 607
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.86,
+    "accessibility": 0.95,
+    "bestPractices": 0.78,
+    "seo": 0.92,
+    "total": 351
+  },
+  "firstContentfulPaint": 2145.2838800000004,
+  "firstMeaningfulPaint": 2145.2838800000004,
+  "speedIndex": 3070.3094686211207,
+  "largestContentfulPaint": 2469.2078800000004,
+  "totalBlockingTime": 381.5,
+  "cumulativeLayoutShift": 0.028170374589727352,
+  "timeToInteractive": 7301.550880000001,
+  "maxPotentialFirstInputDelay": 444,
+  "timeToFirstByte": 72.658,
+  "weight": {
+    "summary": "29 requests • 940.8 KiB",
+    "total": 963370,
+    "image": 380577,
+    "imageCount": 12,
+    "script": 415387,
+    "scriptCount": 7,
+    "document": 42669,
+    "font": 110246,
+    "fontCount": 2,
+    "stylesheet": 9864,
+    "stylesheetCount": 1,
+    "thirdParty": 419458,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 528,
+    "+weight.total": 314,
+    "-weight.document": 729,
+    "+weight.document": 101,
+    "-weight.script": 648,
+    "+weight.script": 128,
+    "-weight.image": 452,
+    "+weight.image": 306,
+    "-weight.font": 424,
+    "+weight.font": 209,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 477,
+    "-totalBlockingTime": 333,
+    "-largestContentfulPaint": 634
+  },
+  "axe": {
+    "passes": 641,
+    "violations": 5
+  }
+}

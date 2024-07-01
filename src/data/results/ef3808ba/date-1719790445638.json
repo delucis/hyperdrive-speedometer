@@ -1,0 +1,67 @@
+{
+  "url": "https://www.devhealthos.com/",
+  "requestedUrl": "https://www.devhealthos.com/",
+  "timestamp": 1719800326860,
+  "ranks": {
+    "hundos": 164,
+    "performance": 112,
+    "accessibility": 433,
+    "cumulative": 163
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 394
+  },
+  "firstContentfulPaint": 1211.683,
+  "firstMeaningfulPaint": 1211.683,
+  "speedIndex": 1211.683,
+  "largestContentfulPaint": 1361.683,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.00043414686576142517,
+  "timeToInteractive": 1211.683,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 26.504000000000005,
+  "weight": {
+    "summary": "11 requests • 109.5 KiB",
+    "total": 112149,
+    "image": 31879,
+    "imageCount": 2,
+    "script": 25283,
+    "scriptCount": 5,
+    "document": 5634,
+    "font": 37343,
+    "fontCount": 1,
+    "stylesheet": 11865,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 122,
+    "+weight.total": 720,
+    "-weight.document": 194,
+    "+weight.document": 636,
+    "-weight.script": 223,
+    "+weight.script": 553,
+    "-weight.image": 141,
+    "+weight.image": 617,
+    "-weight.font": 138,
+    "+weight.font": 495,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 318,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 116
+  },
+  "axe": {
+    "passes": 95,
+    "violations": 2
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://blocsonic.com/",
+  "requestedUrl": "https://blocsonic.com/",
+  "timestamp": 1719791783785,
+  "ranks": {
+    "hundos": 222,
+    "performance": 243,
+    "accessibility": 129,
+    "cumulative": 223
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 391
+  },
+  "firstContentfulPaint": 1695.3290000000002,
+  "firstMeaningfulPaint": 1695.3290000000002,
+  "speedIndex": 1695.3290000000002,
+  "largestContentfulPaint": 1914.7379999999998,
+  "totalBlockingTime": 85.5,
+  "cumulativeLayoutShift": 0.000584844932451478,
+  "timeToInteractive": 3191.421,
+  "maxPotentialFirstInputDelay": 260,
+  "timeToFirstByte": 4.582000000000008,
+  "weight": {
+    "summary": "34 requests • 587.5 KiB",
+    "total": 601602,
+    "image": 309763,
+    "imageCount": 5,
+    "script": 179635,
+    "scriptCount": 23,
+    "document": 85581,
+    "font": 21274,
+    "fontCount": 1,
+    "stylesheet": 4852,
+    "stylesheetCount": 2,
+    "thirdParty": 105754,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 437,
+    "+weight.total": 405,
+    "-weight.document": 789,
+    "+weight.document": 41,
+    "-weight.script": 495,
+    "+weight.script": 281,
+    "-weight.image": 414,
+    "+weight.image": 344,
+    "-weight.font": 44,
+    "+weight.font": 589,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 81,
+    "-totalBlockingTime": 132,
+    "-largestContentfulPaint": 248
+  },
+  "axe": {
+    "passes": 1130,
+    "violations": 1
+  }
+}

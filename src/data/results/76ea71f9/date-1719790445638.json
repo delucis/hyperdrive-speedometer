@@ -1,0 +1,67 @@
+{
+  "url": "https://reywins.com/",
+  "requestedUrl": "https://www.reywins.com/",
+  "timestamp": 1719813015985,
+  "ranks": {
+    "hundos": 340,
+    "performance": 330,
+    "accessibility": 598,
+    "cumulative": 341
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.95,
+    "accessibility": 0.89,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 380
+  },
+  "firstContentfulPaint": 2339.4230000000002,
+  "firstMeaningfulPaint": 2339.4230000000002,
+  "speedIndex": 2339.4230000000002,
+  "largestContentfulPaint": 2477.446,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2339.4230000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 3.198999999999998,
+  "weight": {
+    "summary": "12 requests • 1.7 MiB",
+    "total": 1787000,
+    "image": 1747370,
+    "imageCount": 4,
+    "script": 20767,
+    "scriptCount": 2,
+    "document": 6750,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 11930,
+    "stylesheetCount": 4,
+    "thirdParty": 1172,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 650,
+    "+weight.total": 192,
+    "-weight.document": 253,
+    "+weight.document": 577,
+    "-weight.script": 195,
+    "+weight.script": 581,
+    "-weight.image": 653,
+    "+weight.image": 105,
+    "-weight.font": 1,
+    "+weight.font": 633,
+    "+weight.fontCount": 20,
+    "-timeToFirstByte": 41,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 330
+  },
+  "axe": {
+    "passes": 238,
+    "violations": 4
+  }
+}

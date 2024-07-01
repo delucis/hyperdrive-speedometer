@@ -1,0 +1,67 @@
+{
+  "url": "https://kokunin.ru/en/",
+  "requestedUrl": "https://kokunin.ru/en/",
+  "timestamp": 1719795574876,
+  "ranks": {
+    "hundos": 559,
+    "performance": 554,
+    "accessibility": 539,
+    "cumulative": 560
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.78,
+    "accessibility": 0.91,
+    "bestPractices": 1,
+    "seo": 0.88,
+    "total": 357
+  },
+  "firstContentfulPaint": 1207.056,
+  "firstMeaningfulPaint": 1582.056,
+  "speedIndex": 1441.742688000108,
+  "largestContentfulPaint": 6157.0560000000005,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.009921860835236499,
+  "timeToInteractive": 1582.056,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 28.862000000000023,
+  "weight": {
+    "summary": "10 requests • 1.1 MiB",
+    "total": 1104276,
+    "image": 910923,
+    "imageCount": 1,
+    "script": 53081,
+    "scriptCount": 4,
+    "document": 6680,
+    "font": 125888,
+    "fontCount": 2,
+    "stylesheet": 7704,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 559,
+    "+weight.total": 283,
+    "-weight.document": 248,
+    "+weight.document": 582,
+    "-weight.script": 304,
+    "+weight.script": 472,
+    "-weight.image": 581,
+    "+weight.image": 177,
+    "-weight.font": 447,
+    "+weight.font": 186,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 337,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 492
+  },
+  "axe": {
+    "passes": 88,
+    "violations": 3
+  }
+}

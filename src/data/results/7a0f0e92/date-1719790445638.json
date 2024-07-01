@@ -1,0 +1,66 @@
+{
+  "url": "https://as-next.web.app/",
+  "requestedUrl": "https://as-next.web.app/",
+  "timestamp": 1719802904739,
+  "ranks": {
+    "hundos": 675,
+    "performance": 813,
+    "accessibility": 290,
+    "cumulative": 675
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.4,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 340
+  },
+  "firstContentfulPaint": 2755.596,
+  "firstMeaningfulPaint": 2824.096,
+  "speedIndex": 10478.07224378492,
+  "largestContentfulPaint": 3157.596,
+  "totalBlockingTime": 159854,
+  "cumulativeLayoutShift": 0.2120291616038882,
+  "timeToInteractive": 167561.596,
+  "maxPotentialFirstInputDelay": 3479,
+  "timeToFirstByte": 4.984999999999999,
+  "weight": {
+    "summary": "32 requests • 1,001.3 KiB",
+    "total": 1025286,
+    "image": 301559,
+    "imageCount": 14,
+    "script": 223864,
+    "scriptCount": 1,
+    "document": 5096,
+    "font": 61728,
+    "fontCount": 2,
+    "stylesheet": 7239,
+    "stylesheetCount": 4,
+    "thirdParty": 61728,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 540,
+    "+weight.total": 302,
+    "-weight.document": 155,
+    "+weight.document": 675,
+    "-weight.script": 544,
+    "+weight.script": 232,
+    "-weight.image": 409,
+    "+weight.image": 349,
+    "-weight.font": 273,
+    "+weight.font": 360,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 90,
+    "-totalBlockingTime": 539,
+    "-largestContentfulPaint": 677
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

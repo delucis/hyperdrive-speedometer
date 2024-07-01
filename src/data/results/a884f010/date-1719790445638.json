@@ -1,0 +1,67 @@
+{
+  "url": "https://www.eastend-bamberg.de/",
+  "requestedUrl": "https://www.eastend-bamberg.de/",
+  "timestamp": 1719823313211,
+  "ranks": {
+    "hundos": 508,
+    "performance": 669,
+    "accessibility": 310,
+    "cumulative": 509
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.69,
+    "accessibility": 0.98,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 363
+  },
+  "firstContentfulPaint": 3959.7969999999996,
+  "firstMeaningfulPaint": 4078.9169999999995,
+  "speedIndex": 3959.7969999999996,
+  "largestContentfulPaint": 6103.9569999999985,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.00874162662586983,
+  "timeToInteractive": 4078.9169999999995,
+  "maxPotentialFirstInputDelay": 49,
+  "timeToFirstByte": 98.27800000000002,
+  "weight": {
+    "summary": "30 requests • 5.1 MiB",
+    "total": 5384399,
+    "image": 3929589,
+    "imageCount": 14,
+    "script": 199928,
+    "scriptCount": 6,
+    "document": 6647,
+    "font": 903179,
+    "fontCount": 7,
+    "stylesheet": 345056,
+    "stylesheetCount": 1,
+    "thirdParty": 119133,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 766,
+    "+weight.total": 76,
+    "-weight.document": 246,
+    "+weight.document": 584,
+    "-weight.script": 521,
+    "+weight.script": 255,
+    "-weight.image": 706,
+    "+weight.image": 52,
+    "-weight.font": 620,
+    "+weight.font": 13,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 559,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 490
+  },
+  "axe": {
+    "passes": 558,
+    "violations": 12
+  }
+}

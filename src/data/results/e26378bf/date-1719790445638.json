@@ -1,0 +1,61 @@
+{
+  "url": "https://dracarys.robertborghesi.is/",
+  "requestedUrl": "https://dracarys.robertborghesi.is/",
+  "timestamp": 1719793437550,
+  "ranks": {
+    "hundos": 841,
+    "performance": 841,
+    "accessibility": 804,
+    "cumulative": 841
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": null,
+    "accessibility": 0.74,
+    "bestPractices": null,
+    "seo": 0.89,
+    "total": 163
+  },
+  "firstContentfulPaint": 3172.5300000000007,
+  "firstMeaningfulPaint": 3172.5300000000007,
+  "speedIndex": 90999.37859343424,
+  "totalBlockingTime": 152454.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 158674.808,
+  "maxPotentialFirstInputDelay": 6695.000000000001,
+  "timeToFirstByte": 3.115000000000009,
+  "weight": {
+    "summary": "30 requests • 5.5 MiB",
+    "total": 5729670,
+    "image": 1661994,
+    "imageCount": 15,
+    "script": 382737,
+    "scriptCount": 2,
+    "document": 1570,
+    "font": 26699,
+    "fontCount": 1,
+    "stylesheet": 2891,
+    "stylesheetCount": 2,
+    "thirdParty": 132062,
+    "thirdPartyCount": 3
+  },
+  "sidequests": {
+    "-weight.total": 771,
+    "+weight.total": 71,
+    "-weight.document": 11,
+    "+weight.document": 819,
+    "-weight.script": 631,
+    "+weight.script": 145,
+    "-weight.image": 649,
+    "+weight.image": 109,
+    "-weight.font": 73,
+    "+weight.font": 560,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 39,
+    "-totalBlockingTime": 538,
+    "-largestContentfulPaint": 840
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

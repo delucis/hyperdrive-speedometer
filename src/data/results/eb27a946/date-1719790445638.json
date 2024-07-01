@@ -1,0 +1,67 @@
+{
+  "url": "https://dalvid.com/",
+  "requestedUrl": "https://dalvid.com/",
+  "timestamp": 1719804354781,
+  "ranks": {
+    "hundos": 485,
+    "performance": 594,
+    "accessibility": 404,
+    "cumulative": 493
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.75,
+    "accessibility": 0.95,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 366
+  },
+  "firstContentfulPaint": 1561.7530000000002,
+  "firstMeaningfulPaint": 1561.7530000000002,
+  "speedIndex": 1683.9906979665282,
+  "largestContentfulPaint": 11160.627999999992,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1561.7530000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 68.354,
+  "weight": {
+    "summary": "10 requests • 1.9 MiB",
+    "total": 2013090,
+    "image": 1985467,
+    "imageCount": 5,
+    "script": 16811,
+    "scriptCount": 2,
+    "document": 4068,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 6744,
+    "stylesheetCount": 2,
+    "thirdParty": 794,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 668,
+    "+weight.total": 174,
+    "-weight.document": 100,
+    "+weight.document": 730,
+    "-weight.script": 183,
+    "+weight.script": 593,
+    "-weight.image": 664,
+    "+weight.image": 94,
+    "-weight.font": 1,
+    "+weight.font": 633,
+    "+weight.fontCount": 20,
+    "-timeToFirstByte": 463,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 530
+  },
+  "axe": {
+    "passes": 223,
+    "violations": 28
+  }
+}

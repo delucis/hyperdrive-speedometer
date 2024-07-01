@@ -1,0 +1,67 @@
+{
+  "url": "https://volarjs.dev/",
+  "requestedUrl": "https://volarjs.dev/",
+  "timestamp": 1719822412344,
+  "ranks": {
+    "hundos": 91,
+    "performance": 44,
+    "accessibility": 303,
+    "cumulative": 90
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 967.002,
+  "firstMeaningfulPaint": 967.002,
+  "speedIndex": 967.002,
+  "largestContentfulPaint": 967.002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 967.002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 9.647999999999996,
+  "weight": {
+    "summary": "11 requests • 87.6 KiB",
+    "total": 89721,
+    "image": 42427,
+    "imageCount": 5,
+    "script": 23730,
+    "scriptCount": 4,
+    "document": 12660,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 10904,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 100,
+    "+weight.total": 742,
+    "-weight.document": 489,
+    "+weight.document": 341,
+    "-weight.script": 210,
+    "+weight.script": 566,
+    "-weight.image": 168,
+    "+weight.image": 590,
+    "-weight.font": 1,
+    "+weight.font": 633,
+    "+weight.fontCount": 20,
+    "-timeToFirstByte": 124,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 25
+  },
+  "axe": {
+    "passes": 284,
+    "violations": 1
+  }
+}

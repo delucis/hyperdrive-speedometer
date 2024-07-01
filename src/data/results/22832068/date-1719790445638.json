@@ -1,0 +1,67 @@
+{
+  "url": "https://www.wordble.com/",
+  "requestedUrl": "https://www.wordble.com/",
+  "timestamp": 1719824738555,
+  "ranks": {
+    "hundos": 678,
+    "performance": 720,
+    "accessibility": 434,
+    "cumulative": 677
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.6,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 0.85,
+    "total": 339
+  },
+  "firstContentfulPaint": 2593.2825000000003,
+  "firstMeaningfulPaint": 2593.2825000000003,
+  "speedIndex": 5331.759300791839,
+  "largestContentfulPaint": 3878.1855000000005,
+  "totalBlockingTime": 868.0058433685313,
+  "cumulativeLayoutShift": 0.0000917378125331157,
+  "timeToInteractive": 6515.589008392335,
+  "maxPotentialFirstInputDelay": 254,
+  "timeToFirstByte": 1501.044,
+  "weight": {
+    "summary": "54 requests • 5.1 MiB",
+    "total": 5387110,
+    "image": 4796203,
+    "imageCount": 20,
+    "script": 394463,
+    "scriptCount": 23,
+    "document": 118274,
+    "font": 58337,
+    "fontCount": 1,
+    "stylesheet": 17269,
+    "stylesheetCount": 2,
+    "thirdParty": 715066,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 767,
+    "+weight.total": 75,
+    "-weight.document": 807,
+    "+weight.document": 23,
+    "-weight.script": 638,
+    "+weight.script": 138,
+    "-weight.image": 719,
+    "+weight.image": 39,
+    "-weight.font": 266,
+    "+weight.font": 367,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 818,
+    "-totalBlockingTime": 435,
+    "-largestContentfulPaint": 437
+  },
+  "axe": {
+    "passes": 632,
+    "violations": 3
+  }
+}

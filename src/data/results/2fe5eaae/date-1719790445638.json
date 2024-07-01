@@ -1,0 +1,67 @@
+{
+  "url": "https://boutiquestone.co.uk/",
+  "requestedUrl": "https://boutiquestone.co.uk/",
+  "timestamp": 1719803618068,
+  "ranks": {
+    "hundos": 776,
+    "performance": 777,
+    "accessibility": 695,
+    "cumulative": 776
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.48,
+    "accessibility": 0.85,
+    "bestPractices": 0.78,
+    "seo": 0.99,
+    "total": 310
+  },
+  "firstContentfulPaint": 3658.7690000000007,
+  "firstMeaningfulPaint": 3658.7690000000007,
+  "speedIndex": 6882.343369475083,
+  "largestContentfulPaint": 7926.859,
+  "totalBlockingTime": 539.0000000000005,
+  "cumulativeLayoutShift": 0.0013816779976293806,
+  "timeToInteractive": 8351.380000000001,
+  "maxPotentialFirstInputDelay": 349.0000000000009,
+  "timeToFirstByte": 494.01499999999993,
+  "weight": {
+    "summary": "95 requests • 2.7 MiB",
+    "total": 2847288,
+    "image": 1985332,
+    "imageCount": 24,
+    "script": 535533,
+    "scriptCount": 22,
+    "document": 43392,
+    "font": 246001,
+    "fontCount": 5,
+    "stylesheet": 19470,
+    "stylesheetCount": 3,
+    "thirdParty": 515041,
+    "thirdPartyCount": 9
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 718,
+    "+weight.total": 124,
+    "-weight.document": 731,
+    "+weight.document": 99,
+    "-weight.script": 686,
+    "+weight.script": 90,
+    "-weight.image": 663,
+    "+weight.image": 95,
+    "-weight.font": 534,
+    "+weight.font": 99,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 780,
+    "-totalBlockingTime": 382,
+    "-largestContentfulPaint": 506
+  },
+  "axe": {
+    "passes": 2130,
+    "violations": 120
+  }
+}

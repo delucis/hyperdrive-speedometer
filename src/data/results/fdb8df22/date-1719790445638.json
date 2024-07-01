@@ -1,0 +1,67 @@
+{
+  "url": "https://sklep.alablaboratoria.pl/covid/",
+  "requestedUrl": "https://sklep.alablaboratoria.pl/covid/",
+  "timestamp": 1719790916901,
+  "ranks": {
+    "hundos": 819,
+    "performance": 817,
+    "accessibility": 385,
+    "cumulative": 819
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.39,
+    "accessibility": 0.95,
+    "bestPractices": 0.56,
+    "seo": 0.98,
+    "total": 288
+  },
+  "firstContentfulPaint": 4806.282,
+  "firstMeaningfulPaint": 4806.282,
+  "speedIndex": 8693.11069225034,
+  "largestContentfulPaint": 7572.976999999999,
+  "totalBlockingTime": 867.5000000000005,
+  "cumulativeLayoutShift": 0.0022577976797984347,
+  "timeToInteractive": 12570.815999999995,
+  "maxPotentialFirstInputDelay": 281.00000000000045,
+  "timeToFirstByte": 119.613,
+  "weight": {
+    "summary": "157 requests • 1.3 MiB",
+    "total": 1386649,
+    "image": 383922,
+    "imageCount": 55,
+    "script": 842699,
+    "scriptCount": 28,
+    "document": 8234,
+    "font": 39721,
+    "fontCount": 2,
+    "stylesheet": 33794,
+    "stylesheetCount": 3,
+    "thirdParty": 1041264,
+    "thirdPartyCount": 55
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 597,
+    "+weight.total": 245,
+    "-weight.document": 330,
+    "+weight.document": 500,
+    "-weight.script": 729,
+    "+weight.script": 47,
+    "-weight.image": 456,
+    "+weight.image": 302,
+    "-weight.font": 167,
+    "+weight.font": 466,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 607,
+    "-totalBlockingTime": 434,
+    "-largestContentfulPaint": 504
+  },
+  "axe": {
+    "passes": 339,
+    "violations": 7
+  }
+}

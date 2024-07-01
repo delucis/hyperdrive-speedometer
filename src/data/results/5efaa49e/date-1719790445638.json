@@ -1,0 +1,67 @@
+{
+  "url": "https://hellostu.xyz/",
+  "requestedUrl": "https://hellostu.xyz/",
+  "timestamp": 1719806345319,
+  "ranks": {
+    "hundos": 224,
+    "performance": 148,
+    "accessibility": 153,
+    "cumulative": 224
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 391
+  },
+  "firstContentfulPaint": 832.79,
+  "firstMeaningfulPaint": 832.79,
+  "speedIndex": 832.79,
+  "largestContentfulPaint": 2128.774,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 866.29,
+  "maxPotentialFirstInputDelay": 58,
+  "timeToFirstByte": 2.7380000000000067,
+  "weight": {
+    "summary": "17 requests • 160.2 KiB",
+    "total": 164093,
+    "image": 74783,
+    "imageCount": 5,
+    "script": 4796,
+    "scriptCount": 1,
+    "document": 5454,
+    "font": 77067,
+    "fontCount": 9,
+    "stylesheet": 1993,
+    "stylesheetCount": 1,
+    "thirdParty": 82273,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 166,
+    "+weight.total": 676,
+    "-weight.document": 183,
+    "+weight.document": 647,
+    "-weight.script": 76,
+    "+weight.script": 700,
+    "-weight.image": 225,
+    "+weight.image": 533,
+    "-weight.font": 335,
+    "+weight.font": 298,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 29,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 285
+  },
+  "axe": {
+    "passes": 362,
+    "violations": 1
+  }
+}

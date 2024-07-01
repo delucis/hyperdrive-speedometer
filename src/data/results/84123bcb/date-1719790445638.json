@@ -1,0 +1,66 @@
+{
+  "url": "https://wishwork.org/",
+  "requestedUrl": "https://wishwork.org/",
+  "timestamp": 1719799762086,
+  "ranks": {
+    "hundos": 706,
+    "performance": 766,
+    "accessibility": 667,
+    "cumulative": 706
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.49,
+    "accessibility": 0.87,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 332
+  },
+  "firstContentfulPaint": 2283.141,
+  "firstMeaningfulPaint": 2283.141,
+  "speedIndex": 5350.322375488523,
+  "largestContentfulPaint": 3798.6209999999996,
+  "totalBlockingTime": 162386.425,
+  "cumulativeLayoutShift": 0.10981664744902403,
+  "timeToInteractive": 181090.936,
+  "maxPotentialFirstInputDelay": 5208,
+  "timeToFirstByte": 171.02100000000002,
+  "weight": {
+    "summary": "54 requests • 4.8 MiB",
+    "total": 5080874,
+    "image": 4114613,
+    "imageCount": 21,
+    "script": 855442,
+    "scriptCount": 16,
+    "document": 8970,
+    "font": 40318,
+    "fontCount": 3,
+    "stylesheet": 59805,
+    "stylesheetCount": 7,
+    "thirdParty": 322006,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 762,
+    "+weight.total": 80,
+    "-weight.document": 363,
+    "+weight.document": 467,
+    "-weight.script": 733,
+    "+weight.script": 43,
+    "-weight.image": 712,
+    "+weight.image": 46,
+    "-weight.font": 174,
+    "+weight.font": 459,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 655,
+    "-totalBlockingTime": 540,
+    "-largestContentfulPaint": 705
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}
