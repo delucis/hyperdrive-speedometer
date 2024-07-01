@@ -1,0 +1,67 @@
+{
+  "url": "https://ui.tailus.io/",
+  "requestedUrl": "https://beta.tailus.io/demo",
+  "timestamp": 1719803227454,
+  "ranks": {
+    "hundos": 750,
+    "performance": 776,
+    "accessibility": 723,
+    "cumulative": 749
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.48,
+    "accessibility": 0.83,
+    "bestPractices": 0.96,
+    "seo": 0.91,
+    "total": 318
+  },
+  "firstContentfulPaint": 2521.7295,
+  "firstMeaningfulPaint": 3750.1059999999998,
+  "speedIndex": 6426.4434416760505,
+  "largestContentfulPaint": 4264.4825,
+  "totalBlockingTime": 2138.9999999999995,
+  "cumulativeLayoutShift": 0.0027226583643000816,
+  "timeToInteractive": 7867.2294999999995,
+  "maxPotentialFirstInputDelay": 1427.9999999999995,
+  "timeToFirstByte": 134.88400000000001,
+  "weight": {
+    "summary": "150 requests • 1.2 MiB",
+    "total": 1237891,
+    "image": 415640,
+    "imageCount": 8,
+    "script": 498144,
+    "scriptCount": 133,
+    "document": 35604,
+    "font": 227157,
+    "fontCount": 4,
+    "stylesheet": 59983,
+    "stylesheetCount": 2,
+    "thirdParty": 473057,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 579,
+    "+weight.total": 263,
+    "-weight.document": 713,
+    "+weight.document": 117,
+    "-weight.script": 676,
+    "+weight.script": 100,
+    "-weight.image": 471,
+    "+weight.image": 287,
+    "-weight.font": 529,
+    "+weight.font": 104,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 621,
+    "-totalBlockingTime": 505,
+    "-largestContentfulPaint": 725
+  },
+  "axe": {
+    "passes": 3578,
+    "violations": 55
+  }
+}

@@ -102,6 +102,10 @@ module.exports = {
 			'https://ask.foolishdev.com/',
 			'https://www.atd2023.com/',
 			'https://www.unlace.net/',
+                        // Sites blocked 29 June 2024
+                        'https://okikio.dev/',
+                        'https://pooya.blog/',
+                        'https://adrianub.dev/'
 		]);
 
 		const fetch = (await import('node-fetch')).default;

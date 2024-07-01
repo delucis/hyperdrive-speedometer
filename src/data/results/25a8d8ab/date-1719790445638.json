@@ -1,0 +1,67 @@
+{
+  "url": "https://www.roorda.nl/",
+  "requestedUrl": "https://www.roorda.nl/",
+  "timestamp": 1719824352966,
+  "ranks": {
+    "hundos": 309,
+    "performance": 407,
+    "accessibility": 422,
+    "cumulative": 306
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.91,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 0.98,
+    "total": 383
+  },
+  "firstContentfulPaint": 1430.9840000000002,
+  "firstMeaningfulPaint": 1430.9840000000002,
+  "speedIndex": 2387.765495569587,
+  "largestContentfulPaint": 2960.2474999999995,
+  "totalBlockingTime": 210,
+  "cumulativeLayoutShift": 0.002563008523184449,
+  "timeToInteractive": 3641.071,
+  "maxPotentialFirstInputDelay": 322,
+  "timeToFirstByte": 3.1810000000000116,
+  "weight": {
+    "summary": "48 requests • 722.5 KiB",
+    "total": 739815,
+    "image": 322628,
+    "imageCount": 23,
+    "script": 179650,
+    "scriptCount": 18,
+    "document": 40809,
+    "font": 81116,
+    "fontCount": 2,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 105011,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 474,
+    "+weight.total": 368,
+    "-weight.document": 725,
+    "+weight.document": 105,
+    "-weight.script": 496,
+    "+weight.script": 280,
+    "-weight.image": 424,
+    "+weight.image": 334,
+    "-weight.font": 360,
+    "+weight.font": 273,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 40,
+    "-totalBlockingTime": 255,
+    "-largestContentfulPaint": 662
+  },
+  "axe": {
+    "passes": 699,
+    "violations": 1
+  }
+}

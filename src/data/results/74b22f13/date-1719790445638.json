@@ -1,0 +1,67 @@
+{
+  "url": "https://melonjs.org/",
+  "requestedUrl": "https://melonjs.org/",
+  "timestamp": 1719796055194,
+  "ranks": {
+    "hundos": 690,
+    "performance": 576,
+    "accessibility": 578,
+    "cumulative": 690
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.76,
+    "accessibility": 0.9,
+    "bestPractices": 0.7,
+    "seo": 1,
+    "total": 336
+  },
+  "firstContentfulPaint": 1544.3429999999998,
+  "firstMeaningfulPaint": 1544.3429999999998,
+  "speedIndex": 1544.3429999999998,
+  "largestContentfulPaint": 7178.031500000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1544.3429999999998,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 22.900000000000006,
+  "weight": {
+    "summary": "23 requests • 1.2 MiB",
+    "total": 1241312,
+    "image": 1190717,
+    "imageCount": 14,
+    "script": 5336,
+    "scriptCount": 3,
+    "document": 14510,
+    "font": 23586,
+    "fontCount": 1,
+    "stylesheet": 2750,
+    "stylesheetCount": 3,
+    "thirdParty": 1102523,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 580,
+    "+weight.total": 262,
+    "-weight.document": 536,
+    "+weight.document": 294,
+    "-weight.script": 92,
+    "+weight.script": 684,
+    "-weight.image": 616,
+    "+weight.image": 142,
+    "-weight.font": 54,
+    "+weight.font": 579,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 275,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 502
+  },
+  "axe": {
+    "passes": 506,
+    "violations": 5
+  }
+}

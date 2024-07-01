@@ -1,0 +1,66 @@
+{
+  "url": "https://www.porsche.com/usa/?cs_redirect=1",
+  "requestedUrl": "https://www.porsche.com/",
+  "timestamp": 1719801312245,
+  "ranks": {
+    "hundos": 773,
+    "performance": 827,
+    "accessibility": 292,
+    "cumulative": 773
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.34,
+    "accessibility": 1,
+    "bestPractices": 0.78,
+    "seo": 1,
+    "total": 312
+  },
+  "firstContentfulPaint": 2878.2266000000004,
+  "firstMeaningfulPaint": 3182.5214000000005,
+  "speedIndex": 7110.556431727637,
+  "largestContentfulPaint": 8201.960499999997,
+  "totalBlockingTime": 4599.6245,
+  "cumulativeLayoutShift": 0.05214204003870886,
+  "timeToInteractive": 19504.559999999998,
+  "maxPotentialFirstInputDelay": 1277.9999999999982,
+  "timeToFirstByte": 2.7189999999999994,
+  "weight": {
+    "summary": "224 requests • 2.2 MiB",
+    "total": 2291806,
+    "image": 593146,
+    "imageCount": 60,
+    "script": 1507060,
+    "scriptCount": 113,
+    "document": 46512,
+    "font": 80576,
+    "fontCount": 2,
+    "stylesheet": 12448,
+    "stylesheetCount": 3,
+    "thirdParty": 1545051,
+    "thirdPartyCount": 17
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 685,
+    "+weight.total": 157,
+    "-weight.document": 739,
+    "+weight.document": 91,
+    "-weight.script": 765,
+    "+weight.script": 11,
+    "-weight.image": 517,
+    "+weight.image": 241,
+    "-weight.font": 356,
+    "+weight.font": 277,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 28,
+    "-totalBlockingTime": 526,
+    "-largestContentfulPaint": 795
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

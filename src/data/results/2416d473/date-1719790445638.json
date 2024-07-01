@@ -1,0 +1,67 @@
+{
+  "url": "https://barnabas.me/",
+  "requestedUrl": "https://barnabas.me/",
+  "timestamp": 1719803094663,
+  "ranks": {
+    "hundos": 24,
+    "performance": 105,
+    "accessibility": 164,
+    "cumulative": 46
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 945.158,
+  "firstMeaningfulPaint": 1288.4479999999999,
+  "speedIndex": 1154.7336030099914,
+  "largestContentfulPaint": 1631.7379999999998,
+  "totalBlockingTime": 9,
+  "cumulativeLayoutShift": 0.011438464224309573,
+  "timeToInteractive": 1663.7379999999998,
+  "maxPotentialFirstInputDelay": 59,
+  "timeToFirstByte": 87.177,
+  "weight": {
+    "summary": "14 requests • 112.2 KiB",
+    "total": 114883,
+    "image": 31790,
+    "imageCount": 2,
+    "script": 23801,
+    "scriptCount": 4,
+    "document": 3613,
+    "font": 46413,
+    "fontCount": 2,
+    "stylesheet": 9229,
+    "stylesheetCount": 3,
+    "thirdParty": 8459,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 126,
+    "+weight.total": 716,
+    "-weight.document": 71,
+    "+weight.document": 759,
+    "-weight.script": 211,
+    "+weight.script": 565,
+    "-weight.image": 140,
+    "+weight.image": 618,
+    "-weight.font": 198,
+    "+weight.font": 435,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 522,
+    "-totalBlockingTime": 21,
+    "-largestContentfulPaint": 183
+  },
+  "axe": {
+    "passes": 159,
+    "violations": 1
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://awazly.com/",
+  "requestedUrl": "https://awazly.com/",
+  "timestamp": 1719803028236,
+  "ranks": {
+    "hundos": 186,
+    "performance": 176,
+    "accessibility": 135,
+    "cumulative": 182
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 0.98,
+    "total": 393
+  },
+  "firstContentfulPaint": 1372.1280000000002,
+  "firstMeaningfulPaint": 1372.1280000000002,
+  "speedIndex": 1372.1280000000002,
+  "largestContentfulPaint": 1372.1280000000002,
+  "totalBlockingTime": 107,
+  "cumulativeLayoutShift": 0.005399398661679191,
+  "timeToInteractive": 1529.1280000000002,
+  "maxPotentialFirstInputDelay": 164,
+  "timeToFirstByte": 14.668999999999997,
+  "weight": {
+    "summary": "46 requests • 229.2 KiB",
+    "total": 234735,
+    "image": 46728,
+    "imageCount": 4,
+    "script": 6320,
+    "scriptCount": 3,
+    "document": 17635,
+    "font": 46891,
+    "fontCount": 1,
+    "stylesheet": 12551,
+    "stylesheetCount": 1,
+    "thirdParty": 104465,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 230,
+    "+weight.total": 612,
+    "-weight.document": 593,
+    "+weight.document": 237,
+    "-weight.script": 106,
+    "+weight.script": 670,
+    "-weight.image": 177,
+    "+weight.image": 581,
+    "-weight.font": 208,
+    "+weight.font": 425,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 176,
+    "-totalBlockingTime": 160,
+    "-largestContentfulPaint": 565
+  },
+  "axe": {
+    "passes": 739,
+    "violations": 1
+  }
+}

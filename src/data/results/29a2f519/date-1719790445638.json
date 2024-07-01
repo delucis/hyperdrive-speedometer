@@ -1,0 +1,67 @@
+{
+  "url": "https://abctoolbox.com/",
+  "requestedUrl": "https://abctoolbox.com/",
+  "timestamp": 1719813660190,
+  "ranks": {
+    "hundos": 259,
+    "performance": 261,
+    "accessibility": 468,
+    "cumulative": 258
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.97,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 0.99,
+    "total": 389
+  },
+  "firstContentfulPaint": 1042.1125,
+  "firstMeaningfulPaint": 1042.1125,
+  "speedIndex": 1042.1125,
+  "largestContentfulPaint": 1202.6125,
+  "totalBlockingTime": 188.5,
+  "cumulativeLayoutShift": 0.008941118545780774,
+  "timeToInteractive": 2255.6125,
+  "maxPotentialFirstInputDelay": 153,
+  "timeToFirstByte": 75.757,
+  "weight": {
+    "summary": "52 requests • 309.2 KiB",
+    "total": 316621,
+    "image": 1955,
+    "imageCount": 1,
+    "script": 119295,
+    "scriptCount": 12,
+    "document": 12435,
+    "font": 65356,
+    "fontCount": 2,
+    "stylesheet": 13112,
+    "stylesheetCount": 1,
+    "thirdParty": 106423,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 293,
+    "+weight.total": 549,
+    "-weight.document": 480,
+    "+weight.document": 350,
+    "-weight.script": 433,
+    "+weight.script": 343,
+    "-weight.image": 29,
+    "+weight.image": 729,
+    "-weight.font": 300,
+    "+weight.font": 333,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 489,
+    "-totalBlockingTime": 237,
+    "-largestContentfulPaint": 80
+  },
+  "axe": {
+    "passes": 587,
+    "violations": 3
+  }
+}

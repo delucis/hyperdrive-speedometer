@@ -1,0 +1,66 @@
+{
+  "url": "https://bobalazek.com/",
+  "requestedUrl": "https://bobalazek.com/",
+  "timestamp": 1719815179347,
+  "ranks": {
+    "hundos": 572,
+    "performance": 717,
+    "accessibility": 291,
+    "cumulative": 572
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.61,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.95,
+    "total": 356
+  },
+  "firstContentfulPaint": 1014.8930000000003,
+  "firstMeaningfulPaint": 1065.6870000000004,
+  "speedIndex": 8252.893430861339,
+  "largestContentfulPaint": 1141.8855000000003,
+  "totalBlockingTime": 167561,
+  "cumulativeLayoutShift": 0.06611631641788512,
+  "timeToInteractive": 174402.642,
+  "maxPotentialFirstInputDelay": 3989,
+  "timeToFirstByte": 94.62700000000007,
+  "weight": {
+    "summary": "14 requests • 668.2 KiB",
+    "total": 684216,
+    "image": 0,
+    "imageCount": 1,
+    "script": 386267,
+    "scriptCount": 6,
+    "document": 8692,
+    "font": 58106,
+    "fontCount": 3,
+    "stylesheet": 21077,
+    "stylesheetCount": 2,
+    "thirdParty": 821,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 462,
+    "+weight.total": 380,
+    "-weight.document": 348,
+    "+weight.document": 482,
+    "-weight.script": 635,
+    "+weight.script": 141,
+    "-weight.image": 1,
+    "+weight.image": 758,
+    "-weight.font": 261,
+    "+weight.font": 372,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 548,
+    "-totalBlockingTime": 541,
+    "-largestContentfulPaint": 551
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

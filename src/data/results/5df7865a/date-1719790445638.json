@@ -1,0 +1,67 @@
+{
+  "url": "https://denonken.com/",
+  "requestedUrl": "https://mauems.com/",
+  "timestamp": 1719796005046,
+  "ranks": {
+    "hundos": 651,
+    "performance": 673,
+    "accessibility": 790,
+    "cumulative": 651
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.69,
+    "accessibility": 0.75,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 344
+  },
+  "firstContentfulPaint": 2562.5350000000003,
+  "firstMeaningfulPaint": 2733.6125,
+  "speedIndex": 4812.719712735936,
+  "largestContentfulPaint": 5763.6900000000005,
+  "totalBlockingTime": 191,
+  "cumulativeLayoutShift": 0.0006225767985548374,
+  "timeToInteractive": 2904.6899999999996,
+  "maxPotentialFirstInputDelay": 150,
+  "timeToFirstByte": 152.42399999999998,
+  "weight": {
+    "summary": "20 requests • 15.7 MiB",
+    "total": 16461261,
+    "image": 595660,
+    "imageCount": 9,
+    "script": 23399,
+    "scriptCount": 3,
+    "document": 4179,
+    "font": 55049,
+    "fontCount": 1,
+    "stylesheet": 22176,
+    "stylesheetCount": 2,
+    "thirdParty": 27330,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 824,
+    "+weight.total": 18,
+    "-weight.document": 108,
+    "+weight.document": 722,
+    "-weight.script": 208,
+    "+weight.script": 568,
+    "-weight.image": 518,
+    "+weight.image": 240,
+    "-weight.font": 246,
+    "+weight.font": 387,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 634,
+    "-totalBlockingTime": 239,
+    "-largestContentfulPaint": 769
+  },
+  "axe": {
+    "passes": 78,
+    "violations": 2
+  }
+}

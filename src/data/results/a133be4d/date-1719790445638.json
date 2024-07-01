@@ -1,0 +1,67 @@
+{
+  "url": "https://anurock.dev/",
+  "requestedUrl": "https://anurock.dev/",
+  "timestamp": 1719791092667,
+  "ranks": {
+    "hundos": 828,
+    "performance": 807,
+    "accessibility": 788,
+    "cumulative": 828
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.42,
+    "accessibility": 0.76,
+    "bestPractices": 0.59,
+    "seo": 0.99,
+    "total": 276
+  },
+  "firstContentfulPaint": 1691.8950000000002,
+  "firstMeaningfulPaint": 1691.8950000000002,
+  "speedIndex": 9243.046768778899,
+  "largestContentfulPaint": 5048.106,
+  "totalBlockingTime": 5117.000000000004,
+  "cumulativeLayoutShift": 0.0016546858127929024,
+  "timeToInteractive": 20740.653340000004,
+  "maxPotentialFirstInputDelay": 538,
+  "timeToFirstByte": 2.763999999999996,
+  "weight": {
+    "summary": "192 requests • 5.2 MiB",
+    "total": 5480284,
+    "image": 963312,
+    "imageCount": 18,
+    "script": 1552435,
+    "scriptCount": 68,
+    "document": 136035,
+    "font": 526951,
+    "fontCount": 15,
+    "stylesheet": 68874,
+    "stylesheetCount": 22,
+    "thirdParty": 4728153,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 768,
+    "+weight.total": 74,
+    "-weight.document": 810,
+    "+weight.document": 20,
+    "-weight.script": 768,
+    "+weight.script": 8,
+    "-weight.image": 591,
+    "+weight.image": 167,
+    "-weight.font": 599,
+    "+weight.font": 34,
+    "+weight.fontCount": 5,
+    "-timeToFirstByte": 30,
+    "-totalBlockingTime": 528,
+    "-largestContentfulPaint": 751
+  },
+  "axe": {
+    "passes": 1033,
+    "violations": 19
+  }
+}

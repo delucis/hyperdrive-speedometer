@@ -1,0 +1,67 @@
+{
+  "url": "https://richardspenn.com/",
+  "requestedUrl": "https://richardspenn.com/",
+  "timestamp": 1719820440417,
+  "ranks": {
+    "hundos": 511,
+    "performance": 547,
+    "accessibility": 339,
+    "cumulative": 510
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.79,
+    "accessibility": 0.96,
+    "bestPractices": 0.96,
+    "seo": 0.92,
+    "total": 363
+  },
+  "firstContentfulPaint": 1060.6255,
+  "firstMeaningfulPaint": 1060.6255,
+  "speedIndex": 2779.9186741663607,
+  "largestContentfulPaint": 1958.2255000000002,
+  "totalBlockingTime": 714.5000000000002,
+  "cumulativeLayoutShift": 0.08763660789524391,
+  "timeToInteractive": 4184.2255000000005,
+  "maxPotentialFirstInputDelay": 341,
+  "timeToFirstByte": 91.54000000000002,
+  "weight": {
+    "summary": "69 requests • 1.3 MiB",
+    "total": 1363852,
+    "image": 232081,
+    "imageCount": 6,
+    "script": 111312,
+    "scriptCount": 6,
+    "document": 12486,
+    "font": 307092,
+    "fontCount": 5,
+    "stylesheet": 16912,
+    "stylesheetCount": 3,
+    "thirdParty": 1030104,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 595,
+    "+weight.total": 247,
+    "-weight.document": 482,
+    "+weight.document": 348,
+    "-weight.script": 425,
+    "+weight.script": 351,
+    "-weight.image": 366,
+    "+weight.image": 392,
+    "-weight.font": 561,
+    "+weight.font": 72,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 536,
+    "-totalBlockingTime": 419,
+    "-largestContentfulPaint": 255
+  },
+  "axe": {
+    "passes": 647,
+    "violations": 20
+  }
+}

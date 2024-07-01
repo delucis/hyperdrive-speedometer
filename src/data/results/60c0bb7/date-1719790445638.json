@@ -1,0 +1,67 @@
+{
+  "url": "https://www.quizrise.com/",
+  "requestedUrl": "https://www.quizrise.com/",
+  "timestamp": 1719812949114,
+  "ranks": {
+    "hundos": 763,
+    "performance": 735,
+    "accessibility": 593,
+    "cumulative": 764
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.57,
+    "accessibility": 0.9,
+    "bestPractices": 0.74,
+    "seo": 0.93,
+    "total": 314
+  },
+  "firstContentfulPaint": 1058.583,
+  "firstMeaningfulPaint": 1765.575,
+  "speedIndex": 5044.767448608567,
+  "largestContentfulPaint": 4234.5830000000005,
+  "totalBlockingTime": 1360.5000000000007,
+  "cumulativeLayoutShift": 0.015272457188958108,
+  "timeToInteractive": 9476.23825,
+  "maxPotentialFirstInputDelay": 513.0000000000002,
+  "timeToFirstByte": 220.60899999999998,
+  "weight": {
+    "summary": "94 requests • 4.1 MiB",
+    "total": 4271404,
+    "image": 1696349,
+    "imageCount": 21,
+    "script": 564016,
+    "scriptCount": 38,
+    "document": 23527,
+    "font": 71460,
+    "fontCount": 4,
+    "stylesheet": 30666,
+    "stylesheetCount": 7,
+    "thirdParty": 1571375,
+    "thirdPartyCount": 12
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 753,
+    "+weight.total": 89,
+    "-weight.document": 647,
+    "+weight.document": 183,
+    "-weight.script": 691,
+    "+weight.script": 85,
+    "-weight.image": 652,
+    "+weight.image": 106,
+    "-weight.font": 318,
+    "+weight.font": 315,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 691,
+    "-totalBlockingTime": 477,
+    "-largestContentfulPaint": 724
+  },
+  "axe": {
+    "passes": 1713,
+    "violations": 79
+  }
+}

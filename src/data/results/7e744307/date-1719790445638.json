@@ -1,0 +1,66 @@
+{
+  "url": "https://academic-project-astro-template.vercel.app/",
+  "requestedUrl": "https://academic-project-astro-template.vercel.app/",
+  "timestamp": 1719802328099,
+  "ranks": {
+    "hundos": 746,
+    "performance": 731,
+    "accessibility": 533,
+    "cumulative": 746
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.58,
+    "accessibility": 0.92,
+    "bestPractices": 0.78,
+    "seo": 0.92,
+    "total": 320
+  },
+  "firstContentfulPaint": 1541.0210000000002,
+  "firstMeaningfulPaint": 1541.0210000000002,
+  "speedIndex": 7838.819408042956,
+  "largestContentfulPaint": 2752.471,
+  "totalBlockingTime": 169073.8281880188,
+  "cumulativeLayoutShift": 0.025000773479626644,
+  "timeToInteractive": 177376.4968119812,
+  "maxPotentialFirstInputDelay": 3883,
+  "timeToFirstByte": 20.335000000000008,
+  "weight": {
+    "summary": "51 requests • 5.8 MiB",
+    "total": 6090362,
+    "image": 122214,
+    "imageCount": 12,
+    "script": 1249345,
+    "scriptCount": 8,
+    "document": 48066,
+    "font": 292891,
+    "fontCount": 8,
+    "stylesheet": 56835,
+    "stylesheetCount": 4,
+    "thirdParty": 3195702,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 782,
+    "+weight.total": 60,
+    "-weight.document": 743,
+    "+weight.document": 87,
+    "-weight.script": 757,
+    "+weight.script": 19,
+    "-weight.image": 277,
+    "+weight.image": 481,
+    "-weight.font": 554,
+    "+weight.font": 79,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 247,
+    "-totalBlockingTime": 542,
+    "-largestContentfulPaint": 650
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

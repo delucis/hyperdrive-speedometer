@@ -1,0 +1,67 @@
+{
+  "url": "https://blog.nguyentruonganhkiet.work/",
+  "requestedUrl": "https://blog.nguyentruonganhkiet.work/",
+  "timestamp": 1719814989613,
+  "ranks": {
+    "hundos": 301,
+    "performance": 308,
+    "accessibility": 626,
+    "cumulative": 301
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.96,
+    "accessibility": 0.88,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 384
+  },
+  "firstContentfulPaint": 1857.6514999999995,
+  "firstMeaningfulPaint": 1891.6514999999995,
+  "speedIndex": 1868.758799425441,
+  "largestContentfulPaint": 2580.7750999999994,
+  "totalBlockingTime": 10.988500000000158,
+  "cumulativeLayoutShift": 0.0013904523345676743,
+  "timeToInteractive": 2859.6399999999994,
+  "maxPotentialFirstInputDelay": 69,
+  "timeToFirstByte": 136.164,
+  "weight": {
+    "summary": "18 requests • 396.3 KiB",
+    "total": 405831,
+    "image": 28591,
+    "imageCount": 1,
+    "script": 71654,
+    "scriptCount": 7,
+    "document": 4512,
+    "font": 191479,
+    "fontCount": 3,
+    "stylesheet": 29794,
+    "stylesheetCount": 4,
+    "thirdParty": 217026,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 342,
+    "+weight.total": 500,
+    "-weight.document": 126,
+    "+weight.document": 704,
+    "-weight.script": 346,
+    "+weight.script": 430,
+    "-weight.image": 132,
+    "+weight.image": 626,
+    "-weight.font": 513,
+    "+weight.font": 120,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 624,
+    "-totalBlockingTime": 25,
+    "-largestContentfulPaint": 349
+  },
+  "axe": {
+    "passes": 50,
+    "violations": 4
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://shellmonk.io/",
+  "requestedUrl": "https://shellmonk.io/",
+  "timestamp": 1719797865153,
+  "ranks": {
+    "hundos": 261,
+    "performance": 95,
+    "accessibility": 581,
+    "cumulative": 260
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 0.9,
+    "bestPractices": 1,
+    "seo": 0.99,
+    "total": 389
+  },
+  "firstContentfulPaint": 1033,
+  "firstMeaningfulPaint": 1033,
+  "speedIndex": 1120.431168023705,
+  "largestContentfulPaint": 1033,
+  "totalBlockingTime": 2.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1083.5,
+  "maxPotentialFirstInputDelay": 103,
+  "timeToFirstByte": 296.81800000000004,
+  "weight": {
+    "summary": "44 requests • 172.2 KiB",
+    "total": 176295,
+    "image": 0,
+    "imageCount": 0,
+    "script": 14872,
+    "scriptCount": 3,
+    "document": 10996,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 8960,
+    "stylesheetCount": 1,
+    "thirdParty": 104493,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 180,
+    "+weight.total": 662,
+    "-weight.document": 434,
+    "+weight.document": 396,
+    "-weight.script": 177,
+    "+weight.script": 599,
+    "-weight.image": 1,
+    "+weight.image": 758,
+    "-weight.font": 1,
+    "+weight.font": 633,
+    "+weight.fontCount": 20,
+    "-timeToFirstByte": 731,
+    "-totalBlockingTime": 6,
+    "-largestContentfulPaint": 39
+  },
+  "axe": {
+    "passes": 347,
+    "violations": 8
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.mailfox.dev/",
+  "requestedUrl": "https://www.mailfox.dev/",
+  "timestamp": 1719812578021,
+  "ranks": {
+    "hundos": 327,
+    "performance": 290,
+    "accessibility": 405,
+    "cumulative": 327
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.97,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 0.9,
+    "total": 382
+  },
+  "firstContentfulPaint": 1945.495,
+  "firstMeaningfulPaint": 1945.495,
+  "speedIndex": 2949.267505979835,
+  "largestContentfulPaint": 1945.495,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.027947440092607044,
+  "timeToInteractive": 1945.495,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 419.813,
+  "weight": {
+    "summary": "17 requests • 300.8 KiB",
+    "total": 308066,
+    "image": 234949,
+    "imageCount": 10,
+    "script": 12420,
+    "scriptCount": 2,
+    "document": 10081,
+    "font": 32783,
+    "fontCount": 1,
+    "stylesheet": 17833,
+    "stylesheetCount": 3,
+    "thirdParty": 33677,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 288,
+    "+weight.total": 554,
+    "-weight.document": 405,
+    "+weight.document": 425,
+    "-weight.script": 159,
+    "+weight.script": 617,
+    "-weight.image": 368,
+    "+weight.image": 390,
+    "-weight.font": 113,
+    "+weight.font": 520,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 770,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 252
+  },
+  "axe": {
+    "passes": 649,
+    "violations": 32
+  }
+}

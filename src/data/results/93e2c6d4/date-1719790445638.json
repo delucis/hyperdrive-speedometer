@@ -1,0 +1,67 @@
+{
+  "url": "https://www.lundqvistdallyn.studio/",
+  "requestedUrl": "https://www.lundqvistdallyn.studio/",
+  "timestamp": 1719812564627,
+  "ranks": {
+    "hundos": 161,
+    "performance": 314,
+    "accessibility": 307,
+    "cumulative": 166
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.96,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 394
+  },
+  "firstContentfulPaint": 1652.7640000000001,
+  "firstMeaningfulPaint": 1652.7640000000001,
+  "speedIndex": 4326.456206318007,
+  "largestContentfulPaint": 2102.764,
+  "totalBlockingTime": 61,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2724.764,
+  "maxPotentialFirstInputDelay": 172,
+  "timeToFirstByte": 3.989999999999995,
+  "weight": {
+    "summary": "46 requests • 761.3 KiB",
+    "total": 779528,
+    "image": 483841,
+    "imageCount": 25,
+    "script": 212077,
+    "scriptCount": 13,
+    "document": 7516,
+    "font": 48362,
+    "fontCount": 2,
+    "stylesheet": 12935,
+    "stylesheetCount": 2,
+    "thirdParty": 483841,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 492,
+    "+weight.total": 350,
+    "-weight.document": 298,
+    "+weight.document": 532,
+    "-weight.script": 531,
+    "+weight.script": 245,
+    "-weight.image": 488,
+    "+weight.image": 270,
+    "-weight.font": 227,
+    "+weight.font": 406,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 66,
+    "-totalBlockingTime": 102,
+    "-largestContentfulPaint": 276
+  },
+  "axe": {
+    "passes": 404,
+    "violations": 3
+  }
+}
