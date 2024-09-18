@@ -1,0 +1,67 @@
+{
+  "url": "https://www.mordecai-law.com/",
+  "requestedUrl": "https://www.mordecai-law.com/",
+  "timestamp": 1726616468941,
+  "ranks": {
+    "hundos": 502,
+    "performance": 621,
+    "accessibility": 322,
+    "cumulative": 502
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.79,
+    "accessibility": 1,
+    "bestPractices": 0.93,
+    "seo": 1,
+    "total": 372
+  },
+  "firstContentfulPaint": 1114.2495,
+  "firstMeaningfulPaint": 1400.2495,
+  "speedIndex": 3375.5748992951962,
+  "largestContentfulPaint": 2877.2495,
+  "totalBlockingTime": 600.5,
+  "cumulativeLayoutShift": 0.01578708032595251,
+  "timeToInteractive": 2991.7495,
+  "maxPotentialFirstInputDelay": 384,
+  "timeToFirstByte": 979.307,
+  "weight": {
+    "summary": "26 requests • 377.8 KiB",
+    "total": 386833,
+    "image": 263409,
+    "imageCount": 13,
+    "script": 53004,
+    "scriptCount": 7,
+    "document": 9816,
+    "font": 34993,
+    "fontCount": 2,
+    "stylesheet": 25611,
+    "stylesheetCount": 3,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 398,
+    "+weight.total": 589,
+    "-weight.document": 463,
+    "+weight.document": 505,
+    "-weight.script": 362,
+    "+weight.script": 559,
+    "-weight.image": 445,
+    "+weight.image": 433,
+    "-weight.font": 139,
+    "+weight.font": 577,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 933,
+    "-totalBlockingTime": 434,
+    "-largestContentfulPaint": 464
+  },
+  "axe": {
+    "passes": 480,
+    "violations": 21
+  }
+}

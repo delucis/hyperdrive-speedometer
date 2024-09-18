@@ -1,0 +1,67 @@
+{
+  "url": "https://stageinhome.com/en/",
+  "requestedUrl": "https://stageinhome.com/en/",
+  "timestamp": 1726597804537,
+  "ranks": {
+    "hundos": 671,
+    "performance": 579,
+    "accessibility": 810,
+    "cumulative": 674
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.82,
+    "accessibility": 0.85,
+    "bestPractices": 1,
+    "seo": 0.88,
+    "total": 355
+  },
+  "firstContentfulPaint": 2531.3009999999995,
+  "firstMeaningfulPaint": 2891.7349999999997,
+  "speedIndex": 2918.1367225629283,
+  "largestContentfulPaint": 2696.9519999999993,
+  "totalBlockingTime": 153.5,
+  "cumulativeLayoutShift": 0.1911918498036842,
+  "timeToInteractive": 4601.2305,
+  "maxPotentialFirstInputDelay": 180,
+  "timeToFirstByte": 80.21100000000001,
+  "weight": {
+    "summary": "45 requests • 8.6 MiB",
+    "total": 9035960,
+    "image": 3461228,
+    "imageCount": 27,
+    "script": 282862,
+    "scriptCount": 8,
+    "document": 9172,
+    "font": 221091,
+    "fontCount": 2,
+    "stylesheet": 31239,
+    "stylesheetCount": 2,
+    "thirdParty": 261068,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 943,
+    "+weight.total": 44,
+    "-weight.document": 423,
+    "+weight.document": 545,
+    "-weight.script": 692,
+    "+weight.script": 229,
+    "-weight.image": 821,
+    "+weight.image": 57,
+    "-weight.font": 589,
+    "+weight.font": 127,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 485,
+    "-totalBlockingTime": 200,
+    "-largestContentfulPaint": 706
+  },
+  "axe": {
+    "passes": 509,
+    "violations": 15
+  }
+}

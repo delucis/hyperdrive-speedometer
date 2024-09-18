@@ -1,0 +1,67 @@
+{
+  "url": "https://www.ubong.dev/",
+  "requestedUrl": "https://ubong.dev/",
+  "timestamp": 1726613487894,
+  "ranks": {
+    "hundos": 484,
+    "performance": 591,
+    "accessibility": 557,
+    "cumulative": 482
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.81,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 374
+  },
+  "firstContentfulPaint": 3392.6760000000004,
+  "firstMeaningfulPaint": 3479.6760000000004,
+  "speedIndex": 3392.6760000000004,
+  "largestContentfulPaint": 3642.6740000000013,
+  "totalBlockingTime": 141.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3697.8635000000013,
+  "maxPotentialFirstInputDelay": 226,
+  "timeToFirstByte": 25.271,
+  "weight": {
+    "summary": "39 requests • 313.9 KiB",
+    "total": 321436,
+    "image": 33336,
+    "imageCount": 1,
+    "script": 107363,
+    "scriptCount": 7,
+    "document": 5230,
+    "font": 63318,
+    "fontCount": 3,
+    "stylesheet": 7029,
+    "stylesheetCount": 4,
+    "thirdParty": 194088,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 350,
+    "+weight.total": 637,
+    "-weight.document": 181,
+    "+weight.document": 787,
+    "-weight.script": 485,
+    "+weight.script": 436,
+    "-weight.image": 177,
+    "+weight.image": 701,
+    "-weight.font": 310,
+    "+weight.font": 406,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 241,
+    "-totalBlockingTime": 193,
+    "-largestContentfulPaint": 787
+  },
+  "axe": {
+    "passes": 259,
+    "violations": 1
+  }
+}

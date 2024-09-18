@@ -1,0 +1,67 @@
+{
+  "url": "https://stash.tomoweb.dev/",
+  "requestedUrl": "https://stash.tomoweb.dev/",
+  "timestamp": 1726597904606,
+  "ranks": {
+    "hundos": 148,
+    "performance": 338,
+    "accessibility": 34,
+    "cumulative": 136
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.96,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 1116.7835,
+  "firstMeaningfulPaint": 1198.2835,
+  "speedIndex": 1793.3066627474268,
+  "largestContentfulPaint": 1873.5255,
+  "totalBlockingTime": 196,
+  "cumulativeLayoutShift": 0.009076771996437834,
+  "timeToInteractive": 3782.7835,
+  "maxPotentialFirstInputDelay": 163,
+  "timeToFirstByte": 256.36,
+  "weight": {
+    "summary": "9 requests • 474.6 KiB",
+    "total": 485992,
+    "image": 0,
+    "imageCount": 0,
+    "script": 13455,
+    "scriptCount": 3,
+    "document": 24009,
+    "font": 437283,
+    "fontCount": 3,
+    "stylesheet": 11103,
+    "stylesheetCount": 1,
+    "thirdParty": 7105,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 457,
+    "+weight.total": 530,
+    "-weight.document": 754,
+    "+weight.document": 214,
+    "-weight.script": 195,
+    "+weight.script": 726,
+    "-weight.image": 1,
+    "+weight.image": 878,
+    "-weight.font": 663,
+    "+weight.font": 53,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 802,
+    "-totalBlockingTime": 241,
+    "-largestContentfulPaint": 618
+  },
+  "axe": {
+    "passes": 518,
+    "violations": 0
+  }
+}

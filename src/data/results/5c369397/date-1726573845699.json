@@ -1,0 +1,67 @@
+{
+  "url": "https://www.objeto.ca/",
+  "requestedUrl": "https://objeto.ca/",
+  "timestamp": 1726595715912,
+  "ranks": {
+    "hundos": 508,
+    "performance": 610,
+    "accessibility": 398,
+    "cumulative": 507
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.8,
+    "accessibility": 0.96,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 372
+  },
+  "firstContentfulPaint": 2483.9165,
+  "firstMeaningfulPaint": 2483.9165,
+  "speedIndex": 2483.9165,
+  "largestContentfulPaint": 2483.9165,
+  "totalBlockingTime": 371,
+  "cumulativeLayoutShift": 0.1458612674847449,
+  "timeToInteractive": 7899.0960000000005,
+  "maxPotentialFirstInputDelay": 374,
+  "timeToFirstByte": 57.894000000000005,
+  "weight": {
+    "summary": "56 requests • 818.8 KiB",
+    "total": 838480,
+    "image": 413242,
+    "imageCount": 20,
+    "script": 309784,
+    "scriptCount": 20,
+    "document": 8508,
+    "font": 88932,
+    "fontCount": 2,
+    "stylesheet": 13643,
+    "stylesheetCount": 3,
+    "thirdParty": 394929,
+    "thirdPartyCount": 9
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 600,
+    "+weight.total": 387,
+    "-weight.document": 391,
+    "+weight.document": 577,
+    "-weight.script": 705,
+    "+weight.script": 216,
+    "-weight.image": 525,
+    "+weight.image": 353,
+    "-weight.font": 421,
+    "+weight.font": 295,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 431,
+    "-totalBlockingTime": 346,
+    "-largestContentfulPaint": 688
+  },
+  "axe": {
+    "passes": 458,
+    "violations": 11
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.stillio.com/",
+  "requestedUrl": "https://www.stillio.com/",
+  "timestamp": 1726587930419,
+  "ranks": {
+    "hundos": 786,
+    "performance": 859,
+    "accessibility": 363,
+    "cumulative": 784
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.54,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 0.89,
+    "total": 341
+  },
+  "firstContentfulPaint": 1478.6084999999998,
+  "firstMeaningfulPaint": 1478.6084999999998,
+  "speedIndex": 3707.4259103151344,
+  "largestContentfulPaint": 5672.967499999999,
+  "totalBlockingTime": 1114.9999999999998,
+  "cumulativeLayoutShift": 0.00007372418413004812,
+  "timeToInteractive": 9627.341999999999,
+  "maxPotentialFirstInputDelay": 502.99999999999955,
+  "timeToFirstByte": 21.950999999999993,
+  "weight": {
+    "summary": "109 requests • 1.9 MiB",
+    "total": 1987446,
+    "image": 977474,
+    "imageCount": 28,
+    "script": 766519,
+    "scriptCount": 58,
+    "document": 25517,
+    "font": 104963,
+    "fontCount": 3,
+    "stylesheet": 26419,
+    "stylesheetCount": 3,
+    "thirdParty": 833566,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 788,
+    "+weight.total": 199,
+    "-weight.document": 761,
+    "+weight.document": 207,
+    "-weight.script": 847,
+    "+weight.script": 74,
+    "-weight.image": 681,
+    "+weight.image": 197,
+    "-weight.font": 452,
+    "+weight.font": 264,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 197,
+    "-totalBlockingTime": 527,
+    "-largestContentfulPaint": 869
+  },
+  "axe": {
+    "passes": 912,
+    "violations": 9
+  }
+}

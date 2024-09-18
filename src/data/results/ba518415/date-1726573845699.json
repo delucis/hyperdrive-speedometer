@@ -1,0 +1,67 @@
+{
+  "url": "https://www.strandscanner.de/",
+  "requestedUrl": "https://www.strandscanner.de/",
+  "timestamp": 1726612599481,
+  "ranks": {
+    "hundos": 406,
+    "performance": 481,
+    "accessibility": 445,
+    "cumulative": 414
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.89,
+    "accessibility": 0.95,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 380
+  },
+  "firstContentfulPaint": 926.95,
+  "firstMeaningfulPaint": 1409.696,
+  "speedIndex": 1346.2490232726345,
+  "largestContentfulPaint": 2891.354000000001,
+  "totalBlockingTime": 287,
+  "cumulativeLayoutShift": 0.010077447699442271,
+  "timeToInteractive": 1892.442,
+  "maxPotentialFirstInputDelay": 282,
+  "timeToFirstByte": 34.75699999999998,
+  "weight": {
+    "summary": "85 requests • 2.3 MiB",
+    "total": 2368682,
+    "image": 2063737,
+    "imageCount": 21,
+    "script": 140239,
+    "scriptCount": 43,
+    "document": 13062,
+    "font": 134638,
+    "fontCount": 4,
+    "stylesheet": 16803,
+    "stylesheetCount": 14,
+    "thirdParty": 2140,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 815,
+    "+weight.total": 172,
+    "-weight.document": 571,
+    "+weight.document": 397,
+    "-weight.script": 557,
+    "+weight.script": 364,
+    "-weight.image": 774,
+    "+weight.image": 104,
+    "-weight.font": 517,
+    "+weight.font": 199,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 324,
+    "-totalBlockingTime": 302,
+    "-largestContentfulPaint": 727
+  },
+  "axe": {
+    "passes": 544,
+    "violations": 4
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://safetychain.com/",
+  "requestedUrl": "https://safetychain.com/",
+  "timestamp": 1726582423703,
+  "ranks": {
+    "hundos": 982,
+    "performance": 961,
+    "accessibility": 923,
+    "cumulative": 981
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.35,
+    "accessibility": 0.78,
+    "bestPractices": 0.52,
+    "seo": 0.85,
+    "total": 250
+  },
+  "firstContentfulPaint": 1753.126,
+  "firstMeaningfulPaint": 3255.3482499999996,
+  "speedIndex": 11526.431479848929,
+  "largestContentfulPaint": 9347.018,
+  "totalBlockingTime": 3948.339509999996,
+  "cumulativeLayoutShift": 0.048291009155866614,
+  "timeToInteractive": 23512.728520000004,
+  "maxPotentialFirstInputDelay": 492,
+  "timeToFirstByte": 96.85400000000001,
+  "weight": {
+    "summary": "224 requests • 6.6 MiB",
+    "total": 6874326,
+    "image": 107066,
+    "imageCount": 65,
+    "script": 2222202,
+    "scriptCount": 73,
+    "document": 68278,
+    "font": 53889,
+    "fontCount": 5,
+    "stylesheet": 45701,
+    "stylesheetCount": 3,
+    "thirdParty": 6348418,
+    "thirdPartyCount": 33
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 927,
+    "+weight.total": 60,
+    "-weight.document": 899,
+    "+weight.document": 69,
+    "-weight.script": 918,
+    "+weight.script": 3,
+    "-weight.image": 308,
+    "+weight.image": 570,
+    "-weight.font": 266,
+    "+weight.font": 450,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 557,
+    "-totalBlockingTime": 620,
+    "-largestContentfulPaint": 927
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

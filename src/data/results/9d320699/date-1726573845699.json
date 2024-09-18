@@ -1,0 +1,67 @@
+{
+  "url": "https://www.fedesign.space/",
+  "requestedUrl": "https://www.fedesign.space/",
+  "timestamp": 1726586553242,
+  "ranks": {
+    "hundos": 805,
+    "performance": 527,
+    "accessibility": 892,
+    "cumulative": 807
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.86,
+    "accessibility": 0.8,
+    "bestPractices": 0.78,
+    "seo": 0.92,
+    "total": 336
+  },
+  "firstContentfulPaint": 1357.8210000000001,
+  "firstMeaningfulPaint": 1436.6660000000002,
+  "speedIndex": 1721.0329111043275,
+  "largestContentfulPaint": 4125.4310000000005,
+  "totalBlockingTime": 102,
+  "cumulativeLayoutShift": 0.0006598591638226261,
+  "timeToInteractive": 2740.0310000000004,
+  "maxPotentialFirstInputDelay": 242.00000000000006,
+  "timeToFirstByte": 36.271000000000015,
+  "weight": {
+    "summary": "45 requests • 10.7 MiB",
+    "total": 11214584,
+    "image": 11052681,
+    "imageCount": 26,
+    "script": 101850,
+    "scriptCount": 6,
+    "document": 7191,
+    "font": 42784,
+    "fontCount": 1,
+    "stylesheet": 6531,
+    "stylesheetCount": 1,
+    "thirdParty": 9727417,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 952,
+    "+weight.total": 35,
+    "-weight.document": 316,
+    "+weight.document": 652,
+    "-weight.script": 459,
+    "+weight.script": 462,
+    "-weight.image": 866,
+    "+weight.image": 12,
+    "-weight.font": 196,
+    "+weight.font": 520,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 336,
+    "-totalBlockingTime": 149,
+    "-largestContentfulPaint": 391
+  },
+  "axe": {
+    "passes": 807,
+    "violations": 17
+  }
+}

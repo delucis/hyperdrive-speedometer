@@ -1,0 +1,67 @@
+{
+  "url": "https://www.bookmarkllama.com/",
+  "requestedUrl": "https://bookmarkllama.com/",
+  "timestamp": 1726575349922,
+  "ranks": {
+    "hundos": 351,
+    "performance": 342,
+    "accessibility": 610,
+    "cumulative": 348
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.96,
+    "accessibility": 0.92,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 384
+  },
+  "firstContentfulPaint": 2052.4145,
+  "firstMeaningfulPaint": 2052.4145,
+  "speedIndex": 2052.4145,
+  "largestContentfulPaint": 2105.4145,
+  "totalBlockingTime": 138,
+  "cumulativeLayoutShift": 0.003540273956152183,
+  "timeToInteractive": 4500.7335,
+  "maxPotentialFirstInputDelay": 246,
+  "timeToFirstByte": 12.844999999999999,
+  "weight": {
+    "summary": "25 requests • 2.3 MiB",
+    "total": 2394625,
+    "image": 99590,
+    "imageCount": 9,
+    "script": 155791,
+    "scriptCount": 6,
+    "document": 16108,
+    "font": 30221,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 75498,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 818,
+    "+weight.total": 169,
+    "-weight.document": 650,
+    "+weight.document": 318,
+    "-weight.script": 583,
+    "+weight.script": 338,
+    "-weight.image": 298,
+    "+weight.image": 580,
+    "-weight.font": 101,
+    "+weight.font": 615,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 95,
+    "-totalBlockingTime": 188,
+    "-largestContentfulPaint": 258
+  },
+  "axe": {
+    "passes": 387,
+    "violations": 2
+  }
+}

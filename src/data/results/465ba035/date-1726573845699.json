@@ -1,0 +1,67 @@
+{
+  "url": "https://lavelada.es/",
+  "requestedUrl": "https://lavelada.es/",
+  "timestamp": 1726609352311,
+  "ranks": {
+    "hundos": 755,
+    "performance": 378,
+    "accessibility": 845,
+    "cumulative": 754
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.94,
+    "accessibility": 0.82,
+    "bestPractices": 0.96,
+    "seo": 0.73,
+    "total": 345
+  },
+  "firstContentfulPaint": 950.6020000000001,
+  "firstMeaningfulPaint": 993.1020000000001,
+  "speedIndex": 1410.2821242400082,
+  "largestContentfulPaint": 2427.7335,
+  "totalBlockingTime": 210.00000000000023,
+  "cumulativeLayoutShift": 0.03628788218348293,
+  "timeToInteractive": 2917.7335,
+  "maxPotentialFirstInputDelay": 190.00000000000023,
+  "timeToFirstByte": 13.764,
+  "weight": {
+    "summary": "19 requests • 337.1 KiB",
+    "total": 345194,
+    "image": 17686,
+    "imageCount": 3,
+    "script": 123014,
+    "scriptCount": 3,
+    "document": 51486,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 246550,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 374,
+    "+weight.total": 613,
+    "-weight.document": 867,
+    "+weight.document": 101,
+    "-weight.script": 524,
+    "+weight.script": 397,
+    "-weight.image": 117,
+    "+weight.image": 761,
+    "-weight.font": 1,
+    "+weight.font": 716,
+    "+weight.fontCount": 20,
+    "-timeToFirstByte": 106,
+    "-totalBlockingTime": 255,
+    "-largestContentfulPaint": 682
+  },
+  "axe": {
+    "passes": 51,
+    "violations": 2
+  }
+}

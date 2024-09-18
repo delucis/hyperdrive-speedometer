@@ -1,0 +1,67 @@
+{
+  "url": "https://www.colorsandfonts.com/",
+  "requestedUrl": "http://colorsandfonts.com/",
+  "timestamp": 1726590832297,
+  "ranks": {
+    "hundos": 756,
+    "performance": 735,
+    "accessibility": 540,
+    "cumulative": 755
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.7,
+    "accessibility": 0.94,
+    "bestPractices": 0.81,
+    "seo": 1,
+    "total": 345
+  },
+  "firstContentfulPaint": 3989.7704999999996,
+  "firstMeaningfulPaint": 3989.7704999999996,
+  "speedIndex": 3989.7704999999996,
+  "largestContentfulPaint": 4064.7704999999987,
+  "totalBlockingTime": 324.99999999999955,
+  "cumulativeLayoutShift": 0.016606405454365602,
+  "timeToInteractive": 4364.770499999999,
+  "maxPotentialFirstInputDelay": 825,
+  "timeToFirstByte": 53.57299999999999,
+  "weight": {
+    "summary": "62 requests • 4.2 MiB",
+    "total": 4407689,
+    "image": 3984416,
+    "imageCount": 49,
+    "script": 41092,
+    "scriptCount": 4,
+    "document": 13174,
+    "font": 346473,
+    "fontCount": 1,
+    "stylesheet": 21005,
+    "stylesheetCount": 3,
+    "thirdParty": 390104,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 892,
+    "+weight.total": 95,
+    "-weight.document": 575,
+    "+weight.document": 393,
+    "-weight.script": 330,
+    "+weight.script": 591,
+    "-weight.image": 829,
+    "+weight.image": 49,
+    "-weight.font": 651,
+    "+weight.font": 65,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 421,
+    "-totalBlockingTime": 322,
+    "-largestContentfulPaint": 807
+  },
+  "axe": {
+    "passes": 1123,
+    "violations": 11
+  }
+}

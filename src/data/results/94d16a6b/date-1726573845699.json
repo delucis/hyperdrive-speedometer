@@ -1,0 +1,67 @@
+{
+  "url": "https://www.minov.studio/en/",
+  "requestedUrl": "https://www.minov.studio/",
+  "timestamp": 1726587183822,
+  "ranks": {
+    "hundos": 492,
+    "performance": 638,
+    "accessibility": 180,
+    "cumulative": 488
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.77,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 373
+  },
+  "firstContentfulPaint": 1828.7104999999997,
+  "firstMeaningfulPaint": 1960.7104999999997,
+  "speedIndex": 2000.8437996588204,
+  "largestContentfulPaint": 4427.285499999999,
+  "totalBlockingTime": 311.31500000000005,
+  "cumulativeLayoutShift": 0.019074882630426965,
+  "timeToInteractive": 3885.8834999999995,
+  "maxPotentialFirstInputDelay": 240,
+  "timeToFirstByte": 134.82500000000002,
+  "weight": {
+    "summary": "23 requests • 531.9 KiB",
+    "total": 544661,
+    "image": 301577,
+    "imageCount": 6,
+    "script": 118901,
+    "scriptCount": 8,
+    "document": 11419,
+    "font": 101940,
+    "fontCount": 3,
+    "stylesheet": 10382,
+    "stylesheetCount": 2,
+    "thirdParty": 105175,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 488,
+    "+weight.total": 499,
+    "-weight.document": 522,
+    "+weight.document": 446,
+    "-weight.script": 511,
+    "+weight.script": 410,
+    "-weight.image": 473,
+    "+weight.image": 405,
+    "-weight.font": 449,
+    "+weight.font": 267,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 666,
+    "-totalBlockingTime": 315,
+    "-largestContentfulPaint": 824
+  },
+  "axe": {
+    "passes": 394,
+    "violations": 1
+  }
+}
