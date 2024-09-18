@@ -1,0 +1,67 @@
+{
+  "url": "https://litefolio.vercel.app/",
+  "requestedUrl": "https://litefolio.vercel.app/",
+  "timestamp": 1726580125865,
+  "ranks": {
+    "hundos": 316,
+    "performance": 40,
+    "accessibility": 790,
+    "cumulative": 324
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 0.86,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 386
+  },
+  "firstContentfulPaint": 1020.455,
+  "firstMeaningfulPaint": 1208.455,
+  "speedIndex": 1020.455,
+  "largestContentfulPaint": 1577.6579999999997,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.00007057185515114502,
+  "timeToInteractive": 1208.455,
+  "maxPotentialFirstInputDelay": 239.9999999999999,
+  "timeToFirstByte": 25.579000000000008,
+  "weight": {
+    "summary": "16 requests • 367.8 KiB",
+    "total": 376597,
+    "image": 296311,
+    "imageCount": 12,
+    "script": 935,
+    "scriptCount": 1,
+    "document": 6630,
+    "font": 66453,
+    "fontCount": 1,
+    "stylesheet": 6268,
+    "stylesheetCount": 1,
+    "thirdParty": 935,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 391,
+    "+weight.total": 596,
+    "-weight.document": 261,
+    "+weight.document": 707,
+    "-weight.script": 10,
+    "+weight.script": 911,
+    "-weight.image": 466,
+    "+weight.image": 412,
+    "-weight.font": 327,
+    "+weight.font": 389,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 244,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 140
+  },
+  "axe": {
+    "passes": 305,
+    "violations": 7
+  }
+}

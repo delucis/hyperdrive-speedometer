@@ -1,0 +1,67 @@
+{
+  "url": "https://koyu.space/",
+  "requestedUrl": "https://web.koyu.space/",
+  "timestamp": 1726594664837,
+  "ranks": {
+    "hundos": 558,
+    "performance": 600,
+    "accessibility": 584,
+    "cumulative": 558
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.81,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 367
+  },
+  "firstContentfulPaint": 3260.9655000000002,
+  "firstMeaningfulPaint": 3440.061,
+  "speedIndex": 4521.585073357351,
+  "largestContentfulPaint": 3689.2339999999995,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3440.061,
+  "maxPotentialFirstInputDelay": 46,
+  "timeToFirstByte": 102.28899999999999,
+  "weight": {
+    "summary": "37 requests • 1.7 MiB",
+    "total": 1749470,
+    "image": 1286702,
+    "imageCount": 15,
+    "script": 58899,
+    "scriptCount": 7,
+    "document": 17060,
+    "font": 327275,
+    "fontCount": 2,
+    "stylesheet": 59032,
+    "stylesheetCount": 10,
+    "thirdParty": 31744,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 763,
+    "+weight.total": 224,
+    "-weight.document": 670,
+    "+weight.document": 298,
+    "-weight.script": 382,
+    "+weight.script": 539,
+    "-weight.image": 725,
+    "+weight.image": 153,
+    "-weight.font": 641,
+    "+weight.font": 75,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 584,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 382
+  },
+  "axe": {
+    "passes": 304,
+    "violations": 9
+  }
+}

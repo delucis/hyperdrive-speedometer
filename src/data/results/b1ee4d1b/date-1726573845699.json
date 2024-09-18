@@ -1,0 +1,67 @@
+{
+  "url": "https://taskworld.com/",
+  "requestedUrl": "https://taskworld.com/",
+  "timestamp": 1726583525647,
+  "ranks": {
+    "hundos": 908,
+    "performance": 927,
+    "accessibility": 459,
+    "cumulative": 905
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.43,
+    "accessibility": 0.95,
+    "bestPractices": 0.78,
+    "seo": 0.92,
+    "total": 308
+  },
+  "firstContentfulPaint": 2366.5015000000003,
+  "firstMeaningfulPaint": 2366.5015000000003,
+  "speedIndex": 10318.245138874387,
+  "largestContentfulPaint": 24593.770500000002,
+  "totalBlockingTime": 840,
+  "cumulativeLayoutShift": 0.036302209770654396,
+  "timeToInteractive": 19048.17975,
+  "maxPotentialFirstInputDelay": 468,
+  "timeToFirstByte": 5.334999999999994,
+  "weight": {
+    "summary": "67 requests • 5.7 MiB",
+    "total": 5959626,
+    "image": 4356947,
+    "imageCount": 27,
+    "script": 742119,
+    "scriptCount": 15,
+    "document": 23037,
+    "font": 779064,
+    "fontCount": 11,
+    "stylesheet": 20204,
+    "stylesheetCount": 3,
+    "thirdParty": 5014255,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 918,
+    "+weight.total": 69,
+    "-weight.document": 745,
+    "+weight.document": 223,
+    "-weight.script": 845,
+    "+weight.script": 76,
+    "-weight.image": 835,
+    "+weight.image": 43,
+    "-weight.font": 697,
+    "+weight.font": 19,
+    "+weight.fontCount": 9,
+    "-timeToFirstByte": 44,
+    "-totalBlockingTime": 487,
+    "-largestContentfulPaint": 969
+  },
+  "axe": {
+    "passes": 18,
+    "violations": 5
+  }
+}

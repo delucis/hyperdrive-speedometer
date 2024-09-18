@@ -1,0 +1,66 @@
+{
+  "url": "https://ramedia.us/",
+  "requestedUrl": "https://ramediaa.com/",
+  "timestamp": 1726611249184,
+  "ranks": {
+    "hundos": 794,
+    "performance": 888,
+    "accessibility": 738,
+    "cumulative": 794
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.51,
+    "accessibility": 0.89,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 340
+  },
+  "firstContentfulPaint": 2822.365,
+  "firstMeaningfulPaint": 2822.365,
+  "speedIndex": 18815.72663747328,
+  "largestContentfulPaint": 2822.365,
+  "totalBlockingTime": 8256,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 12499.055,
+  "maxPotentialFirstInputDelay": 1576,
+  "timeToFirstByte": 84.39999999999999,
+  "weight": {
+    "summary": "80 requests • 32.3 MiB",
+    "total": 33898381,
+    "image": 231468,
+    "imageCount": 8,
+    "script": 152870,
+    "scriptCount": 12,
+    "document": 47220,
+    "font": 33602,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 33434158,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 983,
+    "+weight.total": 4,
+    "-weight.document": 854,
+    "+weight.document": 114,
+    "-weight.script": 579,
+    "+weight.script": 342,
+    "-weight.image": 427,
+    "+weight.image": 451,
+    "-weight.font": 130,
+    "+weight.font": 586,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 495,
+    "-totalBlockingTime": 637,
+    "-largestContentfulPaint": 719
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

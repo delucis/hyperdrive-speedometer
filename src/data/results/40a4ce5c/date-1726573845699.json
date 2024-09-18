@@ -1,0 +1,67 @@
+{
+  "url": "https://purple.lk/",
+  "requestedUrl": "https://purple.lk/",
+  "timestamp": 1726611081207,
+  "ranks": {
+    "hundos": 870,
+    "performance": 842,
+    "accessibility": 375,
+    "cumulative": 871
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.57,
+    "accessibility": 0.97,
+    "bestPractices": 0.74,
+    "seo": 0.92,
+    "total": 320
+  },
+  "firstContentfulPaint": 2765.173,
+  "firstMeaningfulPaint": 3444.0314999999996,
+  "speedIndex": 3569.0722014697385,
+  "largestContentfulPaint": 5754.776,
+  "totalBlockingTime": 651,
+  "cumulativeLayoutShift": 0.0025132265856031557,
+  "timeToInteractive": 6585.922,
+  "maxPotentialFirstInputDelay": 212,
+  "timeToFirstByte": 41.513000000000005,
+  "weight": {
+    "summary": "72 requests • 1.1 MiB",
+    "total": 1134241,
+    "image": 617369,
+    "imageCount": 41,
+    "script": 386238,
+    "scriptCount": 17,
+    "document": 8714,
+    "font": 62514,
+    "fontCount": 3,
+    "stylesheet": 58949,
+    "stylesheetCount": 6,
+    "thirdParty": 264531,
+    "thirdPartyCount": 9
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 666,
+    "+weight.total": 321,
+    "-weight.document": 404,
+    "+weight.document": 564,
+    "-weight.script": 754,
+    "+weight.script": 167,
+    "-weight.image": 606,
+    "+weight.image": 272,
+    "-weight.font": 303,
+    "+weight.font": 413,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 372,
+    "-totalBlockingTime": 445,
+    "-largestContentfulPaint": 489
+  },
+  "axe": {
+    "passes": 491,
+    "violations": 23
+  }
+}

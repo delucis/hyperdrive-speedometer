@@ -1,0 +1,67 @@
+{
+  "url": "https://tandt-v2.vercel.app/",
+  "requestedUrl": "https://tandt-v2.vercel.app/",
+  "timestamp": 1726612783524,
+  "ranks": {
+    "hundos": 791,
+    "performance": 865,
+    "accessibility": 516,
+    "cumulative": 791
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.54,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 340
+  },
+  "firstContentfulPaint": 1144.4365,
+  "firstMeaningfulPaint": 1244.9365,
+  "speedIndex": 7779.704806147451,
+  "largestContentfulPaint": 28061.4365,
+  "totalBlockingTime": 527,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 14290.4365,
+  "maxPotentialFirstInputDelay": 953,
+  "timeToFirstByte": 16.879000000000005,
+  "weight": {
+    "summary": "28 requests • 5.6 MiB",
+    "total": 5923879,
+    "image": 5798145,
+    "imageCount": 19,
+    "script": 7057,
+    "scriptCount": 4,
+    "document": 13928,
+    "font": 100110,
+    "fontCount": 2,
+    "stylesheet": 3719,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 915,
+    "+weight.total": 72,
+    "-weight.document": 600,
+    "+weight.document": 368,
+    "-weight.script": 124,
+    "+weight.script": 797,
+    "-weight.image": 847,
+    "+weight.image": 31,
+    "-weight.font": 443,
+    "+weight.font": 273,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 135,
+    "-totalBlockingTime": 414,
+    "-largestContentfulPaint": 973
+  },
+  "axe": {
+    "passes": 871,
+    "violations": 2
+  }
+}

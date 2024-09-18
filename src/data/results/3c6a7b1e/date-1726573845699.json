@@ -1,0 +1,67 @@
+{
+  "url": "https://www.inspotype.com/",
+  "requestedUrl": "https://inspotype.com/",
+  "timestamp": 1726608541326,
+  "ranks": {
+    "hundos": 971,
+    "performance": 976,
+    "accessibility": 949,
+    "cumulative": 970
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.29,
+    "accessibility": 0.74,
+    "bestPractices": 0.74,
+    "seo": 0.92,
+    "total": 269
+  },
+  "firstContentfulPaint": 4959.342,
+  "firstMeaningfulPaint": 5371.118499999999,
+  "speedIndex": 14432.867756557043,
+  "largestContentfulPaint": 6854.174,
+  "totalBlockingTime": 2387.7040000000015,
+  "cumulativeLayoutShift": 0.01587739119170006,
+  "timeToInteractive": 45825.042500000025,
+  "maxPotentialFirstInputDelay": 972,
+  "timeToFirstByte": 514.9399999999999,
+  "weight": {
+    "summary": "280 requests • 12.0 MiB",
+    "total": 12577777,
+    "image": 2426194,
+    "imageCount": 26,
+    "script": 767142,
+    "scriptCount": 15,
+    "document": 14875,
+    "font": 5309677,
+    "fontCount": 143,
+    "stylesheet": 109278,
+    "stylesheetCount": 64,
+    "thirdParty": 7314520,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 961,
+    "+weight.total": 26,
+    "-weight.document": 623,
+    "+weight.document": 345,
+    "-weight.script": 848,
+    "+weight.script": 73,
+    "-weight.image": 786,
+    "+weight.image": 92,
+    "-weight.font": 713,
+    "+weight.font": 3,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 899,
+    "-totalBlockingTime": 596,
+    "-largestContentfulPaint": 896
+  },
+  "axe": {
+    "passes": 464,
+    "violations": 25
+  }
+}

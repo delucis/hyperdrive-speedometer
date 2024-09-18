@@ -1,0 +1,67 @@
+{
+  "url": "https://www.eliophot.com/",
+  "requestedUrl": "https://www.eliophot.com/",
+  "timestamp": 1726586453374,
+  "ranks": {
+    "hundos": 510,
+    "performance": 613,
+    "accessibility": 636,
+    "cumulative": 549
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.8,
+    "accessibility": 0.92,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 372
+  },
+  "firstContentfulPaint": 1279.6100000000001,
+  "firstMeaningfulPaint": 1804.6100000000001,
+  "speedIndex": 3286.9122651059797,
+  "largestContentfulPaint": 2554.61,
+  "totalBlockingTime": 630.5,
+  "cumulativeLayoutShift": 0.0009053712793944609,
+  "timeToInteractive": 5971.610000000001,
+  "maxPotentialFirstInputDelay": 613,
+  "timeToFirstByte": 13.308999999999997,
+  "weight": {
+    "summary": "61 requests • 1.1 MiB",
+    "total": 1152600,
+    "image": 714165,
+    "imageCount": 24,
+    "script": 258206,
+    "scriptCount": 25,
+    "document": 29365,
+    "font": 129652,
+    "fontCount": 3,
+    "stylesheet": 17950,
+    "stylesheetCount": 3,
+    "thirdParty": 4361,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 670,
+    "+weight.total": 317,
+    "-weight.document": 794,
+    "+weight.document": 174,
+    "-weight.script": 674,
+    "+weight.script": 247,
+    "-weight.image": 632,
+    "+weight.image": 246,
+    "-weight.font": 504,
+    "+weight.font": 212,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 103,
+    "-totalBlockingTime": 440,
+    "-largestContentfulPaint": 460
+  },
+  "axe": {
+    "passes": 1099,
+    "violations": 22
+  }
+}

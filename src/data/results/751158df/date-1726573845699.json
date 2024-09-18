@@ -1,0 +1,67 @@
+{
+  "url": "https://portfolio-astro-six-virid.vercel.app/",
+  "requestedUrl": "https://portfolio-astro-six-virid.vercel.app/",
+  "timestamp": 1726581597011,
+  "ranks": {
+    "hundos": 360,
+    "performance": 165,
+    "accessibility": 641,
+    "cumulative": 369
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.99,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 383
+  },
+  "firstContentfulPaint": 1015.381,
+  "firstMeaningfulPaint": 1015.381,
+  "speedIndex": 1044.249879327424,
+  "largestContentfulPaint": 1015.381,
+  "totalBlockingTime": 127.49999999999989,
+  "cumulativeLayoutShift": 0.007830174655052476,
+  "timeToInteractive": 1332.8809999999999,
+  "maxPotentialFirstInputDelay": 166.9999999999999,
+  "timeToFirstByte": 21.15900000000002,
+  "weight": {
+    "summary": "13 requests • 516.6 KiB",
+    "total": 529045,
+    "image": 264451,
+    "imageCount": 3,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 8444,
+    "font": 235797,
+    "fontCount": 8,
+    "stylesheet": 20353,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 479,
+    "+weight.total": 508,
+    "-weight.document": 389,
+    "+weight.document": 579,
+    "-weight.script": 1,
+    "+weight.script": 921,
+    "-weight.image": 446,
+    "+weight.image": 432,
+    "-weight.font": 595,
+    "+weight.font": 121,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 187,
+    "-totalBlockingTime": 175,
+    "-largestContentfulPaint": 25
+  },
+  "axe": {
+    "passes": 308,
+    "violations": 41
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.varda.com/",
+  "requestedUrl": "https://varda.com/",
+  "timestamp": 1726599247371,
+  "ranks": {
+    "hundos": 819,
+    "performance": 811,
+    "accessibility": 547,
+    "cumulative": 822
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.64,
+    "accessibility": 0.94,
+    "bestPractices": 0.78,
+    "seo": 0.97,
+    "total": 333
+  },
+  "firstContentfulPaint": 1853.845,
+  "firstMeaningfulPaint": 3216.3860000000004,
+  "speedIndex": 4951.169841772079,
+  "largestContentfulPaint": 5169.411,
+  "totalBlockingTime": 447.0000000000002,
+  "cumulativeLayoutShift": 0.08182814107423292,
+  "timeToInteractive": 9479.098999999998,
+  "maxPotentialFirstInputDelay": 306,
+  "timeToFirstByte": 20.104000000000003,
+  "weight": {
+    "summary": "33 requests • 1.2 MiB",
+    "total": 1256231,
+    "image": 592000,
+    "imageCount": 8,
+    "script": 337922,
+    "scriptCount": 11,
+    "document": 20765,
+    "font": 255081,
+    "fontCount": 3,
+    "stylesheet": 38586,
+    "stylesheetCount": 3,
+    "thirdParty": 313253,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 692,
+    "+weight.total": 295,
+    "-weight.document": 719,
+    "+weight.document": 249,
+    "-weight.script": 728,
+    "+weight.script": 193,
+    "-weight.image": 591,
+    "+weight.image": 287,
+    "-weight.font": 601,
+    "+weight.font": 115,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 171,
+    "-totalBlockingTime": 389,
+    "-largestContentfulPaint": 851
+  },
+  "axe": {
+    "passes": 439,
+    "violations": 18
+  }
+}

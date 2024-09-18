@@ -1,0 +1,67 @@
+{
+  "url": "https://www.canopee.bzh/",
+  "requestedUrl": "https://www.canopee.bzh/",
+  "timestamp": 1726585393066,
+  "ranks": {
+    "hundos": 466,
+    "performance": 333,
+    "accessibility": 731,
+    "cumulative": 477
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.96,
+    "accessibility": 0.89,
+    "bestPractices": 1,
+    "seo": 0.9,
+    "total": 375
+  },
+  "firstContentfulPaint": 1356.9940000000001,
+  "firstMeaningfulPaint": 1356.9940000000001,
+  "speedIndex": 1529.827963303047,
+  "largestContentfulPaint": 2806.994,
+  "totalBlockingTime": 12,
+  "cumulativeLayoutShift": 0.028899536614314304,
+  "timeToInteractive": 1423.4940000000001,
+  "maxPotentialFirstInputDelay": 74,
+  "timeToFirstByte": 34.47,
+  "weight": {
+    "summary": "20 requests • 747.1 KiB",
+    "total": 765075,
+    "image": 641873,
+    "imageCount": 9,
+    "script": 47548,
+    "scriptCount": 3,
+    "document": 18549,
+    "font": 39875,
+    "fontCount": 5,
+    "stylesheet": 17230,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 578,
+    "+weight.total": 409,
+    "-weight.document": 697,
+    "+weight.document": 271,
+    "-weight.script": 348,
+    "+weight.script": 573,
+    "-weight.image": 612,
+    "+weight.image": 266,
+    "-weight.font": 178,
+    "+weight.font": 538,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 322,
+    "-totalBlockingTime": 23,
+    "-largestContentfulPaint": 330
+  },
+  "axe": {
+    "passes": 649,
+    "violations": 19
+  }
+}
