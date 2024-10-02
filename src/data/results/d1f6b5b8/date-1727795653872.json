@@ -1,0 +1,67 @@
+{
+  "url": "https://gimbla.com/",
+  "requestedUrl": "https://gimbla.com/",
+  "timestamp": 1727814252056,
+  "ranks": {
+    "hundos": 448,
+    "performance": 576,
+    "accessibility": 411,
+    "cumulative": 450
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.85,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 0.97,
+    "total": 378
+  },
+  "firstContentfulPaint": 2622.368,
+  "firstMeaningfulPaint": 2622.368,
+  "speedIndex": 4067.829379717845,
+  "largestContentfulPaint": 3334.8489999999997,
+  "totalBlockingTime": 130.5,
+  "cumulativeLayoutShift": 0.0009181911238528919,
+  "timeToInteractive": 4581.199,
+  "maxPotentialFirstInputDelay": 153,
+  "timeToFirstByte": 383.46299999999997,
+  "weight": {
+    "summary": "26 requests • 434.5 KiB",
+    "total": 444883,
+    "image": 237910,
+    "imageCount": 6,
+    "script": 137826,
+    "scriptCount": 13,
+    "document": 16031,
+    "font": 27447,
+    "fontCount": 2,
+    "stylesheet": 24578,
+    "stylesheetCount": 2,
+    "thirdParty": 137666,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 443,
+    "+weight.total": 580,
+    "-weight.document": 666,
+    "+weight.document": 332,
+    "-weight.script": 575,
+    "+weight.script": 382,
+    "-weight.image": 439,
+    "+weight.image": 471,
+    "-weight.font": 79,
+    "+weight.font": 664,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 895,
+    "-totalBlockingTime": 189,
+    "-largestContentfulPaint": 797
+  },
+  "axe": {
+    "passes": 1795,
+    "violations": 21
+  }
+}

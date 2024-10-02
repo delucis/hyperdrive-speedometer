@@ -1,0 +1,67 @@
+{
+  "url": "https://www.niji.fr/fr/",
+  "requestedUrl": "https://www.niji.fr/",
+  "timestamp": 1727836811362,
+  "ranks": {
+    "hundos": 92,
+    "performance": 193,
+    "accessibility": 186,
+    "cumulative": 93
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1244.6440000000002,
+  "firstMeaningfulPaint": 1244.6440000000002,
+  "speedIndex": 1526.756277231669,
+  "largestContentfulPaint": 2188.788,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1244.6440000000002,
+  "maxPotentialFirstInputDelay": 35,
+  "timeToFirstByte": 85.09700000000001,
+  "weight": {
+    "summary": "21 requests • 97.6 KiB",
+    "total": 99946,
+    "image": 13259,
+    "imageCount": 8,
+    "script": 5317,
+    "scriptCount": 3,
+    "document": 8032,
+    "font": 65092,
+    "fontCount": 5,
+    "stylesheet": 8246,
+    "stylesheetCount": 3,
+    "thirdParty": 2028,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 130,
+    "+weight.total": 893,
+    "-weight.document": 385,
+    "+weight.document": 613,
+    "-weight.script": 99,
+    "+weight.script": 858,
+    "-weight.image": 106,
+    "+weight.image": 804,
+    "-weight.font": 330,
+    "+weight.font": 413,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 555,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 271
+  },
+  "axe": {
+    "passes": 381,
+    "violations": 1
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.uilens.com/",
+  "requestedUrl": "https://www.uilens.com/",
+  "timestamp": 1727809456051,
+  "ranks": {
+    "hundos": 496,
+    "performance": 705,
+    "accessibility": 227,
+    "cumulative": 487
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.75,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 375
+  },
+  "firstContentfulPaint": 1300.8180000000002,
+  "firstMeaningfulPaint": 1300.8180000000002,
+  "speedIndex": 2563.3301487902777,
+  "largestContentfulPaint": 2910.339,
+  "totalBlockingTime": 827.5,
+  "cumulativeLayoutShift": 0.003737231022820979,
+  "timeToInteractive": 2756.677,
+  "maxPotentialFirstInputDelay": 826,
+  "timeToFirstByte": 53.92400000000001,
+  "weight": {
+    "summary": "11 requests • 241.0 KiB",
+    "total": 246786,
+    "image": 79365,
+    "imageCount": 2,
+    "script": 100095,
+    "scriptCount": 4,
+    "document": 24049,
+    "font": 27918,
+    "fontCount": 2,
+    "stylesheet": 14817,
+    "stylesheetCount": 1,
+    "thirdParty": 206175,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 299,
+    "+weight.total": 724,
+    "-weight.document": 779,
+    "+weight.document": 219,
+    "-weight.script": 475,
+    "+weight.script": 482,
+    "-weight.image": 277,
+    "+weight.image": 633,
+    "-weight.font": 84,
+    "+weight.font": 659,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 440,
+    "-totalBlockingTime": 503,
+    "-largestContentfulPaint": 761
+  },
+  "axe": {
+    "passes": 418,
+    "violations": 2
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://beertechgroup.net/",
+  "requestedUrl": "https://beertechgroup.net/",
+  "timestamp": 1727811116903,
+  "ranks": {
+    "hundos": 545,
+    "performance": 654,
+    "accessibility": 638,
+    "cumulative": 539
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.79,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 371
+  },
+  "firstContentfulPaint": 1878.9510000000002,
+  "firstMeaningfulPaint": 1878.9510000000002,
+  "speedIndex": 3138.8230387872954,
+  "largestContentfulPaint": 1878.9510000000002,
+  "totalBlockingTime": 765.5529999999999,
+  "cumulativeLayoutShift": 0.0014640524412373806,
+  "timeToInteractive": 7013.899898254394,
+  "maxPotentialFirstInputDelay": 245,
+  "timeToFirstByte": 87.46000000000001,
+  "weight": {
+    "summary": "35 requests • 800.8 KiB",
+    "total": 820052,
+    "image": 41402,
+    "imageCount": 6,
+    "script": 339856,
+    "scriptCount": 13,
+    "document": 39269,
+    "font": 351269,
+    "fontCount": 5,
+    "stylesheet": 47559,
+    "stylesheetCount": 6,
+    "thirdParty": 655700,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 616,
+    "+weight.total": 407,
+    "-weight.document": 863,
+    "+weight.document": 135,
+    "-weight.script": 767,
+    "+weight.script": 190,
+    "-weight.image": 200,
+    "+weight.image": 710,
+    "-weight.font": 672,
+    "+weight.font": 71,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 563,
+    "-totalBlockingTime": 493,
+    "-largestContentfulPaint": 511
+  },
+  "axe": {
+    "passes": 351,
+    "violations": 8
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://handy.gy/",
+  "requestedUrl": "https://handy.gy/",
+  "timestamp": 1727828550468,
+  "ranks": {
+    "hundos": 795,
+    "performance": 423,
+    "accessibility": 692,
+    "cumulative": 798
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.94,
+    "accessibility": 0.91,
+    "bestPractices": 0.59,
+    "seo": 1,
+    "total": 344
+  },
+  "firstContentfulPaint": 1261.217,
+  "firstMeaningfulPaint": 1261.217,
+  "speedIndex": 4132.605402900759,
+  "largestContentfulPaint": 1724.8870000000002,
+  "totalBlockingTime": 201.24200000000064,
+  "cumulativeLayoutShift": 0.0005479475656572051,
+  "timeToInteractive": 3617.94675,
+  "maxPotentialFirstInputDelay": 212,
+  "timeToFirstByte": 223.554,
+  "weight": {
+    "summary": "33 requests • 340.1 KiB",
+    "total": 348311,
+    "image": 71965,
+    "imageCount": 2,
+    "script": 169311,
+    "scriptCount": 10,
+    "document": 8990,
+    "font": 78463,
+    "fontCount": 5,
+    "stylesheet": 16035,
+    "stylesheetCount": 2,
+    "thirdParty": 241468,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 384,
+    "+weight.total": 639,
+    "-weight.document": 427,
+    "+weight.document": 571,
+    "-weight.script": 622,
+    "+weight.script": 335,
+    "-weight.image": 258,
+    "+weight.image": 652,
+    "-weight.font": 396,
+    "+weight.font": 347,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 824,
+    "-totalBlockingTime": 257,
+    "-largestContentfulPaint": 620
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

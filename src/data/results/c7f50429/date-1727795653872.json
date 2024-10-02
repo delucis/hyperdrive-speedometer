@@ -1,0 +1,67 @@
+{
+  "url": "https://www.tracksmith.com/",
+  "requestedUrl": "https://www.tracksmith.com/",
+  "timestamp": 1727823435671,
+  "ranks": {
+    "hundos": 1021,
+    "performance": 1018,
+    "accessibility": 862,
+    "cumulative": 1021
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.08,
+    "accessibility": 0.84,
+    "bestPractices": 0.56,
+    "seo": 0.82,
+    "total": 230
+  },
+  "firstContentfulPaint": 2640.4189999999994,
+  "firstMeaningfulPaint": 6768.367999999999,
+  "speedIndex": 16897.116153458486,
+  "largestContentfulPaint": 12644.780000000002,
+  "totalBlockingTime": 3362.6900000000005,
+  "cumulativeLayoutShift": 0.8626974483596598,
+  "timeToInteractive": 27591.36400000001,
+  "maxPotentialFirstInputDelay": 721,
+  "timeToFirstByte": 42.124000000000024,
+  "weight": {
+    "summary": "288 requests • 4.2 MiB",
+    "total": 4445095,
+    "image": 1477903,
+    "imageCount": 42,
+    "script": 2102731,
+    "scriptCount": 149,
+    "document": 68179,
+    "font": 364391,
+    "fontCount": 8,
+    "stylesheet": 94927,
+    "stylesheetCount": 23,
+    "thirdParty": 2269265,
+    "thirdPartyCount": 36
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 927,
+    "+weight.total": 96,
+    "-weight.document": 924,
+    "+weight.document": 74,
+    "-weight.script": 954,
+    "+weight.script": 3,
+    "-weight.image": 772,
+    "+weight.image": 138,
+    "-weight.font": 676,
+    "+weight.font": 67,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 406,
+    "-totalBlockingTime": 634,
+    "-largestContentfulPaint": 975
+  },
+  "axe": {
+    "passes": 1327,
+    "violations": 65
+  }
+}

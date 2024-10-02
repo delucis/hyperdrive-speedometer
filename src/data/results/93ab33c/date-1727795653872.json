@@ -1,0 +1,67 @@
+{
+  "url": "https://ochnik.com/",
+  "requestedUrl": "https://ochnik.com/",
+  "timestamp": 1727817060400,
+  "ranks": {
+    "hundos": 759,
+    "performance": 906,
+    "accessibility": 373,
+    "cumulative": 760
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.55,
+    "accessibility": 0.98,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 349
+  },
+  "firstContentfulPaint": 1567.4290000000003,
+  "firstMeaningfulPaint": 1651.3150000000003,
+  "speedIndex": 6030.610593815616,
+  "largestContentfulPaint": 4447.253000000001,
+  "totalBlockingTime": 1197.7719999999988,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 9404.130249999998,
+  "maxPotentialFirstInputDelay": 393.9999999999982,
+  "timeToFirstByte": 435.862,
+  "weight": {
+    "summary": "92 requests • 1.9 MiB",
+    "total": 1982401,
+    "image": 1064127,
+    "imageCount": 31,
+    "script": 780629,
+    "scriptCount": 40,
+    "document": 37662,
+    "font": 56768,
+    "fontCount": 3,
+    "stylesheet": 38385,
+    "stylesheetCount": 10,
+    "thirdParty": 545773,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 823,
+    "+weight.total": 200,
+    "-weight.document": 858,
+    "+weight.document": 140,
+    "-weight.script": 889,
+    "+weight.script": 68,
+    "-weight.image": 724,
+    "+weight.image": 186,
+    "-weight.font": 289,
+    "+weight.font": 454,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 905,
+    "-totalBlockingTime": 551,
+    "-largestContentfulPaint": 859
+  },
+  "axe": {
+    "passes": 1518,
+    "violations": 101
+  }
+}

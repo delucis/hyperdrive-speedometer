@@ -1,0 +1,67 @@
+{
+  "url": "https://www.dukc.dev/",
+  "requestedUrl": "https://dukc.dev/",
+  "timestamp": 1727813181013,
+  "ranks": {
+    "hundos": 524,
+    "performance": 478,
+    "accessibility": 925,
+    "cumulative": 527
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.92,
+    "accessibility": 0.8,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 372
+  },
+  "firstContentfulPaint": 2134.761,
+  "firstMeaningfulPaint": 2134.761,
+  "speedIndex": 4204.493245920477,
+  "largestContentfulPaint": 2666.3795,
+  "totalBlockingTime": 104.99999999999989,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2263.761,
+  "maxPotentialFirstInputDelay": 149.9999999999999,
+  "timeToFirstByte": 68.75900000000001,
+  "weight": {
+    "summary": "18 requests • 2.9 MiB",
+    "total": 3062503,
+    "image": 2829300,
+    "imageCount": 5,
+    "script": 144528,
+    "scriptCount": 8,
+    "document": 7450,
+    "font": 71035,
+    "fontCount": 2,
+    "stylesheet": 9859,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 889,
+    "+weight.total": 134,
+    "-weight.document": 353,
+    "+weight.document": 645,
+    "-weight.script": 586,
+    "+weight.script": 371,
+    "-weight.image": 836,
+    "+weight.image": 74,
+    "-weight.font": 360,
+    "+weight.font": 383,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 485,
+    "-totalBlockingTime": 159,
+    "-largestContentfulPaint": 318
+  },
+  "axe": {
+    "passes": 288,
+    "violations": 5
+  }
+}

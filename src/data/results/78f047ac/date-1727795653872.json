@@ -1,0 +1,67 @@
+{
+  "url": "https://rehype-pretty.pages.dev/",
+  "requestedUrl": "https://rehype-pretty.pages.dev/",
+  "timestamp": 1727832259903,
+  "ranks": {
+    "hundos": 372,
+    "performance": 202,
+    "accessibility": 556,
+    "cumulative": 371
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.99,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 0.91,
+    "total": 384
+  },
+  "firstContentfulPaint": 1582.1135,
+  "firstMeaningfulPaint": 1582.1135,
+  "speedIndex": 1582.1135,
+  "largestContentfulPaint": 1812.2694999999999,
+  "totalBlockingTime": 6,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1868.2694999999999,
+  "maxPotentialFirstInputDelay": 56,
+  "timeToFirstByte": 69.99,
+  "weight": {
+    "summary": "12 requests • 64.0 KiB",
+    "total": 65584,
+    "image": 0,
+    "imageCount": 1,
+    "script": 32634,
+    "scriptCount": 6,
+    "document": 18384,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 14225,
+    "stylesheetCount": 1,
+    "thirdParty": 7142,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 84,
+    "+weight.total": 939,
+    "-weight.document": 713,
+    "+weight.document": 285,
+    "-weight.script": 309,
+    "+weight.script": 648,
+    "-weight.image": 1,
+    "+weight.image": 910,
+    "-weight.font": 1,
+    "+weight.font": 743,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 492,
+    "-totalBlockingTime": 14,
+    "-largestContentfulPaint": 209
+  },
+  "axe": {
+    "passes": 4884,
+    "violations": 17
+  }
+}

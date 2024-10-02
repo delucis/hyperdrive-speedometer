@@ -1,0 +1,67 @@
+{
+  "url": "https://routendiscovery.com/",
+  "requestedUrl": "https://routendiscovery.com/",
+  "timestamp": 1727804295800,
+  "ranks": {
+    "hundos": 851,
+    "performance": 896,
+    "accessibility": 306,
+    "cumulative": 848
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.56,
+    "accessibility": 1,
+    "bestPractices": 0.78,
+    "seo": 1,
+    "total": 334
+  },
+  "firstContentfulPaint": 2559.352,
+  "firstMeaningfulPaint": 2559.352,
+  "speedIndex": 4940.216634378083,
+  "largestContentfulPaint": 7744.167,
+  "totalBlockingTime": 437.40750000000025,
+  "cumulativeLayoutShift": 0.08967752450141932,
+  "timeToInteractive": 7413.167000000001,
+  "maxPotentialFirstInputDelay": 174,
+  "timeToFirstByte": 73.304,
+  "weight": {
+    "summary": "42 requests • 1.1 MiB",
+    "total": 1164563,
+    "image": 333045,
+    "imageCount": 12,
+    "script": 496184,
+    "scriptCount": 13,
+    "document": 40153,
+    "font": 242157,
+    "fontCount": 3,
+    "stylesheet": 43916,
+    "stylesheetCount": 4,
+    "thirdParty": 137921,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 705,
+    "+weight.total": 318,
+    "-weight.document": 866,
+    "+weight.document": 132,
+    "-weight.script": 838,
+    "+weight.script": 119,
+    "-weight.image": 508,
+    "+weight.image": 402,
+    "-weight.font": 620,
+    "+weight.font": 123,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 499,
+    "-totalBlockingTime": 396,
+    "-largestContentfulPaint": 937
+  },
+  "axe": {
+    "passes": 505,
+    "violations": 7
+  }
+}

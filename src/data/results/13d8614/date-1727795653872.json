@@ -1,0 +1,67 @@
+{
+  "url": "https://www.isdin.com/",
+  "requestedUrl": "https://www.isdin.com/",
+  "timestamp": 1727822229090,
+  "ranks": {
+    "hundos": 958,
+    "performance": 994,
+    "accessibility": 821,
+    "cumulative": 958
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.36,
+    "accessibility": 0.86,
+    "bestPractices": 0.96,
+    "seo": 0.85,
+    "total": 303
+  },
+  "firstContentfulPaint": 976.2785,
+  "firstMeaningfulPaint": 4129.7785,
+  "speedIndex": 14862.732763126893,
+  "largestContentfulPaint": 10404.360499999999,
+  "totalBlockingTime": 1408.541000000001,
+  "cumulativeLayoutShift": 0.11127291251785085,
+  "timeToInteractive": 20298.709250000004,
+  "maxPotentialFirstInputDelay": 784,
+  "timeToFirstByte": 215.04099999999997,
+  "weight": {
+    "summary": "45 requests • 3.5 MiB",
+    "total": 3722341,
+    "image": 1419829,
+    "imageCount": 3,
+    "script": 1537241,
+    "scriptCount": 16,
+    "document": 1373,
+    "font": 712254,
+    "fontCount": 5,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 2562966,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 908,
+    "+weight.total": 115,
+    "-weight.document": 6,
+    "+weight.document": 992,
+    "-weight.script": 946,
+    "+weight.script": 11,
+    "-weight.image": 767,
+    "+weight.image": 143,
+    "-weight.font": 711,
+    "+weight.font": 32,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 816,
+    "-totalBlockingTime": 567,
+    "-largestContentfulPaint": 961
+  },
+  "axe": {
+    "passes": 372,
+    "violations": 14
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://labelstud.io/",
+  "requestedUrl": "https://labelstud.io/",
+  "timestamp": 1727815897763,
+  "ranks": {
+    "hundos": 847,
+    "performance": 786,
+    "accessibility": 713,
+    "cumulative": 845
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.69,
+    "accessibility": 0.9,
+    "bestPractices": 0.78,
+    "seo": 0.98,
+    "total": 335
+  },
+  "firstContentfulPaint": 1743.8110000000001,
+  "firstMeaningfulPaint": 2166.079,
+  "speedIndex": 3652.4452124893655,
+  "largestContentfulPaint": 2318.3990000000003,
+  "totalBlockingTime": 1829.999999999999,
+  "cumulativeLayoutShift": 0.0062561658994911016,
+  "timeToInteractive": 13847.525935821532,
+  "maxPotentialFirstInputDelay": 320,
+  "timeToFirstByte": 14.303000000000026,
+  "weight": {
+    "summary": "134 requests • 1.7 MiB",
+    "total": 1829123,
+    "image": 703967,
+    "imageCount": 35,
+    "script": 914394,
+    "scriptCount": 49,
+    "document": 133968,
+    "font": 27412,
+    "fontCount": 1,
+    "stylesheet": 23269,
+    "stylesheetCount": 21,
+    "thirdParty": 1547258,
+    "thirdPartyCount": 17
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 808,
+    "+weight.total": 215,
+    "-weight.document": 970,
+    "+weight.document": 28,
+    "-weight.script": 913,
+    "+weight.script": 44,
+    "-weight.image": 652,
+    "+weight.image": 258,
+    "-weight.font": 78,
+    "+weight.font": 665,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 121,
+    "-totalBlockingTime": 591,
+    "-largestContentfulPaint": 685
+  },
+  "axe": {
+    "passes": 976,
+    "violations": 15
+  }
+}

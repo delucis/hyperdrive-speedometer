@@ -1,0 +1,67 @@
+{
+  "url": "https://www.daniellelevitt.com/",
+  "requestedUrl": "https://www.daniellelevitt.com/",
+  "timestamp": 1727807595679,
+  "ranks": {
+    "hundos": 445,
+    "performance": 617,
+    "accessibility": 383,
+    "cumulative": 444
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.82,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 0.99,
+    "total": 378
+  },
+  "firstContentfulPaint": 1338.2905,
+  "firstMeaningfulPaint": 1367.2905,
+  "speedIndex": 7024.22976161334,
+  "largestContentfulPaint": 1550.395,
+  "totalBlockingTime": 45,
+  "cumulativeLayoutShift": 0.21256431709693735,
+  "timeToInteractive": 2566.6115,
+  "maxPotentialFirstInputDelay": 98,
+  "timeToFirstByte": 8.635999999999996,
+  "weight": {
+    "summary": "43 requests • 1.1 MiB",
+    "total": 1106009,
+    "image": 889080,
+    "imageCount": 26,
+    "script": 105938,
+    "scriptCount": 12,
+    "document": 5415,
+    "font": 97370,
+    "fontCount": 2,
+    "stylesheet": 8165,
+    "stylesheetCount": 1,
+    "thirdParty": 889080,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 689,
+    "+weight.total": 334,
+    "-weight.document": 203,
+    "+weight.document": 795,
+    "-weight.script": 493,
+    "+weight.script": 464,
+    "-weight.image": 695,
+    "+weight.image": 215,
+    "-weight.font": 455,
+    "+weight.font": 288,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 69,
+    "-totalBlockingTime": 80,
+    "-largestContentfulPaint": 142
+  },
+  "axe": {
+    "passes": 216,
+    "violations": 3
+  }
+}

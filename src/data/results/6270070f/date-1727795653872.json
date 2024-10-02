@@ -1,0 +1,66 @@
+{
+  "url": "https://antoniuk.dev/",
+  "requestedUrl": "https://antoniuk.dev/",
+  "timestamp": 1727810540945,
+  "ranks": {
+    "hundos": 732,
+    "performance": 885,
+    "accessibility": 506,
+    "cumulative": 731
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.57,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 352
+  },
+  "firstContentfulPaint": 1993.4545,
+  "firstMeaningfulPaint": 1993.4545,
+  "speedIndex": 3415.4018382230843,
+  "largestContentfulPaint": 2889.603,
+  "totalBlockingTime": 137998,
+  "cumulativeLayoutShift": 0.14838552610194153,
+  "timeToInteractive": 181073.30599999998,
+  "maxPotentialFirstInputDelay": 468,
+  "timeToFirstByte": 4.300000000000011,
+  "weight": {
+    "summary": "17 requests • 1.4 MiB",
+    "total": 1492905,
+    "image": 981381,
+    "imageCount": 5,
+    "script": 405182,
+    "scriptCount": 6,
+    "document": 11114,
+    "font": 88161,
+    "fontCount": 3,
+    "stylesheet": 6526,
+    "stylesheetCount": 1,
+    "thirdParty": 228849,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 757,
+    "+weight.total": 266,
+    "-weight.document": 520,
+    "+weight.document": 478,
+    "-weight.script": 811,
+    "+weight.script": 146,
+    "-weight.image": 712,
+    "+weight.image": 198,
+    "-weight.font": 432,
+    "+weight.font": 311,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 33,
+    "-totalBlockingTime": 656,
+    "-largestContentfulPaint": 758
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

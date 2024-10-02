@@ -1,0 +1,67 @@
+{
+  "url": "https://sanju.sh/",
+  "requestedUrl": "https://sanju.sh/",
+  "timestamp": 1727818575804,
+  "ranks": {
+    "hundos": 811,
+    "performance": 749,
+    "accessibility": 674,
+    "cumulative": 811
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.72,
+    "accessibility": 0.91,
+    "bestPractices": 0.78,
+    "seo": 1,
+    "total": 341
+  },
+  "firstContentfulPaint": 1949.0655000000004,
+  "firstMeaningfulPaint": 1949.0655000000004,
+  "speedIndex": 1991.799715446317,
+  "largestContentfulPaint": 2925.6860000000006,
+  "totalBlockingTime": 58,
+  "cumulativeLayoutShift": 0.542543497293273,
+  "timeToInteractive": 2624.0125000000007,
+  "maxPotentialFirstInputDelay": 92,
+  "timeToFirstByte": 95.12,
+  "weight": {
+    "summary": "19 requests • 136.2 KiB",
+    "total": 139462,
+    "image": 444,
+    "imageCount": 1,
+    "script": 38574,
+    "scriptCount": 5,
+    "document": 4097,
+    "font": 81256,
+    "fontCount": 2,
+    "stylesheet": 12334,
+    "stylesheetCount": 2,
+    "thirdParty": 40281,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 183,
+    "+weight.total": 840,
+    "-weight.document": 119,
+    "+weight.document": 879,
+    "-weight.script": 331,
+    "+weight.script": 626,
+    "-weight.image": 7,
+    "+weight.image": 903,
+    "-weight.font": 413,
+    "+weight.font": 330,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 594,
+    "-totalBlockingTime": 98,
+    "-largestContentfulPaint": 348
+  },
+  "axe": {
+    "passes": 90,
+    "violations": 5
+  }
+}

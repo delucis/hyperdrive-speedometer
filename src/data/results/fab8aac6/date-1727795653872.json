@@ -1,0 +1,67 @@
+{
+  "url": "https://www.voltable.com/",
+  "requestedUrl": "https://www.voltable.com/",
+  "timestamp": 1727809558817,
+  "ranks": {
+    "hundos": 60,
+    "performance": 9,
+    "accessibility": 99,
+    "cumulative": 41
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 880.45,
+  "firstMeaningfulPaint": 880.45,
+  "speedIndex": 880.45,
+  "largestContentfulPaint": 934.45,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 880.45,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 54.496999999999986,
+  "weight": {
+    "summary": "3 requests • 21.1 KiB",
+    "total": 21623,
+    "image": 17508,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 2585,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1530,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 20,
+    "+weight.total": 1003,
+    "-weight.document": 41,
+    "+weight.document": 957,
+    "-weight.script": 1,
+    "+weight.script": 957,
+    "-weight.image": 123,
+    "+weight.image": 787,
+    "-weight.font": 1,
+    "+weight.font": 743,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 444,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 15
+  },
+  "axe": {
+    "passes": 206,
+    "violations": 0
+  }
+}

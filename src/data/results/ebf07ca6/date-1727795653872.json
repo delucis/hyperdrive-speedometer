@@ -1,0 +1,67 @@
+{
+  "url": "https://mt.ci/",
+  "requestedUrl": "https://mt.ci/",
+  "timestamp": 1727816694257,
+  "ranks": {
+    "hundos": 449,
+    "performance": 671,
+    "accessibility": 158,
+    "cumulative": 443
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.78,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 378
+  },
+  "firstContentfulPaint": 2744.7885000000006,
+  "firstMeaningfulPaint": 2744.7885000000006,
+  "speedIndex": 3961.5734918204225,
+  "largestContentfulPaint": 4537.6895,
+  "totalBlockingTime": 10.5,
+  "cumulativeLayoutShift": 0.00025340469626217567,
+  "timeToInteractive": 2805.2885000000006,
+  "maxPotentialFirstInputDelay": 67,
+  "timeToFirstByte": 191.538,
+  "weight": {
+    "summary": "31 requests • 119.3 KiB",
+    "total": 122155,
+    "image": 41091,
+    "imageCount": 19,
+    "script": 8340,
+    "scriptCount": 3,
+    "document": 49830,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 19907,
+    "stylesheetCount": 3,
+    "thirdParty": 17370,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 163,
+    "+weight.total": 860,
+    "-weight.document": 892,
+    "+weight.document": 106,
+    "-weight.script": 143,
+    "+weight.script": 814,
+    "-weight.image": 198,
+    "+weight.image": 712,
+    "-weight.font": 1,
+    "+weight.font": 743,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 789,
+    "-totalBlockingTime": 23,
+    "-largestContentfulPaint": 408
+  },
+  "axe": {
+    "passes": 1793,
+    "violations": 1
+  }
+}

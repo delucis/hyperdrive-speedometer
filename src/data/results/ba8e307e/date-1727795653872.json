@@ -1,0 +1,67 @@
+{
+  "url": "https://terrasymposium.com/",
+  "requestedUrl": "https://terrasymposium.com/",
+  "timestamp": 1727805659179,
+  "ranks": {
+    "hundos": 680,
+    "performance": 497,
+    "accessibility": 1001,
+    "cumulative": 680
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.91,
+    "accessibility": 0.68,
+    "bestPractices": 1,
+    "seo": 0.99,
+    "total": 358
+  },
+  "firstContentfulPaint": 1250.2740000000001,
+  "firstMeaningfulPaint": 1250.2740000000001,
+  "speedIndex": 6489.550392558298,
+  "largestContentfulPaint": 2335.3469999999998,
+  "totalBlockingTime": 146.50000000000023,
+  "cumulativeLayoutShift": 0.01826021874953012,
+  "timeToInteractive": 2829.8469999999998,
+  "maxPotentialFirstInputDelay": 171,
+  "timeToFirstByte": 3233.94,
+  "weight": {
+    "summary": "17 requests • 233.3 KiB",
+    "total": 238885,
+    "image": 0,
+    "imageCount": 0,
+    "script": 163198,
+    "scriptCount": 10,
+    "document": 10793,
+    "font": 46901,
+    "fontCount": 4,
+    "stylesheet": 17448,
+    "stylesheetCount": 1,
+    "thirdParty": 107245,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 291,
+    "+weight.total": 732,
+    "-weight.document": 511,
+    "+weight.document": 487,
+    "-weight.script": 616,
+    "+weight.script": 341,
+    "-weight.image": 1,
+    "+weight.image": 910,
+    "-weight.font": 222,
+    "+weight.font": 521,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 1021,
+    "-totalBlockingTime": 208,
+    "-largestContentfulPaint": 689
+  },
+  "axe": {
+    "passes": 345,
+    "violations": 23
+  }
+}
