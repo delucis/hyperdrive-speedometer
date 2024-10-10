@@ -1,0 +1,67 @@
+{
+  "url": "https://yanthomas.dev/",
+  "requestedUrl": "https://yanthomas.dev/",
+  "timestamp": 1727809779895,
+  "ranks": {
+    "hundos": 36,
+    "performance": 18,
+    "accessibility": 154,
+    "cumulative": 23
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 812.8595,
+  "firstMeaningfulPaint": 894.8595,
+  "speedIndex": 912.6282583917946,
+  "largestContentfulPaint": 1076.8595,
+  "totalBlockingTime": 65,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 998.3595,
+  "maxPotentialFirstInputDelay": 164,
+  "timeToFirstByte": 19.568000000000012,
+  "weight": {
+    "summary": "6 requests • 55.2 KiB",
+    "total": 56495,
+    "image": 15042,
+    "imageCount": 2,
+    "script": 974,
+    "scriptCount": 1,
+    "document": 1576,
+    "font": 33853,
+    "fontCount": 1,
+    "stylesheet": 5050,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 65,
+    "+weight.total": 958,
+    "-weight.document": 14,
+    "+weight.document": 984,
+    "-weight.script": 12,
+    "+weight.script": 945,
+    "-weight.image": 115,
+    "+weight.image": 795,
+    "-weight.font": 135,
+    "+weight.font": 608,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 168,
+    "-totalBlockingTime": 108,
+    "-largestContentfulPaint": 54
+  },
+  "axe": {
+    "passes": 49,
+    "violations": 0
+  }
+}

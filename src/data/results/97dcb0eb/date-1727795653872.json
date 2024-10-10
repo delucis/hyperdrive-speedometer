@@ -1,0 +1,67 @@
+{
+  "url": "https://shelid.com/",
+  "requestedUrl": "https://shelid.com/",
+  "timestamp": 1727818805043,
+  "ranks": {
+    "hundos": 249,
+    "performance": 313,
+    "accessibility": 172,
+    "cumulative": 250
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.97,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 0.98,
+    "total": 391
+  },
+  "firstContentfulPaint": 1373.7640000000001,
+  "firstMeaningfulPaint": 1373.7640000000001,
+  "speedIndex": 1501.868620631341,
+  "largestContentfulPaint": 1373.7640000000001,
+  "totalBlockingTime": 172.61799999999994,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1713.1460000000002,
+  "maxPotentialFirstInputDelay": 362,
+  "timeToFirstByte": 29.18100000000001,
+  "weight": {
+    "summary": "45 requests • 425.6 KiB",
+    "total": 435778,
+    "image": 251268,
+    "imageCount": 3,
+    "script": 3048,
+    "scriptCount": 1,
+    "document": 14932,
+    "font": 46886,
+    "fontCount": 1,
+    "stylesheet": 12465,
+    "stylesheetCount": 1,
+    "thirdParty": 289033,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 439,
+    "+weight.total": 584,
+    "-weight.document": 645,
+    "+weight.document": 353,
+    "-weight.script": 64,
+    "+weight.script": 893,
+    "-weight.image": 451,
+    "+weight.image": 459,
+    "-weight.font": 219,
+    "+weight.font": 524,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 308,
+    "-totalBlockingTime": 233,
+    "-largestContentfulPaint": 588
+  },
+  "axe": {
+    "passes": 743,
+    "violations": 1
+  }
+}

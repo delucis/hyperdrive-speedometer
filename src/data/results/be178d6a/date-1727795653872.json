@@ -1,0 +1,67 @@
+{
+  "url": "https://melos.church/",
+  "requestedUrl": "https://melos.church/",
+  "timestamp": 1727816415437,
+  "ranks": {
+    "hundos": 745,
+    "performance": 816,
+    "accessibility": 822,
+    "cumulative": 747
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.66,
+    "accessibility": 0.86,
+    "bestPractices": 1,
+    "seo": 0.98,
+    "total": 350
+  },
+  "firstContentfulPaint": 1665.7355,
+  "firstMeaningfulPaint": 1665.7355,
+  "speedIndex": 3163.283394161046,
+  "largestContentfulPaint": 3330.8605,
+  "totalBlockingTime": 528.8135000000007,
+  "cumulativeLayoutShift": 0.23093272192929953,
+  "timeToInteractive": 5155.35,
+  "maxPotentialFirstInputDelay": 258,
+  "timeToFirstByte": 4.1440000000000055,
+  "weight": {
+    "summary": "21 requests • 529.9 KiB",
+    "total": 542652,
+    "image": 218186,
+    "imageCount": 1,
+    "script": 174877,
+    "scriptCount": 7,
+    "document": 42771,
+    "font": 89737,
+    "fontCount": 4,
+    "stylesheet": 15241,
+    "stylesheetCount": 2,
+    "thirdParty": 40986,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 502,
+    "+weight.total": 521,
+    "-weight.document": 874,
+    "+weight.document": 124,
+    "-weight.script": 626,
+    "+weight.script": 331,
+    "-weight.image": 424,
+    "+weight.image": 486,
+    "-weight.font": 436,
+    "+weight.font": 307,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 29,
+    "-totalBlockingTime": 435,
+    "-largestContentfulPaint": 532
+  },
+  "axe": {
+    "passes": 359,
+    "violations": 15
+  }
+}

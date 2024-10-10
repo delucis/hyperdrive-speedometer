@@ -1,0 +1,67 @@
+{
+  "url": "https://roadmap.sh/",
+  "requestedUrl": "https://roadmap.sh/",
+  "timestamp": 1727832436496,
+  "ranks": {
+    "hundos": 579,
+    "performance": 742,
+    "accessibility": 504,
+    "cumulative": 579
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.73,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 368
+  },
+  "firstContentfulPaint": 1133.7025,
+  "firstMeaningfulPaint": 1475.6645,
+  "speedIndex": 3020.013019741449,
+  "largestContentfulPaint": 2560.0825000000004,
+  "totalBlockingTime": 1103.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 5239.1805,
+  "maxPotentialFirstInputDelay": 651,
+  "timeToFirstByte": 2.725999999999999,
+  "weight": {
+    "summary": "74 requests • 647.7 KiB",
+    "total": 663195,
+    "image": 263003,
+    "imageCount": 1,
+    "script": 337992,
+    "scriptCount": 66,
+    "document": 16100,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 36601,
+    "stylesheetCount": 2,
+    "thirdParty": 203530,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 555,
+    "+weight.total": 468,
+    "-weight.document": 668,
+    "+weight.document": 330,
+    "-weight.script": 765,
+    "+weight.script": 192,
+    "-weight.image": 458,
+    "+weight.image": 452,
+    "-weight.font": 1,
+    "+weight.font": 743,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 9,
+    "-totalBlockingTime": 543,
+    "-largestContentfulPaint": 718
+  },
+  "axe": {
+    "passes": 1590,
+    "violations": 143
+  }
+}

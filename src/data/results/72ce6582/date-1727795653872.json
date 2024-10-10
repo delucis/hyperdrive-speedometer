@@ -1,0 +1,67 @@
+{
+  "url": "https://alex-porfolio.vercel.app/",
+  "requestedUrl": "https://alex-porfolio.vercel.app/",
+  "timestamp": 1727810347871,
+  "ranks": {
+    "hundos": 244,
+    "performance": 166,
+    "accessibility": 124,
+    "cumulative": 243
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 391
+  },
+  "firstContentfulPaint": 1081.862,
+  "firstMeaningfulPaint": 1081.862,
+  "speedIndex": 1081.862,
+  "largestContentfulPaint": 2113.282,
+  "totalBlockingTime": 71,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3651.1849999999995,
+  "maxPotentialFirstInputDelay": 104.5,
+  "timeToFirstByte": 32.61199999999998,
+  "weight": {
+    "summary": "16 requests • 477.8 KiB",
+    "total": 489310,
+    "image": 209636,
+    "imageCount": 2,
+    "script": 159751,
+    "scriptCount": 7,
+    "document": 6707,
+    "font": 108695,
+    "fontCount": 1,
+    "stylesheet": 3598,
+    "stylesheetCount": 1,
+    "thirdParty": 121781,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 477,
+    "+weight.total": 546,
+    "-weight.document": 292,
+    "+weight.document": 706,
+    "-weight.script": 612,
+    "+weight.script": 345,
+    "-weight.image": 416,
+    "+weight.image": 494,
+    "-weight.font": 479,
+    "+weight.font": 264,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 346,
+    "-totalBlockingTime": 117,
+    "-largestContentfulPaint": 260
+  },
+  "axe": {
+    "passes": 141,
+    "violations": 0
+  }
+}

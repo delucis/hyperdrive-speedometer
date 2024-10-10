@@ -1,0 +1,67 @@
+{
+  "url": "https://www.mixo.io/",
+  "requestedUrl": "https://www.mixo.io/",
+  "timestamp": 1727808526264,
+  "ranks": {
+    "hundos": 714,
+    "performance": 792,
+    "accessibility": 630,
+    "cumulative": 712
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.68,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 353
+  },
+  "firstContentfulPaint": 1507.4634999999998,
+  "firstMeaningfulPaint": 1507.4634999999998,
+  "speedIndex": 1891.5697572634385,
+  "largestContentfulPaint": 13338.828750000002,
+  "totalBlockingTime": 239.99999999999955,
+  "cumulativeLayoutShift": 0.09720534629404617,
+  "timeToInteractive": 10128.914750000002,
+  "maxPotentialFirstInputDelay": 232,
+  "timeToFirstByte": 111.99800000000002,
+  "weight": {
+    "summary": "47 requests • 2.8 MiB",
+    "total": 2903715,
+    "image": 2602197,
+    "imageCount": 21,
+    "script": 256033,
+    "scriptCount": 15,
+    "document": 18358,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 26261,
+    "stylesheetCount": 6,
+    "thirdParty": 1415537,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 887,
+    "+weight.total": 136,
+    "-weight.document": 712,
+    "+weight.document": 286,
+    "-weight.script": 707,
+    "+weight.script": 250,
+    "-weight.image": 826,
+    "+weight.image": 84,
+    "-weight.font": 1,
+    "+weight.font": 743,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 664,
+    "-totalBlockingTime": 287,
+    "-largestContentfulPaint": 981
+  },
+  "axe": {
+    "passes": 522,
+    "violations": 5
+  }
+}

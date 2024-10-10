@@ -1,0 +1,67 @@
+{
+  "url": "https://stanleycc.org/",
+  "requestedUrl": "https://stanleycc.org/",
+  "timestamp": 1727805086337,
+  "ranks": {
+    "hundos": 915,
+    "performance": 701,
+    "accessibility": 996,
+    "cumulative": 916
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.75,
+    "accessibility": 0.71,
+    "bestPractices": 0.81,
+    "seo": 0.92,
+    "total": 319
+  },
+  "firstContentfulPaint": 2017.5259999999998,
+  "firstMeaningfulPaint": 2017.5259999999998,
+  "speedIndex": 2203.3394274509155,
+  "largestContentfulPaint": 6000.764999999999,
+  "totalBlockingTime": 141.5,
+  "cumulativeLayoutShift": 0.013983736949577516,
+  "timeToInteractive": 5626.129499999999,
+  "maxPotentialFirstInputDelay": 259,
+  "timeToFirstByte": 14.210999999999999,
+  "weight": {
+    "summary": "41 requests • 2.2 MiB",
+    "total": 2267407,
+    "image": 1784987,
+    "imageCount": 17,
+    "script": 225932,
+    "scriptCount": 7,
+    "document": 65779,
+    "font": 175230,
+    "fontCount": 3,
+    "stylesheet": 14086,
+    "stylesheetCount": 11,
+    "thirdParty": 1113777,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 848,
+    "+weight.total": 175,
+    "-weight.document": 921,
+    "+weight.document": 77,
+    "-weight.script": 684,
+    "+weight.script": 273,
+    "-weight.image": 792,
+    "+weight.image": 118,
+    "-weight.font": 579,
+    "+weight.font": 164,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 119,
+    "-totalBlockingTime": 201,
+    "-largestContentfulPaint": 902
+  },
+  "axe": {
+    "passes": 886,
+    "violations": 70
+  }
+}

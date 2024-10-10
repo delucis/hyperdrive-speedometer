@@ -1,0 +1,67 @@
+{
+  "url": "https://dodonut.com/",
+  "requestedUrl": "https://dodonut.com/",
+  "timestamp": 1727798946605,
+  "ranks": {
+    "hundos": 600,
+    "performance": 624,
+    "accessibility": 675,
+    "cumulative": 599
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.81,
+    "accessibility": 0.91,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 365
+  },
+  "firstContentfulPaint": 1642.655,
+  "firstMeaningfulPaint": 1809.155,
+  "speedIndex": 2181.3613627399145,
+  "largestContentfulPaint": 2559.155,
+  "totalBlockingTime": 615,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3110.6549999999997,
+  "maxPotentialFirstInputDelay": 333,
+  "timeToFirstByte": 143.599,
+  "weight": {
+    "summary": "39 requests • 187.8 KiB",
+    "total": 192352,
+    "image": 8427,
+    "imageCount": 9,
+    "script": 56427,
+    "scriptCount": 20,
+    "document": 56817,
+    "font": 29805,
+    "fontCount": 1,
+    "stylesheet": 40386,
+    "stylesheetCount": 6,
+    "thirdParty": 17520,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 250,
+    "+weight.total": 773,
+    "-weight.document": 911,
+    "+weight.document": 87,
+    "-weight.script": 384,
+    "+weight.script": 573,
+    "-weight.image": 76,
+    "+weight.image": 834,
+    "-weight.font": 94,
+    "+weight.font": 649,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 746,
+    "-totalBlockingTime": 463,
+    "-largestContentfulPaint": 522
+  },
+  "axe": {
+    "passes": 1298,
+    "violations": 6
+  }
+}

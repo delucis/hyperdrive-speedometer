@@ -1,0 +1,67 @@
+{
+  "url": "https://clarkio.com/",
+  "requestedUrl": "https://clarkio.com/",
+  "timestamp": 1727811875994,
+  "ranks": {
+    "hundos": 630,
+    "performance": 348,
+    "accessibility": 774,
+    "cumulative": 636
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.96,
+    "accessibility": 0.88,
+    "bestPractices": 0.78,
+    "seo": 1,
+    "total": 362
+  },
+  "firstContentfulPaint": 1563.806,
+  "firstMeaningfulPaint": 2619.635,
+  "speedIndex": 1563.806,
+  "largestContentfulPaint": 2619.635,
+  "totalBlockingTime": 48,
+  "cumulativeLayoutShift": 0.003449582291303647,
+  "timeToInteractive": 2619.635,
+  "maxPotentialFirstInputDelay": 98,
+  "timeToFirstByte": 52.31999999999999,
+  "weight": {
+    "summary": "14 requests • 123.0 KiB",
+    "total": 125973,
+    "image": 27087,
+    "imageCount": 2,
+    "script": 39141,
+    "scriptCount": 4,
+    "document": 5578,
+    "font": 49107,
+    "fontCount": 1,
+    "stylesheet": 3138,
+    "stylesheetCount": 2,
+    "thirdParty": 80701,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 166,
+    "+weight.total": 857,
+    "-weight.document": 217,
+    "+weight.document": 781,
+    "-weight.script": 335,
+    "+weight.script": 622,
+    "-weight.image": 160,
+    "+weight.image": 750,
+    "-weight.font": 251,
+    "+weight.font": 492,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 436,
+    "-totalBlockingTime": 83,
+    "-largestContentfulPaint": 314
+  },
+  "axe": {
+    "passes": 105,
+    "violations": 13
+  }
+}

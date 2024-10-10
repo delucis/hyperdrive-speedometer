@@ -1,0 +1,67 @@
+{
+  "url": "https://docs.orama.com/",
+  "requestedUrl": "https://docs.orama.com/",
+  "timestamp": 1727812998863,
+  "ranks": {
+    "hundos": 585,
+    "performance": 531,
+    "accessibility": 801,
+    "cumulative": 588
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.88,
+    "accessibility": 0.87,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 367
+  },
+  "firstContentfulPaint": 1088.0065,
+  "firstMeaningfulPaint": 1088.0065,
+  "speedIndex": 2078.1679468401885,
+  "largestContentfulPaint": 1166.1675,
+  "totalBlockingTime": 488.35600000000045,
+  "cumulativeLayoutShift": 0.0004146140163604078,
+  "timeToInteractive": 4660.418250000001,
+  "maxPotentialFirstInputDelay": 330,
+  "timeToFirstByte": 29.11699999999999,
+  "weight": {
+    "summary": "39 requests • 358.7 KiB",
+    "total": 367258,
+    "image": 15749,
+    "imageCount": 4,
+    "script": 287294,
+    "scriptCount": 28,
+    "document": 12611,
+    "font": 30477,
+    "fontCount": 1,
+    "stylesheet": 16868,
+    "stylesheetCount": 2,
+    "thirdParty": 135795,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 392,
+    "+weight.total": 631,
+    "-weight.document": 574,
+    "+weight.document": 424,
+    "-weight.script": 727,
+    "+weight.script": 230,
+    "-weight.image": 118,
+    "+weight.image": 792,
+    "-weight.font": 104,
+    "+weight.font": 639,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 307,
+    "-totalBlockingTime": 423,
+    "-largestContentfulPaint": 498
+  },
+  "axe": {
+    "passes": 379,
+    "violations": 19
+  }
+}

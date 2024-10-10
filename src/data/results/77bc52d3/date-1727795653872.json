@@ -1,0 +1,67 @@
+{
+  "url": "https://docs.thorn.so/",
+  "requestedUrl": "https://docs.thorn.so/",
+  "timestamp": 1727798924054,
+  "ranks": {
+    "hundos": 274,
+    "performance": 300,
+    "accessibility": 650,
+    "cumulative": 277
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.98,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 390
+  },
+  "firstContentfulPaint": 1777.8430000000003,
+  "firstMeaningfulPaint": 1777.8430000000003,
+  "speedIndex": 2743.539213644775,
+  "largestContentfulPaint": 1777.8430000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0004757264769345932,
+  "timeToInteractive": 1777.8430000000003,
+  "maxPotentialFirstInputDelay": 30,
+  "timeToFirstByte": 308.14000000000004,
+  "weight": {
+    "summary": "9 requests • 123.8 KiB",
+    "total": 126793,
+    "image": 0,
+    "imageCount": 0,
+    "script": 59379,
+    "scriptCount": 3,
+    "document": 9918,
+    "font": 35168,
+    "fontCount": 1,
+    "stylesheet": 22038,
+    "stylesheetCount": 3,
+    "thirdParty": 8933,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 167,
+    "+weight.total": 856,
+    "-weight.document": 480,
+    "+weight.document": 518,
+    "-weight.script": 396,
+    "+weight.script": 561,
+    "-weight.image": 1,
+    "+weight.image": 910,
+    "-weight.font": 142,
+    "+weight.font": 601,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 877,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 205
+  },
+  "axe": {
+    "passes": 79,
+    "violations": 21
+  }
+}

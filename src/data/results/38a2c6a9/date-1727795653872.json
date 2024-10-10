@@ -1,0 +1,67 @@
+{
+  "url": "https://axol.io/",
+  "requestedUrl": "https://axol.io/",
+  "timestamp": 1727825016729,
+  "ranks": {
+    "hundos": 785,
+    "performance": 901,
+    "accessibility": 458,
+    "cumulative": 781
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.55,
+    "accessibility": 0.95,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 346
+  },
+  "firstContentfulPaint": 1913.7345,
+  "firstMeaningfulPaint": 1913.7345,
+  "speedIndex": 3927.8631997221396,
+  "largestContentfulPaint": 7648.796999999999,
+  "totalBlockingTime": 520.9999999999995,
+  "cumulativeLayoutShift": 0.12495829116013618,
+  "timeToInteractive": 7635.671999999999,
+  "maxPotentialFirstInputDelay": 364,
+  "timeToFirstByte": 23.164000000000016,
+  "weight": {
+    "summary": "64 requests • 2.3 MiB",
+    "total": 2404143,
+    "image": 1677889,
+    "imageCount": 25,
+    "script": 373563,
+    "scriptCount": 20,
+    "document": 52680,
+    "font": 152024,
+    "fontCount": 2,
+    "stylesheet": 10504,
+    "stylesheetCount": 2,
+    "thirdParty": 415450,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 854,
+    "+weight.total": 169,
+    "-weight.document": 902,
+    "+weight.document": 96,
+    "-weight.script": 783,
+    "+weight.script": 174,
+    "-weight.image": 786,
+    "+weight.image": 124,
+    "-weight.font": 553,
+    "+weight.font": 190,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 218,
+    "-totalBlockingTime": 433,
+    "-largestContentfulPaint": 553
+  },
+  "axe": {
+    "passes": 558,
+    "violations": 5
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://avikbanik.com/",
+  "requestedUrl": "https://avikbanik.com/",
+  "timestamp": 1727824971094,
+  "ranks": {
+    "hundos": 821,
+    "performance": 808,
+    "accessibility": 922,
+    "cumulative": 821
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.67,
+    "accessibility": 0.81,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 340
+  },
+  "firstContentfulPaint": 1516.627,
+  "firstMeaningfulPaint": 1516.627,
+  "speedIndex": 3708.1605476492323,
+  "largestContentfulPaint": 2118.127,
+  "totalBlockingTime": 6854,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 14736.127,
+  "maxPotentialFirstInputDelay": 377,
+  "timeToFirstByte": 22.177999999999997,
+  "weight": {
+    "summary": "13 requests • 438.1 KiB",
+    "total": 448590,
+    "image": 0,
+    "imageCount": 0,
+    "script": 418140,
+    "scriptCount": 9,
+    "document": 7417,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 3362,
+    "stylesheetCount": 1,
+    "thirdParty": 107142,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 448,
+    "+weight.total": 575,
+    "-weight.document": 349,
+    "+weight.document": 649,
+    "-weight.script": 815,
+    "+weight.script": 142,
+    "-weight.image": 1,
+    "+weight.image": 910,
+    "-weight.font": 1,
+    "+weight.font": 743,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 206,
+    "-totalBlockingTime": 648,
+    "-largestContentfulPaint": 659
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

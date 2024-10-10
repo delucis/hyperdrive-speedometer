@@ -1,0 +1,66 @@
+{
+  "url": "https://eva.town/",
+  "requestedUrl": "https://eva.town/",
+  "timestamp": 1727813513281,
+  "ranks": {
+    "hundos": 641,
+    "performance": 806,
+    "accessibility": 351,
+    "cumulative": 646
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.67,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.94,
+    "total": 361
+  },
+  "firstContentfulPaint": 1249.571,
+  "firstMeaningfulPaint": 1267.907,
+  "speedIndex": 1973.0098367074052,
+  "largestContentfulPaint": 16803.682999999986,
+  "totalBlockingTime": 348.336,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2547.2029999999995,
+  "maxPotentialFirstInputDelay": 391,
+  "timeToFirstByte": 15.452999999999975,
+  "weight": {
+    "summary": "38 requests • 14.0 MiB",
+    "total": 14685067,
+    "image": 3836273,
+    "imageCount": 10,
+    "script": 123570,
+    "scriptCount": 15,
+    "document": 30143,
+    "font": 178680,
+    "fontCount": 2,
+    "stylesheet": 13417,
+    "stylesheetCount": 2,
+    "thirdParty": 2778,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1000,
+    "+weight.total": 23,
+    "-weight.document": 822,
+    "+weight.document": 176,
+    "-weight.script": 546,
+    "+weight.script": 411,
+    "-weight.image": 855,
+    "+weight.image": 55,
+    "-weight.font": 584,
+    "+weight.font": 159,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 131,
+    "-totalBlockingTime": 360,
+    "-largestContentfulPaint": 992
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

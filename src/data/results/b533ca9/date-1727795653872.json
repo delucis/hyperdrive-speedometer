@@ -1,0 +1,67 @@
+{
+  "url": "https://www.humanaut.is/",
+  "requestedUrl": "https://humanaut.is/",
+  "timestamp": 1727800697144,
+  "ranks": {
+    "hundos": 946,
+    "performance": 984,
+    "accessibility": 676,
+    "cumulative": 946
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.4,
+    "accessibility": 0.91,
+    "bestPractices": 0.78,
+    "seo": 0.99,
+    "total": 308
+  },
+  "firstContentfulPaint": 2565.9875,
+  "firstMeaningfulPaint": 4407.9915,
+  "speedIndex": 8853.422238600026,
+  "largestContentfulPaint": 10770.196499999998,
+  "totalBlockingTime": 1123,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 12103.4795,
+  "maxPotentialFirstInputDelay": 353,
+  "timeToFirstByte": 39.20800000000003,
+  "weight": {
+    "summary": "47 requests • 7.2 MiB",
+    "total": 7520364,
+    "image": 602972,
+    "imageCount": 19,
+    "script": 485415,
+    "scriptCount": 9,
+    "document": 10725,
+    "font": 259120,
+    "fontCount": 4,
+    "stylesheet": 10192,
+    "stylesheetCount": 1,
+    "thirdParty": 7043379,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 967,
+    "+weight.total": 56,
+    "-weight.document": 508,
+    "+weight.document": 490,
+    "-weight.script": 835,
+    "+weight.script": 122,
+    "-weight.image": 624,
+    "+weight.image": 286,
+    "-weight.font": 627,
+    "+weight.font": 116,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 392,
+    "-totalBlockingTime": 547,
+    "-largestContentfulPaint": 965
+  },
+  "axe": {
+    "passes": 501,
+    "violations": 6
+  }
+}

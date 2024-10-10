@@ -1,0 +1,67 @@
+{
+  "url": "https://atlan.com/",
+  "requestedUrl": "https://atlan.com/",
+  "timestamp": 1727810920937,
+  "ranks": {
+    "hundos": 974,
+    "performance": 874,
+    "accessibility": 706,
+    "cumulative": 973
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.59,
+    "accessibility": 0.9,
+    "bestPractices": 0.52,
+    "seo": 0.96,
+    "total": 297
+  },
+  "firstContentfulPaint": 2068.574,
+  "firstMeaningfulPaint": 2068.574,
+  "speedIndex": 5797.361424337088,
+  "largestContentfulPaint": 3018.044,
+  "totalBlockingTime": 2259.7850000000017,
+  "cumulativeLayoutShift": 0.00860801849360123,
+  "timeToInteractive": 13444.225750000005,
+  "maxPotentialFirstInputDelay": 914,
+  "timeToFirstByte": 59.252999999999986,
+  "weight": {
+    "summary": "196 requests • 1.6 MiB",
+    "total": 1673195,
+    "image": 345311,
+    "imageCount": 117,
+    "script": 1107823,
+    "scriptCount": 42,
+    "document": 26970,
+    "font": 108929,
+    "fontCount": 4,
+    "stylesheet": 64187,
+    "stylesheetCount": 3,
+    "thirdParty": 842400,
+    "thirdPartyCount": 14
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 788,
+    "+weight.total": 235,
+    "-weight.document": 800,
+    "+weight.document": 198,
+    "-weight.script": 933,
+    "+weight.script": 24,
+    "-weight.image": 517,
+    "+weight.image": 393,
+    "-weight.font": 482,
+    "+weight.font": 261,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 457,
+    "-totalBlockingTime": 616,
+    "-largestContentfulPaint": 775
+  },
+  "axe": {
+    "passes": 2044,
+    "violations": 6
+  }
+}

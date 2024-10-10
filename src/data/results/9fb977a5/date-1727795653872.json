@@ -1,0 +1,67 @@
+{
+  "url": "https://oxbowui.com/",
+  "requestedUrl": "https://oxbowui.com/",
+  "timestamp": 1727803310193,
+  "ranks": {
+    "hundos": 503,
+    "performance": 422,
+    "accessibility": 803,
+    "cumulative": 508
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.94,
+    "accessibility": 0.87,
+    "bestPractices": 0.96,
+    "seo": 0.97,
+    "total": 374
+  },
+  "firstContentfulPaint": 1722.31,
+  "firstMeaningfulPaint": 2111.0425000000005,
+  "speedIndex": 3559.199647639966,
+  "largestContentfulPaint": 2346.6220000000003,
+  "totalBlockingTime": 55.5,
+  "cumulativeLayoutShift": 0.0803326177536846,
+  "timeToInteractive": 7122.84,
+  "maxPotentialFirstInputDelay": 122,
+  "timeToFirstByte": 464.29599999999994,
+  "weight": {
+    "summary": "144 requests • 3.7 MiB",
+    "total": 3844121,
+    "image": 3418473,
+    "imageCount": 16,
+    "script": 284273,
+    "scriptCount": 71,
+    "document": 30303,
+    "font": 98220,
+    "fontCount": 4,
+    "stylesheet": 1415,
+    "stylesheetCount": 1,
+    "thirdParty": 3386824,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 911,
+    "+weight.total": 112,
+    "-weight.document": 824,
+    "+weight.document": 174,
+    "-weight.script": 725,
+    "+weight.script": 232,
+    "-weight.image": 851,
+    "+weight.image": 59,
+    "-weight.font": 457,
+    "+weight.font": 286,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 920,
+    "-totalBlockingTime": 94,
+    "-largestContentfulPaint": 288
+  },
+  "axe": {
+    "passes": 671,
+    "violations": 30
+  }
+}
