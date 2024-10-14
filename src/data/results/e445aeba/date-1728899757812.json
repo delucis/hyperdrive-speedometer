@@ -1,0 +1,67 @@
+{
+  "url": "https://colyseus.io/",
+  "requestedUrl": "https://colyseus.io/",
+  "timestamp": 1728930511716,
+  "ranks": {
+    "hundos": 889,
+    "performance": 686,
+    "accessibility": 1000,
+    "cumulative": 894
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.76,
+    "accessibility": 0.71,
+    "bestPractices": 0.96,
+    "seo": 0.82,
+    "total": 325
+  },
+  "firstContentfulPaint": 1698.7269999999999,
+  "firstMeaningfulPaint": 2269.3824999999997,
+  "speedIndex": 2386.4240351526178,
+  "largestContentfulPaint": 4825.6585,
+  "totalBlockingTime": 275.4999999999998,
+  "cumulativeLayoutShift": 0.004018067812178926,
+  "timeToInteractive": 3932.2259999999997,
+  "maxPotentialFirstInputDelay": 465.99999999999955,
+  "timeToFirstByte": 20.067000000000007,
+  "weight": {
+    "summary": "38 requests • 7.9 MiB",
+    "total": 8329188,
+    "image": 3112667,
+    "imageCount": 26,
+    "script": 129770,
+    "scriptCount": 3,
+    "document": 18827,
+    "font": 49676,
+    "fontCount": 2,
+    "stylesheet": 9246,
+    "stylesheetCount": 3,
+    "thirdParty": 383731,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 975,
+    "+weight.total": 50,
+    "-weight.document": 734,
+    "+weight.document": 278,
+    "-weight.script": 554,
+    "+weight.script": 407,
+    "-weight.image": 848,
+    "+weight.image": 66,
+    "-weight.font": 252,
+    "+weight.font": 492,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 221,
+    "-totalBlockingTime": 316,
+    "-largestContentfulPaint": 917
+  },
+  "axe": {
+    "passes": 581,
+    "violations": 26
+  }
+}

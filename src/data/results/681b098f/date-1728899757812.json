@@ -1,0 +1,67 @@
+{
+  "url": "https://www.viget.com/articles/how-we-designed-and-built-a-view-transition-demo/",
+  "requestedUrl": "https://www.viget.com/articles/how-we-designed-and-built-a-view-transition-demo/",
+  "timestamp": 1728913596917,
+  "ranks": {
+    "hundos": 845,
+    "performance": 920,
+    "accessibility": 657,
+    "cumulative": 845
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.52,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 0.91,
+    "total": 335
+  },
+  "firstContentfulPaint": 2108.973,
+  "firstMeaningfulPaint": 2108.973,
+  "speedIndex": 6116.688292603129,
+  "largestContentfulPaint": 4958.973,
+  "totalBlockingTime": 1005.4999999999991,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 9919.195999999998,
+  "maxPotentialFirstInputDelay": 722,
+  "timeToFirstByte": 47.29900000000001,
+  "weight": {
+    "summary": "57 requests • 10.4 MiB",
+    "total": 10867830,
+    "image": 555540,
+    "imageCount": 16,
+    "script": 287608,
+    "scriptCount": 10,
+    "document": 31768,
+    "font": 181912,
+    "fontCount": 6,
+    "stylesheet": 27649,
+    "stylesheetCount": 3,
+    "thirdParty": 731624,
+    "thirdPartyCount": 9
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 986,
+    "+weight.total": 39,
+    "-weight.document": 840,
+    "+weight.document": 172,
+    "-weight.script": 724,
+    "+weight.script": 237,
+    "-weight.image": 610,
+    "+weight.image": 304,
+    "-weight.font": 585,
+    "+weight.font": 159,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 425,
+    "-totalBlockingTime": 535,
+    "-largestContentfulPaint": 921
+  },
+  "axe": {
+    "passes": 1500,
+    "violations": 74
+  }
+}

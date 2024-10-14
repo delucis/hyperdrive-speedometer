@@ -1,0 +1,67 @@
+{
+  "url": "https://patchstack.com/academy/welcome/",
+  "requestedUrl": "https://patchstack.com/academy/",
+  "timestamp": 1728907409035,
+  "ranks": {
+    "hundos": 347,
+    "performance": 178,
+    "accessibility": 196,
+    "cumulative": 347
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.86,
+    "total": 385
+  },
+  "firstContentfulPaint": 1052.176,
+  "firstMeaningfulPaint": 1052.176,
+  "speedIndex": 1236.8768433309924,
+  "largestContentfulPaint": 1052.176,
+  "totalBlockingTime": 110.5,
+  "cumulativeLayoutShift": 0.03540672258237872,
+  "timeToInteractive": 2651.0505,
+  "maxPotentialFirstInputDelay": 142,
+  "timeToFirstByte": 3.0740000000000003,
+  "weight": {
+    "summary": "13 requests • 231.1 KiB",
+    "total": 236632,
+    "image": 1599,
+    "imageCount": 1,
+    "script": 139021,
+    "scriptCount": 5,
+    "document": 7543,
+    "font": 74153,
+    "fontCount": 2,
+    "stylesheet": 13774,
+    "stylesheetCount": 2,
+    "thirdParty": 100269,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 290,
+    "+weight.total": 735,
+    "-weight.document": 368,
+    "+weight.document": 644,
+    "-weight.script": 572,
+    "+weight.script": 389,
+    "-weight.image": 26,
+    "+weight.image": 888,
+    "-weight.font": 371,
+    "+weight.font": 373,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 37,
+    "-totalBlockingTime": 179,
+    "-largestContentfulPaint": 35
+  },
+  "axe": {
+    "passes": 277,
+    "violations": 1
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://artofmemory.com/blog/?ads=0",
+  "requestedUrl": "https://artofmemory.com/blog/?ads=0",
+  "timestamp": 1728900533535,
+  "ranks": {
+    "hundos": 600,
+    "performance": 429,
+    "accessibility": 529,
+    "cumulative": 599
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.93,
+    "accessibility": 0.94,
+    "bestPractices": 0.78,
+    "seo": 1,
+    "total": 365
+  },
+  "firstContentfulPaint": 1163.9160000000002,
+  "firstMeaningfulPaint": 1163.9160000000002,
+  "speedIndex": 1626.1426487281844,
+  "largestContentfulPaint": 1802.4160000000002,
+  "totalBlockingTime": 308.00000000000006,
+  "cumulativeLayoutShift": 0.00018715651506752962,
+  "timeToInteractive": 3379.416,
+  "maxPotentialFirstInputDelay": 227,
+  "timeToFirstByte": 42.123000000000005,
+  "weight": {
+    "summary": "81 requests • 392.2 KiB",
+    "total": 401589,
+    "image": 14496,
+    "imageCount": 2,
+    "script": 130436,
+    "scriptCount": 17,
+    "document": 7724,
+    "font": 49128,
+    "fontCount": 1,
+    "stylesheet": 12836,
+    "stylesheetCount": 1,
+    "thirdParty": 201367,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 415,
+    "+weight.total": 610,
+    "-weight.document": 377,
+    "+weight.document": 635,
+    "-weight.script": 555,
+    "+weight.script": 406,
+    "-weight.image": 106,
+    "+weight.image": 808,
+    "-weight.font": 248,
+    "+weight.font": 496,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 409,
+    "-totalBlockingTime": 334,
+    "-largestContentfulPaint": 720
+  },
+  "axe": {
+    "passes": 55,
+    "violations": 2
+  }
+}

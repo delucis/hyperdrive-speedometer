@@ -1,0 +1,61 @@
+{
+  "url": "https://healthconnectmedia.com/",
+  "requestedUrl": "https://healthconnectmedia.com/",
+  "timestamp": 1728904573469,
+  "ranks": {
+    "hundos": 1008,
+    "performance": 1025,
+    "accessibility": 377,
+    "cumulative": 1008
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": null,
+    "accessibility": 0.98,
+    "bestPractices": 0.74,
+    "seo": 1,
+    "total": 272
+  },
+  "firstContentfulPaint": 1584.342,
+  "firstMeaningfulPaint": 2639.1025,
+  "speedIndex": 13963.215393705845,
+  "totalBlockingTime": 41676.5,
+  "cumulativeLayoutShift": 0.0032997957124190572,
+  "timeToInteractive": 52156.863,
+  "maxPotentialFirstInputDelay": 8306,
+  "timeToFirstByte": 100.98100000000001,
+  "weight": {
+    "summary": "124 requests • 7.4 MiB",
+    "total": 7796625,
+    "image": 144696,
+    "imageCount": 23,
+    "script": 1025622,
+    "scriptCount": 41,
+    "document": 74408,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 53351,
+    "stylesheetCount": 4,
+    "thirdParty": 7069294,
+    "thirdPartyCount": 5
+  },
+  "sidequests": {
+    "-weight.total": 971,
+    "+weight.total": 54,
+    "-weight.document": 950,
+    "+weight.document": 62,
+    "-weight.script": 931,
+    "+weight.script": 30,
+    "-weight.image": 357,
+    "+weight.image": 557,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 604,
+    "-totalBlockingTime": 653,
+    "-largestContentfulPaint": 679
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

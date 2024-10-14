@@ -1,0 +1,67 @@
+{
+  "url": "https://cyborg.fish/",
+  "requestedUrl": "https://cyborg.fish/",
+  "timestamp": 1728930903029,
+  "ranks": {
+    "hundos": 702,
+    "performance": 405,
+    "accessibility": 816,
+    "cumulative": 703
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.94,
+    "accessibility": 0.86,
+    "bestPractices": 0.74,
+    "seo": 1,
+    "total": 354
+  },
+  "firstContentfulPaint": 904.3055,
+  "firstMeaningfulPaint": 941.1275,
+  "speedIndex": 1086.4154577144093,
+  "largestContentfulPaint": 1806.4414999999997,
+  "totalBlockingTime": 291.5000000000001,
+  "cumulativeLayoutShift": 0.004553392399961889,
+  "timeToInteractive": 4365.603499999999,
+  "maxPotentialFirstInputDelay": 278,
+  "timeToFirstByte": 4.8629999999999995,
+  "weight": {
+    "summary": "20 requests • 485.0 KiB",
+    "total": 496608,
+    "image": 167445,
+    "imageCount": 4,
+    "script": 183250,
+    "scriptCount": 6,
+    "document": 8316,
+    "font": 127732,
+    "fontCount": 6,
+    "stylesheet": 7896,
+    "stylesheetCount": 1,
+    "thirdParty": 104227,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 473,
+    "+weight.total": 552,
+    "-weight.document": 411,
+    "+weight.document": 601,
+    "-weight.script": 633,
+    "+weight.script": 328,
+    "-weight.image": 380,
+    "+weight.image": 534,
+    "-weight.font": 514,
+    "+weight.font": 230,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 84,
+    "-totalBlockingTime": 325,
+    "-largestContentfulPaint": 722
+  },
+  "axe": {
+    "passes": 345,
+    "violations": 6
+  }
+}

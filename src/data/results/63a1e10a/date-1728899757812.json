@@ -1,0 +1,67 @@
+{
+  "url": "https://nerdymomocat.github.io/",
+  "requestedUrl": "https://nerdymomocat.github.io/",
+  "timestamp": 1728906772271,
+  "ranks": {
+    "hundos": 610,
+    "performance": 458,
+    "accessibility": 474,
+    "cumulative": 611
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.92,
+    "accessibility": 0.95,
+    "bestPractices": 0.78,
+    "seo": 0.99,
+    "total": 364
+  },
+  "firstContentfulPaint": 2265.0615000000003,
+  "firstMeaningfulPaint": 2265.0615000000003,
+  "speedIndex": 2265.0615000000003,
+  "largestContentfulPaint": 2640.0615,
+  "totalBlockingTime": 179,
+  "cumulativeLayoutShift": 0.0024179252975246703,
+  "timeToInteractive": 2640.0615000000003,
+  "maxPotentialFirstInputDelay": 379.00000000000045,
+  "timeToFirstByte": 26.716000000000008,
+  "weight": {
+    "summary": "76 requests • 465.6 KiB",
+    "total": 476793,
+    "image": 54548,
+    "imageCount": 8,
+    "script": 133319,
+    "scriptCount": 12,
+    "document": 16454,
+    "font": 141969,
+    "fontCount": 5,
+    "stylesheet": 21909,
+    "stylesheetCount": 4,
+    "thirdParty": 329751,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 456,
+    "+weight.total": 569,
+    "-weight.document": 684,
+    "+weight.document": 328,
+    "-weight.script": 561,
+    "+weight.script": 400,
+    "-weight.image": 225,
+    "+weight.image": 689,
+    "-weight.font": 544,
+    "+weight.font": 200,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 301,
+    "-totalBlockingTime": 241,
+    "-largestContentfulPaint": 800
+  },
+  "axe": {
+    "passes": 587,
+    "violations": 11
+  }
+}

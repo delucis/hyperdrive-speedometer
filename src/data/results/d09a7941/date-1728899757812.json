@@ -1,0 +1,67 @@
+{
+  "url": "https://tablex-tan.vercel.app/",
+  "requestedUrl": "https://tablex-tan.vercel.app/",
+  "timestamp": 1728923768215,
+  "ranks": {
+    "hundos": 455,
+    "performance": 179,
+    "accessibility": 846,
+    "cumulative": 461
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.99,
+    "accessibility": 0.85,
+    "bestPractices": 0.96,
+    "seo": 0.98,
+    "total": 378
+  },
+  "firstContentfulPaint": 1239.6980000000003,
+  "firstMeaningfulPaint": 1239.6980000000003,
+  "speedIndex": 1239.6980000000003,
+  "largestContentfulPaint": 2151.0440000000003,
+  "totalBlockingTime": 28,
+  "cumulativeLayoutShift": 0.005605859972223564,
+  "timeToInteractive": 1638.1540000000002,
+  "maxPotentialFirstInputDelay": 159,
+  "timeToFirstByte": 40.471999999999994,
+  "weight": {
+    "summary": "28 requests • 228.5 KiB",
+    "total": 233990,
+    "image": 98897,
+    "imageCount": 14,
+    "script": 117861,
+    "scriptCount": 12,
+    "document": 9150,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 8082,
+    "stylesheetCount": 1,
+    "thirdParty": 17146,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 285,
+    "+weight.total": 740,
+    "-weight.document": 448,
+    "+weight.document": 564,
+    "-weight.script": 528,
+    "+weight.script": 433,
+    "-weight.image": 302,
+    "+weight.image": 612,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 404,
+    "-totalBlockingTime": 50,
+    "-largestContentfulPaint": 280
+  },
+  "axe": {
+    "passes": 610,
+    "violations": 52
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://dofalare.com/",
+  "requestedUrl": "https://dofalare.com/",
+  "timestamp": 1728902988976,
+  "ranks": {
+    "hundos": 276,
+    "performance": 197,
+    "accessibility": 291,
+    "cumulative": 272
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.91,
+    "total": 390
+  },
+  "firstContentfulPaint": 1539.721,
+  "firstMeaningfulPaint": 1539.721,
+  "speedIndex": 1539.721,
+  "largestContentfulPaint": 1599.328,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.004170113933442621,
+  "timeToInteractive": 1539.721,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 33.342,
+  "weight": {
+    "summary": "16 requests • 53.7 KiB",
+    "total": 54969,
+    "image": 0,
+    "imageCount": 0,
+    "script": 19807,
+    "scriptCount": 9,
+    "document": 3781,
+    "font": 28799,
+    "fontCount": 2,
+    "stylesheet": 1034,
+    "stylesheetCount": 1,
+    "thirdParty": 33075,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 62,
+    "+weight.total": 963,
+    "-weight.document": 95,
+    "+weight.document": 917,
+    "-weight.script": 224,
+    "+weight.script": 737,
+    "-weight.image": 1,
+    "+weight.image": 914,
+    "-weight.font": 89,
+    "+weight.font": 655,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 365,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 158
+  },
+  "axe": {
+    "passes": 51,
+    "violations": 5
+  }
+}

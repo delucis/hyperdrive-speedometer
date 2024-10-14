@@ -1,0 +1,67 @@
+{
+  "url": "https://astropatterns.dev/p/get-started/welcome",
+  "requestedUrl": "https://astropatterns.dev/",
+  "timestamp": 1728914999651,
+  "ranks": {
+    "hundos": 831,
+    "performance": 485,
+    "accessibility": 1016,
+    "cumulative": 832
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.91,
+    "accessibility": 0.64,
+    "bestPractices": 1,
+    "seo": 0.83,
+    "total": 338
+  },
+  "firstContentfulPaint": 1837.5375999999999,
+  "firstMeaningfulPaint": 1837.5375999999999,
+  "speedIndex": 2972.9898516803773,
+  "largestContentfulPaint": 2366.064871382141,
+  "totalBlockingTime": 247.9999999999999,
+  "cumulativeLayoutShift": 0.07244283754089648,
+  "timeToInteractive": 7169.775732276917,
+  "maxPotentialFirstInputDelay": 189,
+  "timeToFirstByte": 28.085,
+  "weight": {
+    "summary": "561 requests • 11.5 MiB",
+    "total": 12084309,
+    "image": 48815,
+    "imageCount": 19,
+    "script": 730023,
+    "scriptCount": 25,
+    "document": 11632,
+    "font": 71958,
+    "fontCount": 2,
+    "stylesheet": 25542,
+    "stylesheetCount": 5,
+    "thirdParty": 11540511,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 995,
+    "+weight.total": 30,
+    "-weight.document": 554,
+    "+weight.document": 458,
+    "-weight.script": 885,
+    "+weight.script": 76,
+    "-weight.image": 213,
+    "+weight.image": 701,
+    "-weight.font": 362,
+    "+weight.font": 382,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 315,
+    "-totalBlockingTime": 298,
+    "-largestContentfulPaint": 774
+  },
+  "axe": {
+    "passes": 373,
+    "violations": 9
+  }
+}

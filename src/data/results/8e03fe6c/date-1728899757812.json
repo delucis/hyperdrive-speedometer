@@ -1,0 +1,67 @@
+{
+  "url": "https://bus.waglo.com/",
+  "requestedUrl": "https://bus.waglo.com/",
+  "timestamp": 1728915762999,
+  "ranks": {
+    "hundos": 135,
+    "performance": 325,
+    "accessibility": 236,
+    "cumulative": 148
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.96,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 1034.476,
+  "firstMeaningfulPaint": 1034.476,
+  "speedIndex": 1034.476,
+  "largestContentfulPaint": 2766.0239999999994,
+  "totalBlockingTime": 8,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1067.476,
+  "maxPotentialFirstInputDelay": 66,
+  "timeToFirstByte": 16.494,
+  "weight": {
+    "summary": "8 requests • 289.1 KiB",
+    "total": 296035,
+    "image": 275648,
+    "imageCount": 2,
+    "script": 7492,
+    "scriptCount": 2,
+    "document": 2305,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 10496,
+    "stylesheetCount": 1,
+    "thirdParty": 2521,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 339,
+    "+weight.total": 686,
+    "-weight.document": 29,
+    "+weight.document": 983,
+    "-weight.script": 134,
+    "+weight.script": 827,
+    "-weight.image": 470,
+    "+weight.image": 444,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 186,
+    "-totalBlockingTime": 16,
+    "-largestContentfulPaint": 358
+  },
+  "axe": {
+    "passes": 108,
+    "violations": 2
+  }
+}

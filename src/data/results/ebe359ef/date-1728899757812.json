@@ -1,0 +1,67 @@
+{
+  "url": "https://agileit.com/",
+  "requestedUrl": "https://agileit.com/",
+  "timestamp": 1728914217290,
+  "ranks": {
+    "hundos": 937,
+    "performance": 958,
+    "accessibility": 341,
+    "cumulative": 936
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.43,
+    "accessibility": 1,
+    "bestPractices": 0.74,
+    "seo": 0.93,
+    "total": 310
+  },
+  "firstContentfulPaint": 2836.2955,
+  "firstMeaningfulPaint": 2836.2955,
+  "speedIndex": 5969.1620571157955,
+  "largestContentfulPaint": 4660.916000000001,
+  "totalBlockingTime": 2287.500000000001,
+  "cumulativeLayoutShift": 0.08179479122767733,
+  "timeToInteractive": 13853.602499999997,
+  "maxPotentialFirstInputDelay": 863.0000000000018,
+  "timeToFirstByte": 661.637,
+  "weight": {
+    "summary": "94 requests • 1.5 MiB",
+    "total": 1588065,
+    "image": 482259,
+    "imageCount": 32,
+    "script": 941468,
+    "scriptCount": 30,
+    "document": 18928,
+    "font": 79570,
+    "fontCount": 4,
+    "stylesheet": 54163,
+    "stylesheetCount": 1,
+    "thirdParty": 929164,
+    "thirdPartyCount": 13
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 773,
+    "+weight.total": 252,
+    "-weight.document": 737,
+    "+weight.document": 275,
+    "-weight.script": 923,
+    "+weight.script": 38,
+    "-weight.image": 575,
+    "+weight.image": 339,
+    "-weight.font": 404,
+    "+weight.font": 340,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 947,
+    "-totalBlockingTime": 617,
+    "-largestContentfulPaint": 641
+  },
+  "axe": {
+    "passes": 785,
+    "violations": 38
+  }
+}

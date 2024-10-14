@@ -1,0 +1,67 @@
+{
+  "url": "https://www.colorsandfonts.com/",
+  "requestedUrl": "http://colorsandfonts.com/",
+  "timestamp": 1728916237677,
+  "ranks": {
+    "hundos": 704,
+    "performance": 631,
+    "accessibility": 256,
+    "cumulative": 702
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.81,
+    "accessibility": 1,
+    "bestPractices": 0.81,
+    "seo": 0.92,
+    "total": 354
+  },
+  "firstContentfulPaint": 3189.4900000000007,
+  "firstMeaningfulPaint": 3189.4900000000007,
+  "speedIndex": 3189.4900000000007,
+  "largestContentfulPaint": 3189.4900000000007,
+  "totalBlockingTime": 283.91499999999996,
+  "cumulativeLayoutShift": 0.016606405454365602,
+  "timeToInteractive": 3683.5750000000007,
+  "maxPotentialFirstInputDelay": 251,
+  "timeToFirstByte": 27.630000000000003,
+  "weight": {
+    "summary": "16 requests • 2.1 MiB",
+    "total": 2161661,
+    "image": 1747466,
+    "imageCount": 2,
+    "script": 36227,
+    "scriptCount": 5,
+    "document": 8677,
+    "font": 346690,
+    "fontCount": 1,
+    "stylesheet": 20964,
+    "stylesheetCount": 3,
+    "thirdParty": 385557,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 838,
+    "+weight.total": 187,
+    "-weight.document": 425,
+    "+weight.document": 587,
+    "-weight.script": 318,
+    "+weight.script": 643,
+    "-weight.image": 796,
+    "+weight.image": 118,
+    "-weight.font": 666,
+    "+weight.font": 78,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 311,
+    "-totalBlockingTime": 320,
+    "-largestContentfulPaint": 839
+  },
+  "axe": {
+    "passes": 721,
+    "violations": 3
+  }
+}

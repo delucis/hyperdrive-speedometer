@@ -1,0 +1,67 @@
+{
+  "url": "https://www.newsbeast.gr/",
+  "requestedUrl": "https://www.newsbeast.gr/",
+  "timestamp": 1728912698899,
+  "ranks": {
+    "hundos": 995,
+    "performance": 1009,
+    "accessibility": 901,
+    "cumulative": 995
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.29,
+    "accessibility": 0.82,
+    "bestPractices": 0.78,
+    "seo": 0.97,
+    "total": 286
+  },
+  "firstContentfulPaint": 2599.714,
+  "firstMeaningfulPaint": 2694.8615,
+  "speedIndex": 10348.81268329384,
+  "largestContentfulPaint": 7332.394,
+  "totalBlockingTime": 7341.200999999999,
+  "cumulativeLayoutShift": 0.12276457523324019,
+  "timeToInteractive": 14247.934999999998,
+  "maxPotentialFirstInputDelay": 1473,
+  "timeToFirstByte": 1155.586,
+  "weight": {
+    "summary": "82 requests • 1.5 MiB",
+    "total": 1580873,
+    "image": 618166,
+    "imageCount": 24,
+    "script": 602697,
+    "scriptCount": 36,
+    "document": 80008,
+    "font": 201258,
+    "fontCount": 5,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 560990,
+    "thirdPartyCount": 10
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 771,
+    "+weight.total": 254,
+    "-weight.document": 954,
+    "+weight.document": 58,
+    "-weight.script": 861,
+    "+weight.script": 100,
+    "-weight.image": 629,
+    "+weight.image": 285,
+    "-weight.font": 604,
+    "+weight.font": 140,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 979,
+    "-totalBlockingTime": 649,
+    "-largestContentfulPaint": 652
+  },
+  "axe": {
+    "passes": 3010,
+    "violations": 147
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://careervault.io/",
+  "requestedUrl": "https://careervault.io/",
+  "timestamp": 1728930138151,
+  "ranks": {
+    "hundos": 862,
+    "performance": 300,
+    "accessibility": 1018,
+    "cumulative": 862
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.97,
+    "accessibility": 0.64,
+    "bestPractices": 0.96,
+    "seo": 0.75,
+    "total": 332
+  },
+  "firstContentfulPaint": 1326.3600000000001,
+  "firstMeaningfulPaint": 1326.3600000000001,
+  "speedIndex": 1326.3600000000001,
+  "largestContentfulPaint": 1349.3600000000001,
+  "totalBlockingTime": 68,
+  "cumulativeLayoutShift": 0.10429635926666089,
+  "timeToInteractive": 1952.7690000000002,
+  "maxPotentialFirstInputDelay": 145,
+  "timeToFirstByte": 27.361000000000004,
+  "weight": {
+    "summary": "37 requests • 324.4 KiB",
+    "total": 332208,
+    "image": 208334,
+    "imageCount": 13,
+    "script": 48447,
+    "scriptCount": 19,
+    "document": 45187,
+    "font": 15887,
+    "fontCount": 2,
+    "stylesheet": 14353,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 368,
+    "+weight.total": 657,
+    "-weight.document": 889,
+    "+weight.document": 123,
+    "-weight.script": 353,
+    "+weight.script": 608,
+    "-weight.image": 417,
+    "+weight.image": 497,
+    "-weight.font": 29,
+    "+weight.font": 715,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 308,
+    "-totalBlockingTime": 118,
+    "-largestContentfulPaint": 107
+  },
+  "axe": {
+    "passes": 670,
+    "violations": 50
+  }
+}

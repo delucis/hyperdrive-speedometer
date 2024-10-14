@@ -1,0 +1,66 @@
+{
+  "url": "https://wolf-yuan.dev/",
+  "requestedUrl": "https://wolf-yuan.dev/",
+  "timestamp": 1728911101707,
+  "ranks": {
+    "hundos": 43,
+    "performance": 120,
+    "accessibility": 354,
+    "cumulative": 75
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1201.262,
+  "firstMeaningfulPaint": 1201.262,
+  "speedIndex": 1412.3047589841067,
+  "largestContentfulPaint": 1288.262,
+  "totalBlockingTime": 41,
+  "cumulativeLayoutShift": 0.00029851693159052925,
+  "timeToInteractive": 1667.262,
+  "maxPotentialFirstInputDelay": 252,
+  "timeToFirstByte": 153.29200000000003,
+  "weight": {
+    "summary": "21 requests • 111.0 KiB",
+    "total": 113689,
+    "image": 10920,
+    "imageCount": 1,
+    "script": 18204,
+    "scriptCount": 8,
+    "document": 23122,
+    "font": 40470,
+    "fontCount": 1,
+    "stylesheet": 8989,
+    "stylesheetCount": 2,
+    "thirdParty": 8150,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 147,
+    "+weight.total": 878,
+    "-weight.document": 784,
+    "+weight.document": 228,
+    "-weight.script": 217,
+    "+weight.script": 744,
+    "-weight.image": 92,
+    "+weight.image": 822,
+    "-weight.font": 185,
+    "+weight.font": 559,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 746,
+    "-totalBlockingTime": 76,
+    "-largestContentfulPaint": 100
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

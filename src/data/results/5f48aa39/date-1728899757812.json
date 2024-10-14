@@ -1,0 +1,67 @@
+{
+  "url": "https://www.uiino.com/",
+  "requestedUrl": "https://www.uiino.com/",
+  "timestamp": 1728941885686,
+  "ranks": {
+    "hundos": 926,
+    "performance": 734,
+    "accessibility": 1005,
+    "cumulative": 926
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.73,
+    "accessibility": 0.68,
+    "bestPractices": 0.78,
+    "seo": 0.94,
+    "total": 313
+  },
+  "firstContentfulPaint": 981.5335,
+  "firstMeaningfulPaint": 2308.5335000000005,
+  "speedIndex": 1447.8120850019836,
+  "largestContentfulPaint": 14833.533500000001,
+  "totalBlockingTime": 169.096,
+  "cumulativeLayoutShift": 0.014153953251852182,
+  "timeToInteractive": 2534.1155000000003,
+  "maxPotentialFirstInputDelay": 154,
+  "timeToFirstByte": 105.05,
+  "weight": {
+    "summary": "27 requests • 3.1 MiB",
+    "total": 3215948,
+    "image": 2964807,
+    "imageCount": 8,
+    "script": 37656,
+    "scriptCount": 4,
+    "document": 6990,
+    "font": 198184,
+    "fontCount": 5,
+    "stylesheet": 5362,
+    "stylesheetCount": 1,
+    "thirdParty": 40458,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 896,
+    "+weight.total": 129,
+    "-weight.document": 324,
+    "+weight.document": 688,
+    "-weight.script": 325,
+    "+weight.script": 636,
+    "-weight.image": 841,
+    "+weight.image": 73,
+    "-weight.font": 600,
+    "+weight.font": 144,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 614,
+    "-totalBlockingTime": 232,
+    "-largestContentfulPaint": 1003
+  },
+  "axe": {
+    "passes": 153,
+    "violations": 5
+  }
+}

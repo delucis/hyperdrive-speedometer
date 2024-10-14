@@ -1,0 +1,67 @@
+{
+  "url": "https://www.kanriapp.com/",
+  "requestedUrl": "https://kanriapp.com/",
+  "timestamp": 1728919849657,
+  "ranks": {
+    "hundos": 430,
+    "performance": 471,
+    "accessibility": 647,
+    "cumulative": 440
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.91,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 0.96,
+    "total": 379
+  },
+  "firstContentfulPaint": 1808.2939999999999,
+  "firstMeaningfulPaint": 1808.2939999999999,
+  "speedIndex": 1808.2939999999999,
+  "largestContentfulPaint": 3344.7769999999996,
+  "totalBlockingTime": 1,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2151.7,
+  "maxPotentialFirstInputDelay": 123,
+  "timeToFirstByte": 2.4599999999999937,
+  "weight": {
+    "summary": "17 requests • 323.0 KiB",
+    "total": 330785,
+    "image": 194410,
+    "imageCount": 2,
+    "script": 116629,
+    "scriptCount": 12,
+    "document": 9456,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 10098,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 366,
+    "+weight.total": 659,
+    "-weight.document": 464,
+    "+weight.document": 548,
+    "-weight.script": 527,
+    "+weight.script": 434,
+    "-weight.image": 407,
+    "+weight.image": 507,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 18,
+    "-totalBlockingTime": 3,
+    "-largestContentfulPaint": 521
+  },
+  "axe": {
+    "passes": 344,
+    "violations": 19
+  }
+}

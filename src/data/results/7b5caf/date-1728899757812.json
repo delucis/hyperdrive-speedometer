@@ -1,0 +1,67 @@
+{
+  "url": "https://www.frugpt.com/",
+  "requestedUrl": "https://frugpt.com/",
+  "timestamp": 1728918301754,
+  "ranks": {
+    "hundos": 922,
+    "performance": 933,
+    "accessibility": 610,
+    "cumulative": 922
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.48,
+    "accessibility": 0.93,
+    "bestPractices": 0.74,
+    "seo": 1,
+    "total": 315
+  },
+  "firstContentfulPaint": 1965.873,
+  "firstMeaningfulPaint": 2169.873,
+  "speedIndex": 4501.41493434377,
+  "largestContentfulPaint": 6380.786999999999,
+  "totalBlockingTime": 934,
+  "cumulativeLayoutShift": 0.11837962403278887,
+  "timeToInteractive": 11723.916000000001,
+  "maxPotentialFirstInputDelay": 436,
+  "timeToFirstByte": 178.351,
+  "weight": {
+    "summary": "55 requests • 1.5 MiB",
+    "total": 1575098,
+    "image": 630332,
+    "imageCount": 22,
+    "script": 879010,
+    "scriptCount": 17,
+    "document": 11353,
+    "font": 38516,
+    "fontCount": 1,
+    "stylesheet": 8092,
+    "stylesheetCount": 2,
+    "thirdParty": 840045,
+    "thirdPartyCount": 10
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 769,
+    "+weight.total": 256,
+    "-weight.document": 544,
+    "+weight.document": 468,
+    "-weight.script": 911,
+    "+weight.script": 50,
+    "-weight.image": 633,
+    "+weight.image": 281,
+    "-weight.font": 168,
+    "+weight.font": 576,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 774,
+    "-totalBlockingTime": 524,
+    "-largestContentfulPaint": 955
+  },
+  "axe": {
+    "passes": 466,
+    "violations": 33
+  }
+}
