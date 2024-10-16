@@ -1,0 +1,67 @@
+{
+  "url": "https://passgenau.digital/en/",
+  "requestedUrl": "https://passgenau.digital/en/",
+  "timestamp": 1728921712643,
+  "ranks": {
+    "hundos": 126,
+    "performance": 183,
+    "accessibility": 328,
+    "cumulative": 132
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.98,
+    "total": 397
+  },
+  "firstContentfulPaint": 1012.811,
+  "firstMeaningfulPaint": 1082.8110000000001,
+  "speedIndex": 1298.8150379455012,
+  "largestContentfulPaint": 1596.8110000000001,
+  "totalBlockingTime": 90.00000000000011,
+  "cumulativeLayoutShift": 0.05666569281836578,
+  "timeToInteractive": 1682.8110000000001,
+  "maxPotentialFirstInputDelay": 200.0000000000001,
+  "timeToFirstByte": 113.00099999999999,
+  "weight": {
+    "summary": "38 requests • 246.0 KiB",
+    "total": 251884,
+    "image": 105917,
+    "imageCount": 21,
+    "script": 52499,
+    "scriptCount": 8,
+    "document": 7667,
+    "font": 76048,
+    "fontCount": 3,
+    "stylesheet": 9138,
+    "stylesheetCount": 3,
+    "thirdParty": 23676,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 304,
+    "+weight.total": 721,
+    "-weight.document": 373,
+    "+weight.document": 639,
+    "-weight.script": 366,
+    "+weight.script": 595,
+    "-weight.image": 312,
+    "+weight.image": 602,
+    "-weight.font": 381,
+    "+weight.font": 363,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 646,
+    "-totalBlockingTime": 153,
+    "-largestContentfulPaint": 157
+  },
+  "axe": {
+    "passes": 985,
+    "violations": 16
+  }
+}

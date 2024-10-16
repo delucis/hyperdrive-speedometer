@@ -1,0 +1,67 @@
+{
+  "url": "https://mattstein.com/",
+  "requestedUrl": "https://mattstein.com/",
+  "timestamp": 1728906196085,
+  "ranks": {
+    "hundos": 89,
+    "performance": 42,
+    "accessibility": 105,
+    "cumulative": 81
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.99,
+    "total": 399
+  },
+  "firstContentfulPaint": 984.915,
+  "firstMeaningfulPaint": 1392.915,
+  "speedIndex": 984.915,
+  "largestContentfulPaint": 1392.915,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0007066353585221173,
+  "timeToInteractive": 1392.915,
+  "maxPotentialFirstInputDelay": 39,
+  "timeToFirstByte": 106.15500000000002,
+  "weight": {
+    "summary": "9 requests • 115.7 KiB",
+    "total": 118474,
+    "image": 10290,
+    "imageCount": 1,
+    "script": 2496,
+    "scriptCount": 2,
+    "document": 6642,
+    "font": 91957,
+    "fontCount": 3,
+    "stylesheet": 6633,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 153,
+    "+weight.total": 872,
+    "-weight.document": 283,
+    "+weight.document": 729,
+    "-weight.script": 51,
+    "+weight.script": 910,
+    "-weight.image": 86,
+    "+weight.image": 828,
+    "-weight.font": 448,
+    "+weight.font": 296,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 619,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 118
+  },
+  "axe": {
+    "passes": 202,
+    "violations": 0
+  }
+}

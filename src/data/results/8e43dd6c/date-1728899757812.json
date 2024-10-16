@@ -1,0 +1,67 @@
+{
+  "url": "https://www.jamieoliver.com/",
+  "requestedUrl": "https://www.jamieoliver.com/",
+  "timestamp": 1728912289651,
+  "ranks": {
+    "hundos": 1025,
+    "performance": 992,
+    "accessibility": 1025,
+    "cumulative": 1025
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.36,
+    "accessibility": null,
+    "bestPractices": 0.74,
+    "seo": 0.99,
+    "total": 209
+  },
+  "firstContentfulPaint": 2356.3950000000004,
+  "firstMeaningfulPaint": 2760.5009999999997,
+  "speedIndex": 12851.36716553968,
+  "largestContentfulPaint": 5721.808879999999,
+  "totalBlockingTime": 5737.446999999995,
+  "cumulativeLayoutShift": 0.02244108845184541,
+  "timeToInteractive": 32463.203000000012,
+  "maxPotentialFirstInputDelay": 743.9999999999964,
+  "timeToFirstByte": 105.17099999999999,
+  "weight": {
+    "summary": "443 requests • 4.3 MiB",
+    "total": 4544503,
+    "image": 1601923,
+    "imageCount": 140,
+    "script": 1939437,
+    "scriptCount": 73,
+    "document": 380276,
+    "font": 198103,
+    "fontCount": 5,
+    "stylesheet": 22715,
+    "stylesheetCount": 6,
+    "thirdParty": 2514020,
+    "thirdPartyCount": 70
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 928,
+    "+weight.total": 97,
+    "-weight.document": 1008,
+    "+weight.document": 4,
+    "-weight.script": 954,
+    "+weight.script": 7,
+    "-weight.image": 781,
+    "+weight.image": 133,
+    "-weight.font": 598,
+    "+weight.font": 146,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 616,
+    "-totalBlockingTime": 643,
+    "-largestContentfulPaint": 645
+  },
+  "axe": {
+    "passes": 2498,
+    "violations": 31
+  }
+}

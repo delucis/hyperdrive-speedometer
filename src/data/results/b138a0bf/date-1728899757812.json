@@ -1,0 +1,67 @@
+{
+  "url": "https://www.kikocard.com/",
+  "requestedUrl": "https://kikocard.com/",
+  "timestamp": 1728934188536,
+  "ranks": {
+    "hundos": 638,
+    "performance": 645,
+    "accessibility": 602,
+    "cumulative": 644
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.8,
+    "accessibility": 0.93,
+    "bestPractices": 0.96,
+    "seo": 0.93,
+    "total": 362
+  },
+  "firstContentfulPaint": 2046.9599999999998,
+  "firstMeaningfulPaint": 2046.9599999999998,
+  "speedIndex": 3605.5053358451314,
+  "largestContentfulPaint": 3619.96,
+  "totalBlockingTime": 253.00000000000045,
+  "cumulativeLayoutShift": 0.09221307131193375,
+  "timeToInteractive": 5371.101250000001,
+  "maxPotentialFirstInputDelay": 286,
+  "timeToFirstByte": 122.15799999999999,
+  "weight": {
+    "summary": "35 requests • 1.9 MiB",
+    "total": 1950052,
+    "image": 1350732,
+    "imageCount": 19,
+    "script": 185849,
+    "scriptCount": 4,
+    "document": 7898,
+    "font": 90946,
+    "fontCount": 4,
+    "stylesheet": 4570,
+    "stylesheetCount": 1,
+    "thirdParty": 276335,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 816,
+    "+weight.total": 209,
+    "-weight.document": 383,
+    "+weight.document": 629,
+    "-weight.script": 641,
+    "+weight.script": 320,
+    "-weight.image": 764,
+    "+weight.image": 150,
+    "-weight.font": 442,
+    "+weight.font": 302,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 677,
+    "-totalBlockingTime": 306,
+    "-largestContentfulPaint": 871
+  },
+  "axe": {
+    "passes": 492,
+    "violations": 14
+  }
+}

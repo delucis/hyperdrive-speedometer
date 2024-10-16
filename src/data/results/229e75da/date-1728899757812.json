@@ -1,0 +1,67 @@
+{
+  "url": "https://curry-astro.netlify.app/menu/",
+  "requestedUrl": "https://curry-astro.netlify.app/menu/",
+  "timestamp": 1728902325441,
+  "ranks": {
+    "hundos": 395,
+    "performance": 428,
+    "accessibility": 648,
+    "cumulative": 394
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 0.97,
+    "total": 382
+  },
+  "firstContentfulPaint": 1050.571,
+  "firstMeaningfulPaint": 1050.571,
+  "speedIndex": 1523.8723538154693,
+  "largestContentfulPaint": 1461.4274999999998,
+  "totalBlockingTime": 17,
+  "cumulativeLayoutShift": 0.16438818149666035,
+  "timeToInteractive": 1200.7849999999999,
+  "maxPotentialFirstInputDelay": 80,
+  "timeToFirstByte": 419.52500000000003,
+  "weight": {
+    "summary": "51 requests • 204.9 KiB",
+    "total": 209814,
+    "image": 79601,
+    "imageCount": 2,
+    "script": 4879,
+    "scriptCount": 1,
+    "document": 6331,
+    "font": 19335,
+    "fontCount": 1,
+    "stylesheet": 2322,
+    "stylesheetCount": 1,
+    "thirdParty": 97346,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 267,
+    "+weight.total": 758,
+    "-weight.document": 272,
+    "+weight.document": 740,
+    "-weight.script": 86,
+    "+weight.script": 875,
+    "-weight.image": 275,
+    "+weight.image": 639,
+    "-weight.font": 43,
+    "+weight.font": 701,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 899,
+    "-totalBlockingTime": 31,
+    "-largestContentfulPaint": 126
+  },
+  "axe": {
+    "passes": 849,
+    "violations": 21
+  }
+}

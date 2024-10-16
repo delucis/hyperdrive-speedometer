@@ -1,0 +1,67 @@
+{
+  "url": "https://openmoji.org/",
+  "requestedUrl": "https://openmoji.org/",
+  "timestamp": 1728907105731,
+  "ranks": {
+    "hundos": 961,
+    "performance": 864,
+    "accessibility": 937,
+    "cumulative": 963
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.6,
+    "accessibility": 0.8,
+    "bestPractices": 0.78,
+    "seo": 0.83,
+    "total": 301
+  },
+  "firstContentfulPaint": 2799.3199999999997,
+  "firstMeaningfulPaint": 3711.3219999999997,
+  "speedIndex": 4889.1130083066655,
+  "largestContentfulPaint": 5704.477999999999,
+  "totalBlockingTime": 447.4999999999998,
+  "cumulativeLayoutShift": 0.0026617974741362373,
+  "timeToInteractive": 6379.013749999998,
+  "maxPotentialFirstInputDelay": 285.99999999999955,
+  "timeToFirstByte": 203.96999999999997,
+  "weight": {
+    "summary": "338 requests • 1.6 MiB",
+    "total": 1644984,
+    "image": 1019223,
+    "imageCount": 317,
+    "script": 382335,
+    "scriptCount": 10,
+    "document": 27206,
+    "font": 39927,
+    "fontCount": 3,
+    "stylesheet": 51058,
+    "stylesheetCount": 3,
+    "thirdParty": 290689,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 784,
+    "+weight.total": 241,
+    "-weight.document": 812,
+    "+weight.document": 200,
+    "-weight.script": 792,
+    "+weight.script": 169,
+    "-weight.image": 721,
+    "+weight.image": 193,
+    "-weight.font": 180,
+    "+weight.font": 564,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 800,
+    "-totalBlockingTime": 411,
+    "-largestContentfulPaint": 940
+  },
+  "axe": {
+    "passes": 1776,
+    "violations": 301
+  }
+}

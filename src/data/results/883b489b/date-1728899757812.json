@@ -1,0 +1,67 @@
+{
+  "url": "https://dizajn-radiator.ru/",
+  "requestedUrl": "https://dizajn-radiator.ru/",
+  "timestamp": 1728931380656,
+  "ranks": {
+    "hundos": 868,
+    "performance": 837,
+    "accessibility": 490,
+    "cumulative": 872
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.65,
+    "accessibility": 0.95,
+    "bestPractices": 0.74,
+    "seo": 0.96,
+    "total": 331
+  },
+  "firstContentfulPaint": 2240.8625,
+  "firstMeaningfulPaint": 2400.7120000000004,
+  "speedIndex": 4704.077773937122,
+  "largestContentfulPaint": 3216.4455,
+  "totalBlockingTime": 1091.0000000000014,
+  "cumulativeLayoutShift": 0.010869933854135677,
+  "timeToInteractive": 9173.642,
+  "maxPotentialFirstInputDelay": 646.0000000000009,
+  "timeToFirstByte": 28.327999999999975,
+  "weight": {
+    "summary": "41 requests • 1,000.6 KiB",
+    "total": 1024588,
+    "image": 492918,
+    "imageCount": 12,
+    "script": 338950,
+    "scriptCount": 12,
+    "document": 13981,
+    "font": 153728,
+    "fontCount": 4,
+    "stylesheet": 18993,
+    "stylesheetCount": 3,
+    "thirdParty": 433360,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 666,
+    "+weight.total": 359,
+    "-weight.document": 629,
+    "+weight.document": 383,
+    "-weight.script": 767,
+    "+weight.script": 194,
+    "-weight.image": 580,
+    "+weight.image": 334,
+    "-weight.font": 556,
+    "+weight.font": 188,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 319,
+    "-totalBlockingTime": 545,
+    "-largestContentfulPaint": 843
+  },
+  "axe": {
+    "passes": 789,
+    "violations": 23
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.sakara.com/",
+  "requestedUrl": "https://www.sakara.com/",
+  "timestamp": 1728941501256,
+  "ranks": {
+    "hundos": 1017,
+    "performance": 1012,
+    "accessibility": 869,
+    "cumulative": 1017
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.28,
+    "accessibility": 0.83,
+    "bestPractices": 0.59,
+    "seo": 0.93,
+    "total": 263
+  },
+  "firstContentfulPaint": 3309.7800000000007,
+  "firstMeaningfulPaint": 3386.4320000000007,
+  "speedIndex": 12688.283685699313,
+  "largestContentfulPaint": 10479.239700000002,
+  "totalBlockingTime": 4656.622000000001,
+  "cumulativeLayoutShift": 0.08726925910451198,
+  "timeToInteractive": 25458.160200000006,
+  "maxPotentialFirstInputDelay": 474.5,
+  "timeToFirstByte": 85.009,
+  "weight": {
+    "summary": "257 requests • 14.6 MiB",
+    "total": 15291402,
+    "image": 549119,
+    "imageCount": 38,
+    "script": 2054902,
+    "scriptCount": 124,
+    "document": 73353,
+    "font": 130098,
+    "fontCount": 12,
+    "stylesheet": 60258,
+    "stylesheetCount": 14,
+    "thirdParty": 14113675,
+    "thirdPartyCount": 36
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1003,
+    "+weight.total": 22,
+    "-weight.document": 946,
+    "+weight.document": 66,
+    "-weight.script": 956,
+    "+weight.script": 5,
+    "-weight.image": 607,
+    "+weight.image": 307,
+    "-weight.font": 524,
+    "+weight.font": 220,
+    "+weight.fontCount": 7,
+    "-timeToFirstByte": 537,
+    "-totalBlockingTime": 639,
+    "-largestContentfulPaint": 660
+  },
+  "axe": {
+    "passes": 1140,
+    "violations": 8
+  }
+}

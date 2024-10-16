@@ -1,0 +1,67 @@
+{
+  "url": "https://www.earley.info/",
+  "requestedUrl": "https://earley.info/",
+  "timestamp": 1728931642145,
+  "ranks": {
+    "hundos": 730,
+    "performance": 758,
+    "accessibility": 817,
+    "cumulative": 726
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.72,
+    "accessibility": 0.86,
+    "bestPractices": 0.96,
+    "seo": 0.98,
+    "total": 352
+  },
+  "firstContentfulPaint": 2329.0200000000004,
+  "firstMeaningfulPaint": 2329.0200000000004,
+  "speedIndex": 5302.348668000344,
+  "largestContentfulPaint": 5898.620000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0028101582820595694,
+  "timeToInteractive": 2329.0200000000004,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 2143.3509999999997,
+  "weight": {
+    "summary": "10 requests • 756.9 KiB",
+    "total": 775049,
+    "image": 10367,
+    "imageCount": 2,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 11580,
+    "font": 740887,
+    "fontCount": 3,
+    "stylesheet": 11877,
+    "stylesheetCount": 3,
+    "thirdParty": 729546,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 600,
+    "+weight.total": 425,
+    "-weight.document": 552,
+    "+weight.document": 460,
+    "-weight.script": 1,
+    "+weight.script": 961,
+    "-weight.image": 87,
+    "+weight.image": 827,
+    "-weight.font": 714,
+    "+weight.font": 30,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 1010,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 947
+  },
+  "axe": {
+    "passes": 215,
+    "violations": 6
+  }
+}

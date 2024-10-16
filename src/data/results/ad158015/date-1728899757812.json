@@ -1,0 +1,67 @@
+{
+  "url": "https://getwhisky.app/",
+  "requestedUrl": "https://getwhisky.app/",
+  "timestamp": 1728918414061,
+  "ranks": {
+    "hundos": 745,
+    "performance": 556,
+    "accessibility": 746,
+    "cumulative": 747
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.86,
+    "accessibility": 0.89,
+    "bestPractices": 0.81,
+    "seo": 0.93,
+    "total": 349
+  },
+  "firstContentfulPaint": 1709.5494999999996,
+  "firstMeaningfulPaint": 1709.5494999999996,
+  "speedIndex": 1709.5494999999996,
+  "largestContentfulPaint": 1982.647,
+  "totalBlockingTime": 501,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2983.647,
+  "maxPotentialFirstInputDelay": 828,
+  "timeToFirstByte": 90.037,
+  "weight": {
+    "summary": "18 requests • 874.6 KiB",
+    "total": 895552,
+    "image": 519651,
+    "imageCount": 6,
+    "script": 59533,
+    "scriptCount": 2,
+    "document": 5756,
+    "font": 285328,
+    "fontCount": 3,
+    "stylesheet": 23098,
+    "stylesheetCount": 2,
+    "thirdParty": 311847,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 634,
+    "+weight.total": 391,
+    "-weight.document": 235,
+    "+weight.document": 777,
+    "-weight.script": 387,
+    "+weight.script": 574,
+    "-weight.image": 590,
+    "+weight.image": 324,
+    "-weight.font": 642,
+    "+weight.font": 102,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 563,
+    "-totalBlockingTime": 429,
+    "-largestContentfulPaint": 737
+  },
+  "axe": {
+    "passes": 214,
+    "violations": 11
+  }
+}

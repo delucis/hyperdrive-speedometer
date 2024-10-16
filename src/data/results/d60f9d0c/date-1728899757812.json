@@ -1,0 +1,67 @@
+{
+  "url": "https://airfryo.de/",
+  "requestedUrl": "https://airfryo.de/",
+  "timestamp": 1728928625945,
+  "ranks": {
+    "hundos": 234,
+    "performance": 244,
+    "accessibility": 609,
+    "cumulative": 245
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.99,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 392
+  },
+  "firstContentfulPaint": 1344.1719999999998,
+  "firstMeaningfulPaint": 1344.1719999999998,
+  "speedIndex": 3023.9882621954457,
+  "largestContentfulPaint": 1344.1719999999998,
+  "totalBlockingTime": 49.45700000000011,
+  "cumulativeLayoutShift": 0.01980659518591351,
+  "timeToInteractive": 6772.05,
+  "maxPotentialFirstInputDelay": 122,
+  "timeToFirstByte": 106.40199999999999,
+  "weight": {
+    "summary": "72 requests • 1,020.4 KiB",
+    "total": 1044873,
+    "image": 37357,
+    "imageCount": 12,
+    "script": 62459,
+    "scriptCount": 9,
+    "document": 7045,
+    "font": 803885,
+    "fontCount": 1,
+    "stylesheet": 16005,
+    "stylesheetCount": 3,
+    "thirdParty": 108502,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 672,
+    "+weight.total": 353,
+    "-weight.document": 328,
+    "+weight.document": 684,
+    "-weight.script": 400,
+    "+weight.script": 561,
+    "-weight.image": 184,
+    "+weight.image": 730,
+    "-weight.font": 723,
+    "+weight.font": 21,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 620,
+    "-totalBlockingTime": 86,
+    "-largestContentfulPaint": 106
+  },
+  "axe": {
+    "passes": 651,
+    "violations": 29
+  }
+}

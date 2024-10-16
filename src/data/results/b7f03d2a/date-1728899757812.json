@@ -1,0 +1,67 @@
+{
+  "url": "https://www.pedenmunk.com/",
+  "requestedUrl": "https://www.pedenmunk.com/",
+  "timestamp": 1728927127913,
+  "ranks": {
+    "hundos": 796,
+    "performance": 923,
+    "accessibility": 652,
+    "cumulative": 796
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.51,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 343
+  },
+  "firstContentfulPaint": 1906.567,
+  "firstMeaningfulPaint": 1906.567,
+  "speedIndex": 8451.817928449866,
+  "largestContentfulPaint": 4790.625999999998,
+  "totalBlockingTime": 1004.4100000000008,
+  "cumulativeLayoutShift": 0.0006461927258622235,
+  "timeToInteractive": 4862.3369999999995,
+  "maxPotentialFirstInputDelay": 245,
+  "timeToFirstByte": 40.34099999999998,
+  "weight": {
+    "summary": "38 requests • 49.0 MiB",
+    "total": 51338456,
+    "image": 88771,
+    "imageCount": 15,
+    "script": 204173,
+    "scriptCount": 4,
+    "document": 5492,
+    "font": 24841,
+    "fontCount": 2,
+    "stylesheet": 22378,
+    "stylesheetCount": 2,
+    "thirdParty": 51181333,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1024,
+    "+weight.total": 1,
+    "-weight.document": 215,
+    "+weight.document": 797,
+    "-weight.script": 661,
+    "+weight.script": 300,
+    "-weight.image": 288,
+    "+weight.image": 626,
+    "-weight.font": 70,
+    "+weight.font": 674,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 403,
+    "-totalBlockingTime": 534,
+    "-largestContentfulPaint": 912
+  },
+  "axe": {
+    "passes": 310,
+    "violations": 32
+  }
+}

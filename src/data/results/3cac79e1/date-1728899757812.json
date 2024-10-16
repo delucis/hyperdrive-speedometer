@@ -1,0 +1,67 @@
+{
+  "url": "https://aiaman.web.app/",
+  "requestedUrl": "https://aiaman.web.app/",
+  "timestamp": 1728899951540,
+  "ranks": {
+    "hundos": 449,
+    "performance": 442,
+    "accessibility": 603,
+    "cumulative": 449
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.93,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 378
+  },
+  "firstContentfulPaint": 2455.4145,
+  "firstMeaningfulPaint": 2455.4145,
+  "speedIndex": 2455.4145,
+  "largestContentfulPaint": 2607.7124999999996,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0004753824083453328,
+  "timeToInteractive": 2455.4145,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 2.1310000000000002,
+  "weight": {
+    "summary": "6 requests • 99.6 KiB",
+    "total": 102000,
+    "image": 30463,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 7223,
+    "font": 60311,
+    "fontCount": 2,
+    "stylesheet": 4003,
+    "stylesheetCount": 2,
+    "thirdParty": 62700,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 131,
+    "+weight.total": 894,
+    "-weight.document": 348,
+    "+weight.document": 664,
+    "-weight.script": 1,
+    "+weight.script": 961,
+    "-weight.image": 168,
+    "+weight.image": 746,
+    "-weight.font": 303,
+    "+weight.font": 441,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 6,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 331
+  },
+  "axe": {
+    "passes": 224,
+    "violations": 14
+  }
+}

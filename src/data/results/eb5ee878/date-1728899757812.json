@@ -1,0 +1,67 @@
+{
+  "url": "https://frugalthinker.com/",
+  "requestedUrl": "https://frugalthinker.com/",
+  "timestamp": 1728932483485,
+  "ranks": {
+    "hundos": 973,
+    "performance": 917,
+    "accessibility": 841,
+    "cumulative": 973
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.52,
+    "accessibility": 0.85,
+    "bestPractices": 0.59,
+    "seo": 1,
+    "total": 296
+  },
+  "firstContentfulPaint": 2124.0125,
+  "firstMeaningfulPaint": 2124.0125,
+  "speedIndex": 5558.713938360478,
+  "largestContentfulPaint": 4613.8295,
+  "totalBlockingTime": 1189.2024900000001,
+  "cumulativeLayoutShift": 0.07549654599168203,
+  "timeToInteractive": 12290.130405,
+  "maxPotentialFirstInputDelay": 348,
+  "timeToFirstByte": 16.53099999999999,
+  "weight": {
+    "summary": "57 requests • 18.2 MiB",
+    "total": 19078995,
+    "image": 2055615,
+    "imageCount": 13,
+    "script": 920897,
+    "scriptCount": 20,
+    "document": 12307,
+    "font": 459935,
+    "fontCount": 3,
+    "stylesheet": 27230,
+    "stylesheetCount": 6,
+    "thirdParty": 16827576,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1007,
+    "+weight.total": 18,
+    "-weight.document": 574,
+    "+weight.document": 438,
+    "-weight.script": 919,
+    "+weight.script": 42,
+    "-weight.image": 810,
+    "+weight.image": 104,
+    "-weight.font": 687,
+    "+weight.font": 57,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 187,
+    "-totalBlockingTime": 556,
+    "-largestContentfulPaint": 906
+  },
+  "axe": {
+    "passes": 1000,
+    "violations": 26
+  }
+}

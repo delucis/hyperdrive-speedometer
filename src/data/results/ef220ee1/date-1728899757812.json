@@ -1,0 +1,67 @@
+{
+  "url": "https://www.darkfolios.com/",
+  "requestedUrl": "https://darkfolios.com/",
+  "timestamp": 1728930970764,
+  "ranks": {
+    "hundos": 547,
+    "performance": 683,
+    "accessibility": 516,
+    "cumulative": 547
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.76,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 370
+  },
+  "firstContentfulPaint": 1839.0359999999998,
+  "firstMeaningfulPaint": 1896.274,
+  "speedIndex": 1839.0359999999998,
+  "largestContentfulPaint": 6422.027000000001,
+  "totalBlockingTime": 40.97600000000034,
+  "cumulativeLayoutShift": 0.0005463887585742094,
+  "timeToInteractive": 1930.0120000000002,
+  "maxPotentialFirstInputDelay": 209.00000000000023,
+  "timeToFirstByte": 26.501000000000005,
+  "weight": {
+    "summary": "44 requests • 2.5 MiB",
+    "total": 2592113,
+    "image": 2394318,
+    "imageCount": 32,
+    "script": 12562,
+    "scriptCount": 5,
+    "document": 5838,
+    "font": 170802,
+    "fontCount": 3,
+    "stylesheet": 8080,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 864,
+    "+weight.total": 161,
+    "-weight.document": 239,
+    "+weight.document": 773,
+    "-weight.script": 182,
+    "+weight.script": 779,
+    "-weight.image": 819,
+    "+weight.image": 95,
+    "-weight.font": 571,
+    "+weight.font": 173,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 298,
+    "-totalBlockingTime": 75,
+    "-largestContentfulPaint": 460
+  },
+  "axe": {
+    "passes": 322,
+    "violations": 1
+  }
+}

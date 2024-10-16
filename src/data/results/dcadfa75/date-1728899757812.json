@@ -1,0 +1,67 @@
+{
+  "url": "https://invoice123.com/",
+  "requestedUrl": "https://invoice123.com/",
+  "timestamp": 1728905031336,
+  "ranks": {
+    "hundos": 344,
+    "performance": 286,
+    "accessibility": 496,
+    "cumulative": 346
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.98,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 386
+  },
+  "firstContentfulPaint": 1383.926,
+  "firstMeaningfulPaint": 1383.926,
+  "speedIndex": 2443.1269845562992,
+  "largestContentfulPaint": 2114.149,
+  "totalBlockingTime": 75,
+  "cumulativeLayoutShift": 0.056899210630126866,
+  "timeToInteractive": 2304.8154999999997,
+  "maxPotentialFirstInputDelay": 273,
+  "timeToFirstByte": 219.69399999999996,
+  "weight": {
+    "summary": "27 requests • 443.8 KiB",
+    "total": 454414,
+    "image": 72890,
+    "imageCount": 15,
+    "script": 36850,
+    "scriptCount": 4,
+    "document": 11929,
+    "font": 33307,
+    "fontCount": 1,
+    "stylesheet": 15433,
+    "stylesheetCount": 2,
+    "thirdParty": 4735,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 447,
+    "+weight.total": 578,
+    "-weight.document": 561,
+    "+weight.document": 451,
+    "-weight.script": 322,
+    "+weight.script": 639,
+    "-weight.image": 260,
+    "+weight.image": 654,
+    "-weight.font": 128,
+    "+weight.font": 616,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 810,
+    "-totalBlockingTime": 127,
+    "-largestContentfulPaint": 272
+  },
+  "axe": {
+    "passes": 744,
+    "violations": 38
+  }
+}

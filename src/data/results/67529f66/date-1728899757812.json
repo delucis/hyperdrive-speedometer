@@ -1,0 +1,67 @@
+{
+  "url": "https://dainwi-blog.vercel.app/",
+  "requestedUrl": "https://dainwi-blog.vercel.app/",
+  "timestamp": 1728930921121,
+  "ranks": {
+    "hundos": 340,
+    "performance": 461,
+    "accessibility": 518,
+    "cumulative": 339
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.92,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 386
+  },
+  "firstContentfulPaint": 2434.3354999999997,
+  "firstMeaningfulPaint": 2434.3354999999997,
+  "speedIndex": 2434.3354999999997,
+  "largestContentfulPaint": 2744.2545,
+  "totalBlockingTime": 115.99999999999977,
+  "cumulativeLayoutShift": 0.0002486136041473127,
+  "timeToInteractive": 2857.2545,
+  "maxPotentialFirstInputDelay": 113,
+  "timeToFirstByte": 23.882000000000005,
+  "weight": {
+    "summary": "11 requests • 216.7 KiB",
+    "total": 221917,
+    "image": 80100,
+    "imageCount": 4,
+    "script": 107966,
+    "scriptCount": 1,
+    "document": 5121,
+    "font": 23227,
+    "fontCount": 2,
+    "stylesheet": 4955,
+    "stylesheetCount": 2,
+    "thirdParty": 132696,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 277,
+    "+weight.total": 748,
+    "-weight.document": 181,
+    "+weight.document": 831,
+    "-weight.script": 496,
+    "+weight.script": 465,
+    "-weight.image": 276,
+    "+weight.image": 638,
+    "-weight.font": 58,
+    "+weight.font": 686,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 266,
+    "-totalBlockingTime": 185,
+    "-largestContentfulPaint": 354
+  },
+  "axe": {
+    "passes": 181,
+    "violations": 1
+  }
+}

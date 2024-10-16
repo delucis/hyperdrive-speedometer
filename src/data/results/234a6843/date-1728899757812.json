@@ -1,0 +1,67 @@
+{
+  "url": "https://www.anav.dev/",
+  "requestedUrl": "https://www.anav.dev/",
+  "timestamp": 1728925601716,
+  "ranks": {
+    "hundos": 535,
+    "performance": 368,
+    "accessibility": 933,
+    "cumulative": 541
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.95,
+    "accessibility": 0.8,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 371
+  },
+  "firstContentfulPaint": 1174.776,
+  "firstMeaningfulPaint": 1174.776,
+  "speedIndex": 1174.776,
+  "largestContentfulPaint": 2875.803999999999,
+  "totalBlockingTime": 34.5,
+  "cumulativeLayoutShift": 0.047235645472341985,
+  "timeToInteractive": 1680.2579999999998,
+  "maxPotentialFirstInputDelay": 81,
+  "timeToFirstByte": 22.99199999999999,
+  "weight": {
+    "summary": "22 requests • 411.6 KiB",
+    "total": 421487,
+    "image": 269290,
+    "imageCount": 8,
+    "script": 72373,
+    "scriptCount": 6,
+    "document": 5100,
+    "font": 58952,
+    "fontCount": 2,
+    "stylesheet": 14647,
+    "stylesheetCount": 2,
+    "thirdParty": 2968,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 425,
+    "+weight.total": 600,
+    "-weight.document": 180,
+    "+weight.document": 832,
+    "-weight.script": 422,
+    "+weight.script": 539,
+    "-weight.image": 464,
+    "+weight.image": 450,
+    "-weight.font": 297,
+    "+weight.font": 447,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 257,
+    "-totalBlockingTime": 63,
+    "-largestContentfulPaint": 370
+  },
+  "axe": {
+    "passes": 205,
+    "violations": 28
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://museodetizimin.pages.dev/en/",
+  "requestedUrl": "https://museodetizimin.pages.dev/en/",
+  "timestamp": 1728935230528,
+  "ranks": {
+    "hundos": 713,
+    "performance": 862,
+    "accessibility": 352,
+    "cumulative": 712
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.6,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 353
+  },
+  "firstContentfulPaint": 1843.595,
+  "firstMeaningfulPaint": 1843.595,
+  "speedIndex": 4345.849064048699,
+  "largestContentfulPaint": 3118.5950000000003,
+  "totalBlockingTime": 157090,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 179107.595,
+  "maxPotentialFirstInputDelay": 1273,
+  "timeToFirstByte": 54.91000000000001,
+  "weight": {
+    "summary": "26 requests • 992.7 KiB",
+    "total": 1016495,
+    "image": 272712,
+    "imageCount": 5,
+    "script": 233045,
+    "scriptCount": 7,
+    "document": 33494,
+    "font": 88804,
+    "fontCount": 3,
+    "stylesheet": 10661,
+    "stylesheetCount": 3,
+    "thirdParty": 7133,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 665,
+    "+weight.total": 360,
+    "-weight.document": 852,
+    "+weight.document": 160,
+    "-weight.script": 686,
+    "+weight.script": 275,
+    "-weight.image": 467,
+    "+weight.image": 447,
+    "-weight.font": 436,
+    "+weight.font": 308,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 446,
+    "-totalBlockingTime": 657,
+    "-largestContentfulPaint": 828
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

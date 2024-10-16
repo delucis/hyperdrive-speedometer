@@ -1,0 +1,67 @@
+{
+  "url": "https://www.les-ateliers-jehanno.fr/",
+  "requestedUrl": "https://www.les-ateliers-jehanno.fr/",
+  "timestamp": 1728926718616,
+  "ranks": {
+    "hundos": 717,
+    "performance": 881,
+    "accessibility": 470,
+    "cumulative": 715
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.58,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 353
+  },
+  "firstContentfulPaint": 2806.8724999999995,
+  "firstMeaningfulPaint": 2806.8724999999995,
+  "speedIndex": 5125.79231558853,
+  "largestContentfulPaint": 6912.245499999999,
+  "totalBlockingTime": 428.5,
+  "cumulativeLayoutShift": 0.011246127251306234,
+  "timeToInteractive": 5712.174499999999,
+  "maxPotentialFirstInputDelay": 274,
+  "timeToFirstByte": 169.93099999999998,
+  "weight": {
+    "summary": "29 requests • 1.2 MiB",
+    "total": 1231565,
+    "image": 853378,
+    "imageCount": 15,
+    "script": 305036,
+    "scriptCount": 6,
+    "document": 10060,
+    "font": 44607,
+    "fontCount": 3,
+    "stylesheet": 10373,
+    "stylesheetCount": 2,
+    "thirdParty": 288153,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 711,
+    "+weight.total": 314,
+    "-weight.document": 493,
+    "+weight.document": 519,
+    "-weight.script": 736,
+    "+weight.script": 225,
+    "-weight.image": 689,
+    "+weight.image": 225,
+    "-weight.font": 201,
+    "+weight.font": 543,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 766,
+    "-totalBlockingTime": 402,
+    "-largestContentfulPaint": 959
+  },
+  "axe": {
+    "passes": 452,
+    "violations": 8
+  }
+}

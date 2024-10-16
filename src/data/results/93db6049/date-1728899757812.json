@@ -1,0 +1,67 @@
+{
+  "url": "https://trailbuddy-astro-view-transition-demo.netlify.app/",
+  "requestedUrl": "https://trailbuddy-astro-view-transition-demo.netlify.app/",
+  "timestamp": 1728910101249,
+  "ranks": {
+    "hundos": 694,
+    "performance": 761,
+    "accessibility": 634,
+    "cumulative": 696
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.71,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 355
+  },
+  "firstContentfulPaint": 2681.0385,
+  "firstMeaningfulPaint": 2681.0385,
+  "speedIndex": 2681.0385,
+  "largestContentfulPaint": 26012.612,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2681.0385,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 41.68799999999999,
+  "weight": {
+    "summary": "18 requests • 6.7 MiB",
+    "total": 6978166,
+    "image": 4824795,
+    "imageCount": 8,
+    "script": 2537,
+    "scriptCount": 1,
+    "document": 6251,
+    "font": 150261,
+    "fontCount": 2,
+    "stylesheet": 6630,
+    "stylesheetCount": 3,
+    "thirdParty": 136755,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 960,
+    "+weight.total": 65,
+    "-weight.document": 266,
+    "+weight.document": 746,
+    "-weight.script": 52,
+    "+weight.script": 909,
+    "-weight.image": 873,
+    "+weight.image": 41,
+    "-weight.font": 551,
+    "+weight.font": 193,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 408,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 486
+  },
+  "axe": {
+    "passes": 147,
+    "violations": 6
+  }
+}

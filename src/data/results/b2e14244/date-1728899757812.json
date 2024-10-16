@@ -1,0 +1,67 @@
+{
+  "url": "https://www.williamsjokvist.se/",
+  "requestedUrl": "https://www.williamsjokvist.se/",
+  "timestamp": 1728913692919,
+  "ranks": {
+    "hundos": 177,
+    "performance": 240,
+    "accessibility": 431,
+    "cumulative": 184
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.99,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 394
+  },
+  "firstContentfulPaint": 1236.3310000000001,
+  "firstMeaningfulPaint": 1236.3310000000001,
+  "speedIndex": 2456.0624463776894,
+  "largestContentfulPaint": 1300.5265000000002,
+  "totalBlockingTime": 78,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3304.8875000000003,
+  "maxPotentialFirstInputDelay": 206,
+  "timeToFirstByte": 48.624000000000024,
+  "weight": {
+    "summary": "23 requests • 521.2 KiB",
+    "total": 533728,
+    "image": 256792,
+    "imageCount": 9,
+    "script": 107840,
+    "scriptCount": 4,
+    "document": 16678,
+    "font": 140465,
+    "fontCount": 6,
+    "stylesheet": 11383,
+    "stylesheetCount": 1,
+    "thirdParty": 206585,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 491,
+    "+weight.total": 534,
+    "-weight.document": 692,
+    "+weight.document": 320,
+    "-weight.script": 494,
+    "+weight.script": 467,
+    "-weight.image": 453,
+    "+weight.image": 461,
+    "-weight.font": 542,
+    "+weight.font": 202,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 430,
+    "-totalBlockingTime": 131,
+    "-largestContentfulPaint": 102
+  },
+  "axe": {
+    "passes": 460,
+    "violations": 2
+  }
+}

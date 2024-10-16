@@ -1,0 +1,67 @@
+{
+  "url": "https://procastinatordev.vercel.app/",
+  "requestedUrl": "https://procastinatordev.vercel.app/",
+  "timestamp": 1728922015903,
+  "ranks": {
+    "hundos": 589,
+    "performance": 494,
+    "accessibility": 858,
+    "cumulative": 594
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.9,
+    "accessibility": 0.84,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 366
+  },
+  "firstContentfulPaint": 1691.5665,
+  "firstMeaningfulPaint": 1691.5665,
+  "speedIndex": 1691.9640810043284,
+  "largestContentfulPaint": 3467.1154999999994,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.00004546520658737683,
+  "timeToInteractive": 1691.5665,
+  "maxPotentialFirstInputDelay": 42,
+  "timeToFirstByte": 30.519999999999996,
+  "weight": {
+    "summary": "24 requests • 677.5 KiB",
+    "total": 693811,
+    "image": 545500,
+    "imageCount": 11,
+    "script": 106415,
+    "scriptCount": 9,
+    "document": 17975,
+    "font": 18110,
+    "fontCount": 1,
+    "stylesheet": 5811,
+    "stylesheetCount": 2,
+    "thirdParty": 19288,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 563,
+    "+weight.total": 462,
+    "-weight.document": 717,
+    "+weight.document": 295,
+    "-weight.script": 488,
+    "+weight.script": 473,
+    "-weight.image": 602,
+    "+weight.image": 312,
+    "-weight.font": 39,
+    "+weight.font": 705,
+    "+weight.fontCount": 18,
+    "-timeToFirstByte": 345,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 399
+  },
+  "axe": {
+    "passes": 805,
+    "violations": 16
+  }
+}

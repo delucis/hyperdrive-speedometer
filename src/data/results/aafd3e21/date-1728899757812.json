@@ -1,0 +1,66 @@
+{
+  "url": "https://www.31memorize.com/",
+  "requestedUrl": "https://www.31memorize.com/",
+  "timestamp": 1728925486961,
+  "ranks": {
+    "hundos": 982,
+    "performance": 914,
+    "accessibility": 995,
+    "cumulative": 983
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.53,
+    "accessibility": 0.72,
+    "bestPractices": 0.7,
+    "seo": 0.98,
+    "total": 293
+  },
+  "firstContentfulPaint": 2425.097,
+  "firstMeaningfulPaint": 2425.097,
+  "speedIndex": 4702.352580343683,
+  "largestContentfulPaint": 4424.475,
+  "totalBlockingTime": 1428.999999999999,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 7947.4254999999985,
+  "maxPotentialFirstInputDelay": 1043.9999999999995,
+  "timeToFirstByte": 8.055999999999983,
+  "weight": {
+    "summary": "90 requests • 2.0 MiB",
+    "total": 2059068,
+    "image": 1476250,
+    "imageCount": 18,
+    "script": 520144,
+    "scriptCount": 60,
+    "document": 26998,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 32258,
+    "stylesheetCount": 3,
+    "thirdParty": 228603,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 829,
+    "+weight.total": 196,
+    "-weight.document": 805,
+    "+weight.document": 207,
+    "-weight.script": 845,
+    "+weight.script": 116,
+    "-weight.image": 774,
+    "+weight.image": 140,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 19,
+    "-timeToFirstByte": 105,
+    "-totalBlockingTime": 571,
+    "-largestContentfulPaint": 897
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}
